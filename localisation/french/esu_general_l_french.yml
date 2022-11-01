@@ -1,4 +1,4 @@
-l_french:
+﻿l_french:
  is_free_or_tributary_trigger_tooltip: "Is Independent or a Tributary."
  sundered_homeland: "Sundered Homenlands"
  atmoran_minority: "Atmoran minorities"
@@ -1752,7 +1752,7 @@ l_french:
  btmb_fixing_area_buildings.1.a: " "
 
  es_start.1.t: "Welcome to Elder Scrolls Universalis B!"
- es_start.1.d: "Yo, It is I Kurashi, Creator and lead Dev of Esb, thanks for downloading the mod, now onto the game. \n\nMore info can be found by opening the \"ESU Help Menu\" from the decisions screen. \n\n§GWould you like to get News from other Countries?§!"
+ es_start.1.d: "Yo, It is I Kurashi, Creator and lead Dev of Esb, thanks for downloading the mod, now onto the game. \n\nMore info can be found by opening the \"ESB Help Menu\" from the decisions screen. \n\n§GWould you like to get News from other Countries?§!"
  #es_start.1.d: "Hello, the one who sits opposite the monitor! I would personally like to thank you for supporting the ESU project - for subscriptions and downloads of this mod, for likes and reposts, for adding to 'favourites'. Have a nice game! \n§RPLEASE, READ THE FOLLOWING:§! \n- Provinces lose development due to occupation. \n- Provinces gain development automatically due to the auto development system. \n- The life expectancy of Rulers / Consorts / Heirs is determined by their cultural group.\n\nMore info can be found by opening the \"ESU Help Menu\" from the decisions screen.\n\n§GWould you like to get News from other Countries?§!"
  es_start.1.a: "Yes, I would like to receive news from other Countries."
  es_start.1.b: "Please, do not disturb me with News from other Countries."
@@ -3588,7 +3588,7 @@ l_french:
  father: "father"
 
 
- es_esb.tt0: "§RThis province doesn't fulfill the conditions for the chosen tradegood§!"
- es_esb.tt1: "§YYou do not have the required mana availiable to choose this option§!"
- es_esb.1.t: "Change Trade Good"
- es_esb.1.d: "To what trade good do you wish to change the province to"
+ esb_changegoods.tt0: "§RThis province doesn't fulfill the conditions for the chosen tradegood§!"
+ esb_changegoods.tt1: "§YYou do not have the required mana availiable to choose this option§!"
+ esb_changegoods.1.t: "Change Trade Good"
+ esb_changegoods.1.d: "To what trade good do you wish to change the province to"

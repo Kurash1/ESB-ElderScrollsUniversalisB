@@ -2108,8 +2108,16 @@ spriteTypes = {
 	
 	
 	
-	
-	
-	
-	
+	spriteType = {
+        name = "GFX_great_project_kemel_ze"
+        texturefile = "gfx//interface//great_projects//kemel_ze.dds"
+    }
+	spriteType = {
+        name = "GFX_great_project_banz_amschend"
+        texturefile = "gfx//interface//great_projects//banz_amschend.dds"
+    }
+	spriteType = {
+        name = "GFX_great_project_galom_daeus"
+        texturefile = "gfx//interface//great_projects//galom_daeus.dds"
+    }
 }

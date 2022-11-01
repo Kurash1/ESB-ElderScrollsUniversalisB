@@ -1,5 +1,41 @@
 country_decisions = {
 	
+	convert_culture = {
+		potential = {
+			ai = yes
+		}
+		allow = {
+			any_owned_province = {
+				has_owner_accepted_culture = no
+				NOT = { nationalism = 1 }
+			}
+		}
+		effect = {
+			random_owned_province = {
+				limit = {
+					has_owner_accepted_culture = no
+					NOT = { nationalism = 1 }
+				}
+				owner = { dip_power_cost = 50 }
+				change_culture = ROOT
+				change_religion = ROOT
+				#add_culture_construction = {
+				#	speed = 0.5
+				#	cost = 0.5
+				#}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					dip_power = 1000
+				}
+			}
+		}
+	}
+	
 	ai_fix_income = {
 		potential = {
 			ai = yes

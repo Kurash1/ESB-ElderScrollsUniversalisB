@@ -1,4 +1,4 @@
-l_french:
+﻿l_french:
 #############################
 ###       Template        ###
 #############################
@@ -352,6 +352,24 @@ l_french:
  kothringi_ideas_6_desc: "The Kothringi were known to garrison imperial forts and cities as mercenaries."
  kothringi_ideas_7: "Kothringi Cairns"
  kothringi_ideas_7_desc: "Kothringi dead are buried in special stone cairns, intricately and lovingly adorned with beads and other decorations."
+
+ KRE_ideas: "Kreath Ideas"
+ KRE_ideas_start: "Kreath Traditions"
+ KRE_ideas_bonus: "Kreath Ambition"
+ KRE_ideas_1: "Nordic Origins"
+ KRE_ideas_1_desc: "Presumably they may have originated from the region of Falkreath Hold. As they are not described as being Nords, the men-of-'kreath seem to have been a distinct group of humans that were indigenous to the region."
+ KRE_ideas_2: "Former Slaves"
+ KRE_ideas_2_desc: "They lived in the northern parts of the Tamriel during the Merethic and early First eras and were among the men herded as slaves from across the Niben by the Ayleids. They were later known to be imported from the North."
+ KRE_ideas_3: "Skyreach Towers"
+ KRE_ideas_3_desc: "Series of high towers guarding their holds. Although not as impressive as elven towers, they can be built and maintained en masse."
+ KRE_ideas_4: "Allesian Revolt"
+ KRE_ideas_4_desc: "During the times of Alessian Slave Rebellion the northern holdings retaken from the Ayleids were consolidated for the Men-of-kreath after the first Pogrom."
+ KRE_ideas_5: "Kestic"
+ KRE_ideas_5_desc: "Kestic hails from the northern forest region of the Nedic kingdoms, where he eventually became their leader and represented them in various matters between the other nations. In 1E 808, the High King of Skyreach, Durac arranged a marriage between King Kestic and his daughter, Saradin, to cement relations between both factions, much to the dismay of his court wizard and close friend, Virmaril. However, this never came to be as the Ra Gada had landed on the shores of the Deathlands and spread across the region's outermost corners."
+ KRE_ideas_6: "Sink Invaders"
+ KRE_ideas_6_desc: "There is no invasion if there is no fleet"
+ KRE_ideas_7: "Last Bastion"
+ KRE_ideas_7_desc: "Skyreach was subsequently besieged by the Anka-Ra and the kingdoms such as the forest region were dissolved. Many years later in 2E 582, a band of adventurers delved into the Skyreach Catacombs when dark magic came from the ruins. The group faced the dead Nedic-kings in waves until they managed to destroy them all at once."
 
  lilmothiit_ideas: "Lilmothiit Ideas"
  lilmothiit_ideas_start: "Lilmothiit Traditions"

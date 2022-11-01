@@ -403,9 +403,9 @@ mobility_ideas = {
 	trigger = {
 		OR = {
 			#Hidden
-			artillery_fraction = 0.5
+			cavalry_fraction = 0.5
 			#Normal
-			full_idea_group = quality_ideas
+			full_idea_group = offensive_ideas
 		}
 	}
 

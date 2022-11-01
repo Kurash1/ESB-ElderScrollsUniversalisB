@@ -505,7 +505,7 @@ humanist_ideas = {
 	trigger = {
 		OR = {
 			#Hidden
-			
+			has_country_modifier = tolerant_society
 			#Normal
 			full_idea_group = republik0
 		}
@@ -581,6 +581,7 @@ religious_ideas = {
 	trigger = {
 		OR = { 
 			#Hidden
+			has_country_modifier = intolerant_society
 			at_war_with_religious_enemy = yes
 			#Normal
 			full_idea_group = aristo0

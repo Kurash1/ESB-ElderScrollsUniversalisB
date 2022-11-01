@@ -1407,7 +1407,7 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "startdatelabel"
-						position = { x = 6 y = 9 }
+						position = { x = -206 y = 9 }
 						font = "vic_18"
 						borderSize = {x = 0 y = 0}
 						text = "FE_STARTING_DATE"
@@ -1418,7 +1418,7 @@ guiTypes = {
 
 					editBoxType = {
 						name = "year"
-						position = { x = 120 y = 57 }
+						position = { x = -1120 y = 57 }
 						font = "vic_22s"
 						size = { x=80 y=30 }
 						text = ""
@@ -1428,7 +1428,7 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "daymonth"
-						position = { x = 82 y = 113 }
+						position = { x = -182 y = 113 }
 
 						font = "vic_18"
 						borderSize = {x = 0 y = 0}
@@ -1441,61 +1441,61 @@ guiTypes = {
 
 					guiButtonType = {
 						name = "year_up1"
-						position = { x = 111 y = 34 }
+						position = { x = -1111 y = 34 }
 						quadTextureSprite ="GFX_arrow_up_small"
 					}
 
 					guiButtonType = {
 						name = "year_down1"
-						position = { x = 111 y = 80 }
+						position = { x = -1111 y = 80 }
 						quadTextureSprite ="GFX_arrow_down_small"
 					}
 
 					guiButtonType = {
 						name = "year_up2"
-						position = { x = 131 y = 34 }
+						position = { x = -1131 y = 34 }
 						quadTextureSprite ="GFX_arrow_up_small"
 					}
 
 					guiButtonType = {
 						name = "year_down2"
-						position = { x = 131 y = 80 }
+						position = { x = -1131 y = 80 }
 						quadTextureSprite ="GFX_arrow_down_small"
 					}
 
 					guiButtonType = {
 						name = "year_up3"
-						position = { x = 151 y = 34 }
+						position = { x = -1151 y = 34 }
 						quadTextureSprite ="GFX_arrow_up_small"
 					}
 
 					guiButtonType = {
 						name = "year_down3"
-						position = { x = 151 y = 80 }
+						position = { x = -1151 y = 80 }
 						quadTextureSprite ="GFX_arrow_down_small"
 					}
 
 					guiButtonType = {
 						name = "month_down"
-						position = { x = 20 y = 109 }
+						position = { x = -1120 y = 109 }
 						quadTextureSprite ="GFX_arrow_left_big"
 					}
 
 					guiButtonType = {
 						name = "day_down"
-						position = { x = 42 y = 109 }
+						position = { x = -1142 y = 109 }
 						quadTextureSprite ="GFX_arrow_left_small"
 					}
 
 					guiButtonType = {
 						name = "month_up"
-						position = { x = 237 y = 109 }
+						position = { x = -237 y = 109 }
 						quadTextureSprite ="GFX_arrow_right_big"
 					}
 
 					guiButtonType = {
 						name = "day_up"
-						position = { x = 215 y = 109 }
+						position = { x = -215 y = 109 }
 						quadTextureSprite ="GFX_arrow_right_small"
 					}
 				}

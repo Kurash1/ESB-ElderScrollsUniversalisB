@@ -122,25 +122,25 @@ country_event = {
 	is_triggered_only = yes
 
 	# Why can't I remove Idea Groups?
-	option = {
-		name = es_help.3.o.a
-		custom_tooltip = es_help.3.o.a.tt
-		hidden_effect = {
-			country_event = {
-				id = es_help.2
-			}
-		}
-	}
+	#option = {
+	#	name = es_help.3.o.a
+	#	custom_tooltip = es_help.3.o.a.tt
+	#	hidden_effect = {
+	#		country_event = {
+	#			id = es_help.2
+	#		}
+	#	}
+	#}
 	# How do I form Cyrodiil/The Empire
-	option = {
-		name = es_help.3.o.b
-		custom_tooltip = es_help.3.o.b.tt
-		hidden_effect = {
-			country_event = {
-				id = es_help.2
-			}
-		}
-	}
+	#option = {
+	#	name = es_help.3.o.b
+	#	custom_tooltip = es_help.3.o.b.tt
+	#	hidden_effect = {
+	#		country_event = {
+	#			id = es_help.2
+	#		}
+	#	}
+	#}
 	option = {
 		name = es_help.goback
 		custom_tooltip = es_help.goback.tt

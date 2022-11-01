@@ -1,4 +1,4 @@
-l_spanish:
+﻿l_spanish:
  
  ########## Military
  
@@ -2745,5 +2745,23 @@ l_spanish:
  esb_hollow_ideas_6_desc: "Little is known of the magical lights that occasionally illuminate the wild lands of Valenwood, leading those who go astray or luring travelers to their certain doom."
  esb_hollow_ideas_7: "The Noble Purpose"
  esb_hollow_ideas_7_desc: "The Hollow protect the Court of the Wilderking and the forest of Valenwood from every single threat."
+
+ esb_KRE_ideas: "Kreath Ideas"
+ esb_KRE_ideas_start: "Kreath Traditions"
+ esb_KRE_ideas_bonus: "Kreath Ambition"
+ esb_KRE_ideas_1: "Nordic Origins"
+ esb_KRE_ideas_1_desc: "Presumably they may have originated from the region of Falkreath Hold. As they are not described as being Nords, the men-of-'kreath seem to have been a distinct group of humans that were indigenous to the region."
+ esb_KRE_ideas_2: "Former Slaves"
+ esb_KRE_ideas_2_desc: "They lived in the northern parts of the Tamriel during the Merethic and early First eras and were among the men herded as slaves from across the Niben by the Ayleids. They were later known to be imported from the North."
+ esb_KRE_ideas_3: "Skyreach Towers"
+ esb_KRE_ideas_3_desc: "Series of high towers guarding their holds. Although not as impressive as elven towers, they can be built and maintained en masse."
+ esb_KRE_ideas_4: "Allesian Revolt"
+ esb_KRE_ideas_4_desc: "During the times of Alessian Slave Rebellion the northern holdings retaken from the Ayleids were consolidated for the Men-of-kreath after the first Pogrom."
+ esb_KRE_ideas_5: "Kestic"
+ esb_KRE_ideas_5_desc: "Kestic hails from the northern forest region of the Nedic kingdoms, where he eventually became their leader and represented them in various matters between the other nations. In 1E 808, the High King of Skyreach, Durac arranged a marriage between King Kestic and his daughter, Saradin, to cement relations between both factions, much to the dismay of his court wizard and close friend, Virmaril. However, this never came to be as the Ra Gada had landed on the shores of the Deathlands and spread across the region's outermost corners."
+ esb_KRE_ideas_6: "Sink Invaders"
+ esb_KRE_ideas_6_desc: "There is no invasion if there is no fleet"
+ esb_KRE_ideas_7: "Last Bastion"
+ esb_KRE_ideas_7_desc: "Skyreach was subsequently besieged by the Anka-Ra and the kingdoms such as the forest region were dissolved. Many years later in 2E 582, a band of adventurers delved into the Skyreach Catacombs when dark magic came from the ruins. The group faced the dead Nedic-kings in waves until they managed to destroy them all at once."
 
  #END RACIAL IDEA GROUPS

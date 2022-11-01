@@ -56,6 +56,314 @@
 #kagrumez
 #nchardak
 
+#kemel_ze
+#banz_amschend
+#galom_daeus
+
+kemel_ze = {
+	start = 4054
+	date = 54.01.01
+	time = { months = 0 }
+	build_cost = 1000
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+	build_trigger = {
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+		culture_group = dwemer_cg
+	}
+	on_built = { }
+	on_destroyed = { }
+	can_use_modifiers_trigger = {
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+		culture_group = dwemer_cg
+	}
+	can_upgrade_trigger = {
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+		culture_group = dwemer_cg
+	}
+	keep_trigger = { always = yes }
+	tier_0 = {
+		upgrade_time = { months = 0 }
+		cost_to_upgrade = { factor = 0 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+	tier_1 = {
+		upgrade_time = { months = 60 }
+		cost_to_upgrade = { factor = 1000 }
+		province_modifiers = {
+			local_defensiveness = 0.1
+			local_friendly_movement_speed = 0.05
+			local_development_cost = -0.1
+			supply_limit = 10
+			local_build_cost = -0.1
+			local_build_time = -0.1
+			regiment_recruit_speed = -0.1
+			ship_recruit_speed = -0.1
+			local_institution_spread = 0.1
+			trade_goods_size_modifier = 0.05
+		}
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+	tier_2 = {
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = { factor = 2500 }
+		province_modifiers = {
+			local_defender_dice_roll_bonus = 1
+			local_defensiveness = 0.20
+			local_friendly_movement_speed = 0.10
+			local_development_cost = -0.20
+			supply_limit = 20
+			local_build_cost = -0.20
+			local_build_time = -0.20
+			regiment_recruit_speed = -0.20
+			ship_recruit_speed = -0.20
+			local_institution_spread = 0.20
+			trade_goods_size_modifier = 0.10
+		}
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+	tier_3 = {
+		upgrade_time = { months = 180 }
+		cost_to_upgrade = { factor = 5000 }
+		province_modifiers = {
+			local_defender_dice_roll_bonus = 2
+			local_defensiveness = 0.30
+			local_friendly_movement_speed = 0.15
+			local_development_cost = -0.25
+			supply_limit = 25
+			local_build_cost = -0.25
+			local_build_time = -0.25
+			regiment_recruit_speed = -0.25
+			ship_recruit_speed = -0.25
+			local_institution_spread = 0.25
+			trade_goods_size_modifier = 0.15
+		}
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+}
+banz_amschend = {
+	start = 3246
+	date = 54.01.01
+	time = { months = 0 }
+	build_cost = 1000
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+	build_trigger = {
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+		culture_group = dwemer_cg
+	}
+	on_built = { }
+	on_destroyed = { }
+	can_use_modifiers_trigger = {
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+		culture_group = dwemer_cg
+	}
+	can_upgrade_trigger = {
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+		culture_group = dwemer_cg
+	}
+	keep_trigger = { always = yes }
+	tier_0 = {
+		upgrade_time = { months = 0 }
+		cost_to_upgrade = { factor = 0 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+	tier_1 = {
+		upgrade_time = { months = 60 }
+		cost_to_upgrade = { factor = 1000 }
+		province_modifiers = {
+			local_defensiveness = 0.1
+			local_friendly_movement_speed = 0.05
+			local_development_cost = -0.1
+			supply_limit = 10
+			local_build_cost = -0.1
+			local_build_time = -0.1
+			regiment_recruit_speed = -0.1
+			ship_recruit_speed = -0.1
+			local_institution_spread = 0.1
+			trade_goods_size_modifier = 0.05
+		}
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+	tier_2 = {
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = { factor = 2500 }
+		province_modifiers = {
+			local_defender_dice_roll_bonus = 1
+			local_defensiveness = 0.20
+			local_friendly_movement_speed = 0.10
+			local_development_cost = -0.20
+			supply_limit = 20
+			local_build_cost = -0.20
+			local_build_time = -0.20
+			regiment_recruit_speed = -0.20
+			ship_recruit_speed = -0.20
+			local_institution_spread = 0.20
+			trade_goods_size_modifier = 0.10
+		}
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+	tier_3 = {
+		upgrade_time = { months = 180 }
+		cost_to_upgrade = { factor = 5000 }
+		province_modifiers = {
+			local_defender_dice_roll_bonus = 2
+			local_defensiveness = 0.30
+			local_friendly_movement_speed = 0.15
+			local_development_cost = -0.25
+			supply_limit = 25
+			local_build_cost = -0.25
+			local_build_time = -0.25
+			regiment_recruit_speed = -0.25
+			ship_recruit_speed = -0.25
+			local_institution_spread = 0.25
+			trade_goods_size_modifier = 0.15
+		}
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+}
+galom_daeus = {
+	start = 4233
+	date = 54.01.01
+	time = { months = 0 }
+	build_cost = 1000
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	type = monument
+	build_trigger = {
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+		culture_group = dwemer_cg
+	}
+	on_built = { }
+	on_destroyed = { }
+	can_use_modifiers_trigger = {
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+		culture_group = dwemer_cg
+	}
+	can_upgrade_trigger = {
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+		culture_group = dwemer_cg
+	}
+	keep_trigger = { always = yes }
+	tier_0 = {
+		upgrade_time = { months = 0 }
+		cost_to_upgrade = { factor = 0 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+	tier_1 = {
+		upgrade_time = { months = 60 }
+		cost_to_upgrade = { factor = 1000 }
+		province_modifiers = {
+			local_defensiveness = 0.1
+			local_friendly_movement_speed = 0.05
+			local_development_cost = -0.1
+			supply_limit = 10
+			local_build_cost = -0.1
+			local_build_time = -0.1
+			regiment_recruit_speed = -0.1
+			ship_recruit_speed = -0.1
+			local_institution_spread = 0.1
+			trade_goods_size_modifier = 0.05
+		}
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+	tier_2 = {
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = { factor = 2500 }
+		province_modifiers = {
+			local_defender_dice_roll_bonus = 1
+			local_defensiveness = 0.20
+			local_friendly_movement_speed = 0.10
+			local_development_cost = -0.20
+			supply_limit = 20
+			local_build_cost = -0.20
+			local_build_time = -0.20
+			regiment_recruit_speed = -0.20
+			ship_recruit_speed = -0.20
+			local_institution_spread = 0.20
+			trade_goods_size_modifier = 0.10
+		}
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+	tier_3 = {
+		upgrade_time = { months = 180 }
+		cost_to_upgrade = { factor = 5000 }
+		province_modifiers = {
+			local_defender_dice_roll_bonus = 2
+			local_defensiveness = 0.30
+			local_friendly_movement_speed = 0.15
+			local_development_cost = -0.25
+			supply_limit = 25
+			local_build_cost = -0.25
+			local_build_time = -0.25
+			regiment_recruit_speed = -0.25
+			ship_recruit_speed = -0.25
+			local_institution_spread = 0.25
+			trade_goods_size_modifier = 0.15
+		}
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+}
+
 fahlbtharz = {
 	start = 949
 	date = 54.01.01

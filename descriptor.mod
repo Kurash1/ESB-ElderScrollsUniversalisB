@@ -1,4 +1,4 @@
-version="2.0.1"
+version="2.0.3"
 picture="thumbnail.png"
 replace_path="common/countries"
 replace_path="common/bookmarks"

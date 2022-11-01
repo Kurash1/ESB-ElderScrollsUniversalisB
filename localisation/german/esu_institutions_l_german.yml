@@ -1,4 +1,4 @@
-l_german:
+﻿l_german:
  BIRTHPLACE_OF_INSTITUTION: "$PROV$ is the birthplace of the §Y$NAME$§!"
  nearby_friendly_province_has_institution: "Nearby friendly province has this institution"
  capital_has_institution: "[Root.Owner.GetName]'s capital has this institution"
