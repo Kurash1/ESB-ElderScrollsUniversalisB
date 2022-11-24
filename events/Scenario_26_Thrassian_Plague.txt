@@ -232,9 +232,6 @@ country_event = {
 		name = "es_26_scenario.6.a"
 		ai_chance = { factor = 100 }
 		custom_tooltip = es_economy.10.a.tt
-		hidden_effect = {
-			es_reduce_development_worldwide = yes
-		}
 		add_manpower = -10
 	}
 	

@@ -6954,6 +6954,21 @@ guiTypes = {
 			position = { x = 345 y = 129  }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
+		
+		checkboxType = {
+			name = "build_artifact_search"
+			position = { x = 345 y = 179  }
+			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
+		}
+		instantTextBoxType={
+			name = "artifact_search_cost"
+			position = { x = 345 y = 229 }
+			font = "vic_18"
+			borderSize = { x = 0 y = 0 }	
+			maxWidth = 128
+			maxHeight = 18
+			text = "2000¤"	
+		}
 				
 		
 	}

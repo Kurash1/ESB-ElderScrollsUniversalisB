@@ -193,14 +193,14 @@ es_conquest_notifications_setup = {
 			}
 		}
 		else = {
-			log = "Uncaught conquest location"
-			log = debug_getname
+			#log = "Uncaught conquest location"
+			#log = debug_getname
 		}
 	}
 }
 
 es_new_conquests_effect = {
-	log = "Running conquest effect"
+	#log = "Running conquest effect"
 	if = {
 		limit = {
 			superregion = atmora_superregion
@@ -501,7 +501,7 @@ es_new_conquests_effect = {
 		}
 	}
 	else = {
-		log = "Uncaught conquest location"
-		log = debug_getname
+		#log = "Uncaught conquest location"
+		#log = debug_getname
 	}
 }

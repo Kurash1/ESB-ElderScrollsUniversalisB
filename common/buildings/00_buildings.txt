@@ -8,18 +8,10 @@ fort_15th = {
 	}
 	
 	on_built = {
-		add_development_from_building = {
-			building = fort_15th
-			type = manpower
-			value = 1
-		}
+		
 	}
 	on_destroyed = {
-		remove_development_from_building = {
-			building = fort_15th
-			type = manpower
-			value = 1
-		}
+		
 	}
 	on_obsolete = {
 	}
@@ -69,18 +61,10 @@ fort_16th = {
 	}
 	
 	on_built = {
-		add_development_from_building = {
-			building = fort_16th
-			type = manpower
-			value = 1
-		}
+		
 	}
 	on_destroyed = {
-		remove_development_from_building = {
-			building = fort_16th
-			type = manpower
-			value = 1
-		}
+		
 	}
 	on_obsolete = {
 	}
@@ -131,18 +115,10 @@ fort_17th = {
 	}
 	
 	on_built = {
-		add_development_from_building = {
-			building = fort_17th
-			type = manpower
-			value = 1
-		}
+		
 	}
 	on_destroyed = {
-		remove_development_from_building = {
-			building = fort_17th
-			type = manpower
-			value = 1
-		}
+		
 	}
 	on_obsolete = {
 	}

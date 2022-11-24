@@ -16,3 +16,23 @@ custom_interaction_building = {
 		}
 	}
 }
+
+artifact_search = {
+	cost = 100
+	time = 0
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+	
+	on_built = {
+		province_event = {
+			id = es_esb.6
+		}
+		remove_building = artifact_search
+	}
+}

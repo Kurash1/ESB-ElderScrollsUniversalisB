@@ -312,7 +312,6 @@ es_reduce_development_worldwide = {
 	hidden_effect = {
 		every_province = {
 			limit = {
-				NOT = { continent = Oblivion }
 				NOT = { development = 15 }
 			}
 			add_base_tax = -1
@@ -321,7 +320,6 @@ es_reduce_development_worldwide = {
 		}
 		every_province = {
 			limit = {
-				NOT = { continent = Oblivion }
 				development = 15
 				NOT = { development = 24 }
 			}
@@ -331,7 +329,6 @@ es_reduce_development_worldwide = {
 		}
 		every_province = {
 			limit = {
-				NOT = { continent = Oblivion }
 				development = 24
 			}
 			add_base_tax = -3

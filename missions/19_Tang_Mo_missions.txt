@@ -422,14 +422,12 @@ flavour_missions_2_tan = {
 			random_ally = {
 				limit = {
 					culture_group = po_tun_cg
-					has_opinion = {
-						who = ROOT
-						value = 150
-					}
 				}
-				add_favors = {
-					who = PREV
-					amount = 15
+				ROOT = {
+					add_favors = {
+						who = PREV
+						amount = 15
+					}
 				}
 				add_favors = {
 					who = ROOT
@@ -1406,7 +1404,6 @@ flavour_missions_4_tan = {
 		effect = {
 			create_conquistador = { tradition = 50 }
 			yokuda_superregion = {
-				type = all
 				add_claim = ROOT
 			}
 		}	
@@ -1929,7 +1926,6 @@ flavour_missions_5_tan = {
 			add_prestige = 25
 			add_accepted_culture = imga
 			valenwood_superregion = {
-				type = all
 				add_claim = ROOT
 			}
 		}	
@@ -2153,18 +2149,18 @@ flavour_missions_5_tan = {
 		    custom_tooltip = es_conquest_of_coldharbour_lr_tooltip
 		    add_prestige = 10
 			hidden_effect = {
-			every_province = {
-			limit = {
-			OR = {
-			region = southern_coldharbour_lr
-			region = eastern_coldharbour_lr
-			region = western_coldharbour_lr
-			region = northern_coldharbour_lr
-			}
-			is_city = yes
-			}
-			add_permanent_claim = ROOT
-			}
+				every_province = {
+					limit = {
+						OR = {
+							region = southern_coldharbour_lr
+							region = eastern_coldharbour_lr
+							region = western_coldharbour_lr
+							region = northern_coldharbour_lr
+						}
+						is_city = yes
+					}
+					add_permanent_claim = ROOT
+				}
 			}
 		}
 	}

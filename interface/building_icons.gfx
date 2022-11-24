@@ -1951,4 +1951,9 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//custom_interaction_building.tga"
 		loadType = "INGAME"
 	}	
+	spriteType = {
+		name = "GFX_artifact_search"
+		texturefile = "gfx//interface//buildings//custom_interaction_building.tga"
+		loadType = "INGAME"
+	}	
 }

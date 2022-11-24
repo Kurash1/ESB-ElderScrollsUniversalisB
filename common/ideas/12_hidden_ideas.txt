@@ -1,0 +1,131 @@
+esb_crusader_ideas = {
+	category = MIL
+	
+	trigger = {
+		OR = { 
+			has_reform = monastic_order_reform
+			ruler_has_personality = crusader_personality
+		}
+	}
+	bonus = {
+		tolerance_own = 1
+	}
+	
+	esb_crusader_ideas1 = {
+		land_forcelimit_modifier = -0.15
+	}
+	esb_crusader_ideas2 = {
+		discipline = 0.05
+	}
+	esb_crusader_ideas3 = {
+		land_morale = 0.1
+	}
+	esb_crusader_ideas4 = {
+		vassal_forcelimit_bonus = 0.5
+	}
+	esb_crusader_ideas5 = {
+		legitimacy = 0.75
+		devotion = 0.75
+	}
+	esb_crusader_ideas6 = {
+		global_missionary_strength = 0.02
+	}
+	esb_crusader_ideas7 = {
+		free_mil_policy = 1
+	}
+}
+
+esb_acceptance_ideas = {
+	category = MIL
+	
+	trigger = {
+		num_accepted_cultures = 3
+	}
+	bonus = {
+		governing_capacity_modifier = 0.1
+	}
+	
+	esb_acceptance_ideas1 = {
+		num_accepted_cultures = 2
+	}
+	esb_acceptance_ideas2 = {
+		global_unrest = -2
+	}
+	esb_acceptance_ideas3 = {
+		religious_unity = 0.25
+		global_missionary_strength = -0.03
+	}
+	esb_acceptance_ideas4 = {
+		tolerance_own = 2
+		tolerance_heretic = 2
+		tolerance_heathen = 2
+	}
+	esb_acceptance_ideas5 = {
+		advisor_cost = -0.15
+	}
+	esb_acceptance_ideas6 = {
+		land_morale = 0.15
+	}
+	esb_acceptance_ideas7 = {
+		reinforce_cost_modifier = -0.15
+	}
+}
+
+esb_massacre_ideas = {
+	category = MIL
+	
+	trigger = {
+		ai = no
+		absolutism = 50
+		OR = {
+			ruler_has_personality = sinner_personality
+			ruler_has_personality = cruel_personality
+			ruler_has_personality = malevolent_personality
+			ruler_has_personality = impaler_personality
+			ruler_has_personality = pyromaniac_personality
+			ruler_has_personality = ruthless_personality
+			ruler_has_personality = sadistic_personality
+			ruler_has_personality = barbaric_personality
+			ruler_has_personality = xenophobic_personality
+			ruler_has_personality = destroyer_personality
+			ruler_has_personality = necromancer_personality
+			ruler_has_personality = lich_personality
+		}
+		calc_true_if = {
+			all_country = {
+				is_threat = ROOT
+			}
+			amount = 5
+		}
+	}
+	bonus = {
+		discipline = 0.1
+	}
+	
+	esb_massacre_ideas1 = {
+		siege_ability = 0.1
+		# Small chance to genocide provinces at the end of a siege
+	}
+	esb_massacre_ideas2 = {
+		max_absolutism = 50
+	}
+	esb_massacre_ideas3 = {
+		culture_conversion_cost = -0.25
+		harsh_treatment_cost = -0.5
+		years_of_nationalism = -5
+	}
+	esb_massacre_ideas4 = {
+		global_autonomy = -0.05
+		stability_cost_modifier = -0.25
+	}
+	esb_massacre_ideas5 = {
+		administrative_efficiency = 0.05
+	}
+	esb_massacre_ideas6 = {
+		shock_damage = 0.1
+	}
+	esb_massacre_ideas7 = {
+		culture_conversion_cost = -0.25
+		# You gain mana when you genocide a province
+	}
+}

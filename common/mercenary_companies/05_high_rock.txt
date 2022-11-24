@@ -1,39 +1,5 @@
 ### Breton ###
 
-knights_of_the_dragon_company = {
-    regiments_per_development = 0.075
-	cost_modifier = 0.75
-    home_province = 1369
-	cavalry_weight = 0.25
-	artillery_weight = 0.15
-	sprites = { breton_sprite_pack }
-    trigger = {
-		culture_group = half_blood_cg
-		any_owned_province = { superregion = high_rock_superregion }
-	}
-	modifier = { 
-	    infantry_power = 0.10
-		cavalry_power = 0.10
-	}
-}
-
-knights_of_the_flame_company = {
-    regiments_per_development = 0.065
-	cost_modifier = 0.65
-    home_province = 6949
-	cavalry_weight = 0.25
-	artillery_weight = 0.15
-	sprites = { breton_sprite_pack }
-    trigger = {
-		culture_group = half_blood_cg
-		any_owned_province = { superregion = high_rock_superregion }
-	}
-	modifier = { 
-	    fire_damage = 0.10
-		land_attrition = -0.15
-	}
-}
-
 gautier_clan_company = {
     regiments_per_development = 0.055
 	cost_modifier = 0.55
@@ -158,22 +124,6 @@ winterborn_army_company = {
 }
 
 ### Free For ALL ###
-
-knights_of_the_owl_company = {
-    regiments_per_development = 0.075
-	cost_modifier = 0.75
-    home_province = 7029
-	cavalry_weight = 0.25
-	artillery_weight = 0.15
-	sprites = { breton_sprite_pack }
-    trigger = {
-		any_owned_province = { superregion = high_rock_superregion }
-	}
-	modifier = { 
-	    land_morale = 0.05
-		shock_damage_received = -0.05
-	}
-}
 
 anthotis_clan_company = {
     regiments_per_development = 0.065

@@ -30,7 +30,7 @@ country_event = {
 				1 = { add_ruler_modifier = { name = thief_birthsign_mod duration = -1 } set_ruler_flag = birthsign_thief }
 			}
 		}
-		log = "Initial Birthsign Assigned to [Root.GetName]"
+		#log = "Initial Birthsign Assigned to [Root.GetName]"
 	}
 	option = {
 		name = hiddenoption

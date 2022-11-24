@@ -49,7 +49,7 @@ country_decisions = {
         }
 		effect = {
 			add_treasury = -5000
-			log = "[This.num_of_sacked_orsinium.GetValue]"
+			#log = "[This.num_of_sacked_orsinium.GetValue]"
 			if = {
 				limit = {
 					NOT = { check_variable = { which = num_of_sacked_orsinium value = 1 } }

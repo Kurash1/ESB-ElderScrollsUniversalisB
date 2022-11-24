@@ -1065,7 +1065,6 @@ coral_tower = {
 		culture_group = sload_cg
 		OR = {
 			has_owner_culture = yes
-			has_owner_accepted_culture = yes
 		}
 	}
 
@@ -1076,14 +1075,12 @@ coral_tower = {
 		culture_group = sload_cg
 		OR = {
 			has_owner_culture = yes
-			has_owner_accepted_culture = yes
 		}
 	}
 	can_upgrade_trigger = {
 		culture_group = sload_cg
 		OR = {
 			has_owner_culture = yes
-			has_owner_accepted_culture = yes
 		}
 	}
 	keep_trigger = { always = yes }
@@ -1117,7 +1114,7 @@ coral_tower = {
 		province_modifiers = { }
 		area_modifier = { }
 		country_modifiers = { 
-			fire_damage = 0.05
+			fire_damage = 0.1
 			technology_cost = -0.20
 			idea_cost = -0.20
 			navy_tradition = 1.0

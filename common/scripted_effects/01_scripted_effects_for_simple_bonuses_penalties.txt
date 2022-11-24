@@ -157,7 +157,9 @@ change_reform_progress_effect = {
 		limit = { has_country_flag = __big }
 		change_government_reform_progress = $SIGN$15
 	}
-	else = { log = "change_reform_progress_effect failed!" }
+	else = { 
+		#log = "change_reform_progress_effect failed!" 
+	}
 	clr_country_flag = __$STRENGTH$
 }
 

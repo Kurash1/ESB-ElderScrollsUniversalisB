@@ -1,0 +1,566 @@
+blackwater_blade = {
+    name = "Blackwater Blade"
+    desc = "Circa 3E 433, the Blade was in the possession of Selene, the leader of the Blackwater Brigands during their most daring heist involving the acquisition of the Golden Galleon, a legendary golden statuette. Ormil, the publican of the Bloated Float Inn in the Waterfront district of the Imperial City, spread a false rumor that he held this famous statue on his water-bound inn to increase business. This attracted the Blackwater Brigands, who vowed to obtain the Golden Galleon, fence it, and split the profit four ways. To accomplish this the Brigands hijacked the Bloated Float, held the publican and his bouncer hostage, and set off to sea to search for the treasure in peace and security. Little did they know that the Champion of Cyrodiil was asleep in the hold when they set off, and would awaken to foil their plan. The adventurer systematically killed the Brigands and freed Ormil and the bouncer, Graman gro-Marad. The only rumored survivor was Selene, leader of the Brigands, who surrendered the Blackwater Blade to the Champion and was incarcerated for her crimes shortly after the Bloated Float returned to the Waterfront."
+    type = country( ( 45 * 365 ) ) #45 yrs
+    trigger = {
+		has_owner_culture = yes
+		has_owner_religion = yes
+		superregion = cyrodiil_superregion
+		superregion = black_marsh_superregion
+	}
+
+    modifiers = {
+        galley_power = 0.15
+		sailor_maintenance_modifer = -0.10
+    }
+    effects = {
+
+	}
+}
+
+chillrend = {
+    name = "Chillrend"
+    desc = "Chillrend is an artifact of unknown origins. It takes the form of a glass shortsword, although, unlike regular malachite, it is blue instead of green. Like other glass weapons, its hilt was fashioned from rare metals and moonstone. Its enchantment varies in strength and properties, but it always causes magical frost damage to the opponent. Other known effects include causing a weakness to frost, or temporary paralysis. It also repairs itself when the wielder takes frost damage. The sword's first known owner was Valus Odiil, an Imperial adventurer who wandered Tamriel (or at least Hammerfell). Valus eventually settled down in Cyrodiil, and bought a farm outside the walls of Chorrol. However, his farm was continuously raided by goblins from the Great Forest, and the town guard refused to help. In 3E 433, unable to fight in his old age, he asked the Champion of Cyrodiil to aid his two sons in killing the goblins. After the battle, Valus passed on Chillrend to the Champion for keeping his sons safe, saying that he was going to spend the rest of his days in peace."
+    type = country( ( 25 * 365 ) ) #25 yrs
+    trigger = {
+		has_owner_culture = yes
+		has_owner_religion = yes
+		superregion = cyrodiil_superregion
+		superregion = hammerfell_superregion
+	}
+
+    modifiers = {
+		leader_land_fire = 1
+		general_cost = -0.15
+    }
+    effects = {
+
+	}
+}
+
+debaser = {
+    name = "Debaser"
+    desc = "In 3E 433, the Bosmer Thorinor opened a shop in the Imperial City's Market District, and greatly disrupted the economy by massively undercutting the competition. The cities' Society of Concerned Merchants, which was created to keep an economic balance in town, attempted to recruit the undercutter, but he refused to join. Disgruntled, the society hired a mercenary to investigate the source of Thorinor's merchandise, which they suspected was gotten by illicit means. The investigation led to the acquisition of evidence that revealed that Thorinor's dealer was not a simple trapper, but a Nordic grave digger named Agarmir. His journal revealed that he dug the graves of the wealthy in cities all across Cyrodiil. One of the items of note was the Debaser itself, taken from the resting place of a Oford Gabings from Anvil. After confronting Thorinor about his dealer, he revealed that he had no idea where Agarmir got his goods, and led the mercenary to the direction the Nord was planning to be. In reality, the gravedigger set a trap, and attempted to slay the interloper, but was put down. With the dealer gone, Thorinor joined the Society of Concerned Merchants, and donated his ill-gotten goods and the gold obtained from their sale to the Temple, thus eluding the wrath of the Imperial Watch, and helped re-stabilize the economy. Despite the Debaser being gained by gravedigging, it was kept by the Mercenary, with no efforts made to retrieve it by the Imperial Watch."
+    type = country( ( 20 * 365 ) ) #20 yrs
+    trigger = {
+	has_owner_culture = yes
+	has_owner_religion = yes
+          	OR = {  
+	superregion = cyrodiil_superregion
+	superregion = valenwood_superregion
+			}
+		}
+
+    modifiers = {
+        	yearly_corruption = -0.25
+			global_trade_power = 0.10
+    }
+    effects = {
+
+	}
+}
+
+rugdumphs_sword = {
+    name = "Rugdumphs Sword"
+    desc = "Yeah. This is the Cheydinhal Fighters Guild. Look around. See any fighters? Right. Thats the problem. No fighters, no guild."
+    type = country( ( 30 * 365 ) ) #30 yrs
+    trigger = {
+	has_owner_culture = yes
+	has_owner_religion = yes
+          	OR = {  
+	superregion = cyrodiil_superregion
+	superregion = high_rock_superregion #change to orc areas after map rework?
+			}
+		}
+
+    modifiers = {
+        	improve_relation_modifier = 0.25
+			fire_damage_received = -0.05
+    }
+    effects = {
+
+	}
+}
+
+thornblade = {
+    name = "Thornblade"
+    desc = "I'm pleased to finally meet the savior of Cheydinhal. I'm also overjoyed that you saved my son's life. I realize he is trying at times, and he speaks before he thinks, but he's still my son, and I adore him greatly. I'm sure he was difficult to travel with and I respect your patience. Most would have given him up for dead rather than deal with his ego. Anyway I digress. I'm sure you wish to hear of your reward. I'm in possession of two fine weapons. They're both heirlooms of the Indarys family, held in the castle for several generations. I'd take great pleasure in bestowing one of them upon you. Please, choose the Thornblade or the Staff of Indarys."
+    type = ruler
+    trigger = {
+	has_owner_culture = yes
+	has_owner_religion = yes
+          	OR = {  
+	superregion = morrowind_superregion
+	superregion = cyrodiil_superregion
+			}
+		}
+
+    modifiers = {
+        	discipline = 0.05
+			prestige_from_land = 0.33
+    }
+    effects = {
+
+	}
+}
+
+witsplinter = {
+    name = "Witsplinter"
+    desc = "Circa 3E 433, Witsplinter was in the possession of Faustina Cartia, leader of the Sirens in Anvil. An all-female crime ring, they used their feminine charm to seduce the innocent men of Anvil and make off with all their valuables after stripping them of their armor and clothing. Too embarrassed to admit they were made fools of, the male victims were reluctant to speak about the incidents, leaving the situation difficult to resolve. The Anvil guard launched an investigation and sent the Champion of Cyrodiil as a private operative to make contact with the gang."
+    type = ruler
+    trigger = {
+	has_owner_culture = yes
+	has_owner_religion = yes
+          	OR = {  
+	superregion = cyrodiil_superregion
+	superregion = skyrim_superregion
+			}
+		}
+
+    modifiers = {
+        	may_recruit_female_generals = yes
+			female_advisor_chance = 0.33
+			liberty_desire_from_subject_development = -0.15
+    }
+    effects = {
+
+	}
+}
+
+apron_of_adroitness = {
+    name = "Apron of Adroitness"
+    desc = "The Brush allows the artist to paint from within a canvas. It opens a portal into which the artist may enter to paint things life-sized. All the painter has to do is have the Brush in his possession, and whatever he imagines appears in the canvas. Of course, I like to wave it around anyway. It makes me feel more like a legitimate painter. I guess it all doesn't matter now. Unless you can defeat those Painted Trolls, we have no chance of getting the Brush back."
+    type = country( ( 50 * 365 ) ) #50 yrs
+    trigger = {
+	has_owner_culture = yes
+	has_owner_religion = yes
+          	OR = {  
+	superregion = cyrodiil_superregion
+			}
+		}
+
+    modifiers = {
+        	prestige_decay = -0.02
+			adm_advisor_cost = -0.33
+    }
+    effects = {
+
+	}
+}
+
+ayleid_crown_of_lindai = {
+    name = "Ayleid Crown of Lindai"
+    desc = "The Crown of the Ayleids which Umbacano wants is not simply an ancient work of art. It has certain superficial magic powers, true, but its real power is hidden. However, my studies of the ancient texts make clear that it is the key to dangerous magical powers which should be left dormant."
+    type = ruler
+    trigger = {
+	has_owner_culture = yes
+	has_owner_religion = yes
+          	OR = {  
+	superregion = cyrodiil_superregion
+			}
+		}
+
+    modifiers = {
+			yearly_absolutism = 0.33
+			fire_damage_received = -0.10
+    }
+    effects = {
+
+	}
+}
+
+ayleid_crown_of_nenalata = {
+    name = "Ayleid Crown of Nenalata"
+    desc = "The Crown of the Ayleids which Umbacano wants is not simply an ancient work of art. It has certain superficial magic powers, true, but its real power is hidden. However, my studies of the ancient texts make clear that it is the key to dangerous magical powers which should be left dormant."
+    type = ruler
+    trigger = {
+	has_owner_culture = yes
+	has_owner_religion = yes
+          	OR = {  
+	superregion = cyrodiil_superregion
+			}
+		}
+
+    modifiers = {
+        	yearly_absolutism = 0.33
+			morale_damage_received = -0.05 #not sure how strong
+    }
+    effects = {
+
+	}
+}
+
+boots_of_bloody_bounding = {
+    name = "Boots of Bloody Bounding"
+    desc = "Scar-Tail has fled Black Marsh and refuses to fulfill his duties as royal assassin! This is an act of treason! This treachery must be punished! Just as a member of the Dark Brotherhood cannot kill a fellow family member, a Shadowscale is forbidden from slaying another Shadowscale. That is why you must go to Bogwater and eliminate that treacherous snake!"
+    type = country( ( 30 * 365 ) ) #30 yrs
+    trigger = {
+	has_owner_culture = yes
+	has_owner_religion = yes
+          	OR = {  
+	superregion = black_marsh_superregion
+			}
+		}
+
+    modifiers = {
+        	infantry_power = 0.125
+    }
+    effects = {
+
+	}
+}
+
+escutcheon_of_chorrol = {
+    name = "Escutcheon of Chorrol"
+    desc = "The Escutcheon of Chorrol is a massive ebony shield emblazoned with the Great Oak, the symbol of Chorrol. Circa 3E 433, the two Jemane brothers were reunited as adults and reclaimed Weatherleah with the help of the Champion of Cyrodiil. Hearing of these developments, Fathis Ules travelled to Chorrol and hired the Champion to recover the lost Honorblade from the ogre den at Redguard Valley Cave.[5] It is unknown if the Champion agreed to sell the blade to Fathis, or if it was instead returned to Castle Chorrol. According to some, the Champion returned the Honorblade to Countess Arriana Valga and was rewarded with the Escutcheon of Chorrol."
+    type = country( ( 60 * 365 ) ) #60 yrs
+    trigger = {
+	has_owner_culture = yes
+	has_owner_religion = yes
+          	OR = {  
+	superregion = cyrodiil_superregion #move to chorrol area after map rework?
+			}
+		}
+
+    modifiers = {
+        	morale_damage_received = -0.125
+    }
+    effects = {
+
+	}
+}
+
+draconian_madstone = {
+    name = "Draconian Madstone"
+    desc = "The stone is a fine bit of Akaviri craftsmanship. Worn like an amulet, this talisman is said to protect the wearer from poisons of any type. The Madstone appears as a snake coiled around and encircling itself. The eyes of the snake are supposed to be precious gems or some such. Through my sources, I've learned that the last reported location of the Madstone was the ruins at Pale Pass. Back at the end of the First Era, raiders from the continent of Akavir attempted to gain a foothold here in Tamriel. At that time, the Empire was broken into smaller factions. Reman Cyrodiil decided to unify them and form an army to repel the Akaviri raiders. The force became known as the Army of Reman. The two armies clashed in what's now northern Cyrodiil. The Akaviri were strong and well supplied. But their greatest error was marching through Morrowind on the way to their objective and dismissing the response it would garner from Vivec. They didn't count on Lord Vivec forming an alliance with the Trident-Kings of the Dreugh. From Morrowind, he struck at their rear flank. Not only did this make the Akaviri fight on two fronts, it also cut off access to reinforcements and supplies from the sea."
+    type = ruler
+    trigger = {
+	has_owner_culture = yes
+	has_owner_religion = yes
+          	OR = {  
+	superregion = akavir_superregion
+	superregion = cyrodiil_superregion
+			}
+		}
+
+    modifiers = {
+        	land_attrition = -0.20
+			naval_attrition = -0.20
+    }
+    effects = {
+
+	}
+}
+	
+gray_cowl_of_nocturnal = {
+    name = "Gray Cowl of Nocturnal"
+    desc = "I'll make Captain for this! - Guard Captain. Whosoever wears it shall be lost in the shadows. His true nature shall be unknown to all who meet him. His identity shall be struck from all records and histories. Memory will hide in the shadows, refusing to record the name of the owner to any who meet him. He shall be known by the cowl and only by the cowl."
+    type = ruler
+    trigger = {
+	has_owner_culture = yes
+	has_owner_religion = yes
+          	OR = {  
+	superregion = cyrodiil_superregion
+			}
+		}
+
+    modifiers = {
+        	can_chain_claim = yes
+			diplomatic_reputation = -5
+			ae_impact = -0.33
+    }
+    effects = {
+
+	}
+}
+
+jewel_of_the_rumare = {
+    name = "Jewel of the Rumare"
+    desc = "You know, stranger, there comes a time in every man's life when he has to admit that he's lost the fight. Well, I've fought and I've lost. Who did I lose to? Who is my great enemy? Well, don't laugh... it's a bunch of damn fish."
+    type = country( ( 50 * 365 ) ) #50 yrs
+    trigger = {
+	has_owner_culture = yes
+	has_owner_religion = yes
+          	OR = {  
+	superregion = cyrodiil_superregion
+			}
+		}
+
+    modifiers = {
+        	sailors_recovery_speed = 0.25
+			allowed_marine_fraction = 0.1
+    }
+    effects = {
+
+	}
+}
+
+ring_of_eidolons_edge = {
+    name = "Ring of Eidolons Edge"
+    desc = "The ring came into the hands of a merchant in the Imperial City in the late Third Era. Rosentia Gallenus, a young Imperial woman with a passion for collecting unusual arcane craftwork, purchased the ring for a lover, although it returned to her possession when he left her for someone else. Rosentia later married a wealthy man in Leyawiin, and was left with his fortune and large manor when he died. She used her wealth to expand her collection, and in 3E 433 she came into contact with the Staff of the Everscamp. In return for helping her to dispose of the cursed Staff, she gave the Ring of Eidolon's Edge to the Champion of Cyrodiil.["
+    type = ruler
+    trigger = {
+	has_owner_culture = yes
+	has_owner_religion = yes
+          	OR = {  
+	superregion = morrowind_superregion
+	superregion = cyrodiil_superregion
+			}
+		}
+
+    modifiers = {
+        	tolerance_own = 2
+			morale_damage = 0.025
+    }
+    effects = {
+
+	}
+}
+
+ring_of_sunfire = {
+    name = "Ring of Sunfire"
+    desc = "The Amulet of Usheeja can be found on a table in the vaults in the lower level of Ghostgate's Tower of Dusk."
+    type = country( ( 35 * 365 ) ) #35 yrs
+    trigger = {
+	has_owner_culture = yes
+	has_owner_religion = yes
+          	OR = {  
+	superregion = cyrodiil_superregion
+	superregion = summerset_isles_superregion
+			}
+		}
+
+    modifiers = {
+        	reserves_organisation = 0.125
+    }
+    effects = {
+
+	}
+}
+
+spelldrinker_amulet = {
+    name = "Spelldrinker Amulet"
+    desc = "You impossible fool. What possessed you to think I would suggest a meeting here, of all places? At least your gullibility served some useful purpose. I knew about Mercator, but not his friends. Now none of them are a threat any longer."
+    type = country( ( 25 * 365 ) ) #25 yrs
+    trigger = {
+	has_owner_culture = yes
+	has_owner_religion = yes
+          	OR = {  
+	superregion = cyrodiil_superregion
+			}
+		}
+
+    modifiers = {
+        	country_admin_power = 1
+    }
+    effects = {
+
+	}
+}
+
+weatherward_circlet = {
+    name = "Weatherward Circlet"
+    desc = "You want me to publically [sic] accuse Audens Avidius of corruption? I'd sooner swim naked in a pool filled with slaughterfish and mudcrabs!"
+    type = country( ( 20 * 365 ) ) #20 yrs
+    trigger = {
+	has_owner_culture = yes
+	has_owner_religion = yes
+          	OR = {  
+	superregion = cyrodiil_superregion
+	superregion = pyandonea_superregion
+			}
+		}
+
+    modifiers = {
+        	fire_damage_received = -0.15
+			shock_damage_received = -0.25
+    }
+    effects = {
+
+	}
+}
+
+hrormirs_icestaff = {
+    name = "Hrormirs Icestaff"
+    desc = "Hrormir's Icestaff, also called the Staff of Hrormir, was made famous as the mighty weapon of Hrormir, one-time champion of Nocturnal. It eventually fell into the hands of the Mages Guild. In 3E 433, the Thieves Guild stole the staff from the Arcane University in the Imperial City?evidently just to prove that they could, as it was soon returned to the mages' hands."
+    type = country( ( 30 * 365 ) ) #30 yrs
+    trigger = {
+	has_owner_culture = yes
+	has_owner_religion = yes
+          	OR = {  
+	superregion = morrowind_superregion
+	superregion = skyrim_superregion
+			}
+		}
+
+    modifiers = {
+        	fire_damage = 0.15
+    }
+    effects = {
+
+	}
+}
+
+staff_of_the_everscamp = {
+    name = "Staff of the Everscamp"
+    desc = "The Staff of the Everscamp is a Daedric staff associated with Sheogorath. Once the staff is activated by reading its engraved rune, four non-hostile Everscamps appear and follow the staff's bearer. The staff's bearer is no longer able to put down or get rid of the staff. There are only two ways to get rid of the staff: find someone else who is willing to take it, or return to its original location, namely the shrine of Sheogorath in Darkfathom Cave. Rosentia Gallenus has accidentally activated the staff and enlists the player's help in getting rid of it during the quest Whom Gods Annoy."
+    type = ruler
+    trigger = {
+	has_owner_culture = yes
+	has_owner_religion = yes
+          	OR = {  
+	superregion = cyrodiil_superregion
+	superregion = deadlands_superregion
+	superregion = coldharbour_superregion
+			}
+		}
+
+    modifiers = {
+        	regiment_manpower_usage = -0.15
+			movement_speed = -0.10
+    }
+    effects = {
+
+	}
+}
+
+staff_of_indarys = {
+    name = "Staff of Indarys"
+    desc = "I'm pleased to finally meet the savior of Cheydinhal. I'm also overjoyed that you saved my son's life. I realize he is trying at times, and he speaks before he thinks, but he's still my son, and I adore him greatly. I'm sure he was difficult to travel with and I respect your patience. Most would have given him up for dead rather than deal with his ego. Anyway I digress. I'm sure you wish to hear of your reward. I'm in possession of two fine weapons. They're both heirlooms of the Indarys family, held in the castle for several generations. I'd take great pleasure in bestowing one of them upon you. Please, choose the Thornblade or the Staff of Indarys."
+    type = country( ( 30 * 365 ) ) #30 yrs
+    trigger = {
+	has_owner_culture = yes
+	has_owner_religion = yes
+          	OR = {  
+	superregion = morrowind_superregion
+	superregion = cyrodiil_superregion
+			}
+		}
+
+    modifiers = {
+        	discipline = -0.05
+			shock_damage = 0.25
+    }
+    effects = {
+
+	}
+}
+
+the_staff_of_worms = {
+    name = "The Staff of Worms"
+    desc = "The Staff of Worms is the legendary treasured artifact of Mannimarco. It is a powerful and dreadful staff with the capability to "reanimate" a corpse for thirty seconds. This animated corpse remains mute and shows only minimal intelligence, but it unswervingly follows and defends the caster. Mannimarco used the staff for many of his spells and rituals, notably tearing open Mundus during the Soulburst and battling Abnur Tharn."
+    type = ruler
+    trigger = {
+	has_owner_culture = yes
+	has_owner_religion = yes
+          	OR = {  
+	superregion = high_rock_superregion
+	superregion = cyrodiil_superregion
+			}
+		}
+
+    modifiers = {
+        	land_forcelimit_modifier = 0.15
+			global_manpower_modifier = 0.25
+			fire_damage_received = 0.10
+    }
+    effects = {
+
+	}
+}
+
+amulet_of_kings = {
+    name = "Amulet of Kings"
+    desc = "This shall be my token to you, that so long as your blood and oath hold true, yet so shall my blood and oath be true to you. This token shall be the Amulet of Kings, and the Covenant shall be made between us, for I am the King of Spirits, and you are the Queen of Mortals. As you shall stand witness for all Mortal Flesh, so shall I stand witness for all Immortal Spirits."
+    type = ruler
+    trigger = {
+	has_owner_culture = yes
+	has_owner_religion = yes
+          	OR = {  
+	superregion = cyrodiil_superregion #simp city/sancre tor?
+			}
+		}
+
+    modifiers = {
+        	legitimacy = 1
+			stability_cost_modifier = -0.15
+			years_of_nationalism = -5
+			liberty_desire_from_subject_development = -0.25
+			religious_unity = 0.15
+			tolerance_own = 1
+			tolerance_heretic = 1
+			tolerance_heathen = 1
+			reform_progress_growth = 0.33
+			free_policy = 1
+			institution_spread_from_true_faith = 0.15
+    }
+    effects = {
+
+	}
+}
+
+brush_of_truepaint = {
+    name = "Brush of Truepaint"
+    desc = "The Brush showed up several years ago in the possession an [sic] artist who was serving in the Arnesian War of 396. It seems an errant fireball had exploded next to him, and he lost the use of both arms. He was a stubborn man who didn't want to give up his talent. Being a devout follower of Dibella, he prayed to her for something that would allow him to express himself once more. She heard his plea, and gifted him with the Brush. It's said the bristles of the Brush are woven from Dibella's own hair. That injured man was my father. He passed the Brush on to me, and I intend to pass it along to my kin one day. Did you want to know how it works? The Brush allows the artist to paint from within a canvas. It opens a portal into which the artist may enter to paint things life-sized. All the painter has to do is have the Brush in his possession, and whatever he imagines appears in the canvas. Of course, I like to wave it around anyway. It makes me feel more like a legitimate painter. I guess it all doesn't matter now. Unless you can defeat those Painted Trolls, we have no chance of getting the Brush back."
+    type = country( ( 70 * 365 ) ) #70 yrs
+	picture = brush_of_truepaint_eventpictures
+    trigger = {
+	has_owner_culture = yes
+	has_owner_religion = yes
+          	OR = {  
+	superregion = cyrodiil_superregion
+	superregion = skyrim_superregion
+			}
+		}
+
+    modifiers = {
+        	diplomatic_reputation = 2
+			dip_advisor_cost = -0.25
+    }
+    effects = {
+
+	}
+}
+
+great_welkynd_stone = {
+    name = "Great Welkynd Stone"
+    desc = "The pinnacle of Ayleid magic. Once every Ayleid city had its Great Stone, but they've all been plundered over the centuries. All but one. The Great Stone of Miscarcand is reputed still to shine in the deep darkness of its ruined halls. But no one has ever done more than glimpse it from a distance. It is said to be guarded by the ghost of the last king of Miscarcand."
+    type = ruler
+    trigger = {
+	has_owner_culture = yes
+	has_owner_religion = yes
+          	OR = {  
+	superregion = cyrodiil_superregion
+			}
+		}
+
+    modifiers = {
+			global_attacker_dice_roll_bonus = 1
+    }
+    effects = {
+
+	}
+}
+
+great_sigil_stone = {
+    name = "Great Sigil Stone"
+    desc = "You're not going to like it. Jauffre doesn't like it. The Countess of Bruma certainly isn't going to like it. Great Sigil Stones are the anchors of Great Gates. The kind of gate the Mythic Dawn opened at Kvatch. The kind of Gate the Mythic Dawn wants to open here to destroy Bruma."
+    type = ruler
+    trigger = {
+	has_owner_culture = yes
+	has_owner_religion = yes
+          	OR = {  
+	superregion = cyrodiil_superregion
+	superregion = deadlands_superregion
+	superregion = coldharbour_superregion
+			}
+		}
+
+    modifiers = {
+        	artillery_power = 0.10
+			leader_siege = 1
+    }
+    effects = {
+
+	}
+}

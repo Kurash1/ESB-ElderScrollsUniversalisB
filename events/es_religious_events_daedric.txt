@@ -48,7 +48,9 @@ country_event = {
 			1 = { country_event = { id = es_religious_events_daedric.15 } }
 			1 = { country_event = { id = es_religious_events_daedric.16 } }
 			1 = { country_event = { id = es_religious_events_daedric.17 } }
-			83 = { set_country_flag = successful_daedric_religion_flavour_event log = "Daedric Event: None" }
+			83 = { set_country_flag = successful_daedric_religion_flavour_event 
+				#log = "Daedric Event: None" 
+			}
 		}
 	}
 	
@@ -95,7 +97,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		log = "Daedric Event: 1"
+		#log = "Daedric Event: 1"
 		set_country_flag = successful_daedric_religion_flavour_event
 		hidden_effect = {
 			if = { 
@@ -204,7 +206,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		log = "Daedric Event: 2"
+		#log = "Daedric Event: 2"
 		set_country_flag = successful_daedric_religion_flavour_event
 		hidden_effect = {
 			set_country_flag = successful_daedric_religion_flavour_event
@@ -264,7 +266,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		log = "Daedric Event: 3"
+		#log = "Daedric Event: 3"
 		set_country_flag = successful_daedric_religion_flavour_event
 		hidden_effect = {
 			if = { 
@@ -338,7 +340,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		log = "Daedric Event: 4"
+		#log = "Daedric Event: 4"
 		set_country_flag = successful_daedric_religion_flavour_event
 		hidden_effect = {
 			if = { 
@@ -433,7 +435,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		log = "Daedric Event: 5"
+		#log = "Daedric Event: 5"
 		set_country_flag = successful_daedric_religion_flavour_event
 		hidden_effect = {
 			if = { 
@@ -514,7 +516,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		log = "Daedric Event: 6"
+		#log = "Daedric Event: 6"
 		set_country_flag = successful_daedric_religion_flavour_event
 		hidden_effect = {
 			if = { 
@@ -593,7 +595,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		log = "Daedric Event: 7"
+		#log = "Daedric Event: 7"
 		set_country_flag = successful_daedric_religion_flavour_event
 		hidden_effect = {
 			if = { 
@@ -661,7 +663,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		log = "Daedric Event: 8"
+		#log = "Daedric Event: 8"
 		set_country_flag = successful_daedric_religion_flavour_event
 		hidden_effect = {
 			if = { 
@@ -740,7 +742,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		log = "Daedric Event: 9"
+		#log = "Daedric Event: 9"
 		set_country_flag = successful_daedric_religion_flavour_event
 		hidden_effect = {
 			if = { 
@@ -888,7 +890,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		log = "Daedric Event: 10"
+		#log = "Daedric Event: 10"
 		set_country_flag = successful_daedric_religion_flavour_event
 		hidden_effect = {
 			if = { 
@@ -986,7 +988,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		log = "Daedric Event: 11"
+		#log = "Daedric Event: 11"
 		set_country_flag = successful_daedric_religion_flavour_event
 		hidden_effect = {
 			if = { 
@@ -1098,7 +1100,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		log = "Daedric Event: 12"
+		#log = "Daedric Event: 12"
 		set_country_flag = successful_daedric_religion_flavour_event
 		hidden_effect = {
 			if = { 
@@ -1177,7 +1179,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		log = "Daedric Event: 13"
+		#log = "Daedric Event: 13"
 		set_country_flag = successful_daedric_religion_flavour_event
 		hidden_effect = {
 			if = { 
@@ -1247,7 +1249,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		log = "Daedric Event: 14"
+		#log = "Daedric Event: 14"
 		set_country_flag = successful_daedric_religion_flavour_event
 		hidden_effect = {
 			if = { 
@@ -1309,7 +1311,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		log = "Daedric Event: 15"
+		#log = "Daedric Event: 15"
 		set_country_flag = successful_daedric_religion_flavour_event
 		hidden_effect = {
 			if = { 
@@ -1382,7 +1384,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		log = "Daedric Event: 16"
+		#log = "Daedric Event: 16"
 		set_country_flag = successful_daedric_religion_flavour_event
 		hidden_effect = {
 			if = { 
@@ -1468,7 +1470,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		log = "Daedric Event: 17"
+		#log = "Daedric Event: 17"
 		set_country_flag = successful_daedric_religion_flavour_event
 		hidden_effect = {
 			if = { 

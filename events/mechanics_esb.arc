@@ -1,5 +1,5 @@
 using "classes\tradegoods.class" as tradegoods
-using "classes\artifacts.class" as artifacts
+using "classes\artifacts\*" as artifacts
 using "common\great_projects\01_monuments.txt" as citymonument
 
 namespace = es_esb
@@ -30,7 +30,7 @@ province_event = {
 		name = es_esb.0.b
 		province_event = {
 			id = es_esb.1
-			days = 1
+			days = 0
 		}
 	}
 	
@@ -51,30 +51,30 @@ province_event = {
 		}
 	}
 	
-	defineLoc es_esb.0.tt.a = "You sponsor for a search for an artifact. The Search may take between 10 and 20 years."
-	defineLoc es_esb.0.tt.b = "You do not have enough money to sponsor a search"
-	defineLoc es_esb.0.e = "Search for artifact"
-	option = {
-		name = es_esb.0.e
-		if = {
-			limit = {
-				owner = {
-					treasury = 100
-					NOT = { has_country_flag = es_esb }
-				}
-			}
-			province_event = {
-				id = es_esb.6
-				days = 3650
-				random = 3650
-			}
-			custom_tooltip = es_esb.0.tt.a
-			owner = { add_treasury = -100 }
-		}
-		else = {
-			custom_tooltip = es_esb.0.tt.b
-		}
-	}
+	#defineLoc es_esb.0.tt.a = "You sponsor for a search for an artifact. The Search may take between 10 and 20 years."
+	#defineLoc es_esb.0.tt.b = "You do not have enough money to sponsor a search"
+	#defineLoc es_esb.0.e = "Search for artifact"
+	#option = {
+	#	name = es_esb.0.e
+	#	if = {
+	#		limit = {
+	#			owner = {
+	#				treasury = 100
+	#				NOT = { has_country_flag = es_esb }
+	#			}
+	#		}
+	#		province_event = {
+	#			id = es_esb.6
+	#			days = 3650
+	#			random = 3650
+	#		}
+	#		custom_tooltip = es_esb.0.tt.a
+	#		owner = { add_treasury = -100 }
+	#	}
+	#	else = {
+	#		custom_tooltip = es_esb.0.tt.b
+	#	}
+	#}
 }
 
 defineLoc es_esb.1.t = "Change Trade Good"
@@ -84,7 +84,7 @@ defineLoc es_esb.tt1 = "You do not have the required mana availiable to choose t
 
 var costmult = 25
 
-country_event = {
+province_event = {
 	id = es_esb.1
 	title = es_esb.1.t 
 	desc = es_esb.1.d
@@ -282,8 +282,10 @@ province_event = {
 	is_triggered_only = yes
 	hidden = yes
 	
-	immediate = {
-		if = {
+	option = {
+		name = es_esb.6.a
+		log = "es_esb.6"
+		if = { #Checks for artifacts
 			limit = {
 				OR = {
 					foreach artifacts = {
@@ -294,10 +296,11 @@ province_event = {
 					}
 				}
 			}
-			province_event = { 
+			log = "found artifact"
+			province_event = { #Gives artifacts
 				id = es_esb.8 
-				days = 1 
-			} 
+				days = 1
+			}
 		}
 		else = {
 			province_event = {
@@ -305,10 +308,6 @@ province_event = {
 				days = 1
 			}
 		}
-	}
-	
-	option = {
-		name = es_esb.6.a
 		ai_chance = {
 			factor = 100
 		}
@@ -328,31 +327,49 @@ province_event = {
 
 	option = {
 		name = es_esb.7.a
-		owner = {
-			random_owned_province = {
-				limit = {
-					OR = { 
-						foreach artifacts = {
-							has_province_flag = artifacts.id
-						} 
-					}
-				}
-				owner = {
-					custom_tooltip = es_esb.7.tt
-				}
-			}
-		}
+		#owner = {
+		#	random_owned_province = {
+		#		limit = {
+		#			OR = { 
+		#				foreach artifacts = {
+		#					has_province_flag = artifacts.id
+		#				} 
+		#			}
+		#		}
+		#		owner = {
+		#			custom_tooltip = es_esb.7.tt
+		#		}
+		#	}
+		#}
 	}
 }
 
-defineLoc es_esb.8.t = "You found an Artifact"
+defineLoc es_esb.8.t = "Aritfacts?"
 defineLoc es_esb.8.d = "Great news [Root.Owner.Monarch.GetTitle] while searching in [Root.GetName] we found an Artifact"
 province_event = {
 	id = es_esb.8
 	title = es_esb.8.t
 	desc = es_esb.8.d
-	picture = ES_BLESSED_BLADE_eventPicture
+	foreach artifacts = {
+		picture = {
+			trigger = {
+				has_province_flag = artifacts.id
+			}
+			picture = artifacts.picture
+		}
+	}
 	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			foreach artifacts = {
+				AND = {
+					has_province_flag = artifacts.id
+				    owner = { NOT = { has_country_modifier = artifacts.id } }
+				}
+			}
+		}
+	}
 	
 	foreach artifacts = {
 		option = {
@@ -376,5 +393,10 @@ province_event = {
 				set_country_flag = artifacts.id
 			}
 		}
+		
+	}
+	
+	after = {
+		log = "final: found artifact"
 	}
 }

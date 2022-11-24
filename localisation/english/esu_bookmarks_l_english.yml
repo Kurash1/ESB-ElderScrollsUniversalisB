@@ -197,10 +197,6 @@
  es_culture.4.t: "Fall of Ayleids"
  es_culture.4.d: "The last Ayleid state is captured by their enemies."
  es_culture.1.a: "What a tragedy!"
-
- es_0_scenario.1.t: "The Isle of Artaeum"
- es_0_scenario.1.d: "The Breton author Voernet has written a tale about the magnificent island of Artaem - the home of mysterious Psijic Order."
- es_0_scenario.1.a: "We will find it!"
  
  es_0_scenario.2.t: "Visit from Atmora"
  es_0_scenario.2.d: "Two broken down Atmoran ships are asking to be let into the city, they are filled with half dead refugees from Atmora."
@@ -275,13 +271,6 @@
  es_1_scenario.1.b: "The world is ruled by the one who rules the trade."
  es_1_scenario.1.c: "If we will deal with internal problems, we will solve external ones."
  es_1_scenario.1.e: "We still Rule this World."
- 
- es_1_scenario.2.t: "Our Old Republic"
- es_1_scenario.2.d: "For centuries, we have ruled Solstheim, an island of stability amid a sea of chaos. However, every year it becomes obvious that our security is under threat. We must decide with whom to stand in the face of an uncertain future."
- es_1_scenario.2.a: "Stay with Nilheim."
- es_1_scenario.2.b: "Side with Dwemer."
- es_1_scenario.2.c: "Side with Ashlanders."
- es_1_scenario.2.e: "Nothing threatens us."
  
  es_1_scenario.3.t: "Mad Ruler"
  es_1_scenario.3.d: "The state of mind of the $MONARCH$ always left much to be desired. But now things have worsened considerably. Mood changes occur every hour - sometimes crying while sitting on a throne, then abruptly ordering the execution of a nobleman in the middle of dinner. Now they've decreed that all the country's gold is to be gathered in their bedroom. Royal guards are already raiding various government buildings.  The patience of the nobility and the clergy, and even ordinary people, is coming to an end."
