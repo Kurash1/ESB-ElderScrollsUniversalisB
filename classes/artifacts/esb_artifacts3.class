@@ -448,7 +448,7 @@ staff_of_indarys = {
 
 the_staff_of_worms = {
     name = "The Staff of Worms"
-    desc = "The Staff of Worms is the legendary treasured artifact of Mannimarco. It is a powerful and dreadful staff with the capability to "reanimate" a corpse for thirty seconds. This animated corpse remains mute and shows only minimal intelligence, but it unswervingly follows and defends the caster. Mannimarco used the staff for many of his spells and rituals, notably tearing open Mundus during the Soulburst and battling Abnur Tharn."
+    desc = "The Staff of Worms is the legendary treasured artifact of Mannimarco. It is a powerful and dreadful staff with the capability to 'reanimate' a corpse for thirty seconds. This animated corpse remains mute and shows only minimal intelligence, but it unswervingly follows and defends the caster. Mannimarco used the staff for many of his spells and rituals, notably tearing open Mundus during the Soulburst and battling Abnur Tharn."
     type = ruler
     trigger = {
 	has_owner_culture = yes

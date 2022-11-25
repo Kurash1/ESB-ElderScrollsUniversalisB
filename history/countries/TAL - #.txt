@@ -6,63 +6,30 @@ religion = yokudan_pantheon
 primary_culture = yokudan_seawind
 capital = 341
 
-54.1.1 = {
+57.1.1 = {
+	add_ruler_personality = strict_personality
+	add_ruler_personality = righteous_personality
+	add_ruler_personality = kind_hearted_personality
+	add_ruler_personality = calm_personality
 	monarch = {
-		name = "Tahur"
-		birth_date = 15.1.1
-		adm = 5
-		dip = 5
-		mil = 4
-    }
-}
-
-272.1.1 = {
-	monarch = {
-		name = "Mathalzayan"
-		birth_date = 233.1.1
-		adm = 3
-		dip = 6
-		mil = 1
-    }
-}
-
-535.1.1 = {
-	monarch = {
-		name = "Rakiin"
-		birth_date = 483.1.1
-		adm = 4
-		dip = 6
-		mil = 3
-    }
-}
-
-862.1.1 = {
-	monarch = {
-		name = "Padrul"
-		birth_date = 819.1.1
+		name = "Ahtar"
+		dynasty = "At-Taleskan"
+		birth_date = 15.3.15 #Birthsign: Lord
+		death_date = 57.9.17
 		adm = 5
 		dip = 4
-		mil = 5
+		mil = 7
     }
-}
-
-1177.1.1 = {
-	monarch = {
-		name = "Hasmani"
-		birth_date = 1127.1.1
+	add_heir_personality = careful_personality
+	heir = {
+		name = "Khud"
+		monarch_name = "Khud"
+		dynasty = "At-Taleskan"
+		birth_date = 43.6.7 #Birthsign: Steed
+		death_date = 128.5.12
 		adm = 5
-		dip = 6
-		mil = 4
-    }
+		dip = 4
+		mil = 6
+		claim = 20
+	}
 }
-
-1466.1.1 = {
-	monarch = {
-		name = "Hinther"
-		birth_date = 1414.1.1
-		adm = 5
-		dip = 5
-		mil = 5
-    }
-}
-
