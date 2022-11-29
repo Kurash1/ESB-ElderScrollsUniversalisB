@@ -100,7 +100,7 @@ TAL_ideas = {
 	defineloc TAL_ideas_6 = "Rulers of Zarthos"
 	defineloc TAL_ideas_6_desc = "It is no question in the current age that the Zarthos sea is firmly in the grasp of Taleskan."
 	TAL_ideas_6 = {
-		navy_morale = 10%
+		naval_morale = 10%
 	}
 	defineloc TAL_ideas_7 = "A City"
 	defineloc TAL_ideas_7_desc = "Taleskan started as a people in the east, but now it is known as a city in the Zarthos."

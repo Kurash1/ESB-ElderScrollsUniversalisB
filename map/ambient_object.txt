@@ -1641,16 +1641,6 @@ type={
 		name="vulture"
 		hidden_on_start=no
 		position={
-			207.000 35.000 1773.000 
-		}
-		rotation={
-			0.000 45.000 0.000 
-		}
-	}
-	object={
-		name="vulture"
-		hidden_on_start=no
-		position={
 			721.000 35.000 1701.000 
 		}
 		rotation={
