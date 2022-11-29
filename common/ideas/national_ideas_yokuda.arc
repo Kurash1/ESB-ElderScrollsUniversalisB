@@ -1,3 +1,113 @@
+defineloc SEW_ideas = "Seawind Ideas"
+defineloc SEW_ideas_start = "Seawind Traditions"
+defineloc SEW_ideas_bonus = "Seawind Ambition"
+SEW_ideas = {
+	start = {
+		trade_efficiency = 0.2
+		improve_relation_modifier = 0.25
+	}
+	bonus = {
+		naval_morale = 0.25
+	}
+	trigger = {
+		tag = SEW
+	}
+	free = yes
+	
+	defineloc SEW_ideas_1 = "Where Gold Flows"
+	defineloc SEW_ideas_1_desc = "Seawind has been for long known as the economic hub of all Yokuda, it is said that all gold flows through Seawind at some point."
+	SEW_ideas_1 = {
+		global_tax_modifier = 0.1
+		production_efficiency = 0.1
+		trade_efficiency = 0.1
+	}
+	defineloc SEW_ideas_2 = "The Edge of Powers"
+	defineloc SEW_ideas_2_desc = "Seawind has been for long between many great powers, such as Taleskan, High Desert, and Totambu, but through clever diplomacy they have always managed to preserve their independance."
+	SEW_ideas_2 = {
+		diplomats = 1
+		diplomatic_reputation = 1
+	}
+	defineloc SEW_ideas_3 = "Common-Rule"
+	defineloc SEW_ideas_3_desc = "Seawind is one of the only republics of yokuda, ruled by the people who live there."
+	SEW_ideas_3 = {
+		republican_tradition = 0.5
+	}
+	defineloc SEW_ideas_4 = "Strict laws"
+	defineloc SEW_ideas_4_desc = "The people of Seawind believe that strict laws and harsh punishments for breaking their laws is a must to make sure that a few elite do not hoard all the power."
+	SEW_ideas_4 = {
+		administrative_efficiency = 0.05
+		all_estate_influence_modifier = -0.1
+	}
+	defineloc SEW_ideas_5 = "The State-City"
+	defineloc SEW_ideas_5_desc = "While many people outside of Seawind might consider the entirety of Seawind a state, those within know that Seawind is nothing but the City."
+	SEW_ideas_5 = {
+		development_cost = -0.25
+		center_of_trade_upgrade_cost = -0.2
+	}
+	defineloc SEW_ideas_6 = "Ra Gada"
+	defineloc SEW_ideas_6_desc = "It is said that the First of the Ra Gada waves left from the port city of Arch, the Capital of Seawind"
+	SEW_ideas_6 = {
+		leader_naval_shock = 1
+		leader_land_shock = 1
+	}
+	defineloc SEW_ideas_7 = "Arch"
+	defineloc SEW_ideas_7_desc = "Arch the Capital of Seawind, and the port where all merchants flow through."
+	SEW_ideas_7 = {
+		great_project_upgrade_cost = -0.25
+	}
+}
+defineloc TAL_ideas = "Taleskani Ideas"
+defineloc TAL_ideas_start = "Taleskani Traditions"
+defineloc TAL_ideas_bonus = "Taleskani Ambition"
+TAL_ideas = {
+	start = {
+		force_march_free = yes
+		global_manpower_modifier = 0.10
+	}
+	bonus = {
+		defensiveness = 0.10
+	}
+	trigger = {
+		tag = TAL
+	}
+	free = yes
+	
+	defineloc TAL_ideas_1 = "Ally to the Emperor"
+	defineloc TAL_ideas_1_desc = "Since the later periods of the War against the sinistral elves the Rulers of Taleskan have been allied to the Emperors in Totambu."
+	TAL_ideas_1 = {
+		monthly_favor_modifier = 0.25
+	}
+	defineloc TAL_ideas_2 = "Highland Warriors"
+	defineloc TAL_ideas_2_desc = "Taleskan is known for its Highland spearmen."
+	TAL_ideas_2 = {
+		infantry_power = 0.1
+	}
+	defineloc TAL_ideas_3 = "Merchant Influences"
+	defineloc TAL_ideas_3_desc = "Though the Taleskani people started out as Highland warriors, through the influence of the Merchants of the Zarthos sea the Taleskani have slowly become more like their neighbors in seawind."
+	TAL_ideas_3 = {
+		trade_efficiency = 0.15
+	}
+	defineloc TAL_ideas_4 = "Years of Internal Strife"
+	defineloc TAL_ideas_4_desc = "Taleskan has for very long been known for its many civil wars."
+	TAL_ideas_4 = {
+		global_rebel_suppression_efficiency = 0.5
+	}
+	defineloc TAL_ideas_5 = "Many Ties"
+	defineloc TAL_ideas_5_desc = "The Rulers of Taleskan have always placed an importance on diversifying their assets, by allying many other Families, Countries, or Mercenaries."
+	TAL_ideas_5 = {
+		diplomatic_reputation = 1.5
+	}
+	defineloc TAL_ideas_6 = "Rulers of Zarthos"
+	defineloc TAL_ideas_6_desc = "It is no question in the current age that the Zarthos sea is firmly in the grasp of Taleskan."
+	TAL_ideas_6 = {
+		navy_morale = 0.1
+	}
+	defineloc TAL_ideas_7 = "A City"
+	defineloc TAL_ideas_7_desc = "Taleskan started as a people in the east, but now it is known as a city in the Zarthos."
+	TAL_ideas_7 = {
+		development_cost = -0.15
+	}
+}
 defineloc HDE_ideas = "High Desert Ideas"
 defineloc HDE_ideas_start = "High Desert Traditions"
 defineloc HDE_ideas_bonus = "High Desert Ambition"
