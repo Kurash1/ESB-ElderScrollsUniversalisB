@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 namespace = es_religious_events_aedric
 
 # Event Manager
@@ -996,7 +997,11 @@ country_event = {
 	option = {
 		name = es_religious_events_aedric.14.b
 		random_list = {
-			10 = { add_base_tax = -1 add_base_manpower = -1 add_base_production = -1 }
+			10 = { 
+				event_target:seth_cathederal_event_target = { 
+					add_base_tax = -1 add_base_manpower = -1 add_base_production = -1 
+				} 
+			}
 			90 = { 
 				event_target:seth_cathederal_event_target = {
 					spawn_rebels = { type = heretic_rebels size = 3.5 }

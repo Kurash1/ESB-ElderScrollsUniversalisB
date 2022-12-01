@@ -9,4 +9,3 @@ capital = "Neesona"
 is_city = no
 owner = TGN
 controller = TGN
-add_core = TGN

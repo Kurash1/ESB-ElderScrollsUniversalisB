@@ -117,6 +117,7 @@ southern_akos_kasaz_lr = {
 		yok_yul
 		yok_totambu
 		yok_erisena
+		yok_new
 	}
 	monsoon = {
 		00.06.01

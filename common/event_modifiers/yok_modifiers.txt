@@ -1,0 +1,1 @@
+khud_at_taleskan_first = { global_unrest = -3 diplomatic_reputation = 2 } 

@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 province_religious_effects = {
 	263 = { add_province_triggered_modifier = altmeri_pantheon_holy_city add_province_triggered_modifier = religious_center }
 	1280 = { add_province_triggered_modifier = snow_elves_pantheon_holy_city add_province_triggered_modifier = religious_center }

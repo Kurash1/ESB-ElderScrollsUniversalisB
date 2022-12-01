@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 namespace = esu_monument_skykiller_gallery
 
 country_event = {

@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 namespace = event_new_diplomatic_actions
 # Failed Murder
 country_event = {

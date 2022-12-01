@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 set_forts_and_trade_centers = {
 	#Atmora
 	424 = { center_of_trade = 1 add_building = fort_15th }

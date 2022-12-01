@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 namespace = esb_scenario
 
 country_event = { #Corelanya Clan
@@ -31,12 +32,9 @@ country_event = { #Corelanya Clan
 		}
 		hammerfell_13_la = {
 			limit = {
-				OR = {
-					#is_city = no
-					owner = {
-						is_subject = no
-						ai = yes
-					}
+				owner = {
+					is_subject = no
+					ai = yes
 				}
 			}
 			cede_province = COE
@@ -49,12 +47,9 @@ country_event = { #Corelanya Clan
 		}
 		hammerfell_36_la = {
 			limit = {
-				OR = {
-					#is_city = no
-					owner = {
-						is_subject = no
-						ai = yes
-					}
+				owner = {
+					is_subject = no
+					ai = yes
 				}
 			}
 			cede_province = COE
@@ -67,12 +62,9 @@ country_event = { #Corelanya Clan
 		}
 		hammerfell_10_la = {
 			limit = {
-				OR = {
-					#is_city = no
-					owner = {
-						is_subject = no
-						ai = yes
-					}
+				owner = {
+					is_subject = no
+					ai = yes
 				}
 			}
 			cede_province = COE
@@ -131,98 +123,98 @@ country_event = { #Corelanya Clan
 	}
 }
 
-country_event = { #Tavan Wave
-	id = esb_scenario.3
-	title = esb_scenario.3.t
-	desc = esb_scenario.3.d
-	picture = TRADEGOODS_eventPicture
-	
-	fire_only_once = yes
-	is_triggered_only = yes
-	
-	immediate = {
-		hammerfell_11_la = {
-			if = {
-				limit = {
-					OR = {
-						is_city = no
-						owner = {
-							is_subject = no
-							ai = yes
-						}
-					}
-				}
-				cede_province = HE1
-				add_core = HE1
-				change_culture = redguard
-				add_base_tax = 1
-				add_base_manpower = 1
-				add_base_production = 1
-				change_religion = redguard_pantheon
-			}
-			else = {
-				add_claim = HE1
-			}
-		}
-		hammerfell_12_la = {
-			if = {
-				limit = {
-					OR = {
-						is_city = no
-						owner = {
-							is_subject = no
-							ai = yes
-						}
-					}
-				}
-				cede_province = HE1
-				add_core = HE1
-				change_culture = redguard
-				add_base_tax = 1
-				add_base_manpower = 1
-				add_base_production = 1
-				change_religion = redguard_pantheon
-			}
-			else = {
-				add_claim = HE1
-			}
-		}
-		hammerfell_41_la = {
-			if = {
-				limit = {
-					OR = {
-						is_city = no
-						owner = {
-							is_subject = no
-							ai = yes
-						}
-					}
-				}
-				cede_province = HE1
-				add_core = HE1
-				change_culture = redguard
-				add_base_tax = 1
-				add_base_manpower = 1
-				add_base_production = 1
-				change_religion = redguard_pantheon
-			}
-			else = {
-				add_claim = HE1
-			}
-		}
-		1504 = {
-			add_base_tax = 2
-			add_base_manpower = 2
-			add_base_production = 2
-		}
-		HE1 = {
-			change_religion = redguard_pantheon
-			change_primary_culture = redguard
-			set_capital = 1504
-		}
-	}
-	
-	option = {
-		name = esb_scenario.3.a
-	}
-}
+#country_event = { #Tavan Wave
+#	id = esb_scenario.3
+#	title = esb_scenario.3.t
+#	desc = esb_scenario.3.d
+#	picture = TRADEGOODS_eventPicture
+#	
+#	fire_only_once = yes
+#	is_triggered_only = yes
+#	
+#	immediate = {
+#		hammerfell_11_la = {
+#			if = {
+#				limit = {
+#					OR = {
+#						is_city = no
+#						owner = {
+#							is_subject = no
+#							ai = yes
+#						}
+#					}
+#				}
+#				cede_province = HE1
+#				add_core = HE1
+#				change_culture = redguard
+#				add_base_tax = 1
+#				add_base_manpower = 1
+#				add_base_production = 1
+#				change_religion = redguard_pantheon
+#			}
+#			else = {
+#				add_claim = HE1
+#			}
+#		}
+#		hammerfell_12_la = {
+#			if = {
+#				limit = {
+#					OR = {
+#						is_city = no
+#						owner = {
+#							is_subject = no
+#							ai = yes
+#						}
+#					}
+#				}
+#				cede_province = HE1
+#				add_core = HE1
+#				change_culture = redguard
+#				add_base_tax = 1
+#				add_base_manpower = 1
+#				add_base_production = 1
+#				change_religion = redguard_pantheon
+#			}
+#			else = {
+#				add_claim = HE1
+#			}
+#		}
+#		hammerfell_41_la = {
+#			if = {
+#				limit = {
+#					OR = {
+#						is_city = no
+#						owner = {
+#							is_subject = no
+#							ai = yes
+#						}
+#					}
+#				}
+#				cede_province = HE1
+#				add_core = HE1
+#				change_culture = redguard
+#				add_base_tax = 1
+#				add_base_manpower = 1
+#				add_base_production = 1
+#				change_religion = redguard_pantheon
+#			}
+#			else = {
+#				add_claim = HE1
+#			}
+#		}
+#		1504 = {
+#			add_base_tax = 2
+#			add_base_manpower = 2
+#			add_base_production = 2
+#		}
+#		HE1 = {
+#			change_religion = redguard_pantheon
+#			change_primary_culture = redguard
+#			set_capital = 1504
+#		}
+#	}
+#	
+#	option = {
+#		name = esb_scenario.3.a
+#	}
+#}

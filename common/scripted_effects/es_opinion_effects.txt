@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 es_change_opinion = {
 	### GENERIC
 	every_known_country = {

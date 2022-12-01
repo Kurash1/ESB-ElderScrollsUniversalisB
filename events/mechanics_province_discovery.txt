@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 namespace = es_province_discovery
 country_event = {
 	id = es_province_discovery.1

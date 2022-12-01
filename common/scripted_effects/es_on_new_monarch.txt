@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 es_do_things_on_new_monarch = {
 
 	if = {

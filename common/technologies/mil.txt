@@ -71,6 +71,12 @@ technology = {
 	enable = elven_C01
 	enable = elven_C02
 	enable = elven_A01
+	# Giant
+	enable = giant_I01
+	enable = giant_I02
+	enable = giant_C01
+	enable = giant_C02
+	enable = giant_A01
 	# Maormer
 	enable = maormer_I01
 	enable = maormer_I02
@@ -103,7 +109,6 @@ technology = {
 	enable = void_I00
 	enable = lilmothiit_I00
 	enable = goblin_I00
-	enable = giant_I00
 	enable = minotaur_I00
 	enable = kothringi_I00
 	# Cavalry Tier 0 
@@ -130,7 +135,6 @@ technology = {
 	enable = void_C00
 	enable = lilmothiit_C00
 	enable = goblin_C00
-	enable = giant_C00
 	enable = minotaur_C00
 	enable = kothringi_C00
 	# Artillery Tier 0 
@@ -157,7 +161,6 @@ technology = {
 	enable = void_A00
 	enable = lilmothiit_A00
 	enable = goblin_A00
-	enable = giant_A00
 	enable = minotaur_A00
 	enable = kothringi_A00
 	may_drill = yes

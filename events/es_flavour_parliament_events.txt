@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 namespace = es_parliament_events
 
 # Event Manager
@@ -381,6 +382,8 @@ country_event = {
 	title = es_parliament_events.7.t
 	desc = es_parliament_events.7.d
 	picture = ES_TWO_NOBLES_eventPicture
+	
+	is_triggered_only = yes
 	
 	trigger = {
 		any_owned_province = {

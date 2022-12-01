@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 namespace = es_slave_monarchy
 
 # es_slave_monarchy.0.t:0 "Successor of [Root.Monarch.GetName]"

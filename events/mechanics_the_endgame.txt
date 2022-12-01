@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 namespace = es_endgame
 
 # es_endgame.1.t: "The Endgame of [Root.GetName]"

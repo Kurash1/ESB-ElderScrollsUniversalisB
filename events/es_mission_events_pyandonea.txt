@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 namespace = py_mission_events
 
 country_event = {

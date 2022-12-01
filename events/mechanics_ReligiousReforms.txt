@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 namespace = es_religious_reforms
 
 # es_religious_reforms.1.t:0 "Reform Passed"

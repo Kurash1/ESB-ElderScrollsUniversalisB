@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 history_0_272_ad = {
 	1572 = {
 		change_religion = dragon_cult

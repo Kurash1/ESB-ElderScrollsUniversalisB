@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 # Discovers provinces from a base scope.
 # Can be called anywhere that scopes to a province or provinces i.e. an area, region, superregion, or province group.
 es_startup_discovery_helper = {

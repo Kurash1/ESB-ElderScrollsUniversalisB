@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 namespace = mechanics_hre
 
 # mechanics_hre.1.t:1 "The Free City of [Root.Capital.GetCapitalName]"

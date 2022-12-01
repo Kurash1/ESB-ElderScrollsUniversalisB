@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 namespace = es_scenario_operator
 
 # Dawn Era
@@ -10,6 +11,7 @@ country_event = {
 	fire_only_once = yes
 	
 	immediate = {
+		country_event = { id = scenario_yokuda.0 days = 0 }
 		#Sunset of Merethic Era
 		p@Alinor, p@Imperial_City, p@Sentinel, p@Alysinetta, p@Nilheim = { 
 			owner = {

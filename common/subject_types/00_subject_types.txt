@@ -30,6 +30,8 @@
 
 # Forward declaring all subject types so they can refer to each other in triggers etc.
 
+# Audax Validator "!" Ignore_1006
+
 personal_union = { }
 march = { }
 holy_order_1 = { }

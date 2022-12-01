@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 namespace = es_estate_regency_events
 
 # es_estate_regency_events.1.t:0 "Estate's Leadership Challenged"

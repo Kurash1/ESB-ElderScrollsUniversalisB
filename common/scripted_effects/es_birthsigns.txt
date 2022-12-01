@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 es_add_birthsign_by_month = {
 	if = {
 		limit = { is_month = 0 NOT = { is_month = 1 } }

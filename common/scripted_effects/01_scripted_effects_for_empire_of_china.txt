@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 #Scripted effects relating to China, with or without DLC.
 
 boost_eunuchs_effect = {

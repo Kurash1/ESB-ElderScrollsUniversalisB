@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 namespace = esu_monument_xinchei_konu
 
 country_event = {

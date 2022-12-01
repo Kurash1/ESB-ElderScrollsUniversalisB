@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 add_treasury_var = {
     add_treasury_var_helper = { var = $var$ amount = 1048576 }
     add_treasury_var_helper = { var = $var$ amount = 524288 }

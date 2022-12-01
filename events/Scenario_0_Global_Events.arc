@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 namespace = es_0_scenario
 
 defineloc es_0_scenario.1.t = "The Isle of Artaeum"

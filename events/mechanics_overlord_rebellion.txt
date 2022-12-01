@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 namespace = overlord_rebellion
 
 #The start to becoming a free nation

@@ -289,9 +289,9 @@ on_startup = {
 			set_country_flag = started_with_port
 		}			 
 		
-		every_owned_province = {
-			add_core = ROOT
-		}
+		#every_owned_province = {
+		#	add_core = ROOT
+		#}
 		
 		if = { limit = { OR = { government = republic is_emperor = yes } } add_ruler_modifier = { name = "is_republic_or_emperor_ruler_modifier" duration = -1 } }
 		if = { limit = { is_half_blood_ruler_trigger = yes } add_ruler_modifier = { name = "is_half_blood_ruler_modifier" duration = -1 } }

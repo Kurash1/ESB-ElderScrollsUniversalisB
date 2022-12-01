@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 es_remove_culture_group = {
 	# Destroy provinces with culture
 	every_province = {

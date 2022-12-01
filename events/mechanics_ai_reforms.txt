@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 #id, title and etc are temporary, but it will be only ai country
 #lv 35-rep and lv 24 had same name, now this file is follow fixed name
 #some reform(has dutch system) cannot be picked in same time, so disabled

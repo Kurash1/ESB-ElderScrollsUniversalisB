@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 namespace = es_religious_events_nautical
 
 # Event Manager

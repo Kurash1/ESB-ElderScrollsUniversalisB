@@ -391,7 +391,10 @@ khajiiti_cg = {
 
 po_tun_cg = {
     graphical_culture = thaigfx
-	province = { local_has_banners = yes }
+	province = { 
+		# Audax Validator "." Ignore_1006
+		local_has_banners = yes 
+	}
     po_tun = {
 	    male_names = {
 		    Kaz Les Par Dustu Fen Thewud Pan Pihya Gon Sok Krakug Derreho Voldar Su Ramoz Pu Qokug Thom Gaduyd Suhorrur Chaz Livosu Feg Funded Pad Lun Nuk Fiestemo Kev Rowendurr Fuzzaz Tid Ruldov Thurr Zohlad Sen Duhlan Tho Nahag Biso Mur Kontessu Krer Bundrumu Vag Rolum Kruyd Sehondek Quv Kumolen Qadun Terterul Pakhak Demusdoor Puhak Sorove Chekhav Dos Mekaz Tusserr Moyd Dowyandu Gur Ti Chav Kusdere Zud Pon Fon De Chehlon Pek Remoz Ruvo Rozzeg Lundrus Chuhleyd Thur Rondez Piak Fog Ked Krez Pundem Mag Kontessoor Ven Lihya Fov Piruhus Neyak Tus Dalnog Den Chadhak Domdondrul Gelnar Tehuntu Doknog Fiandok
@@ -520,7 +523,10 @@ velothi_cg = {
 
 tsaesci_cg = {
     graphical_culture = asiangfx
-	province = { local_has_banners = yes }
+	province = { 
+		# Audax Validator "." Ignore_1006
+		local_has_banners = yes 
+	}
 	tsaesci = {
 		male_names = {
 		    Asec Xogyauz Chicroth Suakzuc Juhxaux Yehxonet Uhnoxuas Zonuajeth Thuacahsoq Shogyoxos Aakuc Azaa Xigeiz Yucre Chuaqosh Nujaceq Hakeqouth Hikuashuth Shacakshas Regesuz Chanauth Xaaggas Suzeic Ajout Ronic Xukozoh Jaxece Sheisahsox Zanojoh Uaguzoq Xougreh Chenax Shejac Eza Chuxou Hehsuaqus Oqakix Xicenshez Thaxaqash Thujinesh Inshat Rukza Xeikru Chuqos Unouq Shaqhekit Rezogeix Asuqhus Sasaqus Thaxugret Naucua Okhax Xukhih Uzhix Iszuh Chihxeze Esouqi Neqehxush Jacuhgeth Sajashuaq Rehnesh Chakah Uxoz Thugih Ruhsouc Eguazex Rucauzou Zukuchax Sogunzut Onezo Unu Egshath Heszosh Yogshuth Xonsac Xucaxaz Jiszejosh Xixecu Chaxuaqut Jekrigeh Egget Acraush Thanse Eqaz Neqes Azaaxi Zokaaxax Shocaja Jijanau Nohgexaus Nakhe Xane Thihnus Uzho Sougrax Zunexaush Theigocuth Soujaakhe Anaza Zehsicraut
@@ -552,7 +558,10 @@ tangmo_cg = {
 
 transpandomaic_cg = {
     graphical_culture = asiangfx
-	province = { local_has_banners = yes }
+	province = { 
+		# Audax Validator "." Ignore_1006
+		local_has_banners = yes 
+	}
 	akaviri = {
 		male_names = {
 			Athixus Salmoebus Anasztochus Brasolas Salmyx Thelameseus Eustyrtus Caphaneithes Salmysios Erasmys Thititus Mosophor Aphrixi Salmeros Krathisthus Hespips Therrastos Hespice Depheus Amycepios Typhaus Iphitelous Jaselphos Brasas Demithaeus Basos Herastus Arthatos Antipherios Alpheas Ulyssolos Ephiste Castethon Lichax Absyristhus Prophilles Cirorus Amycades Oediphose Dionysanos Thanetus Thaleros Agathastos Soteryx Stephophor Ansteas Lichophoros Antiphoebus Adrates Ancochus Phlegixus Hespocia Arsastus Dephophoros Thimithous Demithios Zalothius Proteserios Nisolas Soterixus Heryrtus Zalisthus Oediphanthus Thitous Orthrosyne Mopsersis Ashataus Prophios Phrixice Tharasiaraus Aristorus Parthaus Tarasatos Krathastos Helix Mosysios Vasios Xerxelix Arsax Xanthatos Adelphastos Athanersis Niseseus Xenades Zetiaraus Laestithous Celanos Protesochus Anathios Isocrerios Caesanthus Eustolos Spyrersis Caphanexei Sotalus Orthralus Anchobus Alcelix Salmepios
@@ -1069,8 +1078,14 @@ deathland_cg = {
 
 dragon_cg = {
 	graphical_culture = africangfx
-	country = { has_carolean = yes }
-	province = { local_has_carolean = yes }
+	country = { 
+		# Audax Validator "." Ignore_1007
+		has_carolean = yes 
+	}
+	province = { 
+		# Audax Validator "." Ignore_1007
+		local_has_carolean = yes 
+	}
 	dragon = {
 		male_names = {
 			Faazkrinklo Yahwinqo Vodrekal Gramkodyah Sodaalkoor Fofrinmey Zaanfrodgro Ruthfrondaar Zolro Zindun Inhuszinlaas Krindiiheim Miinshaanqoth Luvkeinom Gramgutag Shulkeinviik Qahalyuvon Sodsomed Lokaam Grokril Ziirekvah Paazbelkro Saangrahlok Lonlehsil Tummeyzkron Niinrelni Luvrokviir Diivdreyrot Neyuv Alvul Kaantumdu'ul Niwinwol Kolfeynluv Viinnahlek Vedolinhus Maardu'ulhah Kulsarpaar Paazlirhaal Drehkip Neypraan Reythjulsod Kriikriftuz Britkrentrel Gruthkeygolt Uvdiilsah Qothrektoor Sovkriidtuz Lotniyolx Kulfrin Nehrul Diilgramviir Mahgaanvaaz Meyfeynzind Du'ulgutdraal Kipneyah Naanthurko Strunraangruth Boinhuslun Lobrom Dahnii Naanzoormiin Inhaaskaaz Tahdahshaan Feimnosyolx Brodrahdaal Viirrekkron Luvzaanreyth Premekdiil Medro Wolpah Kaazvahloost Reinvedmed Belsugein Jotiizko Mirdiilaas Heyvkaanpel Kaalgaafal Drogsoddaal Instrun Riiprem Peytzinnahl Dovrathgraan Miingrodaal Qothmirgraag Relfaadvu Odmunnii Lokkeynruth Deinpahheyv Zolnii Kaalgrik Wahlaaklok Leinvuqo Ruldirnis Daalusdiiv Dovnaarzok Joorslenkul Nehontstrun Wuthdiilbron Veyved Zinfron

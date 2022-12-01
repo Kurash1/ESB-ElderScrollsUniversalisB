@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 #Country scopes unless otherwise stated
 
 add_mutual_opinion_modifier_effect = {

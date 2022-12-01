@@ -9,4 +9,3 @@ capital = "Emaena"
 is_city = yes
 owner = TGN
 controller = TGN
-add_core = TGN

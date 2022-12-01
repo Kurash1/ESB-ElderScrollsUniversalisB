@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 namespace = es_17_scenario
 
 country_event = {

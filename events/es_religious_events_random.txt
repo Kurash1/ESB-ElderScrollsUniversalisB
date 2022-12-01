@@ -1,3 +1,5 @@
+# Audax Validator "!" Ignore_1006
+# Audax Validator "!" Ignore_1006
 namespace = es_religious_events_random
 
 country_event = {

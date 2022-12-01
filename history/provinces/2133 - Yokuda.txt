@@ -9,5 +9,4 @@ capital = "Xandethea"
 is_city = yes
 owner = TGN
 controller = TGN
-add_core = TGN
 1466.1.1 = { } 

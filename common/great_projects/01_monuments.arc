@@ -7,7 +7,7 @@ foreach monument = {
 		time = {
 			months = 0
 		}
-		build_cost = build_cost 
+		build_cost = monument.build_cost 
 		can_be_moved = no
 		move_days_per_unit_distance = 10
 		starting_tier = 0

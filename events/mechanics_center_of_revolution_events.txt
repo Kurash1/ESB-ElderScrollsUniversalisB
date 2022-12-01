@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 namespace = center_of_revolution
 
 ###Mechanical Events

@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 namespace = es_7_scenario
 
 country_event = {
@@ -755,40 +756,40 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = es_7_scenario.18
-	title = es_7_scenario.16.t
-	desc = es_7_scenario.16.d
-	picture = ES_EIGHT_DIVINES_2_eventPicture
-	
-	trigger = {
-		1206 = { owner = { ROOT = {
-			OR = {
-				ai_attitude = {
-					who = PREV
-					attitude = attitude_hostile
-				}
-				ai_attitude = {
-					who = PREV
-					attitude = attitude_outraged
-				}
-				ai_attitude = {
-					who = PREV
-					attitude = attitude_rivalry
-				}
-				ai_attitude = {
-					who = PREV
-					attitude = attitude_threatened
-				}
-			}
-		} } }
-	}
-	
-	is_triggered_only = yes
-	
-	option = {
-		create_alliance = ROOT
-		join_all_offensive_wars_of = ROOT
-		join_all_defensive_wars_of = ROOT
-	}
-}
+#country_event = {
+#	id = es_7_scenario.18
+#	title = es_7_scenario.16.t
+#	desc = es_7_scenario.16.d
+#	picture = ES_EIGHT_DIVINES_2_eventPicture
+#	
+#	trigger = {
+#		1206 = { owner = { ROOT = {
+#			OR = {
+#				ai_attitude = {
+#					who = PREV
+#					attitude = attitude_hostile
+#				}
+#				ai_attitude = {
+#					who = PREV
+#					attitude = attitude_outraged
+#				}
+#				ai_attitude = {
+#					who = PREV
+#					attitude = attitude_rivalry
+#				}
+#				ai_attitude = {
+#					who = PREV
+#					attitude = attitude_threatened
+#				}
+#			}
+#		} } }
+#	}
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		create_alliance = ROOT
+#		join_all_offensive_wars_of = ROOT
+#		join_all_defensive_wars_of = ROOT
+#	}
+#}

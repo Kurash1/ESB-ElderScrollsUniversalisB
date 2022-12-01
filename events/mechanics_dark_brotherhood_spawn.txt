@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 namespace = dark_brotherhood_spawn
 
 # Unknown Murder Syndicate - Theives murder someone in Bravil - Dark Brotherhood Sanctuary in Bravil

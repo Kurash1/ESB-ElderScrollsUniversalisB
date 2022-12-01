@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 namespace = es_school_events
 
 # es_school_events.1.t:0 "Mutual Respect between the [Root.GetReligiousSchool] and [school_opinion_increase_country.GetReligiousSchool]"

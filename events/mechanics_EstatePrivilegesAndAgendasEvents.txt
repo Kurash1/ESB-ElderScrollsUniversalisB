@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 namespace = estate_privileges_and_agendas_events
 
 country_event = {

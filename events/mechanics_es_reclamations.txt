@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 # es_reclamations.1.t: "The Reclamations"
 # es_reclamations.1.d: "The Temple's support for worship of Almalexia, Sotha Sil, and Vivec has been declining for the last decades. After the news about the disappearance of the Tribunes has reached the Mournhold the unity among the priesthood crumbled and turned to dust. A new schism may now burst within the Temple into the open. Rumours claim, that Tribunal loyalists are already being purged or recanted by the members of the so-called 'New Temple', which aims to restore the veneration of Three Good Daedra. This may mark the end of the old order in Morrowind, but only time can show how durable those changes will be."   
 # es_reclamations.1.a: "This... cannot be true?"

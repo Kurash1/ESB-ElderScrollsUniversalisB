@@ -1,3 +1,5 @@
+# Audax Validator "!" Ignore_1006
+# Audax Validator "!" Ignore_1006
 namespace = es_akaviri_random_events
 
 # Event Manager

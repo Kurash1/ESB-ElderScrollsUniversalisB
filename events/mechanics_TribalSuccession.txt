@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 namespace = es_tribal_succession
 
 # es_tribal_succession.1.t:0 "Tribal Succession Crisis"

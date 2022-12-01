@@ -1,0 +1,12 @@
+religion = yokudan_pantheon
+culture = yokudan_seawind
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Irantha"
+is_city = yes
+owner = SEW
+controller = SEW
+add_core = SEW

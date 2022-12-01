@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_1006
 namespace = es_estate_disasters
 
 #es_estate_nobility

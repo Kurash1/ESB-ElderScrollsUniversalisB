@@ -1063,9 +1063,7 @@ coral_tower = {
 
 	build_trigger = { 
 		culture_group = sload_cg
-		OR = {
-			has_owner_culture = yes
-		}
+		has_owner_culture = yes
 	}
 
 	on_built = { }
@@ -1073,15 +1071,11 @@ coral_tower = {
 
 	can_use_modifiers_trigger = {
 		culture_group = sload_cg
-		OR = {
-			has_owner_culture = yes
-		}
+		has_owner_culture = yes
 	}
 	can_upgrade_trigger = {
 		culture_group = sload_cg
-		OR = {
-			has_owner_culture = yes
-		}
+		has_owner_culture = yes
 	}
 	keep_trigger = { always = yes }
 
