@@ -1,5 +1,5 @@
 religion = yokudan_pantheon
-culture = yokudan_seawind
+culture = yokudan_taleskan
 hre = no
 base_tax = 1
 base_production = 1

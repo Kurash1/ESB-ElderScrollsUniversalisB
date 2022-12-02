@@ -9,4 +9,4 @@ sail_speed = 6
 sailors = 300
 
 sprite_level = 1
-trigger = { primary_culture = yokudan }
+trigger = { culture_group = yokudo_redguard_cg }

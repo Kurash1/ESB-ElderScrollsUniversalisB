@@ -1,0 +1,10 @@
+type = cavalry
+
+maneuver = 1.0
+offensive_morale = 3.0
+defensive_morale = 4.0
+offensive_fire = 0.0
+defensive_fire = 0.0
+offensive_shock = 4.0
+defensive_shock = 4.0
+trigger = { tag = TAL }

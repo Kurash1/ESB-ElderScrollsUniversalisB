@@ -7,4 +7,4 @@ offensive_fire = 2.0
 defensive_fire = 3.0
 offensive_shock = 0.0
 defensive_shock = 4.0
-trigger = { primary_culture = yokudan }
+trigger = { culture_group = yokudo_redguard_cg NOT = { accepted_culture = yokudan_taleskan } }

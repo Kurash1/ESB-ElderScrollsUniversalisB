@@ -17,6 +17,11 @@ technology = {
 	artillery_shock = 0.1
 	land_morale = 3.00
 	
+	# Taleskan
+	enable = taleskan_spearman
+	enable = taleskan_archer
+	enable = taleskan_halberd
+	
 	# Akaviri
 	enable = akaviri_A01
 	enable = akaviri_C01
@@ -83,11 +88,16 @@ technology = {
 	enable = maormer_C01
 	enable = maormer_C02
 	enable = maormer_A01
+	# Yokudan
+	enable = yokudan_I01
+	enable = yokudan_I02
+	enable = yokudan_C01
+	enable = yokudan_C02
+	enable = yokudan_A01
 	
 	
 	# Infantry Tier 0 
 	enable = sload_I00
-	enable = yokudan_I00
 	enable = redguard_I00
 	enable = northern_I00
 	enable = nord_I00
@@ -113,7 +123,6 @@ technology = {
 	enable = kothringi_I00
 	# Cavalry Tier 0 
 	enable = sload_C00
-	enable = yokudan_C00
 	enable = redguard_C00
 	enable = northern_C00
 	enable = nord_C00
@@ -139,7 +148,6 @@ technology = {
 	enable = kothringi_C00
 	# Artillery Tier 0 
 	enable = sload_A00
-	enable = yokudan_A00
 	enable = redguard_A00
 	enable = northern_A00
 	enable = nord_A00
@@ -174,21 +182,21 @@ technology = {
 	maneuver_value = 0.0
 	supply_limit = 1.0
 	
-	ramparts = yes
-	grain_depot = yes
+	#ramparts = yes
+	#grain_depot = yes
 	soldier_households = yes
 	barracks = yes
 	regimental_camp = yes
 	armory = yes
 	earth_rampart = yes
-	weapons = yes
-	fort_16th = yes
-	conscription_center = yes
-	arsenal = yes
-	tenaille = yes
-	fort_17th = yes
-	training_fields = yes
-	redoubt = yes
-	furnace = yes
-	fort_18th = yes
+	#weapons = yes
+	#fort_16th = yes
+	#conscription_center = yes
+	#arsenal = yes
+	#tenaille = yes
+	#fort_17th = yes
+	#training_fields = yes
+	#redoubt = yes
+	#furnace = yes
+	#fort_18th = yes
 }

@@ -111,6 +111,8 @@ yokudo_redguard_cg = {
 	}
 	yokudan_islander = {
 	}
+	yokudan_taleskan = {
+	}
 	redguard = {
 	}
 	    male_names = {
