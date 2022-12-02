@@ -169,9 +169,13 @@
  HOLY_SITES: "Important Sites"
  BLESSINGS_EXPLAIN: "The number of Arcanex you can build corresponds to the number of Important Sites countries of your religion control and have converted."
  
- SELECT_INFANTRY_TYPE: "Select Infantry Type"
- SELECT_CAVALRY_TYPE: "Select Cavalry Type"
- SELECT_ARTILLERY_TYPE: "Select Siegeworks Type"
+ INFANTRY: "Light Troops"
+ CAVALRY: "Heavy Troops"
+ ARTILLERY: "Siege Troops"
+ 
+ SELECT_INFANTRY_TYPE: "Select Light Troops Type"
+ SELECT_CAVALRY_TYPE: "Select Heavy Troops Type"
+ SELECT_ARTILLERY_TYPE: "Select Siege Troops Type"
  
  oligarchic_republic: "Parliamentary Republic"
  peasants_republic: "People's Republic"
@@ -1133,7 +1137,7 @@
  MODIFIER_AMOUNT_OF_BANNERS: "Possible Dragonguard"
  MODIFIER_LOCAL_AMOUNT_OF_BANNERS: "Possible Dragonguard"
  MODIFIER_HAS_BANNERS: "Allows Dragonguard"
- han_banner: "Dragonguard Infantry"
+ han_banner: "Dragonguard Heavy Troops"
  manchu_banner: "Dragonguard Cavalry"
  han_bannerDESCR: " "
  manchu_bannerDESCR: " "
