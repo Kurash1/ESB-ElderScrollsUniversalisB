@@ -1,10 +1,10 @@
 religion = yokudan_pantheon
 culture = yokudan_highdesert
 hre = no
-base_tax = 1
-base_production = 1
+base_tax = 2
+base_production = 5
 trade_goods = unknown
-base_manpower = 1
+base_manpower = 3
 capital = "Faena"
 is_city = yes
 owner = HDE

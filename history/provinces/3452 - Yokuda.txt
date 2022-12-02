@@ -1,10 +1,10 @@
 religion = yokudan_pantheon
 culture = yokudan_silverhoof
 hre = no
-base_tax = 1
+base_tax = 3
 base_production = 1
 trade_goods = unknown
-base_manpower = 1
+base_manpower = 2
 capital = "Casnvir"
 is_city = yes
 owner = SIL

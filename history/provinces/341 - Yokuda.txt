@@ -1,11 +1,11 @@
 religion = yokudan_pantheon
 culture = yokudan_taleskan
 hre = no
-base_tax = 1
-base_production = 1
+base_tax = 9
+base_production = 6
+base_manpower = 8
 trade_goods = unknown
-base_manpower = 1
-capital = "Arranhu"
+capital = "Taleskan"
 is_city = no
 owner = TAL
 controller = TAL
