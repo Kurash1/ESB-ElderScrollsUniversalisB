@@ -779,7 +779,7 @@ esb_nobles = {
 				estate = estate_nobility
 				loyalty = 100
 			}
-			full_idea_group = feudal_ideas
+			full_idea_group = esb_feudal
 			full_idea_group = aristocracy_ideas
 		}
 		has_estate = estate_nobility
@@ -822,7 +822,7 @@ esb_feudal = {
 		}
 	}
 	bonus = {
-		can_transfer_vassal_wargoal = yes
+		#can_transfer_vassal_wargoal = yes
 		diplomatic_annexation_cost = 0.1
 		liberty_desire_from_subject_development = -0.25
 	}
@@ -1021,7 +1021,7 @@ esb_shadow_magic = {
 	
 	trigger = {
 		OR = {
-			culture = reachmen
+			primary_culture = reachmen
 			culture_group = sload_cg
 			religion = nocturnal_cult
 			full_idea_group = illusion_ideas
@@ -1148,7 +1148,7 @@ esb_flesh_magic = {
 		global_regiment_cost = -0.1
 	}
 	esb_flesh_magic6 = {
-		trade_goods_size_modifier = 0.1
+		global_trade_goods_size_modifier  = 0.1
 	}
 	esb_flesh_magic7 = {
 		shock_damage_received = -0.05
@@ -1160,7 +1160,7 @@ esb_nature_magic = {
 	
 	trigger = {
 		OR = {
-			culture = bosmer
+			primary_culture = bosmer
 			full_idea_group = restoration_ideas
 		}
 	}
@@ -1198,7 +1198,7 @@ esb_thuum = {
 	trigger = {
 		OR = {
 			full_idea_group = esb_nordic_ideas
-			has_idea = nordic_ideas
+			full_idea_group = nordic_ideas
 			primary_culture = nord
 		}
 	}
@@ -1236,8 +1236,8 @@ esb_shehai = {
 		OR = {
 			full_idea_group = esb_yokudan_ideas
 			full_idea_group = esb_redguard_ideas
-			has_idea = yokudan_ideas
-			has_idea = redguard_ideas
+			full_idea_group = yokudan_ideas
+			full_idea_group = redguard_ideas
 			primary_culture = yokudan
 			primary_culture = redguard
 		}
@@ -1275,7 +1275,7 @@ esb_beast_tongue = {
 	trigger = {
 		OR = {
 			full_idea_group = esb_bosmer_ideas
-			has_idea = bosmer_ideas
+			full_idea_group = bosmer_ideas
 			primary_culture = bosmer
 		}
 	}
@@ -1312,7 +1312,7 @@ esb_tonal_architecture = {
 	trigger = {
 		OR = {
 			full_idea_group = esb_dwemer_ideas
-			has_idea = dwemer_ideas
+			full_idea_group = dwemer_ideas
 			primary_culture = dwemer
 			primary_culture = rourkenid
 			primary_culture = dumalacathi
@@ -1351,8 +1351,8 @@ esb_sea_serpent_magic = {
 	
 	trigger = {
 		OR = {
-			has_idea = esb_maormer_ideas
-			has_idea = maormer_ideas
+			full_idea_group = esb_maormer_ideas
+			full_idea_group = maormer_ideas
 			primary_culture = maormer
 		}
 		religion = serpant_king

@@ -871,9 +871,7 @@ esb_nedic_ideas = {
 	category = ADM
 	trigger = {
 		NOT = { has_idea_group = nedic_ideas }
-		OR = {
-			primary_culture = nedic
-		}
+		primary_culture = nedic
 	}
 	bonus = {
 		institution_spread_from_true_faith = 0.1
@@ -1292,7 +1290,7 @@ esb_soul_shriven_ideas = {
 esb_tang_mo_ideas = {
 	category = DIP
 	trigger = {
-		NOT = { has_idea_group = tangmo }
+		NOT = { has_idea_group = tang_mo_ideas }
 		accepted_culture = tangmo
 	}
 	bonus = {

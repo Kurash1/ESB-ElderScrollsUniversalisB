@@ -24,24 +24,28 @@ country_event = {
 		#Our Old Republic
 		p@Raven_Rock = {
 			owner = {
-				limit = {
-					culture_group = high_elves_cg
-				}
-				country_event = {
-					id = es_1_scenario.2
-					days = 0
+				if = {
+					limit = {
+						culture_group = high_elves_cg
+					}
+					country_event = {
+						id = es_1_scenario.2
+						days = 0
+					}
 				}
 			}
 		}
 		#Mad Ruler
 		p@Tarlain_Heights = {
 			owner = {
-				limit = { 
-					culture_group = bosmer_cg 
-				} 
-				country_event = { 
-					id = es_1_scenario.3 
-					days = 0
+				if = {
+					limit = { 
+						culture_group = bosmer_cg 
+					} 
+					country_event = { 
+						id = es_1_scenario.3 
+						days = 0
+					}
 				}
 			}
 		}
@@ -74,12 +78,14 @@ country_event = {
 		#The Winterborn Clan
 		p@Jehanna = {
 			owner = {
-				limit = { 
-					culture_group = half_blood_cg 
-				} 
-				country_event = { 
-					id = es_1_scenario.6 
-					days = 0
+				if = {
+					limit = { 
+						culture_group = half_blood_cg 
+					} 
+					country_event = { 
+						id = es_1_scenario.6 
+						days = 0
+					}
 				}
 			}
 		}
@@ -164,41 +170,47 @@ country_event = {
 		#The Wailing Wheel of Vindasel
 		p@Pellentea = {
 			owner = {
-				limit = { 
-					culture_group = high_elves_cg 
-					religion_group = daedric_group 
-				} 
-				country_event = { 
-					id = es_2_scenario.6 
-					days = 398 
-					random = 3750 
+				if = {
+					limit = { 
+						culture_group = high_elves_cg 
+						religion_group = daedric_group 
+					} 
+					country_event = { 
+						id = es_2_scenario.6 
+						days = 398 
+						random = 3750 
+					}
 				}
 			}
 		}
 		#The Gut-Gardens of Sercen
 		p@Vilverin = {
 			owner = {
-				limit = { 
-					culture_group = high_elves_cg 
-					religion_group = daedric_group 
-				} 
-				country_event = { 
-					id = es_2_scenario.7 
-					days = 399 
-					random = 3850 
+				if = {
+					limit = { 
+						culture_group = high_elves_cg 
+						religion_group = daedric_group 
+					} 
+					country_event = { 
+						id = es_2_scenario.7 
+						days = 399 
+						random = 3850 
+					}
 				}
 			}
 		}
 		#Ceyatatar's Spearmen
 		p@Elenglynn = {
 			owner = {
-				limit = { 
-					culture_group = high_elves_cg 
-				} 
-				country_event = { 
-					id = es_2_scenario.8 
-					days = 400 
-					random = 3950 
+				if = {
+					limit = { 
+						culture_group = high_elves_cg 
+					} 
+					country_event = { 
+						id = es_2_scenario.8 
+						days = 400 
+						random = 3950 
+					}
 				}
 			}
 		}
@@ -246,26 +258,30 @@ country_event = {
 		#Nordic-Elven Crisis
 		p@Nilheim = {
 			owner = {
-				limit = { 
-					culture_group = snow_elves_cg 
-				} 
-				country_event = { 
-					id = es_3_scenario.1 
-					days = 401 
-					random = 3425 
+				if = {
+					limit = { 
+						culture_group = snow_elves_cg 
+					} 
+					country_event = { 
+						id = es_3_scenario.1 
+						days = 401 
+						random = 3425 
+					}
 				}
 			}
 		}
 		#Unification of Snow Elves
 		p@Nilheim = {
 			owner = {
-				limit = { 
-					culture_group = snow_elves_cg 				
-				} 
-				country_event = { 
-					id = es_3_scenario.3 
-					days = 402 
-					random = 3650 
+				if = {
+					limit = { 
+						culture_group = snow_elves_cg 				
+					} 
+					country_event = { 
+						id = es_3_scenario.3 
+						days = 402 
+						random = 3650 
+					}
 				}
 			}
 		}
@@ -286,13 +302,15 @@ country_event = {
 		#Unification of Reach
 		p@Karthwasten = { 
 			owner = {
-				limit = { 
-					culture_group = half_blood_cg 
-				} 
-				country_event = { 
-					id = es_3_scenario.4 
-					days = 404 
-					random = 3325 
+				if = {
+					limit = { 
+						culture_group = half_blood_cg 
+					} 
+					country_event = { 
+						id = es_3_scenario.4 
+						days = 404 
+						random = 3325 
+					}
 				}
 			} 
 		}
@@ -309,13 +327,15 @@ country_event = {
 		#New lands await us!
 		p@Bruma = { 
 			owner = {
-				limit = { 
-					culture_group = snow_elves_cg 
-				} 
-				country_event = { 
-					id = es_3_scenario.6 
-					days = 406 
-					random = 5475 
+				if = {
+					limit = { 
+						culture_group = snow_elves_cg 
+					} 
+					country_event = { 
+						id = es_3_scenario.6 
+						days = 406 
+						random = 5475 
+					}
 				}
 			}
 		}
@@ -363,15 +383,17 @@ country_event = {
 		#Proposal of Randagulf
 		p@Windhelm = {
 			owner = {
-				limit = { 
-					ai = yes 
-					culture_group = northern_cg 
-					NOT = { has_country_flag = sky_ysgramor } 
-				} 
-				country_event = { 
-					id = es_4_scenario.1 
-					days = 408 
-					random = 3650 
+				if = {
+					limit = { 
+						ai = yes 
+						culture_group = northern_cg 
+						NOT = { has_country_flag = sky_ysgramor } 
+					} 
+					country_event = { 
+						id = es_4_scenario.1 
+						days = 408 
+						random = 3650 
+					}
 				}
 			}
 		}
@@ -948,7 +970,7 @@ country_event = {
 		every_country = { limit = { culture_group = dwemer_cg is_free_or_tributary_trigger = yes capital_scope = { superregion = morrowind_superregion } } country_event = { id = es_11_scenario.2 days = 471 random = 3650 } }
 		}
 		###
-		every_country = { limit = { culture_group = yokudo_redguard_cg capital_scope = { region = yokuda_lr } } country_event = { id = es_11_scenario.3 days = 472 random = 3750 } }
+		#every_country = { limit = { culture_group = yokudo_redguard_cg capital_scope = { region = yokuda_lr } } country_event = { id = es_11_scenario.3 days = 472 random = 3750 } }
 		###
 		every_country = { limit = { culture_group = northern_cg OR = { owns = 1342 owns = 1275 } } country_event = { id = es_11_scenario.6 days = 473 random = 3850 } }
 		###
@@ -1255,9 +1277,9 @@ country_event = {
 	trigger = {
 	    tag = BLA
 		NOT = { is_year = 557 }
-		OR = {
-		is_year = 535
-		}
+		#OR = {
+			is_year = 535
+		#}
    }
 
 	mean_time_to_happen = {

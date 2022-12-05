@@ -74,9 +74,12 @@ esb_bloodmagic = {
 			#Hidden
 			primary_culture = vampire
 			primary_culture = tsaesci
-			has_great_project = {
-				type = bloodroot_forge
-				tier = 1
+			6172 = {
+				owned_by = ROOT
+				has_great_project = {
+					type = bloodroot_forge
+					tier = 1
+				}
 			}
 			#Normal
 			full_idea_group = destruction_ideas
@@ -125,7 +128,7 @@ esb_watermagic = {
 		OR = {
 			#Hidden
 			culture_group = marsh_cg
-			culture = ayleid
+			primary_culture = ayleid
 			culture_group = maormer_cg
 			culture_group = sload_cg
 			#Normal

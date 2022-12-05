@@ -381,53 +381,53 @@ northern_valenwood_missions = {
         }
     }
 
-	es_conquest_of_yokuda_lr_val = {
-		icon = yokuda_mission
-		position = 11
-		required_missions = { }
-		trigger = {
-			owns_core_province = 335		
-			owns_core_province = 3443
-			owns_core_province = 355
-			owns_core_province = 333
-			owns_core_province = 3467
-		}
-		provinces_to_highlight = {
-		    OR = {
-			province_id = 335		
-			province_id = 3443
-			province_id = 355
-			province_id = 333
-			province_id = 3467
-			}
-			NOT = { owned_by = ROOT }
-		}
-		effect = {
-		    custom_tooltip = es_conquest_of_yokuda_lr_tooltip
-		    add_prestige = 10
-			hidden_effect = {
-			every_province = {
-			limit = {
-			region = yokuda_lr
-			is_city = yes
-			}
-			add_permanent_claim = ROOT
-			}
-			}
-			
-			1497 = { add_core = ROOT }
-			if = { limit = { ai = yes 1497 = { owner = { ROOT = { NOT = { truce_with = PREV } NOT = { alliance_with = PREV } NOT = { is_subject_of = PREV }  } } } }
-			1497 = { owner = { ROOT = { declare_war_with_cb = { who = PREV casus_belli = cb_es_scenario war_goal_province = 1497 } } } } }
-			
-			6118 = { add_core = ROOT }
-			if = { limit = { ai = yes 6118 = { owner = { ROOT = { NOT = { truce_with = PREV } NOT = { alliance_with = PREV } NOT = { is_subject_of = PREV }  } } } }
-			6118 = { owner = { ROOT = { declare_war_with_cb = { who = PREV casus_belli = cb_es_scenario war_goal_province = 6118 } } } } }
-			
-			6422 = { add_core = ROOT }
-			if = { limit = { ai = yes 6422 = { owner = { ROOT = { NOT = { truce_with = PREV } NOT = { alliance_with = PREV } NOT = { is_subject_of = PREV }  } } } }
-			6422 = { owner = { ROOT = { declare_war_with_cb = { who = PREV casus_belli = cb_es_scenario war_goal_province = 6422 } } } } }
-		}
-	}
+	#es_conquest_of_yokuda_lr_val = {
+	#	icon = yokuda_mission
+	#	position = 11
+	#	required_missions = { }
+	#	trigger = {
+	#		owns_core_province = 335		
+	#		owns_core_province = 3443
+	#		owns_core_province = 355
+	#		owns_core_province = 333
+	#		owns_core_province = 3467
+	#	}
+	#	provinces_to_highlight = {
+	#	    OR = {
+	#		province_id = 335		
+	#		province_id = 3443
+	#		province_id = 355
+	#		province_id = 333
+	#		province_id = 3467
+	#		}
+	#		NOT = { owned_by = ROOT }
+	#	}
+	#	effect = {
+	#	    custom_tooltip = es_conquest_of_yokuda_lr_tooltip
+	#	    add_prestige = 10
+	#		hidden_effect = {
+	#		every_province = {
+	#		limit = {
+	#		region = yokuda_lr
+	#		is_city = yes
+	#		}
+	#		add_permanent_claim = ROOT
+	#		}
+	#		}
+	#		
+	#		1497 = { add_core = ROOT }
+	#		if = { limit = { ai = yes 1497 = { owner = { ROOT = { NOT = { truce_with = PREV } NOT = { alliance_with = PREV } NOT = { is_subject_of = PREV }  } } } }
+	#		1497 = { owner = { ROOT = { declare_war_with_cb = { who = PREV casus_belli = cb_es_scenario war_goal_province = 1497 } } } } }
+	#		
+	#		6118 = { add_core = ROOT }
+	#		if = { limit = { ai = yes 6118 = { owner = { ROOT = { NOT = { truce_with = PREV } NOT = { alliance_with = PREV } NOT = { is_subject_of = PREV }  } } } }
+	#		6118 = { owner = { ROOT = { declare_war_with_cb = { who = PREV casus_belli = cb_es_scenario war_goal_province = 6118 } } } } }
+	#		
+	#		6422 = { add_core = ROOT }
+	#		if = { limit = { ai = yes 6422 = { owner = { ROOT = { NOT = { truce_with = PREV } NOT = { alliance_with = PREV } NOT = { is_subject_of = PREV }  } } } }
+	#		6422 = { owner = { ROOT = { declare_war_with_cb = { who = PREV casus_belli = cb_es_scenario war_goal_province = 6422 } } } } }
+	#	}
+	#}
 	
 	es_conquest_of_tsakara_lr_val = {
 		icon = tsakara_mission

@@ -356,28 +356,28 @@ country_event = {
 
 # 10 Event - Nedic Countries join Empire
 
-country_event = {
-	id = es_8_scenario.10
-	title = es_8_scenario.10.t
-	desc = es_8_scenario.10.d
-	picture = ES_THE_EMPIRE_eventPicture
-	
-	is_triggered_only = yes
-
-	option = {
-		name = "es_8_scenario.10.a"
-		ai_chance = { factor = 50 }
-		custom_tooltip = all_owned_provinces_will_jon_hre_tooltip
-		hidden_effect = {
-		every_owned_province = { limit = { is_part_of_hre = no NOT = { owner = { government = native } } } set_in_empire = yes }
-		}
-	}
-	option = {
-		name = "es_8_scenario.10.b"
-		ai_chance = { factor = 50 }
-		add_stability = 1
-	}
-}
+#country_event = {
+#	id = es_8_scenario.10
+#	title = es_8_scenario.10.t
+#	desc = es_8_scenario.10.d
+#	picture = ES_THE_EMPIRE_eventPicture
+#	
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = "es_8_scenario.10.a"
+#		ai_chance = { factor = 50 }
+#		custom_tooltip = all_owned_provinces_will_jon_hre_tooltip
+#		hidden_effect = {
+#		every_owned_province = { limit = { is_part_of_hre = no NOT = { owner = { government = native } } } set_in_empire = yes }
+#		}
+#	}
+#	option = {
+#		name = "es_8_scenario.10.b"
+#		ai_chance = { factor = 50 }
+#		add_stability = 1
+#	}
+#}
 
 # Nordic Conquest of Reach
 

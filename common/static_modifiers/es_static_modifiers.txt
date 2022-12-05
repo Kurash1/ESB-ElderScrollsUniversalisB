@@ -1891,7 +1891,6 @@ over_governing_capacity_modifier = {
 	monthly_militarized_society = -1.0
 	inflation_action_cost = 2.5
 	fort_maintenance_modifier = 2.5
-	stability_cost_modifier = 2.5
 	war_exhaustion_cost = 2.5
 	years_of_nationalism = 2.5
 	land_maintenance_modifier = 2.5
@@ -2094,10 +2093,8 @@ carnation_school_modifier = {
 # Special Units
 
 banner_regiment = {
-	discipline = 0.05
-	land_maintenance_modifier = -0.5
-	discipline = 0.10
-	land_maintenance_modifier = 0.25
+	land_maintenance_modifier = -0.25
+	discipline = 0.15
 	reinforce_speed = -0.5
 	regiment_manpower_usage = -0.75
 }

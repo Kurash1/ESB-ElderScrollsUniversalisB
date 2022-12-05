@@ -117,7 +117,6 @@ southern_akos_kasaz_lr = {
 		yok_yul
 		yok_totambu
 		yok_erisena
-		yok_new
 	}
 	monsoon = {
 		00.06.01
@@ -1085,6 +1084,7 @@ southern_summerset_sea_sr = {
 lygian_sea_sr = {
  areas = {
  lygian_sea_sa
+ yok_randosea
  }
 }
 

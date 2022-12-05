@@ -50,7 +50,7 @@ esb_auramancy = {
 	trigger = {
 		OR = {
 			#Hidden
-			culture = vampire
+			primary_culture = vampire
 			#Normal
 			full_idea_group = esb_mind_magic
 		}

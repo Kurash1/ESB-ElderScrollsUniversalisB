@@ -1467,13 +1467,13 @@ flavour_missions_2 = {
 		    custom_tooltip = es_conquest_of_yokuda_lr_tooltip
 		    add_prestige = 10
 			hidden_effect = {
-			every_province = {
-			limit = {
-			region = yokuda_lr
-			is_city = yes
-			}
-			add_permanent_claim = ROOT
-			}
+				every_province = {
+					limit = {
+						region = yokuda_lr
+						is_city = yes
+					}
+					add_permanent_claim = ROOT
+				}
 			}
 			
 			1497 = { add_core = ROOT }

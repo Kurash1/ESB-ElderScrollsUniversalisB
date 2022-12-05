@@ -68,6 +68,7 @@ defaults_reform = {
 	can_customise_heir = yes
 	allow_cawa = no
 	can_change_primary_culture = yes	
+	# Audax Validator "." Ignore_NEXT
 	allow_carolean = no	
 }
 

@@ -249,42 +249,42 @@ country_event = {
 
 ### Alinor vs Emperor
 
-country_event = {
-	id = es_3_scenario.7
-	title = es_3_scenario.7.t
-	desc = es_3_scenario.7.d
-	picture = ES_SUMMERSET_TOWER_eventPicture
-	
-	trigger = {
-		hre_size = 1
-	}
-	
-	is_triggered_only = yes
-
-	option = {
-		name = "es_3_scenario.7.a"
-		ai_chance = { factor = 50 }
-		
-		if = { limit = { can_declare_scenario_war = yes NOT = { truce_with = emperor } NOT = { alliance_with = emperor } NOT = { is_subject_of = emperor } }
-		declare_war_with_cb = { who = emperor casus_belli = cb_es_scenario } 
-		}
-		
-		every_country = { limit = { ai = no has_country_flag = esu_news_flag } country_event = { id = es_news.50 days = 31 tooltip = es_collapse.2.a.tt } }
-	}
-	option = {
-		name = "es_3_scenario.7.b"
-		ai_chance = { factor = 50 }
-		
-		add_prestige = 25
-		
-		emperor = { add_scaled_imperial_influence = -100 }
-		
-		elector = no
-		every_owned_province = {
-		    limit = { is_part_of_hre = yes }
-			set_in_empire = no
-		}
-		
-		every_country = { limit = { ai = no has_country_flag = esu_news_flag } country_event = { id = es_news.51 days = 31 tooltip = es_collapse.2.a.tt } }
-	}
-}
+#country_event = {
+#	id = es_3_scenario.7
+#	title = es_3_scenario.7.t
+#	desc = es_3_scenario.7.d
+#	picture = ES_SUMMERSET_TOWER_eventPicture
+#	
+#	trigger = {
+#		hre_size = 1
+#	}
+#	
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = "es_3_scenario.7.a"
+#		ai_chance = { factor = 50 }
+#		
+#		if = { limit = { can_declare_scenario_war = yes NOT = { truce_with = emperor } NOT = { alliance_with = emperor } NOT = { is_subject_of = emperor } }
+#		declare_war_with_cb = { who = emperor casus_belli = cb_es_scenario } 
+#		}
+#		
+#		every_country = { limit = { ai = no has_country_flag = esu_news_flag } country_event = { id = es_news.50 days = 31 tooltip = es_collapse.2.a.tt } }
+#	}
+#	option = {
+#		name = "es_3_scenario.7.b"
+#		ai_chance = { factor = 50 }
+#		
+#		add_prestige = 25
+#		
+#		emperor = { add_scaled_imperial_influence = -100 }
+#		
+#		elector = no
+#		every_owned_province = {
+#		    limit = { is_part_of_hre = yes }
+#			set_in_empire = no
+#		}
+#		
+#		every_country = { limit = { ai = no has_country_flag = esu_news_flag } country_event = { id = es_news.51 days = 31 tooltip = es_collapse.2.a.tt } }
+#	}
+#}

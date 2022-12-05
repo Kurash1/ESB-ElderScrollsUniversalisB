@@ -585,7 +585,7 @@ esb_professionalism = {
 	trigger = {
 		OR = {
 			#Hidden
-			culture = imperial
+			primary_culture = imperial
 			army_professionalism = 50
 			#Normal
 			full_idea_group = quality_ideas

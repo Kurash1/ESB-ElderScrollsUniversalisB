@@ -910,35 +910,35 @@ kilkreath_temple = {
 	starting_tier = 0
 	type = monument
 	build_trigger = {
-		OR = {
-			AND = {
+		#OR = {
+			#AND = {
 				religion = meridia_cult
 				has_owner_religion = yes
-			}
-			owner = { has_country_modifier = meridias_beacon }
-		}
+			#}
+			#owner = { has_country_modifier = meridias_beacon }
+		#}
 	}
 	on_built = {
 	}
 	on_destroyed = {
 	}
 	can_use_modifiers_trigger = {
-		OR = {
-			AND = {
+		#OR = {
+			#AND = {
 				religion = meridia_cult
 				has_owner_religion = yes
-			}
-			owner = { has_country_modifier = meridias_beacon }
-		}
+			#}
+			#owner = { has_country_modifier = meridias_beacon }
+		#}
 	}
 	can_upgrade_trigger = {
-		OR = {
-			AND = {
+		#OR = {
+			#AND = {
 				religion = meridia_cult
 				has_owner_religion = yes
-			}
-			owner = { has_country_modifier = meridias_beacon }
-		}
+			#}
+			#owner = { has_country_modifier = meridias_beacon }
+		#}
 	}
 	keep_trigger = {
 		always = yes

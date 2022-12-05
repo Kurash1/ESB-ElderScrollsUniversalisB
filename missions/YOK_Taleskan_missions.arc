@@ -10,7 +10,7 @@ flavour_missions_2_yoktal = {
 	generic = yes
 	ai = yes
 	has_country_shield = no
-    potential = { tag = TAL }
+    potential = { OR = { tag = TAL } }
 	defineloc esb_yok_taleskan_defeat_derik_mission_title = "Defeat Derik"
 	defineloc esb_yok_taleskan_defeat_derik_mission_desc = ""
 	esb_yok_taleskan_defeat_derik_mission = {
@@ -50,16 +50,11 @@ flavour_missions_3_yoktal = {
 		effect = {
 			defineloc esb_yok_taleskan_disaster_mission.tt2 = "Will give a ruler dependant modifier"
 			custom_tooltip = esb_yok_taleskan_disaster_mission.tt2
-			if = {
-				limit = {
-					has_country_flag = khud_at_taleskan
-				}
-				add_ruler_modifier = {
-					name = khud_at_taleskan_first
-					duration = -1
-					desc = khud_at_taleskan_first_desc
-					hidden = no
-				}
+			add_ruler_modifier = {
+				name = khud_at_taleskan_first
+				duration = -1
+				desc = khud_at_taleskan_first_desc
+				hidden = no
 			}
 		}	
 	}

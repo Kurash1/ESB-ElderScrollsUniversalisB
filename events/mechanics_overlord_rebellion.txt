@@ -2,100 +2,100 @@
 namespace = overlord_rebellion
 
 #The start to becoming a free nation
-country_event = {
-	
-	id = overlord_rebellion.1
-	title = overlord_rebellion.1.t
-	desc = overlord_rebellion.1.d
-	picture = ES_PORT_eventPicture
-	is_triggered_only = yes
-
-	immediate = {
-		hidden_effect = {
-			overlord = { save_event_target_as = overlord_event_target }
-		}
-	}
-
-	option = {
-		name = overlord_rebellion.1.a
-		hidden_effect = {
-			country_event = {
-			id = overlord_rebellion.2 days = 121
-			}
-			set_country_flag = had_rebellion_from_overlord
-		}
-		ai_chance = {
-			factor = 1
-		}
-	}
-	option = {
-		name = overlord_rebellion.1.b
-		ai_chance = {
-			factor = 0
-		}
-	}
-	
-}
+#country_event = {
+#	
+#	id = overlord_rebellion.1
+#	title = overlord_rebellion.1.t
+#	desc = overlord_rebellion.1.d
+#	picture = ES_PORT_eventPicture
+#	is_triggered_only = yes
+#
+#	immediate = {
+#		hidden_effect = {
+#			overlord = { save_event_target_as = overlord_event_target }
+#		}
+#	}
+#
+#	option = {
+#		name = overlord_rebellion.1.a
+#		hidden_effect = {
+#			country_event = {
+#			id = overlord_rebellion.2 days = 121
+#			}
+#			set_country_flag = had_rebellion_from_overlord
+#		}
+#		ai_chance = {
+#			factor = 1
+#		}
+#	}
+#	option = {
+#		name = overlord_rebellion.1.b
+#		ai_chance = {
+#			factor = 0
+#		}
+#	}
+#	
+#}
 
 #Money money money
-country_event = {
-	id = overlord_rebellion.2
-	title = overlord_rebellion.2.t
-	desc = overlord_rebellion.2.d
-	picture = SEPTIM_eventPicture
-	is_triggered_only = yes
-
-	option = {
-		name = overlord_rebellion.2.a
-		add_treasury = 1000
-		hidden_effect = {
-			country_event = {
-			id = overlord_rebellion.3 days = 121
-			}
-		}
-	}
-}
+#country_event = {
+#	id = overlord_rebellion.2
+#	title = overlord_rebellion.2.t
+#	desc = overlord_rebellion.2.d
+#	picture = SEPTIM_eventPicture
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = overlord_rebellion.2.a
+#		add_treasury = 1000
+#		hidden_effect = {
+#			country_event = {
+#			id = overlord_rebellion.3 days = 121
+#			}
+#		}
+#	}
+#}
 	
 
 #Lotsa Manpower
-country_event = {
-	id = overlord_rebellion.3
-	title = overlord_rebellion.3.t
-	desc = overlord_rebellion.3.d
-	picture = ES_MILITARY_CAMP_eventPicture
-	is_triggered_only = yes
-
-	option = {
-		name = overlord_rebellion.3.a
-		add_country_modifier = {
-			name = "ob_manpower"
-			duration = 720
-		}
-		add_manpower = 25
-		hidden_effect = {
-			country_event = {
-			id = overlord_rebellion.4 days = 123
-			}
-		}
-	}
-}
+#country_event = {
+#	id = overlord_rebellion.3
+#	title = overlord_rebellion.3.t
+#	desc = overlord_rebellion.3.d
+#	picture = ES_MILITARY_CAMP_eventPicture
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = overlord_rebellion.3.a
+#		add_country_modifier = {
+#			name = "ob_manpower"
+#			duration = 720
+#		}
+#		add_manpower = 25
+#		hidden_effect = {
+#			country_event = {
+#			id = overlord_rebellion.4 days = 123
+#			}
+#		}
+#	}
+#}
 
 #The beginning of the end
-country_event = {
-	id = overlord_rebellion.4
-	title = overlord_rebellion.4.t
-	desc = overlord_rebellion.4.d
-	picture = ES_REBELLION_eventPicture
-	is_triggered_only = yes
-
-	option = {
-		name = overlord_rebellion.4.a
-		declare_war_with_cb = {
-			casus_belli = cb_conquest  
-			who = event_target:overlord_event_target
-		}
-	}
-}
+#country_event = {
+#	id = overlord_rebellion.4
+#	title = overlord_rebellion.4.t
+#	desc = overlord_rebellion.4.d
+#	picture = ES_REBELLION_eventPicture
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = overlord_rebellion.4.a
+#		declare_war_with_cb = {
+#			casus_belli = cb_conquest  
+#			who = event_target:overlord_event_target
+#		}
+#	}
+#}
 
 country_event = {
 	id = overlord_rebellion.5

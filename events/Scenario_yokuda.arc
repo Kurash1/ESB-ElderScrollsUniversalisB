@@ -33,62 +33,213 @@ country_event = { # Taleskan Assassination
 	is_triggered_only = yes
 	fire_only_once = yes
 	
+	immediate = {
+		hidden_effect = {
+			kill_ruler = yes
+			every_owned_province = {
+				add_core = RB0
+				add_core = RB2
+			}
+			2157, 3461, 2165, 329 = {
+				cede_province = RB0 #Derik Rebel tag
+			}
+			RB0 = {
+				set_capital = 2165
+				define_ruler = {
+					name = "Derik"
+					dynasty = "Af-Taleskan"
+					adm = 3
+					dip = 2
+					mil = 6
+					age = 39
+					claim = 100
+				}
+			}
+			2119, 2118, 343 = {
+				cede_province = RB2 #Sia Rebel tag
+			}
+			RB2 = {
+				set_capital = 2118
+				define_ruler = {
+					name = "Sia"
+					dynasty = "Al-Hodana"
+					adm = 5
+					dip = 5
+					mil = 2
+					age = 39
+					claim = 100
+				}
+			}
+			TOT = {
+				create_subject = {
+					subject_type = yokuda_vassal
+					subject = RB0
+				}
+				create_subject = {
+					subject_type = yokuda_vassal
+					subject = RB2
+				}
+			}
+			RB0 = {
+				declare_war_with_cb = {
+					who = RB2
+					casus_belli = cb_annex
+				}
+				declare_war_with_cb = {
+					who = TAL
+					casus_belli = cb_annex
+				}
+			}
+			RB2 = {
+				declare_war_with_cb = {
+					who = TAL
+					casus_belli = cb_annex
+				}
+			}
+		}
+	}
+	
 	option = {
 		defineloc scenario_yokuda.1.a = "Support Khud At-Taleskan"
 		name = scenario_yokuda.1.a
-		kill_ruler = yes
-		hidden_effect = {
-			set_country_flag = khud_at_taleskan
-		}
 	}
 	option = {
 		defineloc scenario_yokuda.1.b = "Support Derik Af-Taleskan"
 		name = scenario_yokuda.1.b
-		kill_ruler = yes
-		hidden_effect = {
-			set_country_flag = derik_af_taleskan
-		}
+		switch_tag = RB0
 	}
 	option = {
 		defineloc scenario_yokuda.1.c = "Support Sia Al-Hodana"
 		name = scenario_yokuda.1.c
-		kill_ruler = yes
-		hidden_effect = {
-			set_country_flag = sia_al_hodana
-		}
+		switch_tag = RB2
 	}
-	option = {
-		defineloc scenario_yokuda.1.d = "Support Farsh Aj-Kayam"
-		name = scenario_yokuda.1.d
-		kill_ruler = yes
-		hidden_effect = {
-			set_country_flag = farsh_aj_kayam
-		}
-	}
+	#option = {
+	#	defineloc scenario_yokuda.1.d = "Support Farsh Aj-Kayam"
+	#	name = scenario_yokuda.1.d
+	#	kill_ruler = yes
+	#	hidden_effect = {
+	#		set_country_flag = farsh_aj_kayam
+	#	}
+	#}
 	
 	after = {
 		hidden_effect = {
 			swap_non_generic_missions = yes
 			set_country_flag = esb_yok_taleskan_disaster_mission.flag
+			set_country_flag = mutual_auto_siege
 		}
 	}
 }
-country_event = { #Derik Af-Taleskan
-	id = scenario_yokuda.3
-	defineloc scenario_yokuda.3.title = "Army in the East"
-	title = scenario_yokuda.3.title
-	defineloc scenario_yokuda.3.desc = "My liege, The Ruthless Derik Af-Taleskan is currently assembling an army in the east in preperation for a rebellion. We beseech you to fight him before he has the chance to siege the capital."
-	desc = scenario_yokuda.3.desc
-	picture = ES_MILITARY_CAMP_eventPicture
-	is_triggered_only = yes'
-	fire_only_once = yes
-	
-	option = {
-		defineloc scenario_yokuda.3.a = "To War!"
-		name = scenario_yokuda.3.a 
-		hidden_effect = {
-			set_country_flag = battle_listener
-			set_country_flag = battle_listener_scenario_yokuda_3
-		}
-	}
-}
+#country_event = { #Rebellion Controller
+#	id = scenario_yokuda.2
+#	title = none
+#	desc = none
+#	picture = ES_DEATH_OF_MONARCH_eventPicture
+#	is_triggered_only = yes
+#	fire_only_once = yes
+#	
+#	immediate = {
+#		if = {
+#			limit = {
+#				has_country_flag = khud_at_taleskan
+#			}
+#			random_list = {
+#				1 = { 
+#					country_event = { id = scenario_yokuda.3 days = 0years random = 1years }
+#				    country_event = { id = scenario_yokuda.4 days = 3years random = 1years }
+#				    country_event = { id = scenario_yokuda.5 days = 6years random = 1years }
+#				}
+#				1 = { 
+#					country_event = { id = scenario_yokuda.3 days = 0years random = 1years }
+#					country_event = { id = scenario_yokuda.5 days = 3years random = 1years }
+#					country_event = { id = scenario_yokuda.4 days = 6years random = 1years }
+#				}
+#				1 = { 
+#					country_event = { id = scenario_yokuda.4 days = 0years random = 1years }
+#				    country_event = { id = scenario_yokuda.5 days = 3years random = 1years }
+#				    country_event = { id = scenario_yokuda.3 days = 6years random = 1years }
+#				}
+#				1 = { 
+#					country_event = { id = scenario_yokuda.4 days = 0years random = 1years }
+#					country_event = { id = scenario_yokuda.3 days = 3years random = 1years }
+#					country_event = { id = scenario_yokuda.5 days = 6years random = 1years }
+#				}
+#				1 = { 
+#					country_event = { id = scenario_yokuda.5 days = 0years random = 1years }
+#				    country_event = { id = scenario_yokuda.4 days = 3years random = 1years }
+#				    country_event = { id = scenario_yokuda.3 days = 6years random = 1years }
+#				}
+#				1 = { 
+#					country_event = { id = scenario_yokuda.5 days = 0years random = 1years }
+#					country_event = { id = scenario_yokuda.3 days = 3years random = 1years }
+#					country_event = { id = scenario_yokuda.4 days = 6years random = 1years }
+#				}
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = none
+#	}
+#}
+#
+#country_event = { #Derik Af-Taleskan
+#	id = scenario_yokuda.3
+#	defineloc scenario_yokuda.3.title = "Army in the East"
+#	title = scenario_yokuda.3.title
+#	defineloc scenario_yokuda.3.desc = "My liege, The Ruthless Derik Af-Taleskan is currently assembling an army in the east in preperation for a rebellion. We beseech you to fight him before he has the chance to siege the capital."
+#	desc = scenario_yokuda.3.desc
+#	picture = ES_MILITARY_CAMP_eventPicture
+#	is_triggered_only = yes
+#	fire_only_once = yes
+#	
+#	option = {
+#		defineloc scenario_yokuda.3.a = "To War!"
+#		name = scenario_yokuda.3.a 
+#		hidden_effect = {
+#			set_country_flag = battle_listener
+#			set_country_flag = battle_listener_scenario_yokuda_3
+#		}
+#	}
+#}
+#
+#country_event = { #Sia Al-Hodana
+#	id = scenario_yokuda.4
+#	defineloc scenario_yokuda.4.title = "Army in the South"
+#	title = scenario_yokuda.4.title
+#	defineloc scenario_yokuda.4.desc = "My liege, The Merchant-Noble Sia Al-Hodana is currently assembling a mercenary army in the south in preperation for a rebellion. We beseech you to fight him before he has the chance to siege the capital."
+#	desc = scenario_yokuda.4.desc
+#	picture = ES_MILITARY_CAMP_eventPicture
+#	is_triggered_only = yes
+#	fire_only_once = yes
+#	
+#	option = {
+#		defineloc scenario_yokuda.4.a = "To War!"
+#		name = scenario_yokuda.4.a
+#		hidden_effect = {
+#			set_country_flag = battle_listener
+#			set_country_flag = battle_listener_scenario_yokuda_4
+#		}
+#	}
+#}
+#
+#country_event = { #Farsh Aj-Kayam
+#	id = scenario_yokuda.5
+#	defineloc scenario_yokuda.5.title = "Army in the capital"
+#	title = scenario_yokuda.5.title
+#	defineloc scenario_yokuda.5.desc = "My liege, The Revolutionary Farsh Aj-Kayam is currently assembling a peasant army in the capital in preperation for a rebellion. We beseech you to fight him before he has the chance to take control of the Capital."
+#	desc = scenario_yokuda.5.desc
+#	picture = ES_MILITARY_CAMP_eventPicture
+#	is_triggered_only = yes
+#	fire_only_once = yes
+#	
+#	option = {
+#		defineloc scenario_yokuda.5.a = "To War!"
+#		name = scenario_yokuda.5.a
+#		hidden_effect = {
+#			set_country_flag = battle_listener
+#			set_country_flag = battle_listener_scenario_yokuda_5
+#		}
+#	}
+#}
+

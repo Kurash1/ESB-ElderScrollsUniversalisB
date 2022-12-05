@@ -57,19 +57,19 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = es_news.5
-	title = es_news.5.t
-	desc = es_news.5.d
-	picture = ES_ELVEN_ARMY_eventPicture
-	
-	is_triggered_only = yes
-
-	option = {
-		name = "es_news.1.a"
-		ai_chance = { factor = 100 }
-	}
-}
+#country_event = {
+#	id = es_news.5
+#	title = es_news.5.t
+#	desc = es_news.5.d
+#	picture = ES_ELVEN_ARMY_eventPicture
+#	
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = "es_news.1.a"
+#		ai_chance = { factor = 100 }
+#	}
+#}
 
 country_event = {
 	id = es_news.6
@@ -211,61 +211,61 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = es_news.1402
-	title = es_news.1402.t
-	desc = es_news.1402.d
-	picture = ES_WEYE_eventPicture
-	
-	is_triggered_only = yes
+#country_event = {
+#	id = es_news.1402
+#	title = es_news.1402.t
+#	desc = es_news.1402.d
+#	picture = ES_WEYE_eventPicture
+#	
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = "es_news.1.a"
+#		ai_chance = { factor = 100 }
+#	}
+#}
 
-	option = {
-		name = "es_news.1.a"
-		ai_chance = { factor = 100 }
-	}
-}
+#country_event = {
+#	id = es_news.1403
+#	title = es_news.1403.t
+#	desc = es_news.1403.d
+#	picture = ES_WEYE_eventPicture
+#	
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = "es_news.1.a"
+#		ai_chance = { factor = 100 }
+#	}
+#}
 
-country_event = {
-	id = es_news.1403
-	title = es_news.1403.t
-	desc = es_news.1403.d
-	picture = ES_WEYE_eventPicture
-	
-	is_triggered_only = yes
+#country_event = {
+#	id = es_news.1404
+#	title = es_news.1404.t
+#	desc = es_news.1404.d
+#	picture = ES_COLOVIAN_HOUSE_eventPicture
+#	
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = "es_news.1.a"
+#		ai_chance = { factor = 100 }
+#	}
+#}
 
-	option = {
-		name = "es_news.1.a"
-		ai_chance = { factor = 100 }
-	}
-}
-
-country_event = {
-	id = es_news.1404
-	title = es_news.1404.t
-	desc = es_news.1404.d
-	picture = ES_COLOVIAN_HOUSE_eventPicture
-	
-	is_triggered_only = yes
-
-	option = {
-		name = "es_news.1.a"
-		ai_chance = { factor = 100 }
-	}
-}
-
-country_event = {
-	id = es_news.1405
-	title = es_news.1405.t
-	desc = es_news.1405.d
-	picture = ES_COLOVIAN_HOUSE_eventPicture
-	
-	is_triggered_only = yes
-
-	option = {
-		name = "es_news.1.a"
-		ai_chance = { factor = 100 }
-	}
-}
+#country_event = {
+#	id = es_news.1405
+#	title = es_news.1405.t
+#	desc = es_news.1405.d
+#	picture = ES_COLOVIAN_HOUSE_eventPicture
+#	
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = "es_news.1.a"
+#		ai_chance = { factor = 100 }
+#	}
+#}
 
 country_event = {
 	id = es_news.15
@@ -743,21 +743,21 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = es_news.50
-	title = es_news.50.t
-	desc = es_news.50.d
-	picture = ES_SUMMERSET_TOWER_eventPicture
-	
-	is_triggered_only = yes
+#country_event = {
+#	id = es_news.50
+#	title = es_news.50.t
+#	desc = es_news.50.d
+#	picture = ES_SUMMERSET_TOWER_eventPicture
+#	
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = "es_news.1.a"
+#		ai_chance = { factor = 100 }
+#	}
+#}
 
-	option = {
-		name = "es_news.1.a"
-		ai_chance = { factor = 100 }
-	}
-}
-
-country_event = { id = es_news.51 title = es_news.51.t desc = es_news.51.d picture = ES_SUMMERSET_TOWER_eventPicture is_triggered_only = yes option = { name = "es_news.1.a" ai_chance = { factor = 100 } } }
+#country_event = { id = es_news.51 title = es_news.51.t desc = es_news.51.d picture = ES_SUMMERSET_TOWER_eventPicture is_triggered_only = yes option = { name = "es_news.1.a" ai_chance = { factor = 100 } } }
 
 country_event = { id = es_news.52 title = es_news.52.t desc = es_news.52.d picture = ES_AYLEID_PALACE_eventPicture is_triggered_only = yes option = { name = "es_news.1.a" ai_chance = { factor = 100 } } }
 country_event = { id = es_news.53 title = es_news.53.t desc = es_news.53.d picture = ES_AYLEID_PALACE_eventPicture is_triggered_only = yes option = { name = "es_news.1.a" ai_chance = { factor = 100 } } }

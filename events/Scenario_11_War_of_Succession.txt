@@ -624,62 +624,62 @@ country_event = {
 	
 }
 
-country_event = {
-	id = es_11_scenario.3
-	title = es_11_scenario.3.t
-	desc = es_11_scenario.3.d
-	picture = ES_PALACE_eventPicture
-	
-    is_triggered_only = yes
-	
-	immediate = {
-		hidden_effect = {
-			add_country_modifier = {
-				name = "11_political_instability"
-				duration = 9125
-			}
-		}
-	}
-
-	option = {
-		name = "es_11_scenario.3.a"
-		ai_chance = { factor = 50 }
-	    kill_ruler = yes
-		add_stability = -3
-		add_years_of_income = -2.5
-		random_owned_province = { 
-			spawn_rebels = {
-				type = pretender_rebels
-				size = 3.5
-				unrest = 25
-			}
-		}
-		random_owned_province = { 
-			spawn_rebels = {
-				type = pretender_rebels
-				size = 3.5
-				unrest = 25
-			}
-		}
-		random_owned_province = { 
-			spawn_rebels = {
-				type = pretender_rebels
-				size = 3.5
-				unrest = 25
-			}
-		}
-	}
-	
-	option = {
-		name = "es_11_scenario.3.b"
-		ai_chance = { factor = 50 }
-		add_country_modifier = {
-		name = "11_succesion_war"
-		duration = 9125
-		}
-	}
-	
-}
+#country_event = {
+#	id = es_11_scenario.3
+#	title = es_11_scenario.3.t
+#	desc = es_11_scenario.3.d
+#	picture = ES_PALACE_eventPicture
+#	
+#    is_triggered_only = yes
+#	
+#	immediate = {
+#		hidden_effect = {
+#			add_country_modifier = {
+#				name = "11_political_instability"
+#				duration = 9125
+#			}
+#		}
+#	}
+#
+#	option = {
+#		name = "es_11_scenario.3.a"
+#		ai_chance = { factor = 50 }
+#	    kill_ruler = yes
+#		add_stability = -3
+#		add_years_of_income = -2.5
+#		random_owned_province = { 
+#			spawn_rebels = {
+#				type = pretender_rebels
+#				size = 3.5
+#				unrest = 25
+#			}
+#		}
+#		random_owned_province = { 
+#			spawn_rebels = {
+#				type = pretender_rebels
+#				size = 3.5
+#				unrest = 25
+#			}
+#		}
+#		random_owned_province = { 
+#			spawn_rebels = {
+#				type = pretender_rebels
+#				size = 3.5
+#				unrest = 25
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = "es_11_scenario.3.b"
+#		ai_chance = { factor = 50 }
+#		add_country_modifier = {
+#		name = "11_succesion_war"
+#		duration = 9125
+#		}
+#	}
+#	
+#}
 
 country_event = {
 	id = es_11_scenario.4

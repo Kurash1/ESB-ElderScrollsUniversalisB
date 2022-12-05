@@ -38,12 +38,6 @@ on_startup = {
 
     set_allow_female_emperor = yes
 	set_hre_religion_treaty = yes
-    emperor = { save_global_event_target_as = Emperor }
-	if = { 
-		limit = { is_emperor_of_china = yes }
-		# Audax Validator "." Ignore_NEXT
-		save_global_event_target_as = EmperorOfChina 
-	}
 
 	if = { limit = { uses_personal_deities = yes } change_available_deities = yes }
 	
@@ -192,8 +186,6 @@ on_startup = {
 		}
 		if = { limit = { is_year = 862 } every_country = { limit = { NOT = { culture_group = velothi_cg } capital_scope = { continent = Tamriel } } country_event = { id = dark_brotherhood_spawn.5 days = 9125 } } }
 		
-		emperor = { save_global_event_target_as = Emperor }
-		if = { limit = { is_emperor_of_china = yes } save_global_event_target_as = EmperorOfChina }
 		
 		BLA = {
 			add_country_modifier = { name = "red_mountain_eruption" duration = 3650 }
@@ -569,14 +561,6 @@ on_war_won = {
 		limit = {
 			is_part_of_hre = yes
 			FROM  = { is_part_of_hre = yes }
-		}
-		ROOT = { 
-			# Audax Validator "." Ignore_NEXT
-			save_global_event_target_as = hre_winner 
-		}
-		FROM = {
-			# Audax Validator "." Ignore_NEXT
-			save_global_event_target_as = hre_loser
 		}
 		random_known_country = {
 			limit = {
@@ -994,282 +978,18 @@ on_siege_won_province = {
 		95 = { } 
 		5 = { 
 			if = { limit = { has_province_flag = esb_city_monument } 
-				if = { limit = { province_id = 1355 } 
-					add_great_project_tier = { type = nchuand-zel tier = -1 } 
-				} 
-				if = { limit = { province_id = 357 } 
-					add_great_project_tier = { type = broadwall tier = -1 } 
-				} 
-				if = { limit = { province_id = 363 } 
-					add_great_project_tier = { type = naugrheim tier = -1 } 
-				} 
-				if = { limit = { province_id = 2219 } 
-					add_great_project_tier = { type = the_sisters tier = -1 } 
-				} 
-				if = { limit = { province_id = 2505 } 
-					add_great_project_tier = { type = frulthuul tier = -1 } 
-				} 
-				if = { limit = { province_id = 1144 } 
-					add_great_project_tier = { type = skingrad tier = -1 } 
-				} 
-				if = { limit = { province_id = 1161 } 
-					add_great_project_tier = { type = anvil tier = -1 } 
-				} 
-				if = { limit = { province_id = 1130 } 
-					add_great_project_tier = { type = bravil tier = -1 } 
-				} 
-				if = { limit = { province_id = 1194 } 
-					add_great_project_tier = { type = bruma tier = -1 } 
-				} 
-				if = { limit = { province_id = 5947 } 
-					add_great_project_tier = { type = cheydinhal tier = -1 } 
-				} 
-				if = { limit = { province_id = 5657 } 
-					add_great_project_tier = { type = chorrol tier = -1 } 
-				} 
-				if = { limit = { province_id = 1150 } 
-					add_great_project_tier = { type = kvatch tier = -1 } 
-				} 
-				if = { limit = { province_id = 1120 } 
-					add_great_project_tier = { type = leyawiin tier = -1 } 
-				} 
-				if = { limit = { province_id = 6794 } 
-					add_great_project_tier = { type = archon tier = -1 } 
-				} 
-				if = { limit = { province_id = 6745 } 
-					add_great_project_tier = { type = blackrose tier = -1 } 
-				} 
-				if = { limit = { province_id = 1081 } 
-					add_great_project_tier = { type = gideon tier = -1 } 
-				} 
-				if = { limit = { province_id = 1075 } 
-					add_great_project_tier = { type = helstrom tier = -1 } 
-				} 
-				if = { limit = { province_id = 1098 } 
-					add_great_project_tier = { type = lilmoth tier = -1 } 
-				} 
-				if = { limit = { province_id = 1087 } 
-					add_great_project_tier = { type = soulrest tier = -1 } 
-				} 
-				if = { limit = { province_id = 1069 } 
-					add_great_project_tier = { type = stormhold tier = -1 } 
-				} 
-				if = { limit = { province_id = 1064 } 
-					add_great_project_tier = { type = thorn tier = -1 } 
-				} 
-				if = { limit = { province_id = 5285 } 
-					add_great_project_tier = { type = corinthe tier = -1 } 
-				} 
-				if = { limit = { province_id = 5136 } 
-					add_great_project_tier = { type = dune tier = -1 } 
-				} 
-				if = { limit = { province_id = 5155 } 
-					add_great_project_tier = { type = mistral tier = -1 } 
-				} 
-				if = { limit = { province_id = 905 } 
-					add_great_project_tier = { type = orcrest tier = -1 } 
-				} 
-				if = { limit = { province_id = 5246 } 
-					add_great_project_tier = { type = rawl_kha tier = -1 } 
-				} 
-				if = { limit = { province_id = 5226 } 
-					add_great_project_tier = { type = rimmen tier = -1 } 
-				} 
-				if = { limit = { province_id = 889 } 
-					add_great_project_tier = { type = riverhold tier = -1 } 
-				} 
-				if = { limit = { province_id = 5117 } 
-					add_great_project_tier = { type = senchal tier = -1 } 
-				} 
-				if = { limit = { province_id = 922 } 
-					add_great_project_tier = { type = torval tier = -1 } 
-				} 
-				if = { limit = { province_id = 1470 } 
-					add_great_project_tier = { type = dragonstar tier = -1 } 
-				} 
-				if = { limit = { province_id = 6178 } 
-					add_great_project_tier = { type = elinhir tier = -1 } 
-				} 
-				if = { limit = { province_id = 1479 } 
-					add_great_project_tier = { type = gilane tier = -1 } 
-				} 
-				if = { limit = { province_id = 6392 } 
-					add_great_project_tier = { type = hegathe tier = -1 } 
-				} 
-				if = { limit = { province_id = 1446 } 
-					add_great_project_tier = { type = rihad tier = -1 } 
-				} 
-				if = { limit = { province_id = 1510 } 
-					add_great_project_tier = { type = sentinel tier = -1 } 
-				} 
-				if = { limit = { province_id = 1474 } 
-					add_great_project_tier = { type = skaven tier = -1 } 
-				} 
-				if = { limit = { province_id = 1482 } 
-					add_great_project_tier = { type = taneth tier = -1 } 
-				} 
-				if = { limit = { province_id = 1384 } 
-					add_great_project_tier = { type = camlorn tier = -1 } 
-				} 
-				if = { limit = { province_id = 1369 } 
-					add_great_project_tier = { type = daggerfall tier = -1 } 
-				} 
-				if = { limit = { province_id = 6268 } 
-					add_great_project_tier = { type = evermore tier = -1 } 
-				} 
-				if = { limit = { province_id = 1413 } 
-					add_great_project_tier = { type = farrun tier = -1 } 
-				} 
-				if = { limit = { province_id = 7070 } 
-					add_great_project_tier = { type = jehanna tier = -1 } 
-				} 
-				if = { limit = { province_id = 7045 } 
-					add_great_project_tier = { type = northpoint tier = -1 } 
-				} 
-				if = { limit = { province_id = 6883 } 
-					add_great_project_tier = { type = first_orsinium tier = -1 } 
-				} 
-				if = { limit = { province_id = 1419 } 
-					add_great_project_tier = { type = second_orsinium tier = -1 } 
-				} 
-				if = { limit = { province_id = 1391 } 
-					add_great_project_tier = { type = third_orsinium tier = -1 } 
-				} 
-				if = { limit = { province_id = 6074 } 
-					add_great_project_tier = { type = fourth_orsinium tier = -1 } 
-				} 
-				if = { limit = { province_id = 7019 } 
-					add_great_project_tier = { type = shornhelm tier = -1 } 
-				} 
-				if = { limit = { province_id = 6989 } 
-					add_great_project_tier = { type = wayrest tier = -1 } 
-				} 
-				if = { limit = { province_id = 4263 } 
-					add_great_project_tier = { type = ald_ruhn tier = -1 } 
-				} 
-				if = { limit = { province_id = 1045 } 
-					add_great_project_tier = { type = balmora tier = -1 } 
-				} 
-				if = { limit = { province_id = 4275 } 
-					add_great_project_tier = { type = gnisis tier = -1 } 
-				} 
-				if = { limit = { province_id = 4121 } 
-					add_great_project_tier = { type = sadrith_mora tier = -1 } 
-				} 
-				if = { limit = { province_id = 4248 } 
-					add_great_project_tier = { type = seyda_neen tier = -1 } 
-				} 
-				if = { limit = { province_id = 1043 } 
-					add_great_project_tier = { type = vivec_city tier = -1 } 
-				} 
-				if = { limit = { province_id = 3248 } 
-					add_great_project_tier = { type = mournhold tier = -1 } 
-				} 
-				if = { limit = { province_id = 957 } 
-					add_great_project_tier = { type = blacklight tier = -1 } 
-				} 
-				if = { limit = { province_id = 1036 } 
-					add_great_project_tier = { type = firewatch tier = -1 } 
-				} 
-				if = { limit = { province_id = 3426 } 
-					add_great_project_tier = { type = kragenmoor tier = -1 } 
-				} 
-				if = { limit = { province_id = 990 } 
-					add_great_project_tier = { type = narsis tier = -1 } 
-				} 
-				if = { limit = { province_id = 1017 } 
-					add_great_project_tier = { type = necrom tier = -1 } 
-				} 
-				if = { limit = { province_id = 984 } 
-					add_great_project_tier = { type = ebonheart tier = -1 } 
-				} 
-				if = { limit = { province_id = 3904 } 
-					add_great_project_tier = { type = tear tier = -1 } 
-				} 
-				if = { limit = { province_id = 1306 } 
-					add_great_project_tier = { type = dawnstar tier = -1 } 
-				} 
-				if = { limit = { province_id = 1291 } 
-					add_great_project_tier = { type = falkreath tier = -1 } 
-				} 
-				if = { limit = { province_id = 1355 } 
-					add_great_project_tier = { type = markarth tier = -1 } 
-				} 
-				if = { limit = { province_id = 1336 } 
-					add_great_project_tier = { type = morthal tier = -1 } 
-				} 
-				if = { limit = { province_id = 1268 } 
-					add_great_project_tier = { type = riften tier = -1 } 
-				} 
-				if = { limit = { province_id = 7300 } 
-					add_great_project_tier = { type = snowhawk tier = -1 } 
-				} 
-				if = { limit = { province_id = 1342 } 
-					add_great_project_tier = { type = solitude tier = -1 } 
-				} 
-				if = { limit = { province_id = 1319 } 
-					add_great_project_tier = { type = whiterun tier = -1 } 
-				} 
-				if = { limit = { province_id = 1275 } 
-					add_great_project_tier = { type = windhelm tier = -1 } 
-				} 
-				if = { limit = { province_id = 1299 } 
-					add_great_project_tier = { type = winterhold tier = -1 } 
-				} 
-				if = { limit = { province_id = 3073 } 
-					add_great_project_tier = { type = helgen tier = -1 } 
-				} 
-				if = { limit = { province_id = 271 } 
-					add_great_project_tier = { type = alinor tier = -1 } 
-				} 
-				if = { limit = { province_id = 263 } 
-					add_great_project_tier = { type = cloudrest tier = -1 } 
-				} 
-				if = { limit = { province_id = 4740 } 
-					add_great_project_tier = { type = dusk tier = -1 } 
-				} 
-				if = { limit = { province_id = 299 } 
-					add_great_project_tier = { type = firsthold tier = -1 } 
-				} 
-				if = { limit = { province_id = 249 } 
-					add_great_project_tier = { type = lillandril tier = -1 } 
-				} 
-				if = { limit = { province_id = 294 } 
-					add_great_project_tier = { type = shimmerene tier = -1 } 
-				} 
-				if = { limit = { province_id = 4823 } 
-					add_great_project_tier = { type = skywatch tier = -1 } 
-				} 
-				if = { limit = { province_id = 308 } 
-					add_great_project_tier = { type = vulkhel_guard tier = -1 } 
-				} 
-				if = { limit = { province_id = 4929 } 
-					add_great_project_tier = { type = marbruk tier = -1 } 
-				} 
-				if = { limit = { province_id = 4950 } 
-					add_great_project_tier = { type = silvenar tier = -1 } 
-				} 
-				if = { limit = { province_id = 4941 } 
-					add_great_project_tier = { type = southpoint tier = -1 } 
-				} 
-				if = { limit = { province_id = 4897 } 
-					add_great_project_tier = { type = whisper_grove tier = -1 } 
-				} 
-				if = { limit = { province_id = 4919 } 
-					add_great_project_tier = { type = woodhearth tier = -1 } 
-				} 
-				if = { limit = { province_id = 820 } 
-					add_great_project_tier = { type = falinesti tier = -1 } 
-				} 
-				if = { limit = { province_id = 863 } 
-					add_great_project_tier = { type = greenheart tier = -1 } 
-				} 
-				if = { limit = { province_id = 844 } 
-					add_great_project_tier = { type = haven tier = -1 } 
-				} 
-				if = { limit = { province_id = 1028 } 
-					add_great_project_tier = { type = port_telvannis tier = -1 } 
-				} 
+				using "common\great_projects\citymonuments.class" as citymonuments
+				foreach citymonuments = {
+					if = {
+						limit = {
+							province_id = citymonuments.start
+						}
+						add_great_project_tier = {
+							type = citymonuments.id
+							tier = -1
+						}
+					}
+				}
 			} 
 		} 
 	} 
@@ -1302,6 +1022,13 @@ on_siege_lost_province = {
 		}
 		cede_province = FROM
 		add_core = FROM
+	}
+	if = {
+		limit = {
+			owner = { has_country_flag = mutual_auto_siege }
+			from = { has_country_flag = mutual_auto_siege }
+		}
+		cede_province = FROM
 	}
 }
 
@@ -1823,10 +1550,6 @@ on_heir_needed_theocracy = {
 
 # Emperor from same dynasty
 on_successive_emperor = {
-	emperor = {
-		# Audax Validator "." Ignore_NEXT
-		save_global_event_target_as = Emperor
-	}
 	events = {
 		mechanics_hre.4
 	}
@@ -1854,9 +1577,6 @@ on_emperor_elected = {
 		}
 	}
 
-	emperor = {
-		save_global_event_target_as = Emperor
-	}
 	FROM = {
 		if = {
 			limit = { has_country_modifier = diet_occupied }
@@ -2069,8 +1789,7 @@ on_annexed = {
 
 # When the chinese empire gets dismantled (e.g. when the emperor is annexed)
 # FROM = Emperor, ROOT = Current Nation
-on_chinese_empire_dismantled = {
-	clear_global_event_target = EmperorOfChina									   
+on_chinese_empire_dismantled = {						   
 }
 
 # When a nation gains the Mandate of Heaven (becomes the Emperor of China)

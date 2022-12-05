@@ -36,7 +36,34 @@ corals = { baseprice = 1.5 triggers = { NOT = { OR = { has_terrain = dwemer_stro
 corundum = { baseprice = 2.5 triggers = { NOT = { OR = { has_terrain = farmlands has_terrain = grasslands has_terrain = steppe has_terrain = savannah has_terrain = jungle has_terrain = marsh has_terrain = coastal_desert has_terrain = coastline has_terrain = mudflats has_terrain = deadlands_daedric_keep } } } }
 crabs = { baseprice = 6 triggers = { NOT = { OR = { has_terrain = dwemer_stronghold has_terrain = lava has_terrain = deadlands_ashen_wastes has_terrain = deadlands_smouldering_badlands has_terrain = deadlands_boiling_coast has_terrain = deadlands_burning_hills has_terrain = deadlands_daedric_keep has_terrain = deadlands_volcanic_peak has_terrain = deadlands_lava_cave has_terrain = deadlands_sulfuric_desolation } } has_port = yes } }
 crops = { baseprice = 2.5 triggers = { NOT = { OR = { has_terrain = glacier has_terrain = drylands has_terrain = hills has_terrain = mountain has_terrain = highlands has_terrain = desert has_terrain = coastal_desert has_terrain = dwemer_stronghold has_terrain = lava has_terrain = ashlands has_terrain = barrow has_terrain = taiga has_terrain = deadlands_ashen_wastes has_terrain = deadlands_smouldering_badlands has_terrain = deadlands_boiling_coast has_terrain = deadlands_burning_hills has_terrain = deadlands_daedric_keep has_terrain = deadlands_volcanic_peak has_terrain = deadlands_lava_cave has_terrain = deadlands_sulfuric_desolation  } } } }
-cyrodilic_brandy = { baseprice = 8.5 triggers = { NOT = { OR = { has_terrain = glacier has_terrain = drylands has_terrain = hills has_terrain = mountain has_terrain = highlands has_terrain = desert has_terrain = coastal_desert has_terrain = lava has_terrain = salt_plains has_terrain = taiga has_terrain = deadlands_ashen_wastes has_terrain = deadlands_smouldering_badlands has_terrain = deadlands_boiling_coast has_terrain = deadlands_burning_hills has_terrain = deadlands_daedric_keep has_terrain = deadlands_volcanic_peak has_terrain = deadlands_lava_cave has_terrain = deadlands_sulfuric_desolation } } OR = { superregion = cyrodiil_superregion } } }
+cyrodilic_brandy = { 
+	baseprice = 8.5 
+	triggers = { 
+		NOT = { 
+			OR = { 
+				has_terrain = glacier 
+				has_terrain = drylands 
+				has_terrain = hills 
+				has_terrain = mountain 
+				has_terrain = highlands 
+				has_terrain = desert
+				has_terrain = coastal_desert 
+				has_terrain = lava 
+				has_terrain = salt_plains 
+				has_terrain = taiga 
+				has_terrain = deadlands_ashen_wastes 
+				has_terrain = deadlands_smouldering_badlands 
+				has_terrain = deadlands_boiling_coast 
+				has_terrain = deadlands_burning_hills 
+				has_terrain = deadlands_daedric_keep 
+				has_terrain = deadlands_volcanic_peak 
+				has_terrain = deadlands_lava_cave 
+				has_terrain = deadlands_sulfuric_desolation 
+			} 
+		} 
+		superregion = cyrodiil_superregion 
+	} 
+}
 daedra_heart = { baseprice = 8 triggers = { owner = { full_idea_group = alchemical_ideas } owner = { NOT = { culture_group = daedra_cg } } } }
 daedra_silk = { baseprice = 6 triggers = { owner = { full_idea_group = alchemical_ideas } } }
 daedra_venin = { baseprice = 7 triggers = { owner = { full_idea_group = alchemical_ideas } } }
@@ -57,7 +84,34 @@ fur = { baseprice = 2.5 triggers = { NOT = { OR = { has_terrain = marsh has_terr
 gems = { baseprice = 7 triggers = { NOT = { OR = { has_terrain = farmlands has_terrain = grasslands has_terrain = steppe has_terrain = savannah has_terrain = marsh has_terrain = coastline has_terrain = bayou } } } }
 glass = { baseprice = 6 triggers = { NOT = { OR = { has_terrain = glacier has_terrain = taiga has_terrain = barrow has_terrain = deadlands_daedric_keep } } } }
 gold = { baseprice = 10.0 triggers = { NOT = { has_terrain = grasslands has_terrain = jungle has_terrain = farmlands has_terrain = coastline has_terrain = coastal_desert has_terrain = woods has_terrain = marsh has_terrain = bayou has_terrain = glacier has_terrain = taiga has_terrain = lava has_terrain = fungal_forest has_terrain = steppe has_terrain = deadlands_boiling_coast has_terrain = deadlands_ashen_wastes has_terrain = deadlands_smouldering_badlands has_terrain = deadlands_burning_hills has_terrain = deadlands_daedric_keep has_terrain = deadlands_volcanic_peak has_terrain = deadlands_lava_cave has_terrain = deadlands_sulfuric_desolation } NOT = { any_province_in_state = { OR = { trade_goods = silver trade_goods = gold } } } } }
-greef = { baseprice = 8.0 triggers = { NOT = { OR = { has_terrain = glacier has_terrain = drylands has_terrain = hills has_terrain = mountain has_terrain = highlands has_terrain = desert has_terrain = coastal_desert has_terrain = lava has_terrain = salt_plains has_terrain = taiga has_terrain = deadlands_ashen_wastes has_terrain = deadlands_smouldering_badlands has_terrain = deadlands_boiling_coast has_terrain = deadlands_burning_hills has_terrain = deadlands_daedric_keep has_terrain = deadlands_volcanic_peak has_terrain = deadlands_lava_cave has_terrain = deadlands_sulfuric_desolation } } OR = { superregion = morrowind_superregion } } }
+greef = { 
+	baseprice = 8.0 
+	triggers = { 
+		NOT = { 
+			OR = { 
+				has_terrain = glacier 
+				has_terrain = drylands 
+				has_terrain = hills 
+				has_terrain = mountain 
+				has_terrain = highlands 
+				has_terrain = desert 
+				has_terrain = coastal_desert 
+				has_terrain = lava 
+				has_terrain = salt_plains 
+				has_terrain = taiga 
+				has_terrain = deadlands_ashen_wastes 
+				has_terrain = deadlands_smouldering_badlands 
+				has_terrain = deadlands_boiling_coast 
+				has_terrain = deadlands_burning_hills 
+				has_terrain = deadlands_daedric_keep 
+				has_terrain = deadlands_volcanic_peak 
+				has_terrain = deadlands_lava_cave 
+				has_terrain = deadlands_sulfuric_desolation 
+			} 
+		} 
+		superregion = morrowind_superregion
+	} 
+}
 hags_breath = { baseprice = 8.0 triggers = { culture = ayleid NOT = { has_province_flag = banned_hags_breath_production_flag continent = Tamriel } } }
 harrada_root = { baseprice = 2.0 triggers = { owner = { full_idea_group = alchemical_ideas } } }
 herbs = { baseprice = 5.5 triggers = { NOT = { OR = { has_terrain = glacier has_terrain = drylands has_terrain = hills has_terrain = mountain has_terrain = highlands has_terrain = dwemer_stronghold has_terrain = lava has_terrain = deadlands_ashen_wastes has_terrain = deadlands_smouldering_badlands has_terrain = deadlands_boiling_coast has_terrain = deadlands_burning_hills has_terrain = deadlands_daedric_keep has_terrain = deadlands_volcanic_peak has_terrain = deadlands_lava_cave has_terrain = deadlands_sulfuric_desolation  } } } }
@@ -104,7 +158,7 @@ skooma = { baseprice = 7.5 triggers = { NOT = { has_province_flag = banned_skoom
 slaves = { baseprice = 4.5 triggers = { OR = { has_owner_accepted_culture = no has_owner_religion = no } owner = { has_estate = estate_slavers } } }
 sleeping_tree_sap = { baseprice = 9.5 triggers = { continent = Tamriel NOT = { has_province_flag = banned_sleeping_tree_sap_production_flag } } }
 sload_soap = { baseprice = 9.5 triggers = { culture = sload } }
-soul_gems = { baseprice = 7.5 triggers = { owner = { OR = { full_idea_group = soul_siphon_ideas } } } }
+soul_gems = { baseprice = 7.5 triggers = { owner = { full_idea_group = soul_siphon_ideas } } }
 sparkling_honeydew = { baseprice = 6.5 triggers = { NOT = { OR = { has_terrain = glacier has_terrain = drylands has_terrain = hills has_terrain = mountain has_terrain = highlands has_terrain = desert has_terrain = coastal_desert has_terrain = lava has_terrain = salt_plains has_terrain = taiga has_terrain = deadlands_ashen_wastes has_terrain = deadlands_smouldering_badlands has_terrain = deadlands_boiling_coast has_terrain = deadlands_burning_hills has_terrain = deadlands_daedric_keep has_terrain = deadlands_volcanic_peak has_terrain = deadlands_lava_cave has_terrain = deadlands_sulfuric_desolation } } } }
 spiced_wine = { baseprice = 10.0 triggers = { NOT = { OR = { has_terrain = glacier has_terrain = drylands has_terrain = hills has_terrain = mountain has_terrain = highlands has_terrain = desert has_terrain = coastal_desert has_terrain = lava has_terrain = salt_plains has_terrain = taiga has_terrain = deadlands_ashen_wastes has_terrain = deadlands_smouldering_badlands has_terrain = deadlands_boiling_coast has_terrain = deadlands_burning_hills has_terrain = deadlands_daedric_keep has_terrain = deadlands_volcanic_peak has_terrain = deadlands_lava_cave has_terrain = deadlands_sulfuric_desolation } } superregion = skyrim_superregion } }
 spiddal_stick = { baseprice = 1.5 triggers = { owner = { full_idea_group = alchemical_ideas } } }

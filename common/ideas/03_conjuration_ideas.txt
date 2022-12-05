@@ -8,7 +8,7 @@ summoning_ideas = {
 				capital_scope = {
 					superregion = high_rock_superregion
 				}
-				culture = altmer
+				primary_culture = altmer
 			}
 			#Normal
 			full_idea_group = conjuration_ideas
@@ -75,7 +75,7 @@ necromacy_ideas = {
 			culture_group = sload_cg
 			culture_group = dead_cg
 			esu_lich = 1
-			culture = barseabic
+			primary_culture = barsaebic
 			ruler_has_personality = ambitious_personality
 			ruler_has_personality = puppet_master_personality
 			ruler_has_personality = impaler_personality
@@ -148,9 +148,12 @@ soul_siphon_ideas = {
 		OR = {
 			# Hidden
 			religion = molag_bal_cult
-			has_great_project = {
-				id = arkthzand_cavern
-				tier = 3
+			7229 = {
+				owned_by = ROOT
+				has_great_project = {
+					type = arkthzand_cavern
+					tier = 3
+				}
 			}
 			# Normal
 			full_idea_group = necromacy_ideas

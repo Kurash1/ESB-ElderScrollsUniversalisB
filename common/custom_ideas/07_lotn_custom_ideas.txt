@@ -1,3 +1,4 @@
+# Audax Validator "!" Ignore_ALL
 lotn_idea_adm_modifiers = {
 	category = ADM
 	
@@ -119,7 +120,7 @@ lotn_idea_adm_modifiers = {
 		}
 	}
 
-    Negative Modifiers
+    #Negative Modifiers
 	custom_can_not_build_colonies = {
 		can_not_build_colonies = yes
         max_level = 1
@@ -169,7 +170,7 @@ lotn_idea_adm_modifiers = {
             factor = 0
         }
     }
-    custom_may_reduce_inflation = {    Not functional
+    custom_may_reduce_inflation = {    #Not functional
         may_reduce_inflation = yes
         max_level = 1
         level_cost_1 = 0
@@ -177,7 +178,7 @@ lotn_idea_adm_modifiers = {
             factor = 0
         }
     }
-    custom_may_convert_territories = { Not functional
+    custom_may_convert_territories = { #Not functional
         may_convert_territories = yes
         max_level = 1
         level_cost_1 = 0
@@ -312,7 +313,7 @@ lotn_idea_dip_modifiers = {
 			factor = 1
 		}
     }
-    custom_reduced_native_attacks = {  Not functional
+    custom_reduced_native_attacks = {  #Not functional
         reduced_native_attacks = yes
         max_level = 1
         level_cost_1 = 25
@@ -638,7 +639,7 @@ lotn_idea_mil_modifiers = {
 	custom_own_territory_dice_roll_bonus = {
 		own_territory_dice_roll_bonus = 1
 		level_cost_1 = 25
-		level_cost_2 = 50
+		#level_cost_2 = 50
 		max_level = 1
 		
 		chance = {

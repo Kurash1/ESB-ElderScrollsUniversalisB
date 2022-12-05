@@ -240,81 +240,81 @@ country_event = {
 	
 }
 
-country_event = {
-	id = es_1_scenario.4
-	title = es_1_scenario.4.t
-	desc = es_1_scenario.4.d
-    picture = ES_WEYE_eventPicture	
-	
-	is_triggered_only = yes
-	
-	immediate = {
-		hidden_effect = {
-			1191 = { owner = { save_event_target_as = 1191_owner } }
-		}
-	}
+#country_event = {
+#	id = es_1_scenario.4
+#	title = es_1_scenario.4.t
+#	desc = es_1_scenario.4.d
+#    picture = ES_WEYE_eventPicture	
+#	
+#	is_triggered_only = yes
+#	
+#	immediate = {
+#		hidden_effect = {
+#			1191 = { owner = { save_event_target_as = 1191_owner } }
+#		}
+#	}
+#
+#	option = {
+#		name = "es_1_scenario.4.a"
+#		ai_chance = { factor = 50 }
+#		
+#		if = { limit = { can_declare_scenario_war = yes NOT = { truce_with = event_target:1191_owner } NOT = { alliance_with = event_target:1191_owner } NOT = { is_subject_of = event_target:1191_owner } NOT = { overlord_of = event_target:1191_owner } }
+#		declare_war_with_cb = { who = event_target:1191_owner casus_belli = cb_restore_personal_union }
+#		}
+#		
+#		add_manpower = 50
+#		define_general = { shock = 2 fire = 2 manuever = 5 siege = 1 }
+#		
+#		every_country = { limit = { ai = no has_country_flag = esu_news_flag } country_event = { id = es_news.1402 days = 31 tooltip = es_collapse.2.a.tt } }
+#	}
+#	option = {
+#		name = "es_1_scenario.4.b"
+#		ai_chance = { factor = 50 }
+#		
+#		add_prestige = -15
+#		
+#		every_country = { limit = { ai = no has_country_flag = esu_news_flag } country_event = { id = es_news.1403 days = 31 tooltip = es_collapse.2.a.tt } }
+#	}
+#	
+#}
 
-	option = {
-		name = "es_1_scenario.4.a"
-		ai_chance = { factor = 50 }
-		
-		if = { limit = { can_declare_scenario_war = yes NOT = { truce_with = event_target:1191_owner } NOT = { alliance_with = event_target:1191_owner } NOT = { is_subject_of = event_target:1191_owner } NOT = { overlord_of = event_target:1191_owner } }
-		declare_war_with_cb = { who = event_target:1191_owner casus_belli = cb_restore_personal_union }
-		}
-		
-		add_manpower = 50
-		define_general = { shock = 2 fire = 2 manuever = 5 siege = 1 }
-		
-		every_country = { limit = { ai = no has_country_flag = esu_news_flag } country_event = { id = es_news.1402 days = 31 tooltip = es_collapse.2.a.tt } }
-	}
-	option = {
-		name = "es_1_scenario.4.b"
-		ai_chance = { factor = 50 }
-		
-		add_prestige = -15
-		
-		every_country = { limit = { ai = no has_country_flag = esu_news_flag } country_event = { id = es_news.1403 days = 31 tooltip = es_collapse.2.a.tt } }
-	}
-	
-}
-
-country_event = {
-	id = es_1_scenario.5
-	title = es_1_scenario.5.t
-	desc = es_1_scenario.5.d
-    picture = ES_COLOVIAN_HOUSE_eventPicture	
-	
-	is_triggered_only = yes
-	
-	immediate = {
-		hidden_effect = {
-			5627 = { owner = { save_event_target_as = 5627_owner } }
-		}
-	}
-
-	option = {
-		name = "es_1_scenario.4.a"
-		ai_chance = { factor = 50 }
-		
-		if = { limit = { can_declare_scenario_war = yes NOT = { truce_with = event_target:5627_owner } NOT = { alliance_with = event_target:5627_owner } NOT = { is_subject_of = event_target:5627_owner } NOT = { overlord_of = event_target:5627_owner } }
-		declare_war_with_cb = { who = event_target:5627_owner casus_belli = cb_restore_personal_union } 
-		}
-		
-		add_years_of_income = 10.0
-		define_general = { shock = 5 fire = 2 manuever = 2 siege = 1 }
-		
-		every_country = { limit = { ai = no has_country_flag = esu_news_flag } country_event = { id = es_news.1404 days = 31 tooltip = es_collapse.2.a.tt } }
-	}
-	option = {
-		name = "es_1_scenario.4.b"
-		ai_chance = { factor = 50 }
-		
-		add_prestige = -15
-		
-		every_country = { limit = { ai = no has_country_flag = esu_news_flag } country_event = { id = es_news.1405 days = 31 tooltip = es_collapse.2.a.tt } }
-	}
-	
-}
+#country_event = {
+#	id = es_1_scenario.5
+#	title = es_1_scenario.5.t
+#	desc = es_1_scenario.5.d
+#    picture = ES_COLOVIAN_HOUSE_eventPicture	
+#	
+#	is_triggered_only = yes
+#	
+#	immediate = {
+#		hidden_effect = {
+#			5627 = { owner = { save_event_target_as = 5627_owner } }
+#		}
+#	}
+#
+#	option = {
+#		name = "es_1_scenario.4.a"
+#		ai_chance = { factor = 50 }
+#		
+#		if = { limit = { can_declare_scenario_war = yes NOT = { truce_with = event_target:5627_owner } NOT = { alliance_with = event_target:5627_owner } NOT = { is_subject_of = event_target:5627_owner } NOT = { overlord_of = event_target:5627_owner } }
+#		declare_war_with_cb = { who = event_target:5627_owner casus_belli = cb_restore_personal_union } 
+#		}
+#		
+#		add_years_of_income = 10.0
+#		define_general = { shock = 5 fire = 2 manuever = 2 siege = 1 }
+#		
+#		every_country = { limit = { ai = no has_country_flag = esu_news_flag } country_event = { id = es_news.1404 days = 31 tooltip = es_collapse.2.a.tt } }
+#	}
+#	option = {
+#		name = "es_1_scenario.4.b"
+#		ai_chance = { factor = 50 }
+#		
+#		add_prestige = -15
+#		
+#		every_country = { limit = { ai = no has_country_flag = esu_news_flag } country_event = { id = es_news.1405 days = 31 tooltip = es_collapse.2.a.tt } }
+#	}
+#	
+#}
 
 ### Winterborn Clan
 

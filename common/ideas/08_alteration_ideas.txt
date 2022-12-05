@@ -4,7 +4,7 @@ mysticism_ideas = {
 	trigger = {
 		OR = {
 			#Hidden
-			culture = reachmen
+			primary_culture = reachmen
 			religion = old_way_cult
 			#Normal
 			full_idea_group = alteration_ideas
@@ -141,9 +141,9 @@ esb_weathermagic = {
 		OR = {
 			#Hidden
 			culture_group = marsh_cg
-			culture = ayleid
+			primary_culture = ayleid
 			culture_group = dwemer_cg
-			culture = vampire
+			primary_culture = vampire
 			culture_group = maormer_cg
 			religion = old_way_cult
 			culture_group = tsaesci_cg
@@ -233,12 +233,12 @@ esb_sight = {
 	trigger = {
 		OR = {
 			#Hidden
-			culture = imga
+			primary_culture = imga
 			culture_group = velothi_cg
 			religion = eight_divines
 			religion = nine_divines
 			religion = old_way_cult
-			culture = reachmen
+			primary_culture = reachmen
 			#Normal
 			full_idea_group = esb_thaumaturgy
 		}
@@ -332,7 +332,7 @@ esb_thaumavocalism = {
 		OR = {
 			#Hidden
 			advisor = esu_bard
-			culture = breton
+			primary_culture = breton
 			#Normal
 			full_idea_group = alteration_ideas
 		}
@@ -376,7 +376,7 @@ esb_dark_magic = {
 		OR = {
 			#Hidden
 			culture_group = daedra_cg
-			culture = reachmen
+			primary_culture = reachmen
 			#Normal
 			full_idea_group = mysticism_ideas
 		}

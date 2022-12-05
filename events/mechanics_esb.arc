@@ -51,6 +51,21 @@ province_event = {
 		}
 	}
 	
+	option = { #this is for the validator
+		name = none
+		trigger = {
+			always = no
+		}
+		owner = {
+			country_event = {
+				id = es_esb.0
+			}
+			country_event = {
+				id = es_esb.6
+			}
+		}
+	}
+	
 	#defineLoc es_esb.0.tt.a = "You sponsor for a search for an artifact. The Search may take between 10 and 20 years."
 	#defineLoc es_esb.0.tt.b = "You do not have enough money to sponsor a search"
 	#defineLoc es_esb.0.e = "Search for artifact"
@@ -273,7 +288,6 @@ country_event = {
 defineLoc es_esb.6.t = "Artifact Search"
 defineLoc es_esb.6.d = "You should not see this"
 defineLoc es_esb.6.a = "Too bad"
-
 province_event = {
 	id = es_esb.6
 	title = es_esb.6.t

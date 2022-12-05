@@ -139,7 +139,7 @@ aristo0 = {
 		government = theocracy
 	}
 	bonus = {
-		corruption_loyalty_modifier = 0.15
+		priests_loyalty_modifier = 0.15
 	}
 
 	aristo1 = {
@@ -654,7 +654,7 @@ gesellschaft0 = {
 	trigger = {
 		OR = {
 			#Hidden
-			average_unrest = -5
+			NOT = { average_unrest = 1 }
 			#Normal
 			full_idea_group = staatsverwaltung0
 		}
@@ -713,7 +713,7 @@ propaganda0 = {
 	trigger = {
 		OR = {
 			#Hidden
-			average_unrest = -5
+			average_unrest = 5
 			#Normal
 			full_idea_group = staatsverwaltung0
 		}
@@ -917,7 +917,7 @@ esb_hegemonic = {
 	}
 	esb_hegemonic2 = {
 		prestige = 1
-		corruption = 0.1
+		yearly_corruption = 0.1
 	}
 	esb_hegemonic3 = {
 		advisor_pool = 2

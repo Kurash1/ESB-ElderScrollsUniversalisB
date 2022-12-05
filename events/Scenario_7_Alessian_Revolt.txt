@@ -699,7 +699,7 @@ country_event = {
 	title = es_7_scenario.16.t
 	desc = es_7_scenario.16.d
 	picture = ES_EIGHT_DIVINES_2_eventPicture
-	
+	hidden = yes
 	is_triggered_only = yes
 	
 	immediate = {
@@ -716,6 +716,7 @@ country_event = {
 	}
 	
 	option = {
+		name = none
 		every_country = {
 			limit = {
 				primary_culture = nedic
@@ -745,13 +746,16 @@ country_event = {
 				NOT = {
 					reverse_has_opinion = {
 						who = 1206_owner
-						opinion = -150
+						value = -150
 					}
 				}
 			}
 			create_alliance = ROOT
 			join_all_offensive_wars_of = ROOT
 			join_all_defensive_wars_of = ROOT
+		}
+		ai_chance = {
+			factor = 100
 		}
 	}
 }

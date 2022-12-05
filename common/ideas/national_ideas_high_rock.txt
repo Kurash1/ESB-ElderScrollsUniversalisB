@@ -119,7 +119,7 @@ DIR_ideas = {
 #Daggerfall (Zardae)
 BA1_ideas = {
 	trigger = {
-		TAG = BA1
+		tag = BA1
 	}
 
 	start = {
@@ -179,7 +179,7 @@ BA1_ideas = {
 #Orsimer Nation
 ORS_ideas = {
 	trigger = {
-		TAG = ORS
+		tag = ORS
 	}
 
 	start = {
@@ -241,7 +241,7 @@ ORS_ideas = {
 #Wrothgar Mountains
 WRO_ideas = {
 	trigger = {
-		TAG = WRO
+		tag = WRO
 	}
 
 	start = {
@@ -302,7 +302,7 @@ WRO_ideas = {
 # Winterborn Clan
 WTB_ideas = {
 	trigger = {
-		TAG = WTB
+		tag = WTB
 	}
 
 	start = {
@@ -363,7 +363,7 @@ WTB_ideas = {
 #Wayrest
 WAY_ideas = {
 	trigger = {
-		TAG = WAY
+		tag = WAY
 	}
 
 	start = {
@@ -422,61 +422,61 @@ WAY_ideas = {
 }
 
 #Evermore (not formable yet?)
-EVE_ideas = {
-	trigger = {
-		TAG = EVE
-	}
-
-	start = {
-		cavalry_cost = -0.20
-		yearly_army_professionalism = 0.015
-	}
-
-	bonus = {
-		allowed_marine_fraction = 0.15
-	}
-
-	free = yes
-
-	# Granite Palace	
-	# Its impressive palace was assembled from slabs of granite quarried from nearby Markarth.
-	eve_ideas_1 = {
-		build_cost = -0.20
-	}
-
-	# Bjoulsae River
-	# The Bjoulsae River is a major river that forms most of the border between Hammerfell and High Rock. It is the home of the River Horse Bretons, tribes of nomadic Bretons that live throughout the river and nearby Bangkorai.
-	eve_ideas_2 ={
-		trade_steering = 0.2
-	}
-
-	# Pelin Veneration
-	# Saint Pelin the Martyr was a Breton priest of Stendarr that ascended to the role of sainthood following his divine act in the defense of the Bangkorai Garrison in 1E 1029, which in turn, brought the province of High Rock into the First Empire of Cyrodiil. He had become a folk hero to the Bretons of Evermore and the greater region of Bretonic-Bangkorai, memorialized by the chapel of St. Pelin in Evermore, the Order of Saint Pelin, the knightly order of the Kingdom of Evermore, and the great cemetery called Pelin Graveyard.
-	eve_ideas_3 = {
-		all_estate_loyalty_equilibrium = 0.10
-	}
-	
-	# River Horse Bretons
-	# The River Horse Bretons is the indigenous group of tribal Bretons that live in the Bjoulsae River region. While information on them is scarce, the horse-men are a nomadic, primitive folk that wear fur armor and bone necklaces, much like the Reachmen. As the name suggests, they are known for their horses. Their battle strategies and tactics are described as straight-forward, which is the "way of the horse men", in the book The Mirror.
-	eve_ideas_4 = {
-		cavalry_power = 0.33
-	}
-			
-	# Evermor
-	# We of Evermore welcome you into our walls. Many call this their home and extend their welcome. Remember this, lest you forget who you would face in the world outside...
-	eve_ideas_5 = {
-		diplomats = 1
-	}
-
-	# Bangkorai
-	# Many times throughout history, the soldiers of the Bangkorai Garrison have successfully stopped invaders from pouring through the Bangkorai Pass, protecting the lands beyond it from military conquest. In 1E 874, a horde of Orcs and goblins which had been displaced by the Redguards flowed west, but were denied passage at the Bangkorai Pass. They were forced to head northeast into the Dragontail Mountains in order to reach Orsinium. Then, in 1E 1029, when the Imperial Legion under Empress Hestra deposed King Styriche, the Vampire of Verkarth, he and his Gray Host fled west, burning and killing as they came, but were successfully stopped and routed at the Pass.
-	eve_ideas_6 = {
-		prestige = 1
-	}
-
-	# Reachmen Raids
-	# Is there any country in High Rock NOT harrased by them?
-	eve_ideas_7 = {
-		improve_relation_modifier = 0.25
-	}
-}
+#EVE_ideas = {
+#	trigger = {
+#		tag = EVE
+#	}
+#
+#	start = {
+#		cavalry_cost = -0.20
+#		yearly_army_professionalism = 0.015
+#	}
+#
+#	bonus = {
+#		allowed_marine_fraction = 0.15
+#	}
+#
+#	free = yes
+#
+#	# Granite Palace	
+#	# Its impressive palace was assembled from slabs of granite quarried from nearby Markarth.
+#	eve_ideas_1 = {
+#		build_cost = -0.20
+#	}
+#
+#	# Bjoulsae River
+#	# The Bjoulsae River is a major river that forms most of the border between Hammerfell and High Rock. It is the home of the River Horse Bretons, tribes of nomadic Bretons that live throughout the river and nearby Bangkorai.
+#	eve_ideas_2 ={
+#		trade_steering = 0.2
+#	}
+#
+#	# Pelin Veneration
+#	# Saint Pelin the Martyr was a Breton priest of Stendarr that ascended to the role of sainthood following his divine act in the defense of the Bangkorai Garrison in 1E 1029, which in turn, brought the province of High Rock into the First Empire of Cyrodiil. He had become a folk hero to the Bretons of Evermore and the greater region of Bretonic-Bangkorai, memorialized by the chapel of St. Pelin in Evermore, the Order of Saint Pelin, the knightly order of the Kingdom of Evermore, and the great cemetery called Pelin Graveyard.
+#	eve_ideas_3 = {
+#		all_estate_loyalty_equilibrium = 0.10
+#	}
+#	
+#	# River Horse Bretons
+#	# The River Horse Bretons is the indigenous group of tribal Bretons that live in the Bjoulsae River region. While information on them is scarce, the horse-men are a nomadic, primitive folk that wear fur armor and bone necklaces, much like the Reachmen. As the name suggests, they are known for their horses. Their battle strategies and tactics are described as straight-forward, which is the "way of the horse men", in the book The Mirror.
+#	eve_ideas_4 = {
+#		cavalry_power = 0.33
+#	}
+#			
+#	# Evermor
+#	# We of Evermore welcome you into our walls. Many call this their home and extend their welcome. Remember this, lest you forget who you would face in the world outside...
+#	eve_ideas_5 = {
+#		diplomats = 1
+#	}
+#
+#	# Bangkorai
+#	# Many times throughout history, the soldiers of the Bangkorai Garrison have successfully stopped invaders from pouring through the Bangkorai Pass, protecting the lands beyond it from military conquest. In 1E 874, a horde of Orcs and goblins which had been displaced by the Redguards flowed west, but were denied passage at the Bangkorai Pass. They were forced to head northeast into the Dragontail Mountains in order to reach Orsinium. Then, in 1E 1029, when the Imperial Legion under Empress Hestra deposed King Styriche, the Vampire of Verkarth, he and his Gray Host fled west, burning and killing as they came, but were successfully stopped and routed at the Pass.
+#	eve_ideas_6 = {
+#		prestige = 1
+#	}
+#
+#	# Reachmen Raids
+#	# Is there any country in High Rock NOT harrased by them?
+#	eve_ideas_7 = {
+#		improve_relation_modifier = 0.25
+#	}
+#}
