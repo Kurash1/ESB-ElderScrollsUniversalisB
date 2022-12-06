@@ -1,0 +1,11 @@
+#religion = bosmer_pantheon
+#culture = hollow
+#hre = no
+#base_tax = 2
+#base_production = 2
+#trade_goods = unknown
+#base_manpower = 2
+#capital = "Riverhollow"
+#is_city = no
+#
+#

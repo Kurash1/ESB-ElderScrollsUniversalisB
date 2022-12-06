@@ -1,0 +1,35 @@
+##owner = VA4
+##controller = VA4
+##add_core = VA4
+#religion = orcish_pantheon
+#culture = wood_orsimer
+#hre = no
+#base_tax = 6
+#base_production = 6
+#trade_goods = unknown
+#base_manpower = 6
+#capital = "Karthdar Square"
+#is_city = yes
+#
+#
+##57.1.1 = {
+#    #owner = VA4
+#    #controller = VA4
+#    #add_core = VA4
+##}
+#
+#272.1.1 = {
+##}
+#
+#535.1.1 = {
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#

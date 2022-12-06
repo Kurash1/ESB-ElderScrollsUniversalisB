@@ -1,0 +1,29 @@
+##owner = MD0
+##controller = MD0
+##add_core = MD0
+#religion = malacath_cult
+#culture = orsimer
+#hre = no
+#base_tax = 3
+#base_production = 1
+#trade_goods = unknown
+#base_manpower = 5
+#capital = "Dulg Granosh"
+#is_city = yes
+#center_of_trade = 1
+##57.1.1 = {
+#	#owner = MD0
+#	#controller = MD0
+#	#add_core = MD0
+##}
+#272.1.1 = {
+##}
+#535.1.1 = {
+##}
+#862.1.1 = {
+##}
+#1177.1.1 = {
+##}
+#1466.1.1 = {
+##}
+#

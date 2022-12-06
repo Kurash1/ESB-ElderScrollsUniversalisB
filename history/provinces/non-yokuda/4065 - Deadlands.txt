@@ -1,0 +1,35 @@
+owner = DW1
+controller = DW1
+add_core = DW1
+religion = mehrunes_dagon_cult
+culture = xivilai
+hre = no
+base_tax = 5
+base_production = 7
+trade_goods = unknown
+base_manpower = 12
+capital = "World Breaker"
+is_city = yes
+
+center_of_trade = 1
+
+57.1.1 = {
+	owner = DW1
+	controller = DW1
+	add_core = DW1
+}
+
+272.1.1 = {
+}
+
+535.1.1 = {
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}

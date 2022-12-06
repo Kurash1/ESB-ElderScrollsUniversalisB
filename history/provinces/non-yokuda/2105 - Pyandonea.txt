@@ -1,0 +1,10 @@
+religion = serpant_king
+culture = maormer
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = unknown
+base_manpower = 3
+capital = "Malphina"
+is_city = no
+

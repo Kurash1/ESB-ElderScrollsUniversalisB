@@ -1,0 +1,38 @@
+##owner = CD5
+##controller = CD5
+##add_core = CD5
+#religion = nocturnal_cult
+#culture = ayleid
+#hre = no
+#base_tax = 1
+#base_production = 1
+#trade_goods = unknown
+#base_manpower = 1
+#capital = "Ratale"
+#is_city = yes
+#
+#
+#
+##57.1.1 = {
+#   #owner = CA2
+#   #controller = CA2
+#   #add_core = CA2
+##}
+#
+#
+#272.1.1 = {
+#   religion = nedic_pantheon
+##}
+#
+#535.1.1 = {
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#

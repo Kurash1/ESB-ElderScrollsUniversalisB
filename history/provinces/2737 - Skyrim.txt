@@ -1,0 +1,38 @@
+##owner = ND8
+##controller = ND8
+##add_core = ND8
+#religion = reason_and_logic_cult
+#culture = rourkenid
+#hre = no
+#base_tax = 33
+#base_production = 42
+#trade_goods = unknown
+#base_manpower = 30
+#capital = "Alftand"
+#is_city = yes
+#
+#
+#
+##57.1.1 = {
+##}
+#
+#272.1.1 = {
+#    #owner = NA8
+#    #controller = NA8
+#    #add_core = NA8
+#    religion = nordic_pantheon
+#    culture = nord
+##}
+#
+#535.1.1 = {
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#

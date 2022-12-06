@@ -1,0 +1,32 @@
+owner = AC7
+controller = AC7
+add_core = AC7
+religion = nocturnal_cult
+culture = lilmothiit
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = unknown
+base_manpower = 3
+capital = "Olank-Leesha"
+is_city = yes
+
+
+
+57.1.1 = {
+}
+
+272.1.1 = {
+}
+
+535.1.1 = {
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}

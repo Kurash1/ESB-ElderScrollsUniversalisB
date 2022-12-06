@@ -1,0 +1,36 @@
+##owner = CH1
+##controller = CH1
+##add_core = CH1
+#religion = cult_of_the_moth
+#culture = ayleid
+#hre = no
+#base_tax = 1
+#base_production = 1
+#trade_goods = unknown
+#base_manpower = 1
+#capital = "Gissia"
+#is_city = yes
+#
+#
+##57.1.1 = {
+#   #owner = CB6
+#   #controller = CB6
+#   #add_core = CB6
+##}
+#
+#272.1.1 = {
+#   religion = snow_elves_pantheon
+##}
+#
+#535.1.1 = {
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#

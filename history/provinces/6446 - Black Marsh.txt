@@ -1,0 +1,35 @@
+##owner = AA2
+##controller = AA2
+##add_core = AA2
+#religion = altmeri_pantheon
+#culture = barsaebic
+#hre = no
+#base_tax = 1
+#base_production = 1
+#trade_goods = unknown
+#base_manpower = 1
+#capital = "Xemthees"
+#is_city = yes
+#
+##57.1.1 = {
+#   #owner = SIY
+#   #controller = SIY
+#   #add_core = SIY
+##}
+#
+#272.1.1 = {
+##}
+#
+#535.1.1 = {
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#
+#

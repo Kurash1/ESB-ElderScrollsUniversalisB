@@ -1,0 +1,35 @@
+##owner = CG6
+##controller = CG6
+##add_core = CG6
+#religion = snow_elves_pantheon
+#culture = ayleid
+#hre = no
+#base_tax = 2
+#base_production = 2
+#trade_goods = unknown
+#base_manpower = 2
+#capital = "Gruinoa"
+#is_city = yes
+#
+#
+##57.1.1 = {
+#   #owner = CG9
+#   #controller = CG9
+#   #add_core = CG9
+##}
+#
+#272.1.1 = {
+##}
+#
+#535.1.1 = {
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#

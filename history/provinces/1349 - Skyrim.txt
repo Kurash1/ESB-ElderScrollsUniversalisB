@@ -1,0 +1,24 @@
+#
+#
+#
+#religion = nordic_pantheon
+#culture = nord
+#hre = yes
+#base_tax = 3
+#base_production = 3
+#trade_goods = unknown
+#base_manpower = 3
+#capital = "Chillwind"
+#is_city = no
+##57.1.1 = { 
+#    #owner = NC5
+#    #controller = NC5
+#    #add_core = NC5
+#    is_city = yes
+##}
+#
+#272.1.1 = { #owner = REA #controller = REA #add_core = REA #} 
+#535.1.1 = { #} 
+#862.1.1 = { #} 
+#1177.1.1 = { #} 
+#1466.1.1 = { #} 

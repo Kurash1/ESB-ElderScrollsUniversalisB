@@ -1,0 +1,12 @@
+religion = yokudan_pantheon
+culture = yokudan_highlander
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Melena"
+is_city = yes
+owner = TGN
+controller = TGN
+add_core = TGN

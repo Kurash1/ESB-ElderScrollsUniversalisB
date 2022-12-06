@@ -1,0 +1,33 @@
+##owner = NA2
+##controller = NA2
+##add_core = NA2
+#religion = reason_and_logic_cult
+#culture = rourkenid
+#hre = no
+#base_tax = 17
+#base_production = 23
+#trade_goods = unknown
+#base_manpower = 21
+#capital = "Kargenzel"
+#is_city = yes
+#
+#
+#
+##57.1.1 = {
+##}
+#
+#272.1.1 = {
+##}
+#
+#535.1.1 = {
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#

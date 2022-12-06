@@ -1,0 +1,1 @@
+hodana_company = { regiments_per_development = 0.075 cost_modifier = 0 home_province = 2118 cavalry_weight = 0.25 artillery_weight = 0.15 sprites = { breton_sprite_pack } trigger = { culture_group = yokudo_redguard_cg dynasty = "Al-Hodana" capital = 2118 } modifier = { discipline = 0.1 } } 

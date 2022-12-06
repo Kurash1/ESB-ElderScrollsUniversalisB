@@ -3,22 +3,10 @@ Phynaster = {
 	global_manpower_modifier = 0.1
 	allow = {
 		OR = {
-			AND = {
-				religion = altmeri_pantheon
-				# has_country_flag = deity_flag_2
-			}
-			AND = {
-				religion = snow_elves_pantheon
-				# has_country_flag = deity_flag_3
-			}
-			AND = {
-				religion = twelve_divines
-				# has_country_flag = deity_flag_9
-			}
-			AND = {
-				religion = ayleid_pantheon
-				# has_country_flag = deity_flag_1
-			}
+			religion = altmeri_pantheon
+			religion = snow_elves_pantheon
+			religion = twelve_divines
+			religion = ayleid_pantheon
 		}
 	}
 	sprite = 6
@@ -32,18 +20,9 @@ Trinimac = {
 	shock_damage = 0.1
 	allow = {
 		OR = {
-			AND = {
-				religion = altmeri_pantheon
-				# has_country_flag = deity_flag_3
-			}
-			AND = {
-				religion = snow_elves_pantheon
-				# has_country_flag = deity_flag_4
-			}
-			AND = {
-				religion = ayleid_pantheon
-				# has_country_flag = deity_flag_2
-			}
+			religion = altmeri_pantheon
+			religion = snow_elves_pantheon
+			religion = ayleid_pantheon
 			religion = orcish_pantheon
 		}
 	}
@@ -74,10 +53,7 @@ Jephre = {
 	culture_conversion_cost = -0.1
 	global_trade_goods_size_modifier = 0.1
 	allow = {
-		AND = {
-			religion = snow_elves_pantheon
-			# has_country_flag = deity_flag_5
-		}
+		religion = snow_elves_pantheon
 	}
 	sprite = 2
 	ai_will_do = {
@@ -90,14 +66,8 @@ Syrabane = {
 	recover_army_morale_speed = 0.1
 	allow = {
 		OR = {
-			AND = {
-				religion = altmeri_pantheon
-				# has_country_flag = deity_flag_5
-			}
-			AND = {
-				religion = ayleid_pantheon
-				# has_country_flag = deity_flag_4
-			}
+			religion = altmeri_pantheon
+			religion = ayleid_pantheon
 		}
 	}
 	sprite = 8
@@ -111,18 +81,9 @@ Yffre = {
 	global_trade_goods_size_modifier = 0.1
 	allow = {
 		OR = {
-			AND = {
-				religion = bosmer_pantheon
-				# has_country_flag = deity_flag_3
-			}
-			AND = {
-				religion = twelve_divines
-				# has_country_flag = deity_flag_11
-			}
-			AND = {
-				religion = ayleid_pantheon
-				# has_country_flag = deity_flag_5
-			}
+			religion = bosmer_pantheon
+			religion = twelve_divines
+			religion = ayleid_pantheon
 		}
 	}
 	sprite = 2
@@ -136,26 +97,11 @@ Zen = {
 	shock_damage_received = -0.1
 	allow = {
 		OR = {
-			AND = {
-				religion = bosmer_pantheon
-				# has_country_flag = deity_flag_4
-			}
-			AND = {
-				religion = twelve_divines
-				# has_country_flag = deity_flag_12
-			}
-			AND = {
-				religion = snow_elves_pantheon
-				# has_country_flag = deity_flag_6
-			}
-			AND = {
-				religion = kothri_pantheon
-				# has_country_flag = deity_flag_2
-			}
-			AND = {
-				religion = keptu_pantheon
-				# has_country_flag = deity_flag_2
-			}
+			religion = bosmer_pantheon
+			religion = twelve_divines
+			religion = snow_elves_pantheon
+			religion = kothri_pantheon
+			religion = keptu_pantheon
 		}
 	}
 	sprite = 27
@@ -169,14 +115,8 @@ Xen = {
 	harsh_treatment_cost = -0.1
 	allow = {
 		OR = {
-			AND = {
-				religion = altmeri_pantheon
-				# has_country_flag = deity_flag_6
-			}
-			AND = {
-				religion = snow_elves_pantheon
-				# has_country_flag = deity_flag_7
-			}
+			religion = altmeri_pantheon
+			religion = snow_elves_pantheon
 		}
 	}
 	sprite = 11
@@ -190,22 +130,10 @@ Ius = {
 	cavalry_cost = -0.1
 	allow = {
 		OR = {
-			AND = {
-				religion = bosmer_pantheon
-				# has_country_flag = deity_flag_5
-			}
-			AND = {
-				religion = khajiiti_pantheon
-				# has_country_flag = deity_flag_1
-			}
-			AND = {
-				religion = yokudan_pantheon
-				# has_country_flag = deity_flag_1
-			}
-			AND = {
-				religion = redguard_pantheon
-				# has_country_flag = deity_flag_1
-			}
+			religion = bosmer_pantheon
+			religion = khajiiti_pantheon
+			religion = yokudan_pantheon
+			religion = redguard_pantheon
 		}
 	}
 	sprite = 24
@@ -219,26 +147,11 @@ Auri-El = {
 	global_unrest = -1
 	allow = {
 		OR = {
-			AND = {
-				religion = snow_elves_pantheon
-				# has_country_flag = deity_flag_8
-			}
-			AND = {
-				religion = altmeri_pantheon
-				# has_country_flag = deity_flag_7
-			}
-			AND = {
-				religion = nedic_pantheon
-				# has_country_flag = deity_flag_3
-			}
-			AND = {
-				religion = bosmer_pantheon
-				# has_country_flag = deity_flag_6
-			}
-			AND = {
-				religion = ayleid_pantheon
-				# has_country_flag = deity_flag_6
-			}
+			religion = snow_elves_pantheon
+			religion = altmeri_pantheon
+			religion = nedic_pantheon
+			religion = bosmer_pantheon
+			religion = ayleid_pantheon
 		}
 	}
 	sprite = 1
@@ -256,18 +169,9 @@ Lorkhan = {
 	stability_cost_modifier = -0.1
 	allow = {
 		OR = {
-			AND = {
-				religion = bosmer_pantheon
-				# has_country_flag = deity_flag_7
-			}
-			AND = {
-				religion = altmeri_pantheon
-				# has_country_flag = deity_flag_8
-			}
-			AND = {
-				religion = ayleid_pantheon
-				# has_country_flag = deity_flag_7
-			}
+			religion = bosmer_pantheon
+			religion = altmeri_pantheon
+			religion = ayleid_pantheon
 			religion = reclamations_pantheon
 		}
 	}
@@ -281,10 +185,7 @@ Jode = {
 	core_creation = -0.1
 	unjustified_demands = -0.1
 	allow = {
-		AND = {
-			religion = bosmer_pantheon
-			# has_country_flag = deity_flag_8
-		}
+		religion = bosmer_pantheon
 	}
 	sprite = 25
 	ai_will_do = {
@@ -296,10 +197,7 @@ Jone = {
 	advisor_pool = 1
 	advisor_cost = -0.1
 	allow = {
-		AND = {
-			religion = bosmer_pantheon
-			# has_country_flag = deity_flag_9
-		}
+		religion = bosmer_pantheon
 	}
 	sprite = 26
 	ai_will_do = {
@@ -312,26 +210,11 @@ Xarxes = {
 	global_spy_defence = 0.1
 	allow = {
 		OR = {
-			AND = {
-				religion = bosmer_pantheon
-				# has_country_flag = deity_flag_10
-			}
-			AND = {
-				religion = altmeri_pantheon
-				# has_country_flag = deity_flag_9
-			}
-			AND = {
-				religion = snow_elves_pantheon
-				# has_country_flag = deity_flag_9
-			}
-			AND = {
-				religion = nedic_pantheon
-				# has_country_flag = deity_flag_4
-			}
-			AND = {
-				religion = ayleid_pantheon
-				# has_country_flag = deity_flag_8
-			}
+			religion = bosmer_pantheon
+			religion = altmeri_pantheon
+			religion = snow_elves_pantheon
+			religion = nedic_pantheon
+			religion = ayleid_pantheon
 		}
 	}
 	sprite = 10

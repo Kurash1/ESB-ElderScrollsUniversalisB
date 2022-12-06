@@ -1,0 +1,37 @@
+owner = DE4
+controller = DE4
+add_core = DE4
+religion = cult_of_ancestors
+culture = sea_giant
+hre = no
+base_tax = 5
+base_production = 4
+trade_goods = naval_supplies
+base_manpower = 6
+capital = "The Cold Divines"
+is_city = yes
+
+center_of_trade = 1
+
+57.1.1 = {
+	owner = DE4
+	controller = DE4
+	add_core = DE4
+}
+
+272.1.1 = {
+}
+
+535.1.1 = {
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}
+
+

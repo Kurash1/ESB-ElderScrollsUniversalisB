@@ -1,0 +1,36 @@
+owner = CD5
+controller = CD5
+add_core = CD5
+religion = nocturnal_cult
+culture = nedic
+hre = no
+base_tax = 4
+base_production = 4
+trade_goods = unknown
+base_manpower = 4
+capital = "Riania"
+is_city = yes
+
+
+
+57.1.1 = {
+   owner = CC3
+   controller = CC3
+   add_core = CC3
+}
+
+272.1.1 = {
+   religion = nedic_pantheon
+}
+
+535.1.1 = {
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}

@@ -1,0 +1,13 @@
+religion = yokudan_pantheon
+culture = yokudan_lowdesert
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Melysae"
+is_city = yes
+owner = YUL
+controller = YUL
+add_core = YUL
+1466.1.1 = { } 

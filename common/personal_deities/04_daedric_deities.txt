@@ -2,10 +2,7 @@ Maloch = {
 	infantry_power = 0.1
 	mercenary_discipline = 0.05
 	allow = {
-		AND = {
-			religion = nordic_pantheon
-			# has_country_flag = deity_flag_11
-		}
+		religion = nordic_pantheon
 	}
 	sprite = 17
 	ai_will_do = {
@@ -18,18 +15,9 @@ Mora = {
 	global_institution_spread = 0.1
 	allow = {
 		OR = {
-			AND = {
-				religion = nordic_pantheon
-				# has_country_flag = deity_flag_12
-			}
-			AND = {
-				religion = bosmer_pantheon
-				# has_country_flag = deity_flag_11
-			}
-			AND = {
-				religion = ayleid_pantheon
-				# has_country_flag = deity_flag_11
-			}
+			religion = nordic_pantheon
+			religion = bosmer_pantheon
+			religion = ayleid_pantheon
 		}
 	}
 	sprite = 14
@@ -42,10 +30,7 @@ Clavicus_Vile = {
 	trade_efficiency = 0.1
 	improve_relation_modifier = 0.25
 	allow = {
-		AND = {
-			religion = kothri_pantheon
-			# has_country_flag = deity_flag_3
-		}
+		religion = kothri_pantheon
 	}
 	sprite = 58
 	ai_will_do = {
@@ -58,14 +43,8 @@ Bal = {
 	heir_chance = 0.25
 	allow = {
 		OR = {
-			AND = {
-				religion = kothri_pantheon
-				# has_country_flag = deity_flag_4
-			}
-			AND = {
-				religion = ayleid_pantheon
-				# has_country_flag = deity_flag_12
-			}
+			religion = kothri_pantheon
+			religion = ayleid_pantheon
 		}
 	}
 	sprite = 63
@@ -78,10 +57,7 @@ Boethiah = {
 	global_spy_defence = 0.1
 	ae_impact = -0.1
 	allow = {
-		AND = {
-			religion = kothri_pantheon
-			# has_country_flag = deity_flag_5
-		}
+		religion = kothri_pantheon
 	}
 	sprite = 62
 	ai_will_do = {
@@ -95,10 +71,7 @@ Malacath = {
 	allow = {
 		OR = {
 			religion = orcish_pantheon
-			AND = {
-				religion = kothri_pantheon
-				# has_country_flag = deity_flag_6
-			}
+			religion = kothri_pantheon
 		}
 	}
 	sprite = 17
@@ -124,10 +97,7 @@ Mehrunes = {
 	mercenary_cost = -0.10
 	allow = {
 		OR = {
-			AND = {
-				religion = ayleid_pantheon
-				# has_country_flag = deity_flag_13
-			}
+			religion = ayleid_pantheon
 			religion = orcish_pantheon
 		}
 	}
@@ -180,10 +150,7 @@ Sangiine = {
 	global_unrest = -1
 	culture_conversion_cost = -0.1
 	allow = {
-		AND = {
-			religion = kothri_pantheon
-			# has_country_flag = deity_flag_8
-		}
+		religion = kothri_pantheon
 	}
 	sprite = 45
 	ai_will_do = {
@@ -195,10 +162,7 @@ Sheogorath = {
 	unjustified_demands = -0.1
 	province_warscore_cost = -0.1
 	allow = {
-		AND = {
-			religion = kothri_pantheon
-			# has_country_flag = deity_flag_9
-		}
+		religion = kothri_pantheon
 	}
 	sprite = 46
 	ai_will_do = {
@@ -212,10 +176,7 @@ Azura = {
 	allow = {
 		OR = {
 			religion = reclamations_pantheon
-			AND = {
-				religion = kothri_pantheon
-				# has_country_flag = deity_flag_10
-			}
+			religion = kothri_pantheon
 		}
 	}
 	sprite = 36
@@ -228,12 +189,7 @@ Meridia = {
 	available_province_loot = 0.25
 	administrative_efficiency = 0.05
 	allow = {
-		OR = {
-			AND = {
-				religion = ayleid_pantheon
-				# has_country_flag = deity_flag_14
-			}
-		}
+		religion = ayleid_pantheon
 	}
 	sprite = 78
 	ai_will_do = {

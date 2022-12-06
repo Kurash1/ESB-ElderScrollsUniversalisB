@@ -10,3 +10,4 @@ is_city = yes
 owner = TAL
 controller = TAL
 add_core = TAL
+fort_15th = yes

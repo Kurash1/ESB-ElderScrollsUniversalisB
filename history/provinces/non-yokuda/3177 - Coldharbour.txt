@@ -1,0 +1,35 @@
+owner = CU4
+controller = CU4
+add_core = CU4
+religion = molag_bal_cult
+culture = soul_shriven
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = unknown
+base_manpower = 3
+capital = "Yelmendo"
+is_city = yes
+
+
+
+57.1.1 = {
+    owner = CU5
+    controller = CU5
+    add_core = CU5
+}
+
+272.1.1 = {
+}
+
+535.1.1 = {
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}

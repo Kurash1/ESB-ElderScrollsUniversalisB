@@ -1,0 +1,32 @@
+owner = CC0
+controller = CC0
+add_core = CC0
+religion = mehrunes_dagon_cult
+culture = ayleid
+hre = no
+base_tax = 4
+base_production = 4
+trade_goods = unknown
+base_manpower = 4
+capital = "Velia"
+is_city = yes
+
+
+
+57.1.1 = {
+}
+
+272.1.1 = {
+}
+
+535.1.1 = {
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}

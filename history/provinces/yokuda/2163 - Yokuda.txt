@@ -1,0 +1,12 @@
+owner = TGN
+controller = TGN
+add_core = TGN
+religion = yokudan_pantheon
+culture = yokudan_brokencoast
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Thelora"
+is_city = yes

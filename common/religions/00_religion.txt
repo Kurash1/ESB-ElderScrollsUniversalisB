@@ -626,6 +626,7 @@ occult_group = {
 			seat_of_papacy = 1043
 			
 			#Council of Trent Positions
+			# Audax Validator "." Ignore_NEXT
 			harsh = {
 				relation_with_heretics = -50
 				global_religious_conversion_resistance = 0.25
@@ -633,9 +634,11 @@ occult_group = {
 				global_missionary_strength = 0.025
 				tolerance_heretic = -5
 			}
+			# Audax Validator "." Ignore_NEXT
 			neutral = {
 				global_religious_conversion_resistance = -0.35
 			}
+			# Audax Validator "." Ignore_NEXT
 			concilatory = {
 				relation_with_heretics = 25
 				global_religious_conversion_resistance = -0.15
@@ -645,6 +648,7 @@ occult_group = {
 			}
 			
 			#Council of Trent Concessions
+			# Audax Validator "." Ignore_NEXT
 			concessions = {
 				first_concession = {
 					harsh = {
@@ -872,7 +876,7 @@ occult_group = {
 				}
 			}
             investigate_heresy = {
-				curia_treasury_cost = 500
+				cost = 500
 				potential = {
 					has_dlc = "Emperor"
 					OR = {
@@ -886,7 +890,7 @@ occult_group = {
 				}
 				effect = {
 					add_reform_desire = -0.05
-					add_reform_desire_scale = 0.5
+					#add_reform_desire_scale = 0.5
 				}
 				ai_will_do = {
 					factor = 0
@@ -1252,7 +1256,8 @@ occult_group = {
 			local_missionary_strength = -0.025
 		}
 		
-		uses_hussite_power = yes
+		#uses_hussite_power = yes
+		uses_church_power = yes
 		aspects = {
 			forbidden_rituals_aspect
 			forgotten_deities_aspect
@@ -1481,6 +1486,9 @@ occult_group = {
 		}
 
 		celebrate = {
+			ai_will_do = {
+				factor = 1
+			}
 			cost = 250
 			potential = {
 			}

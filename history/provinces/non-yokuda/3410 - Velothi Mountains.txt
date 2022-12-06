@@ -1,0 +1,28 @@
+owner = MI1
+controller = MI1
+add_core = MI1
+religion = chimer_pantheon
+culture = ashlander_chimer
+hre = no
+base_tax = 2
+base_production = 3
+trade_goods = unknown
+base_manpower = 1
+capital = "Omaynis"
+is_city = yes
+center_of_trade = 1
+57.1.1 = {
+	owner = MI1
+	controller = MI1
+	add_core = MI1
+}
+272.1.1 = {
+}
+535.1.1 = {
+}
+862.1.1 = {
+}
+1177.1.1 = {
+}
+1466.1.1 = {
+}

@@ -1,0 +1,36 @@
+##owner = KB8
+##controller = KB8
+##add_core = KB8
+#religion = kamal_pantheon
+#culture = kamal
+#hre = no
+#base_tax = 3
+#base_production = 3
+#trade_goods = unknown
+#base_manpower = 3
+#capital = "Fiesynes"
+#is_city = yes
+#
+#
+#
+##57.1.1 = {
+#    #owner = KB7
+#    #controller = KB7
+#    #add_core = KB7
+##}
+#
+#272.1.1 = {
+##}
+#
+#535.1.1 = {
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#

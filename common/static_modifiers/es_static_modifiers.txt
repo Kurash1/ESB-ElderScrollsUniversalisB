@@ -2096,6 +2096,7 @@ banner_regiment = {
 	land_maintenance_modifier = -0.25
 	discipline = 0.15
 	reinforce_speed = -0.5
+	# Audax Validator "." Ignore_NEXT
 	regiment_manpower_usage = -0.75
 }
 
@@ -2140,5 +2141,6 @@ revolutionary_guard_regiment = {
 marine_regiment = {
     shock_damage_received = 0.1
 	fire_damage = 0.10
+	# Audax Validator "." Ignore_NEXT
     regiment_disembark_speed = 2.5
 }

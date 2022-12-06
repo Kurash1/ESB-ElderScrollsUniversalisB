@@ -1,0 +1,35 @@
+owner = CC9
+controller = CC9
+add_core = CC9
+religion = hist
+culture = archein
+hre = no
+base_tax = 4
+base_production = 4
+trade_goods = unknown
+base_manpower = 4
+capital = "Punonius"
+is_city = yes
+
+
+
+57.1.1 = {
+   owner = CA1
+   controller = CA1
+   add_core = CA1
+}
+
+272.1.1 = {
+}
+
+535.1.1 = {
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}

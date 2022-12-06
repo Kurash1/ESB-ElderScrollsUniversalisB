@@ -1,0 +1,36 @@
+##owner = JA8
+##controller = JA8
+##add_core = JA8
+#religion = tang_mo_pantheon
+#culture = tangmo
+#hre = no
+#base_tax = 3
+#base_production = 3
+#trade_goods = unknown
+#base_manpower = 3
+#capital = Erseh
+#is_city = yes
+#
+#
+#
+##57.1.1 = {
+#    #owner = JA8
+#    #controller = JA8
+#    #add_core = JA8
+##}
+#
+#272.1.1 = {
+##}
+#
+#535.1.1 = {
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#

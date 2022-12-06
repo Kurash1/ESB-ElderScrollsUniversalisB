@@ -1,0 +1,12 @@
+religion = yokudan_pantheon
+culture = yokudan_silverhoof
+hre = no
+base_tax = 5
+base_production = 3
+trade_goods = unknown
+base_manpower = 6
+capital = "Acena"
+is_city = yes
+owner = SIL
+controller = SIL
+add_core = SIL

@@ -94,6 +94,7 @@ add_loot_from_province_effect = {
 #$LOOTER$ is the scope of the tag performing the Looting (so for instance owner)
 add_loot_from_rich_province_general_effect = { 
 	add_devastation = 80
+	# Audax Validator "." Ignore_NEXT
 	remove_loot = {
 		who = $LOOTER$
 		amount = 1000

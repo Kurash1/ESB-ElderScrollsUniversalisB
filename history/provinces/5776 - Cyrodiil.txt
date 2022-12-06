@@ -1,0 +1,12 @@
+##owner = CF0
+##controller = CF0
+##add_core = CF0
+#religion = nedic_pantheon
+#culture = nedic
+#hre = no
+#base_tax = 3
+#base_production = 3
+#trade_goods = unknown
+#base_manpower = 3
+#capital = "Valgudilius"
+#is_city = yes

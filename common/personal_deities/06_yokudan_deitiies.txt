@@ -2,10 +2,7 @@ Leki = {
 	land_morale = 0.1
 	light_ship_power = 0.1
 	allow = {
-		AND = {
-			religion = yokudan_pantheon
-			# has_country_flag = deity_flag_2
-		}
+		religion = yokudan_pantheon
 	}
 	sprite = 49
 	ai_will_do = {
@@ -17,10 +14,7 @@ Morwha = {
 	production_efficiency = 0.1
 	global_manpower_modifier = 0.1
 	allow = {
-		AND = {
-			religion = yokudan_pantheon
-			# has_country_flag = deity_flag_3
-		}
+		religion = yokudan_pantheon
 	}
 	sprite = 50
 	ai_will_do = {
@@ -32,10 +26,7 @@ Tava = {
 	navy_tradition = 0.25
 	naval_attrition = -0.1
 	allow = {
-		AND = {
-			religion = yokudan_pantheon
-			# has_country_flag = deity_flag_4
-		}
+		religion = yokudan_pantheon
 	}
 	sprite = 54
 	ai_will_do = {
@@ -47,10 +38,7 @@ Diagna = {
 	fire_damage = 0.1
 	siege_ability = 0.1
 	allow = {
-		AND = {
-			religion = redguard_pantheon
-			# has_country_flag = deity_flag_2
-		}
+		religion = redguard_pantheon
 	}
 	sprite = 47
 	ai_will_do = {
@@ -62,10 +50,7 @@ HoonDing = {
 	shock_damage = 0.1
 	movement_speed = 0.1
 	allow = {
-		AND = {
-			religion = redguard_pantheon
-			# has_country_flag = deity_flag_3
-		}
+		religion = redguard_pantheon
 	}
 	sprite = 48
 	ai_will_do = {
@@ -81,10 +66,7 @@ Sep = {
 	meritocracy = 0.25
 	stability_cost_modifier = -0.1
 	allow = {
-		AND = {
-			religion = redguard_pantheon
-			# has_country_flag = deity_flag_4
-		}
+		religion = redguard_pantheon
 	}
 	sprite = 3
 	ai_will_do = {
@@ -98,14 +80,8 @@ Ruptga = {
 	prestige_decay = -0.01
 	allow = {
 		OR = {
-			AND = {
-				religion = yokudan_pantheon
-				# has_country_flag = deity_flag_5
-			}
-			AND = {
-				religion = redguard_pantheon
-				# has_country_flag = deity_flag_5
-			}
+			religion = yokudan_pantheon
+			religion = redguard_pantheon
 		}
 	}
 	sprite = 52
@@ -119,14 +95,8 @@ Satakal = {
 	unjustified_demands = -0.1
 	allow = {
 		OR = {
-			AND = {
-				religion = yokudan_pantheon
-				# has_country_flag = deity_flag_6
-			}
-			AND = {
-				religion = redguard_pantheon
-				# has_country_flag = deity_flag_6
-			}
+			religion = yokudan_pantheon
+			religion = redguard_pantheon
 		}
 	}
 	sprite = 53
@@ -140,14 +110,8 @@ Onsi = {
 	defensiveness = 0.1
 	allow = {
 		OR = {
-			AND = {
-				religion = yokudan_pantheon
-				# has_country_flag = deity_flag_7
-			}
-			AND = {
-				religion = redguard_pantheon
-				# has_country_flag = deity_flag_7
-			}
+			religion = yokudan_pantheon
+			religion = redguard_pantheon
 		}
 	}
 	sprite = 51
@@ -161,14 +125,8 @@ Zeht = {
 	garrison_size = 0.1
 	allow = {
 		OR = {
-			AND = {
-				religion = yokudan_pantheon
-				# has_country_flag = deity_flag_8
-			}
-			AND = {
-				religion = redguard_pantheon
-				# has_country_flag = deity_flag_8
-			}
+			religion = yokudan_pantheon
+			religion = redguard_pantheon
 		}
 	}
 	sprite = 56
@@ -182,14 +140,8 @@ Tuwhacca = {
 	religious_unity = 0.1
 	allow = {
 		OR = {
-			AND = {
-				religion = yokudan_pantheon
-				# has_country_flag = deity_flag_9
-			}
-			AND = {
-				religion = redguard_pantheon
-				# has_country_flag = deity_flag_9
-			}
+			religion = yokudan_pantheon
+			religion = redguard_pantheon
 		}
 	}
 	sprite = 55

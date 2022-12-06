@@ -1,0 +1,41 @@
+owner = DA2
+controller = DA2
+add_core = DA2
+religion = nordic_pantheon
+culture = atmoran
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Skalnonur"
+is_city = yes
+
+
+
+57.1.1 = {
+    owner = DA2
+    controller = DA2
+    add_core = DA2
+}
+
+272.1.1 = {
+    owner = DRA religion = dragon_cult
+    controller = DRA
+    add_core = DRA
+}
+
+535.1.1 = {
+    
+    
+    is_city = no
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}

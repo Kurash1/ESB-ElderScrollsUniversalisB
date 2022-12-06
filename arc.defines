@@ -3,6 +3,39 @@ constants = {
 	max_dev_average = 25
 }
 functions = {
+	conquest_yokuda = {
+		icon = yokuda_mission
+		required_missions = { }
+		trigger = {
+			owns_core_province = 335		
+			owns_core_province = 3443
+			owns_core_province = 355
+			owns_core_province = 333
+			owns_core_province = 3467
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 335		
+				province_id = 3443
+				province_id = 355
+				province_id = 333
+				province_id = 3467
+			}
+			NOT = { owned_by = ROOT }
+		}
+		effect = {
+			custom_tooltip = es_conquest_of_yokuda_lr_tooltip
+			add_prestige = 10
+			hidden_effect = {
+				yokuda_superregion = {
+					limit = {
+						is_city = yes
+					}
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
 	set_to_global_idea_level = {
 		while = {
 			limit = {

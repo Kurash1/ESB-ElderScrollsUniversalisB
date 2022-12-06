@@ -1,0 +1,35 @@
+owner = DC3
+controller = DC3
+add_core = DC3
+religion = dragon_cult
+culture = glacial
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = unknown
+base_manpower = 3
+capital = "Varmod"
+is_city = yes
+
+
+
+57.1.1 = {
+    owner = DC3
+    controller = DC3
+    add_core = DC3
+}
+
+272.1.1 = {
+}
+
+535.1.1 = {
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}

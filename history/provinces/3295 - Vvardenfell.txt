@@ -1,0 +1,10 @@
+#religion = chimer_pantheon
+#culture = ashlander_chimer
+#hre = no
+#base_tax = 1
+#base_production = 1
+#trade_goods = ebony
+#base_manpower = 1
+#capital = "Fort Firemoth"
+#is_city = no
+#

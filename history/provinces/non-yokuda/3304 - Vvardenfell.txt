@@ -1,0 +1,10 @@
+religion = nordic_pantheon
+culture = nord
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Remaasa"
+is_city = no
+

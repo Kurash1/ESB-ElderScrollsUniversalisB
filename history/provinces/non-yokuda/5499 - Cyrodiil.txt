@@ -1,0 +1,35 @@
+owner = CD4
+controller = CD4
+add_core = CD4
+religion = meridia_cult
+culture = ayleid
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Ysastita"
+is_city = yes
+
+
+
+57.1.1 = {
+   owner = CD6
+  controller = CD6
+  add_core = CD6
+}
+
+272.1.1 = {
+}
+
+535.1.1 = {
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}

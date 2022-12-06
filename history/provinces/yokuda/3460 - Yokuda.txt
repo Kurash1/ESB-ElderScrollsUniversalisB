@@ -1,0 +1,12 @@
+owner = TAL
+controller = TAL
+add_core = TAL
+religion = yokudan_pantheon
+culture = yokudan_seawind
+hre = no
+base_tax = 1
+base_production = 3
+trade_goods = unknown
+base_manpower = 2
+capital = "Delar"
+is_city = yes

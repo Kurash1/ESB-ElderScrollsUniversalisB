@@ -1,0 +1,19 @@
+##owner = DA4
+##controller = DA4
+##add_core = DA4
+#religion = dragon_cult
+#culture = dragon
+#hre = no
+#base_tax = 3
+#base_production = 3
+#trade_goods = unknown
+#base_manpower = 3
+#capital = "Dragon Sanctuary"
+#is_city = yes
+#
+##57.1.1 = {
+#    #owner = DA4
+#    #controller = DA4
+#    #add_core = DA4
+##}
+#

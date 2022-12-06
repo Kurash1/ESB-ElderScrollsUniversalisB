@@ -1,0 +1,21 @@
+#culture = reachmen
+#religion = old_gods_cult
+#hre = no
+#base_tax = 3
+#base_production = 3
+#trade_goods = unknown
+#base_manpower = 3
+#capital = "Gretmor"
+#is_city = no
+##57.1.1 = { 
+#    #owner = NC3
+#    #controller = NC3
+#    #add_core = NC3
+#    is_city = yes
+##}
+#
+#272.1.1 = { #} 
+#535.1.1 = { #} 
+#862.1.1 = { #} 
+#1177.1.1 = { #} 
+#1466.1.1 = { #} 

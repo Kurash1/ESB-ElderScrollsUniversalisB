@@ -1,4 +1,3 @@
-# Audax Validator "!" Ignore_1006
 namespace = scenario_yokuda
 
 
@@ -35,6 +34,16 @@ country_event = { # Taleskan Assassination
 	
 	immediate = {
 		hidden_effect = {
+			set_country_flag = mutual_auto_siege
+			country_event = {
+				id = scenario_yokuda.2
+				days = 30
+			}
+			add_country_modifier = {
+				name = tal_preceding_civilwar
+				duration = 30
+				hidden = yes
+			}
 			kill_ruler = yes
 			every_owned_province = {
 				add_core = RB0
@@ -42,6 +51,9 @@ country_event = { # Taleskan Assassination
 			}
 			2157, 3461, 2165, 329 = {
 				cede_province = RB0 #Derik Rebel tag
+				infantry = RB0
+				infantry = RB0
+				cavalry = RB0
 			}
 			RB0 = {
 				set_capital = 2165
@@ -54,9 +66,18 @@ country_event = { # Taleskan Assassination
 					age = 39
 					claim = 100
 				}
+				set_country_flag = mutual_auto_siege
+				add_country_modifier = {
+					name = tal_preceding_civilwar
+					duration = 30
+					hidden = yes
+				}
 			}
 			2119, 2118, 343 = {
 				cede_province = RB2 #Sia Rebel tag
+				infantry = RB2
+				infantry = RB2
+				infantry = RB2
 			}
 			RB2 = {
 				set_capital = 2118
@@ -69,31 +90,21 @@ country_event = { # Taleskan Assassination
 					age = 39
 					claim = 100
 				}
+				set_country_flag = mutual_auto_siege
+				add_country_modifier = {
+					name = tal_preceding_civilwar
+					duration = 30
+					hidden = yes
+				}
 			}
 			TOT = {
 				create_subject = {
-					subject_type = yokuda_vassal
+					subject_type = yokuda_war_vassal
 					subject = RB0
 				}
 				create_subject = {
-					subject_type = yokuda_vassal
+					subject_type = yokuda_war_vassal
 					subject = RB2
-				}
-			}
-			RB0 = {
-				declare_war_with_cb = {
-					who = RB2
-					casus_belli = cb_annex
-				}
-				declare_war_with_cb = {
-					who = TAL
-					casus_belli = cb_annex
-				}
-			}
-			RB2 = {
-				declare_war_with_cb = {
-					who = TAL
-					casus_belli = cb_annex
 				}
 			}
 		}
@@ -124,9 +135,41 @@ country_event = { # Taleskan Assassination
 	
 	after = {
 		hidden_effect = {
-			swap_non_generic_missions = yes
 			set_country_flag = esb_yok_taleskan_disaster_mission.flag
-			set_country_flag = mutual_auto_siege
+		}
+	}
+}
+country_event = {
+	id = scenario_yokuda.2
+	title = none
+	desc = none
+	picture = ES_DEATH_OF_MONARCH_eventPicture
+	is_triggered_only = yes
+	fire_only_once = yes
+	hidden = yes
+	
+	immediate = {
+		RB0 = {
+				declare_war_with_cb = {
+					who = RB2
+					casus_belli = cb_annex
+				}
+				declare_war_with_cb = {
+					who = TAL
+					casus_belli = cb_annex
+				}
+			}
+			RB2 = {
+				declare_war_with_cb = {
+					who = TAL
+					casus_belli = cb_annex
+				}
+			}
+	}
+	option = {
+		name = none
+		ai_chance = {
+			factor = 100
 		}
 	}
 }

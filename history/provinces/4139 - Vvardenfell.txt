@@ -1,0 +1,28 @@
+##owner = MI4
+##controller = MI4
+##add_core = MI4
+#religion = chimer_pantheon
+#culture = ashlander_chimer
+#hre = no
+#base_tax = 1
+#base_production = 1
+#trade_goods = gems
+#base_manpower = 1
+#capital = "Dun-Ahhe"
+#is_city = yes
+##57.1.1 = {
+#	#owner = MI4
+#	#controller = MI4
+#	#add_core = MI4
+##}
+#272.1.1 = {
+##}
+#535.1.1 = {
+##}
+#862.1.1 = {
+##}
+#1177.1.1 = {
+##}
+#1466.1.1 = {
+##}
+#

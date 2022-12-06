@@ -1,0 +1,12 @@
+religion = malacath_cult
+culture = hattu_orc
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Denalia"
+is_city = yes
+owner = HOR
+controller = HOR
+add_core = HOR

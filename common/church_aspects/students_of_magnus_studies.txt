@@ -23,7 +23,7 @@ thuum_aspect = {
 		land_morale = 0.10
 		prestige_from_land = 0.10
 	}
-	monarch_power = mil
+	#monarch_power = mil
 	ai_will_do = {
 		factor = 1
 	}
@@ -35,7 +35,7 @@ green_aspect = {
 		movement_speed = 0.10
 		shock_damage = 0.10
 	}
-	monarch_power = mil
+	#monarch_power = mil
 	ai_will_do = {
 		factor = 1
 	}
@@ -47,7 +47,7 @@ necromacy_aspect = {
 		manpower_recovery_speed = 0.10
 		army_tradition_decay = -0.01
 	}
-	monarch_power = mil
+	#monarch_power = mil
 	ai_will_do = {
 		factor = 1
 	}
@@ -59,7 +59,7 @@ thaumaturgy_aspect = {
 		defensiveness = 0.10
 		fire_damage_received = -0.10
 	}
-	monarch_power = mil
+	#monarch_power = mil
 	ai_will_do = {
 		factor = 1
 	}
@@ -71,7 +71,7 @@ destruction_aspect = {
 		siege_ability = 0.10
 		leader_land_fire = 1
 	}
-	monarch_power = mil
+	#monarch_power = mil
 	ai_will_do = {
 		factor = 1
 	}
@@ -83,7 +83,7 @@ conjuration_aspect = {
 		recover_army_morale_speed = 0.10
 		hostile_attrition = 1
 	}
-	monarch_power = mil
+	#monarch_power = mil
 	ai_will_do = {
 		factor = 1
 	}
@@ -95,7 +95,7 @@ flesh_aspect = {
 		vassal_forcelimit_bonus = 0.10
 		culture_conversion_cost = -0.10
 	}
-	monarch_power = dip
+	#monarch_power = dip
 	ai_will_do = {
 		factor = 1
 	}
@@ -107,7 +107,7 @@ soul_aspect = {
 		sunk_ship_morale_hit_recieved = -0.1
 		province_warscore_cost = -0.10
 	}
-	monarch_power = dip
+	#monarch_power = dip
 	ai_will_do = {
 		factor = 1
 	}
@@ -119,7 +119,7 @@ alchemy_aspect = {
 		production_efficiency = 0.10
 		global_own_trade_power = 0.1
 	}
-	monarch_power = dip
+	#monarch_power = dip
 	ai_will_do = {
 		factor = 1
 	}
@@ -131,7 +131,7 @@ blood_aspect = {
 		diplomatic_annexation_cost = -0.10
 		improve_relation_modifier = 0.10
 	}
-	monarch_power = dip
+	#monarch_power = dip
 	ai_will_do = {
 		factor = 1
 	}
@@ -143,7 +143,7 @@ restoration_aspect = {
 		global_colonial_growth = 10
 		sailors_recovery_speed = 0.1
 	}
-	monarch_power = dip
+	#monarch_power = dip
 	ai_will_do = {
 		factor = 1
 	}
@@ -155,7 +155,7 @@ illusion_aspect = {
 		diplomatic_reputation = 1
 		reduced_liberty_desire = 10
 	}
-	monarch_power = dip
+	#monarch_power = dip
 	ai_will_do = {
 		factor = 1
 	}
@@ -167,7 +167,7 @@ aetherial_aspect = {
 		stability_cost_modifier = -0.1
 		state_maintenance_modifier = -0.10
 	}
-	monarch_power = adm
+	#monarch_power = adm
 	ai_will_do = {
 		factor = 1
 	}
@@ -179,7 +179,7 @@ shadow_aspect = {
 		monarch_lifespan = 0.10
 		build_time = -0.10
 	}
-	monarch_power = adm
+	#monarch_power = adm
 	ai_will_do = {
 		factor = 1
 	}
@@ -191,7 +191,7 @@ tonal_aspect = {
 		idea_cost = -0.1
 		build_cost = -0.1
 	}
-	monarch_power = adm
+	#monarch_power = adm
 	ai_will_do = {
 		factor = 1
 	}
@@ -203,7 +203,7 @@ enchanting_aspect = {
 		prestige_decay = -0.01
 		advisor_cost = -0.10
 	}
-	monarch_power = adm
+	#monarch_power = adm
 	ai_will_do = {
 		factor = 1
 	}
@@ -215,7 +215,7 @@ mysticism_aspect = {
 		global_missionary_strength = 0.01
 		tolerance_own = 1
 	}
-	monarch_power = adm
+	#monarch_power = adm
 	ai_will_do = {
 		factor = 1
 	}
@@ -227,7 +227,7 @@ alteration_aspect = {
 		global_tax_modifier = 0.10
 		development_cost = -0.1
 	}
-	monarch_power = adm
+	#monarch_power = adm
 	ai_will_do = {
 		factor = 1
 	}

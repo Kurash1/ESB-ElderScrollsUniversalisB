@@ -1,0 +1,11 @@
+#religion = kamal_pantheon
+#culture = kamal
+#hre = no
+#base_tax = 3
+#base_production = 3
+#trade_goods = unknown
+#base_manpower = 3
+#capital = "Elmel"
+#is_city = no
+#
+#

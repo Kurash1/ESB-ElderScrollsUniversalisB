@@ -1,1 +1,1 @@
-khud_at_taleskan_first = { global_unrest = -3 diplomatic_reputation = 2 } 
+tal_preceding_civilwar = { can_not_declare_war = yes } khud_at_taleskan_first = { global_unrest = -3 diplomatic_reputation = 2 } 

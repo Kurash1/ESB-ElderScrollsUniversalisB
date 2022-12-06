@@ -1,0 +1,10 @@
+religion = serpant_king
+culture = maormer
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = unknown
+base_manpower = 2
+capital = "Keggea"
+is_city = no
+

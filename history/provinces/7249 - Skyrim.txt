@@ -1,0 +1,14 @@
+#religion = old_gods_cult
+#culture = reachmen
+#hre = no
+#base_tax = 3
+#base_production = 3
+#trade_goods = unknown
+#base_manpower = 3
+#capital = "Reydlgeth"
+##57.1.1 = { 
+#    #owner = NA7
+#    #controller = NA7
+#    #add_core = NA7
+#    is_city = yes
+##}

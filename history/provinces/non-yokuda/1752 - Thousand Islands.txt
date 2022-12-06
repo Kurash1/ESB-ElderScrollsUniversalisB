@@ -1,0 +1,10 @@
+religion = tang_mo_pantheon
+culture = tangmo
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = unknown
+base_manpower = 2
+capital = Olithymes
+is_city = no
+

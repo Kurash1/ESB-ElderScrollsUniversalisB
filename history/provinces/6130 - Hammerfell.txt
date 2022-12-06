@@ -1,0 +1,18 @@
+##owner = HB4
+##controller = HB4
+##add_core = HB4
+#religion = keptu_pantheon
+#culture = keptu
+#hre = no
+#base_tax = 4
+#base_production = 4
+#trade_goods = unknown
+#base_manpower = 4
+#capital = "Dombti"
+#is_city = yes
+##57.1.1 = { #owner = HA7 #controller = HA7 #add_core = HA7 #} 
+#272.1.1 = { #} 
+#535.1.1 = { #} 
+#862.1.1 = { #} 
+#1177.1.1 = { #} 
+#1466.1.1 = { #} 

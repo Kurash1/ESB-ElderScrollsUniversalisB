@@ -203,13 +203,13 @@ void_salts = {
 				has_terrain = deadlands_boiling_coast
 				has_terrain = deadlands_burning_hills
 				has_terrain = deadlands_lava_cave
-				has_terrain = urban_ardent_hope
-				has_terrain = urban_mehrunes_dagon
-				has_terrain = urban_jynds_foundry
-				has_terrain = urban_zynoahzs_gaol
-				has_terrain = urban_wretched_spire
-				has_terrain = urban_world_breaker
-				has_terrain = urban_razorworks
+				#has_terrain = urban_ardent_hope
+				#has_terrain = urban_mehrunes_dagon
+				#has_terrain = urban_jynds_foundry
+				#has_terrain = urban_zynoahzs_gaol
+				#has_terrain = urban_wretched_spire
+				#has_terrain = urban_world_breaker
+				#has_terrain = urban_razorworks
 				has_terrain = dwemer_stronghold
 			}
 		}		

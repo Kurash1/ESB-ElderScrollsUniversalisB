@@ -7,18 +7,9 @@ Akatosh = {
 	global_institution_spread = 0.1
 	allow = {
 		OR = {
-			AND = {
-				religion = eight_divines
-				# has_country_flag = deity_flag_1
-			}
-			AND = {
-				religion = nine_divines
-				# has_country_flag = deity_flag_1
-			}
-			AND = {
-				religion = twelve_divines
-				# has_country_flag = deity_flag_1
-			}
+			religion = eight_divines
+			religion = nine_divines
+			religion = twelve_divines
 		}
 	}
 	sprite = 28
@@ -32,18 +23,9 @@ Arkay = {
 	global_regiment_cost = -0.1
 	allow = {
 		OR = {
-			AND = {
-				religion = eight_divines
-				# has_country_flag = deity_flag_2
-			}
-			AND = {
-				religion = nine_divines
-				# has_country_flag = deity_flag_2
-			}
-			AND = {
-				religion = twelve_divines
-				# has_country_flag = deity_flag_2
-			}
+			religion = eight_divines
+			religion = nine_divines
+			religion = twelve_divines
 		}
 	}
 	sprite = 22
@@ -57,42 +39,15 @@ Mara = {
 	manpower_recovery_speed = 0.1
 	allow = {
 		OR = {
-			AND = {
-				religion = altmeri_pantheon
-				# has_country_flag = deity_flag_1
-			}
-			AND = {
-				religion = snow_elves_pantheon
-				# has_country_flag = deity_flag_1
-			}
-			AND = {
-				religion = nordic_pantheon
-				# has_country_flag = deity_flag_1
-			}
-			AND = {
-				religion = eight_divines
-				# has_country_flag = deity_flag_3
-			}
-			AND = {
-				religion = nine_divines
-				# has_country_flag = deity_flag_3
-			}
-			AND = {
-				religion = kothri_pantheon
-				# has_country_flag = deity_flag_1
-			}
-			AND = {
-				religion = twelve_divines
-				# has_country_flag = deity_flag_3
-			}
-			AND = {
-				religion = bosmer_pantheon
-				# has_country_flag = deity_flag_1
-			}
-			AND = {
-				religion = ayleid_pantheon
-				# has_country_flag = deity_flag_9
-			}
+			religion = altmeri_pantheon
+			religion = snow_elves_pantheon
+			religion = nordic_pantheon
+			religion = eight_divines
+			religion = nine_divines
+			religion = kothri_pantheon
+			religion = twelve_divines
+			religion = bosmer_pantheon
+			religion = ayleid_pantheon
 		}
 	}
 	sprite = 5
@@ -106,22 +61,10 @@ Dibella = {
 	ae_impact = -0.1
 	allow = {
 		OR = {
-			AND = {
-				religion = nordic_pantheon
-				# has_country_flag = deity_flag_2
-			}
-			AND = {
-				religion = eight_divines
-				# has_country_flag = deity_flag_4
-			}
-			AND = {
-				religion = nine_divines
-				# has_country_flag = deity_flag_4
-			}
-			AND = {
-				religion = twelve_divines
-				# has_country_flag = deity_flag_4
-			}
+			religion = nordic_pantheon
+			religion = eight_divines
+			religion = nine_divines
+			religion = twelve_divines
 		}
 	}
 	sprite = 13
@@ -135,18 +78,9 @@ Julianos = {
 	build_cost = -0.1
 	allow = {
 		OR = {
-			AND = {
-				religion = eight_divines
-				# has_country_flag = deity_flag_5
-			}
-			AND = {
-				religion = nine_divines
-				# has_country_flag = deity_flag_5
-			}
-			AND = {
-				religion = twelve_divines
-				# has_country_flag = deity_flag_5
-			}
+			religion = eight_divines
+			religion = nine_divines
+			religion = twelve_divines
 		}
 	}
 	sprite = 29
@@ -160,14 +94,8 @@ Zenithar = {
 	global_trade_goods_size_modifier = 0.1
 	allow = {
 		OR = {
-			AND = {
-				religion = eight_divines
-				# has_country_flag = deity_flag_6
-			}
-			AND = {
-				religion = nine_divines
-				# has_country_flag = deity_flag_6
-			}
+			religion = eight_divines
+			religion = nine_divines
 		}
 	}
 	sprite = 34
@@ -181,18 +109,9 @@ Kynareth = {
 	movement_speed = 0.1
 	allow = {
 		OR = {
-			AND = {
-				religion = eight_divines
-				# has_country_flag = deity_flag_7
-			}
-			AND = {
-				religion = nine_divines
-				# has_country_flag = deity_flag_7
-			}
-			AND = {
-				religion = twelve_divines
-				# has_country_flag = deity_flag_6
-			}
+			religion = eight_divines
+			religion = nine_divines
+			religion = twelve_divines
 		}
 	}
 	sprite = 30
@@ -205,12 +124,7 @@ Morihaus = {
 	discipline = 0.05
 	global_unrest = -1
 	allow = {
-		OR = {
-			AND = {
-				religion = nine_divines
-				# has_country_flag = deity_flag_8
-			}
-		}
+		religion = nine_divines
 	}
 	sprite = 31
 	ai_will_do = {
@@ -222,12 +136,7 @@ Sheor = {
 	global_unrest = -1
 	stability_cost_modifier = -0.1
 	allow = {
-		OR = {
-			AND = {
-				religion = twelve_divines
-				# has_country_flag = deity_flag_7
-			}
-		}
+		religion = twelve_divines
 	}
 	sprite = 19
 	ai_will_do = {
@@ -240,30 +149,12 @@ Stendarr = {
 	tolerance_heathen = 1
 	allow = {
 		OR = {
-			AND = {
-				religion = snow_elves_pantheon
-				# has_country_flag = deity_flag_2
-			}
-			AND = {
-				religion = bosmer_pantheon
-				# has_country_flag = deity_flag_2
-			}
-			AND = {
-				religion = eight_divines
-				# has_country_flag = deity_flag_8
-			}
-			AND = {
-				religion = nine_divines
-				# has_country_flag = deity_flag_9
-			}
-			AND = {
-				religion = twelve_divines
-				# has_country_flag = deity_flag_8
-			}
-			AND = {
-				religion = ayleid_pantheon
-				# has_country_flag = deity_flag_10
-			}
+			religion = snow_elves_pantheon
+			religion = bosmer_pantheon
+			religion = eight_divines
+			religion = nine_divines
+			religion = twelve_divines
+			religion = ayleid_pantheon
 		}
 	}
 	sprite = 7
@@ -277,22 +168,10 @@ Shezarr = {
 	stability_cost_modifier = -0.1
 	allow = {
 		OR = {
-			AND = {
-				religion = eight_divines
-				# has_country_flag = deity_flag_9
-			}
-			AND = {
-				religion = nine_divines
-				# has_country_flag = deity_flag_10
-			}
-			AND = {
-				religion = nedic_pantheon
-				# has_country_flag = deity_flag_8
-			}
-			AND = {
-				religion = keptu_pantheon
-				# has_country_flag = deity_flag_8
-			}
+			religion = eight_divines
+			religion = nine_divines
+			religion = nedic_pantheon
+			religion = keptu_pantheon
 		}
 	}
 	sprite = 3
@@ -305,12 +184,7 @@ Reman = {
 	diplomatic_reputation = 0.5
 	reduced_liberty_desire = 10
 	allow = {
-		OR = {
-			AND = {
-				religion = nine_divines
-				# has_country_flag = deity_flag_11
-			}
-		}
+		religion = nine_divines
 	}
 	sprite = 32
 	ai_will_do = {
@@ -322,12 +196,7 @@ Talos = {
 	land_morale = 0.1
 	discipline = 0.05
 	allow = {
-		OR = {
-			AND = {
-				religion = nine_divines
-				# has_country_flag = deity_flag_12
-			}
-		}
+		religion = nine_divines
 	}
 	sprite = 33
 	ai_will_do = {

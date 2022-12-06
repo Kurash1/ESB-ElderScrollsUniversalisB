@@ -1,0 +1,41 @@
+owner = DB6
+controller = DB6
+add_core = DB6
+religion = cult_of_ancestors
+culture = sea_giant
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = unknown
+base_manpower = 3
+capital = "Kolli"
+is_city = yes
+
+
+
+57.1.1 = {
+    owner = DA6
+    controller = DA6
+    add_core = DA6
+}
+
+272.1.1 = {
+    owner = DRA religion = dragon_cult
+    controller = DRA
+    add_core = DRA
+}
+
+535.1.1 = {
+    
+    
+    is_city = no
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}

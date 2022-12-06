@@ -1,0 +1,35 @@
+##owner = AA4
+##controller = AA4
+##add_core = AA4
+#religion = altmeri_pantheon
+#culture = barsaebic
+#hre = no
+#base_tax = 1
+#base_production = 1
+#trade_goods = unknown
+#base_manpower = 1
+#capital = "Kelo"
+#is_city = yes
+#
+##57.1.1 = {
+#   #owner = GOR
+#   #controller = GOR
+#   #add_core = GOR
+##}
+#
+#272.1.1 = {
+##}
+#
+#535.1.1 = {
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#
+#

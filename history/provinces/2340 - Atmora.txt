@@ -1,0 +1,11 @@
+#religion = cult_of_ancestors
+#culture = sea_giant
+#hre = no
+#base_tax = 2
+#base_production = 2
+#trade_goods = unknown
+#base_manpower = 2
+#capital = "Hreida"
+#is_city = no
+#
+#

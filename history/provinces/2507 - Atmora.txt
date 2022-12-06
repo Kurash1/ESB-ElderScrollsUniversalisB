@@ -1,0 +1,11 @@
+#religion = cult_of_ancestors
+#culture = sea_giant
+#hre = no
+#base_tax = 1
+#base_production = 1
+#trade_goods = unknown
+#base_manpower = 1
+#capital = "West Winter's Isle"
+#is_city = no
+#
+#

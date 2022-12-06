@@ -1,0 +1,41 @@
+owner = DA5
+controller = DA5
+add_core = DA5
+religion = nordic_pantheon
+culture = atmoran
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = unknown
+base_manpower = 3
+capital = "Ysunn"
+is_city = yes
+
+
+
+57.1.1 = {
+    owner = DA5
+    controller = DA5
+    add_core = DA5
+}
+
+272.1.1 = {
+    owner = DRA
+    controller = DRA
+    add_core = DRA
+}
+
+535.1.1 = {
+    
+    
+    is_city = no
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}

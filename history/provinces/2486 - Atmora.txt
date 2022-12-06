@@ -1,0 +1,11 @@
+#religion = dragon_cult
+#culture = glacial
+#hre = no
+#base_tax = 1
+#base_production = 1
+#trade_goods = unknown
+#base_manpower = 1
+#capital = "Earlene"
+#is_city = no
+#
+#

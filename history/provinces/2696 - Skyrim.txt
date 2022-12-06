@@ -1,0 +1,12 @@
+#religion = nordic_pantheon
+#culture = nord
+#hre = no
+#base_tax = 3
+#base_production = 3
+#trade_goods = unknown
+#base_manpower = 3
+#capital = "Driena"
+#is_city = yes
+##owner = NA9
+##controller = NA9
+##add_core = NA9

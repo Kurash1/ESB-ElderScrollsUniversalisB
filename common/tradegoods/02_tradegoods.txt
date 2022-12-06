@@ -976,7 +976,7 @@ corals = {
 			OR = {
 			region = thousand_lr
 			region = tsakara_lr
-			area = yokuda_1_la
+			area = thras_area
 			}
 		}
 		

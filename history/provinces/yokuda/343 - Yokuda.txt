@@ -1,0 +1,12 @@
+religion = yokudan_pantheon
+culture = yokudan_seawind
+hre = no
+base_tax = 2
+base_production = 6
+trade_goods = unknown
+base_manpower = 3
+capital = "Erllia"
+is_city = no
+owner = TAL
+controller = TAL
+add_core = TAL

@@ -1,0 +1,27 @@
+add_core = MI4
+controller = MI4
+owner = MI4
+religion = reason_and_logic_cult
+culture = kagrenmer
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Thirthyl"
+is_city = yes
+57.1.1 = {
+	owner = MI4
+	controller = MI4
+	add_core = MI4
+}
+272.1.1 = {
+}
+535.1.1 = {
+}
+862.1.1 = {
+}
+1177.1.1 = {
+}
+1466.1.1 = {
+}

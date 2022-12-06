@@ -1,0 +1,32 @@
+owner = MZA
+controller = MZA
+add_core = MZA
+religion = reason_and_logic_cult
+culture = rourkenid
+hre = no
+base_tax = 21
+base_production = 71
+trade_goods = unknown
+base_manpower = 52
+capital = "Mzark"
+is_city = yes
+
+
+
+57.1.1 = {
+}
+
+272.1.1 = {
+}
+
+535.1.1 = {
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}

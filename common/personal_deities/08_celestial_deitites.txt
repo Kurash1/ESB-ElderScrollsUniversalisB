@@ -3,7 +3,6 @@ celestial_apprentice = {
 	available_province_loot = 0.25
 	allow = {
 		religion = celestials
-		# has_country_flag = deity_flag_1
 	}
 	sprite = 65
 	ai_will_do = {
@@ -16,7 +15,6 @@ celestial_atronach = {
 	global_regiment_recruit_speed = -0.1
 	allow = {
 		religion = celestials
-		# has_country_flag = deity_flag_2
 	}
 	sprite = 66
 	ai_will_do = {
@@ -29,7 +27,6 @@ celestial_lady = {
 	diplomatic_reputation = 0.5
 	allow = {
 		religion = celestials
-		# has_country_flag = deity_flag_3
 	}
 	sprite = 67
 	ai_will_do = {
@@ -42,7 +39,6 @@ celestial_lord = {
 	army_tradition_decay = -0.01
 	allow = {
 		religion = celestials
-		# has_country_flag = deity_flag_4
 	}
 	sprite = 68
 	ai_will_do = {
@@ -55,7 +51,6 @@ celestial_lover = {
 	reinforce_speed = 0.1
 	allow = {
 		religion = celestials
-		# has_country_flag = deity_flag_5
 	}
 	sprite = 69
 	ai_will_do = {
@@ -68,7 +63,6 @@ celestial_mage = {
 	shock_damage_received = -0.10
 	allow = {
 		religion = celestials
-		# has_country_flag = deity_flag_6
 	}
 	sprite = 70
 	ai_will_do = {
@@ -81,7 +75,6 @@ celestial_ritual = {
 	production_efficiency = 0.10
 	allow = {
 		religion = celestials
-		# has_country_flag = deity_flag_7
 	}
 	sprite = 71
 	ai_will_do = {
@@ -94,7 +87,6 @@ celestial_serpent = {
 	land_morale = 0.10
 	allow = {
 		religion = celestials
-		# has_country_flag = deity_flag_8
 		NOT = { stability = 1 }
 	}
 	sprite = 72
@@ -108,7 +100,6 @@ celestial_shadow = {
 	global_spy_defence = 0.10
 	allow = {
 		religion = celestials
-		# has_country_flag = deity_flag_9
 	}
 	sprite = 73
 	ai_will_do = {
@@ -121,7 +112,6 @@ celestial_steed = {
 	movement_speed = 0.10
 	allow = {
 		religion = celestials
-		# has_country_flag = deity_flag_10
 	}
 	sprite = 74
 	ai_will_do = {
@@ -134,7 +124,6 @@ celestial_thief = {
 	mercenary_cost = -0.10
 	allow = {
 		religion = celestials
-		# has_country_flag = deity_flag_11
 	}
 	sprite = 75
 	ai_will_do = {
@@ -147,7 +136,6 @@ celestial_tower = {
 	build_cost = -0.10
 	allow = {
 		religion = celestials
-		# has_country_flag = deity_flag_12
 	}
 	sprite = 76
 	ai_will_do = {
@@ -160,7 +148,6 @@ celestial_warrior = {
 	cavalry_power = 0.10
 	allow = {
 		religion = celestials
-		# has_country_flag = deity_flag_13
 	}
 	sprite = 77
 	ai_will_do = {

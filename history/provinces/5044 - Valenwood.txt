@@ -1,0 +1,11 @@
+#religion = altmeri_pantheon
+#culture = imga
+#hre = no
+#base_tax = 2
+#base_production = 2
+#trade_goods = unknown
+#base_manpower = 2
+#capital = "Ginelyn"
+#is_city = no
+#
+#

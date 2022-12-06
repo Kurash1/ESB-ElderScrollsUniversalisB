@@ -1,0 +1,27 @@
+owner = MG6
+controller = MG6
+add_core = MG6
+religion = reason_and_logic_cult
+culture = kagrenmer
+hre = no
+base_tax = 6
+base_production = 8
+trade_goods = unknown
+base_manpower = 6
+capital = "Nchardahrk"
+is_city = yes
+57.1.1 = {
+	owner = MG6
+	controller = MG6
+	add_core = MG6
+}
+272.1.1 = {
+}
+535.1.1 = {
+}
+862.1.1 = {
+}
+1177.1.1 = {
+}
+1466.1.1 = {
+}

@@ -1,0 +1,12 @@
+religion = yokudan_pantheon
+culture = yokudan_taleskan
+hre = no
+base_tax = 3
+base_production = 2
+trade_goods = unknown
+base_manpower = 5
+capital = "Nothos"
+is_city = yes
+owner = TAL
+controller = TAL
+add_core = TAL

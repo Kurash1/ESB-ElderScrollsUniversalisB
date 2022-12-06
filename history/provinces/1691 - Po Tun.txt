@@ -1,0 +1,11 @@
+#religion = po_tun_pantheon
+#culture = po_tun
+#hre = no
+#base_tax = 3
+#base_production = 3
+#trade_goods = unknown
+#base_manpower = 3
+#capital = "Feng Wen"
+#is_city = no
+#
+#

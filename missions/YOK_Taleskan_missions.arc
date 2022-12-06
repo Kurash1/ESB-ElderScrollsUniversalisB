@@ -10,7 +10,7 @@ flavour_missions_2_yoktal = {
 	generic = yes
 	ai = yes
 	has_country_shield = no
-    potential = { OR = { tag = TAL } }
+    potential = { tag = TAL }
 	defineloc esb_yok_taleskan_defeat_derik_mission_title = "Defeat Derik"
 	defineloc esb_yok_taleskan_defeat_derik_mission_desc = ""
 	esb_yok_taleskan_defeat_derik_mission = {

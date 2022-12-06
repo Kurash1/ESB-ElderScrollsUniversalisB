@@ -1,0 +1,18 @@
+#
+#
+#
+#religion = old_gods_cult
+#culture = reachmen
+#hre = no
+#base_tax = 1
+#base_production = 1
+#trade_goods = unknown
+#base_manpower = 1
+#capital = "Thalif"
+#is_city = no
+##57.1.1 = { 
+#    #owner = ND1
+#    #controller = ND1
+#    #add_core = ND1
+#    is_city = yes
+##}

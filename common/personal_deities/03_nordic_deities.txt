@@ -2,10 +2,7 @@ Alduin = {
 	discipline = 0.05
 	army_tradition = 0.25
 	allow = {
-		AND = {
-			religion = nordic_pantheon
-			# has_country_flag = deity_flag_3
-		}
+		religion = nordic_pantheon
 	}
 	sprite = 12
 	ai_will_do = {
@@ -18,18 +15,9 @@ Orkey = {
 	spy_offence = 0.1
 	allow = {
 		OR = {
-			AND = {
-				religion = nordic_pantheon
-				# has_country_flag = deity_flag_4
-			}
-			AND = {
-				religion = nedic_pantheon
-				# has_country_flag = deity_flag_5
-			}
-			AND = {
-				religion = keptu_pantheon
-				# has_country_flag = deity_flag_5
-			}
+			religion = nordic_pantheon
+			religion = nedic_pantheon
+			religion = keptu_pantheon
 		}
 	}
 	sprite = 18
@@ -43,18 +31,9 @@ Jhunal = {
 	build_cost = -0.1
 	allow = {
 		OR = {
-			AND = {
-				religion = nordic_pantheon
-				# has_country_flag = deity_flag_5
-			}
-			AND = {
-				religion = nedic_pantheon
-				# has_country_flag = deity_flag_6
-			}
-			AND = {
-				religion = keptu_pantheon
-				# has_country_flag = deity_flag_6
-			}
+			religion = nordic_pantheon
+			religion = nedic_pantheon
+			religion = keptu_pantheon
 		}
 	}
 	sprite = 15
@@ -68,18 +47,9 @@ Kyne = {
 	movement_speed = 0.1
 	allow = {
 		OR = {
-			AND = {
-				religion = nordic_pantheon
-				# has_country_flag = deity_flag_6
-			}
-			AND = {
-				religion = nedic_pantheon
-				# has_country_flag = deity_flag_7
-			}
-			AND = {
-				religion = keptu_pantheon
-				# has_country_flag = deity_flag_7
-			}
+			religion = nordic_pantheon
+			religion = nedic_pantheon
+			religion = keptu_pantheon
 		}
 	}
 	sprite = 16
@@ -96,12 +66,7 @@ Shor = {
 	meritocracy = 0.25
 	stability_cost_modifier = -0.1
 	allow = {
-		OR = {
-			AND = {
-				religion = nordic_pantheon
-				# has_country_flag = deity_flag_7
-			}
-		}
+		religion = nordic_pantheon
 	}
 	sprite = 19
 	ai_will_do = {
@@ -113,10 +78,7 @@ Ysmir = {
 	fire_damage = 0.1
 	shock_damage = 0.1
 	allow = {
-		AND = {
-			religion = nordic_pantheon
-			# has_country_flag = deity_flag_8
-		}
+		religion = nordic_pantheon
 	}
 	sprite = 21
 	ai_will_do = {
@@ -129,14 +91,8 @@ Stuhn = {
 	defensiveness = 0.1
 	allow = {
 		OR = {
-			AND = {
-				religion = nordic_pantheon
-				# has_country_flag = deity_flag_9
-			}
-			AND = {
-				religion = nedic_pantheon
-				# has_country_flag = deity_flag_9
-			}
+			religion = nordic_pantheon
+			religion = nedic_pantheon
 		}
 	}
 	sprite = 7
@@ -150,14 +106,8 @@ Tsun = {
 	fort_maintenance_modifier = -0.1
 	allow = {
 		OR = {
-			AND = {
-				religion = nordic_pantheon
-				# has_country_flag = deity_flag_10
-			}
-			AND = {
-				religion = nedic_pantheon
-				# has_country_flag = deity_flag_10
-			}
+			religion = nordic_pantheon
+			religion = nedic_pantheon
 		}
 	}
 	sprite = 20

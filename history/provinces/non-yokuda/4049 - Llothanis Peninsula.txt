@@ -1,0 +1,11 @@
+religion = chimer_pantheon
+culture = ashlander_chimer
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = unknown
+base_manpower = 2
+capital = "Elvusen"
+is_city = no
+
+

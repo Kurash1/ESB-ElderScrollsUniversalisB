@@ -1,0 +1,12 @@
+religion = yokudan_pantheon
+culture = yokudan_brokencoast
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Natiah"
+is_city = yes
+owner = TGN
+controller = TGN
+add_core = TGN

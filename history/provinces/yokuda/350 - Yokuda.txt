@@ -1,0 +1,12 @@
+religion = yokudan_pantheon
+culture = yokudan_seawind
+hre = no
+base_tax = 8
+base_production = 13
+base_manpower = 5
+trade_goods = unknown
+capital = "Erisan"
+is_city = yes
+owner = SEW
+controller = SEW
+add_core = SEW

@@ -1,0 +1,12 @@
+religion = yokudan_pantheon
+culture = yokudan_highdesert
+hre = no
+base_tax = 2
+base_production = 4
+trade_goods = unknown
+base_manpower = 3
+capital = "Kalira"
+is_city = no
+owner = HDE
+controller = HDE
+add_core = HDE

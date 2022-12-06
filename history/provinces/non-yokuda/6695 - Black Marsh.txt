@@ -1,0 +1,34 @@
+owner = AD1
+controller = AD1
+add_core = AD1
+religion = hist
+culture = naga
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Jid-Lei"
+is_city = yes
+
+57.1.1 = {
+   owner = AD8
+   controller = AD8
+   add_core = AD8
+}
+
+272.1.1 = {
+}
+
+535.1.1 = {
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}
+

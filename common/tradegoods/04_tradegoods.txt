@@ -140,7 +140,7 @@ pearls = {
 		modifier = {
 			factor = 2.5
 			OR = {
-			region = yokuda_lr
+			superregion = yokuda_superregion
 			region = northern_islands_lr
 			}
 		}

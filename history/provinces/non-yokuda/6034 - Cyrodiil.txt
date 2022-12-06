@@ -1,0 +1,36 @@
+owner = CI8
+controller = CI8
+add_core = CI8
+religion = vaermina_cult
+culture = ayleid
+hre = no
+base_tax = 5
+base_production = 5
+trade_goods = unknown
+base_manpower = 5
+capital = "Cropsford"
+is_city = yes
+
+
+
+57.1.1 = {
+}
+
+272.1.1 = {
+   owner = AYL
+   controller = AYL
+   add_core = AYL
+   religion = nedic_pantheon
+}
+
+535.1.1 = {
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}

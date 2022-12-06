@@ -2,10 +2,7 @@ Dibe = {
 	diplomatic_reputation = 0.5
 	ae_impact = -0.1
 	allow = {
-		AND = {
-			religion = kothri_pantheon
-			# has_country_flag = deity_flag_11
-		}
+		religion = kothri_pantheon
 	}
 	sprite = 13
 	ai_will_do = {
@@ -17,10 +14,7 @@ Kin = {
 	land_attrition = -0.1
 	movement_speed = 0.1
 	allow = {
-		AND = {
-			religion = kothri_pantheon
-			# has_country_flag = deity_flag_12
-		}
+		religion = kothri_pantheon
 	}
 	sprite = 16
 	ai_will_do = {

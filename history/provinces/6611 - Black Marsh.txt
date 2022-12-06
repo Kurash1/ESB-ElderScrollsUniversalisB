@@ -1,0 +1,33 @@
+##owner = AC3
+##controller = AC3
+##add_core = AC3
+#religion = hist
+#culture = agaceph
+#hre = no
+#base_tax = 4
+#base_production = 4
+#trade_goods = unknown
+#base_manpower = 4
+#capital = "Ahahlz"
+#is_city = yes
+#
+#
+#
+##57.1.1 = {
+##}
+#
+#272.1.1 = {
+##}
+#
+#535.1.1 = {
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#

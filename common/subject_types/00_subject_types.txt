@@ -455,6 +455,55 @@ yokuda_vassal = {
 	overlord_opinion_modifier = is_vassal
 	subject_opinion_modifier = is_vassal
 }
+yokuda_war_vassal = {
+	copy_from = default
+	
+	# Graphics:
+	sprite = GFX_icon_vassal
+	diplomacy_overlord_sprite = GFX_diplomacy_leadvassal
+	diplomacy_subject_sprite = GFX_diplomacy_amvassal
+
+	# Properties:
+    is_voluntary = yes
+	overlord_can_be_subject = yes
+	can_have_subjects_of_other_types = yes
+	can_be_annexed = no
+	takes_diplo_slot = no
+	overlord_protects_external = yes
+	gives_daimyo_bonuses = no
+	gets_help_with_rebels = no
+	allows_taking_land_without_independence = yes
+	
+	liberty_desire_development_ratio = 0.0
+	liberty_desire_same_dynasty = -35.0
+	
+	pays_overlord = 0.25
+	forcelimit_to_overlord = 0.0
+	military_focus = 1.0
+	
+	relative_power_class = 0
+	diplomacy_view_class = 1
+	
+	can_fight = {
+		same_overlord = yokuda_war_vassal
+	}
+	can_rival = {
+		same_overlord = yokuda_war_vassal
+	}
+	can_ally = {
+		same_overlord = yokuda_war_vassal
+	}
+	can_marry = {
+		same_overlord = all
+	}
+	
+	# (immediate)
+	takeondebt = yes
+	placate_rulers = yes
+
+	overlord_opinion_modifier = is_vassal
+	subject_opinion_modifier = is_vassal
+}
 
 vassal = {
 	copy_from = default
