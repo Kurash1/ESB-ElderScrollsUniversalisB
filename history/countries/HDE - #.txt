@@ -5,7 +5,7 @@ technology_group = yokudan_tg
 religion = yokudan_pantheon
 primary_culture = yokudan_highdesert
 capital = 2175
-
+historical_friend = SEW
 
 
 

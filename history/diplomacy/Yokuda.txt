@@ -1,5 +1,5 @@
 dependency = {
-    subject_type = yokuda_war_vassal
+    subject_type = yokuda_vassal
     first = TOT
     second = TAL
     start_date = 57.1.1
@@ -11,6 +11,12 @@ dependency = {
     second = SEW
     start_date = 57.1.1
     end_date = 9999.1.1
+}
+alliance = {
+	first = HDE
+	second = SEW
+	start_date = 57.1.1
+	end_date = 9999.1.1
 }
 dependency = {
     subject_type = yokuda_vassal
@@ -55,7 +61,7 @@ dependency = {
     end_date = 9999.1.1
 }
 dependency = {
-    subject_type = yokuda_vassal
+    subject_type = yokuda_war_vassal
     first = TOT
     second = HOR
     start_date = 57.1.1
