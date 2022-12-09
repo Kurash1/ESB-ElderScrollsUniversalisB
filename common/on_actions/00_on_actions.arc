@@ -13,6 +13,10 @@ on_startup = {
 			tag = BLA
 			NOT = { has_country_flag = campaign_start }
 		}
+		set_variable = {
+			which = year
+			value = 57
+		}
 		set_country_flag = campaign_start
 		country_event = {
 			id = es_ideas.0
@@ -21,6 +25,14 @@ on_startup = {
 		every_country = {
 			add_stability = 2
 			defines.functions.set_to_global_idea_level
+			set_variable = {
+				which = year_of_coronation
+				value = 57
+			}
+			export_to_variable = {
+				variable_name = age_on_coronation
+				value = trigger_value:ruler_age
+			}
 		}
 		country_event = { #Artifacts
 			id = es_esb.4
@@ -1152,6 +1164,23 @@ on_new_consort = {
 
 # country
 on_monarch_death = {
+	export_to_variable = {
+        variable_name = new_age
+        value = trigger_value:ruler_age
+    }
+	log = "RulerDeath_[ROOT.age_on_coronation.GetValue]_[ROOT.year_of_coronation.GetValue]_[GetYear]"
+	export_to_variable = {
+        variable_name = age_on_coronation
+        value = trigger_value:ruler_age
+    }
+	set_variable = {
+		which = year
+		which = BLA
+	}
+	set_variable = {
+		which = year_of_coronation
+		which = year
+	}
 	if = { limit = { ai = no has_reform = backbone_of_the_nation } add_stability = -1 }
 	every_owned_province = {
 		limit = {
@@ -1930,6 +1959,19 @@ on_siberian_pulse = {
 
 # country random events
 on_bi_yearly_pulse = {
+	if = {
+		limit = {
+			tag = BLA
+		}
+		country_event = {
+			id = es_economy.2
+			days = 0
+		}
+		country_event = {
+			id = es_economy.2
+			days = 1years
+		}
+	}
 	## Development Mechanics
 	#random_owned_province = {
 	#	limit = {
@@ -2121,9 +2163,13 @@ on_five_year_pulse = {
 		limit = { 
 			tag = BLA 
 		} 
-		country_event = {
+		country_event = { #Artifact Respawn
 			id = es_esb.5
-			days = 30
+			days = 0
+		}
+		country_event = { #Global Dev Destruction
+			id = es_economy.0
+			days = 0
 		}
 	} 
 }
@@ -2133,10 +2179,6 @@ on_five_year_pulse_2 = {
 }
 
 on_five_year_pulse_3 = {
-	country_event = { #Global Dev Destruction
-		id = es_economy.0
-		days = 0
-	}
 }
 
 on_five_year_pulse_4 = {
@@ -2880,6 +2922,14 @@ on_conquest = {
 on_country_creation = { 
 	add_stability = 2
 	defines.functions.set_to_global_idea_level
+	set_variable = {
+		which = year_of_coronation
+		value = 57
+	}
+	export_to_variable = {
+		variable_name = age_on_coronation
+		value = trigger_value:ruler_age
+	}
 }
 
 on_federation_leader_change = {

@@ -42,12 +42,12 @@ country_event = {
 		}
 	
 		BLA = {
-			log = "CITY_COUNT | DEV_TOTAL = [ROOT.CITY_COUNT.GetValue] | [ROOT.DEV_TOTAL.GetValue]"
+			#log = "CITY_COUNT | DEV_TOTAL = [ROOT.CITY_COUNT.GetValue] | [ROOT.DEV_TOTAL.GetValue]"
 			divide_variable = {
 				which = DEV_TOTAL
 				which = CITY_COUNT
 			}
-			log = "DEV_AVERAGE: [ROOT.DEV_TOTAL.GetValue]"
+			#log = "DEV_AVERAGE: [ROOT.DEV_TOTAL.GetValue]"
 		}
 	}
 	
@@ -73,6 +73,29 @@ country_event = {
 			}
 		}
 		
+	}
+}
+country_event = { #1 Year Pulse
+    id = es_economy.2
+	title = es_economy.1.t
+	desc = es_economy.1.d
+	picture = SCQ_VILLAGES_eventPicture 
+	hidden = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		change_variable = {
+			which = year
+			value = 1
+		}
+	}
+	
+	option = {
+		name = es_economy.1.a
+		
+		ai_chance = {
+			factor = 100
+		}
 	}
 }
 

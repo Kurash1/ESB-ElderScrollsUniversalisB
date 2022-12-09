@@ -1,0 +1,8 @@
+on_actions = {
+	on_yearly_pulse = {
+		
+	}
+	on_genocide = {
+	
+	}
+}
