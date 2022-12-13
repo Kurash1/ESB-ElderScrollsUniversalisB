@@ -115,6 +115,7 @@ HDE_ideas = {
 	start = {
 		land_morale = 15%
 		global_unrest = -2
+		can_not_declare_war = yes
 	}
 	bonus = {
 		development_cost = -10%

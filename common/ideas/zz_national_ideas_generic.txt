@@ -1659,7 +1659,7 @@ argonian_ideas = {
 	}
 	argonian_ideas_3 = {
 		global_autonomy = -0.05
-		global_missionary_strength = 0.1
+		global_missionary_strength = 0.01
 	}
 	argonian_ideas_4 = {
 		global_unrest = -2

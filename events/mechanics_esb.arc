@@ -109,6 +109,83 @@ province_event = {
 	is_triggered_only = yes
 	
 	foreach tradegoods = {
+		var cost = (tradegoods.baseprice*costmult)
+		#option = {
+		#	name = tradegoods.id
+		#	trigger = {
+		#		NOT = {
+		#			tradegoods.triggers
+		#			NOT = { trade_goods = tradegoods.id }
+		#		}
+		#	}
+		#	custom_tooltip = es_esb.tt0
+		#}
+		#option = {
+		#	name = tradegoods.id
+		#	trigger = {
+		#		tradegoods.triggers
+		#		NOT = { trade_goods = tradegoods.id }
+		#		NOT = {
+		#			OR = {
+		#				owner = {
+		#					full_idea_group = transmutation_ideas
+		#					adm_power = (cost*0.9)
+		#					dip_power = (cost*0.9)
+		#					mil_power = (cost*0.9)
+		#				}
+		#				owner = {
+		#					adm_power = cost
+		#					dip_power = cost
+		#					mil_power = cost
+		#				}
+		#			}
+		#		}
+		#	}
+		#	custom_tooltip = es_esb.tt1
+		#}
+		#option = {
+		#	name = tradegoods.id
+		#	trigger = {
+		#		tradegoods.triggers
+		#		NOT = { trade_goods = tradegoods.id }
+		#		OR = {
+		#			owner = {
+		#				full_idea_group = transmutation_ideas
+		#				adm_power = (cost*0.9)
+		#				dip_power = (cost*0.9)
+		#				mil_power = (cost*0.9)
+		#			}
+		#			owner = {
+		#				adm_power = cost
+		#				dip_power = cost
+		#				mil_power = cost
+		#			}
+		#		}
+		#	}
+		#	highlight = yes
+		#	if = {
+		#		limit = {
+		#			owner = {
+		#				full_idea_group = transmutation_ideas
+		#			}
+		#		}
+		#		owner = {
+		#			adm_power_cost = (cost*0.9)
+		#			dip_power_cost = (cost*0.9)
+		#			mil_power_cost = (cost*0.9)
+		#		}
+		#		change_trade_goods = tradegoods.id
+		#	}
+		#	else = {
+		#		owner = {
+		#			adm_power_cost = cost
+		#			dip_power_cost = cost
+		#			mil_power_cost = cost
+		#		}
+		#		change_trade_goods = tradegoods.id
+		#	}
+		#}
+		
 		option = {
 			name = tradegoods.id
 			if = {
@@ -116,7 +193,6 @@ province_event = {
 					tradegoods.triggers
 					NOT = { trade_goods = tradegoods.id }
 				}
-				var cost = (tradegoods.baseprice*costmult)
 				if = {
 					limit = {
 						owner = {

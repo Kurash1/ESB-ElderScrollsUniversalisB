@@ -413,8 +413,18 @@ type={
 type={
 	type="volcano_lava"
 	use_animation=no
-	scale=4.000000
+	scale=1.500000
 	always_visible=yes
+	object={
+		name="red_mountain_lava"
+		hidden_on_start=no
+		position={
+			237.500 28.100 1781.500 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
 	object={
 		name="red_mountain_lava"
 		hidden_on_start=no
@@ -483,7 +493,7 @@ type={
 		name="orichalc_tower"
 		hidden_on_start=no
 		position={
-			235.000 20.500 1791.000 
+			104.000 20.500 1791.000 
 		}
 		rotation={
 			0.000 90.000 0.000 
@@ -1176,16 +1186,6 @@ type={
 		name="pyramids"
 		hidden_on_start=no
 		position={
-			283.000 -0.500 1794.000 
-		}
-		rotation={
-			0.000 0.000 0.000 
-		}
-	}
-	object={
-		name="pyramids"
-		hidden_on_start=no
-		position={
 			450.000 -0.500 2352.000 
 		}
 		rotation={
@@ -1733,16 +1733,6 @@ type={
 		name="camel"
 		hidden_on_start=no
 		position={
-			375.000 -0.100 1879.000 
-		}
-		rotation={
-			0.000 45.000 0.000 
-		}
-	}
-	object={
-		name="camel"
-		hidden_on_start=no
-		position={
 			1047.000 -0.100 1709.000 
 		}
 		rotation={
@@ -1977,7 +1967,7 @@ type={
 		name="seagulls"
 		hidden_on_start=no
 		position={
-			1001.000 35.000 1449.000 
+			746.000 35.000 1880.000 
 		}
 		rotation={
 			0.000 45.000 0.000 
@@ -1987,7 +1977,7 @@ type={
 		name="seagulls"
 		hidden_on_start=no
 		position={
-			746.000 35.000 1880.000 
+			1001.000 35.000 1449.000 
 		}
 		rotation={
 			0.000 45.000 0.000 
