@@ -2120,4 +2120,9 @@ spriteTypes = {
         name = "GFX_great_project_galom_daeus"
         texturefile = "gfx//interface//great_projects//galom_daeus.dds"
     }
+	
+	spriteType = {
+		name = "GFX_great_project_test"
+		texturefile = "gfx//interface//great_projects//test.dds"
+	}
 }

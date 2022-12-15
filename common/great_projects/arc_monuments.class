@@ -1,0 +1,57 @@
+default = {
+	build_cost = 3000
+	keep_trigger = {
+		always = yes
+	}
+	tier_0 = { 
+		upgrade_time = { months = 0 } 
+		cost_to_upgrade = { factor = 0 } 
+		province_modifiers = { } 
+		area_modifier = { } 
+		country_modifiers = { } 
+		on_upgraded = { } 
+	} 
+	tier_1 = { 
+		upgrade_time = { months = 120 } 
+		cost_to_upgrade = { factor = 3000 } 
+		province_modifiers = { } 
+		area_modifier = { } 
+		country_modifiers = { } 
+		on_upgraded = { } 
+	} 
+	tier_2 = { 
+		upgrade_time = { months = 240 } 
+		cost_to_upgrade = { factor = 7500 } 
+		province_modifiers = { } 
+		area_modifier = { } 
+		country_modifiers = { } 
+		on_upgraded = { } 
+	} 
+	tier_3 = { 
+		upgrade_time = { months = 360 } 
+		cost_to_upgrade = { factor = 15000 } 
+		province_modifiers = { } 
+		area_modifier = { } 
+		country_modifiers = { } 
+		on_upgraded = { } 
+	} 
+}
+
+test = {
+	start = 1206
+	trigger = {
+		has_owner_religion = yes
+		owner = {
+			primary_culture = ayleid
+		}
+	}
+	tier_1_mod = {
+		discipline = 0.025
+	}
+	tier_2_mod = {
+		discipline = 0.05
+	}
+	tier_3_mod = {
+		discipline = 0.10
+	}
+}

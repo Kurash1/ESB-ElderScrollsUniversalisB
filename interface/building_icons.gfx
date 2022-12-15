@@ -1953,7 +1953,89 @@ spriteTypes = {
 	}	
 	spriteType = {
 		name = "GFX_artifact_search"
-		texturefile = "gfx//interface//buildings//custom_interaction_building.tga"
+		texturefile = "gfx//interface//buildings//artifact_search.tga"
 		loadType = "INGAME"
 	}	
+	
+	spriteType = {
+		name = "GFX_keep"
+		texturefile = "gfx//interface//buildings//keep.tga"
+		loadType = "INGAME"
+	}	
+	spriteType = {
+		name = "GFX_castle"
+		texturefile = "gfx//interface//buildings//castle.tga"
+		loadType = "INGAME"
+	}	
+	spriteType = {
+		name = "GFX_fortress"
+		texturefile = "gfx//interface//buildings//fortress.tga"
+		loadType = "INGAME"
+	}	
+	
+	spriteType = {
+		name = "GFX_shrine"
+		texturefile = "gfx//interface//buildings//shrine.tga"
+		loadType = "INGAME"
+	}	
+	spriteType = {
+		name = "GFX_esb_temple"
+		texturefile = "gfx//interface//buildings//temple.tga"
+		loadType = "INGAME"
+	}	
+	spriteType = {
+		name = "GFX_esb_cathedral"
+		texturefile = "gfx//interface//buildings//cathedral.tga"
+		loadType = "INGAME"
+	}	
+	
+	spriteType = {
+		name = "GFX_market"
+		texturefile = "gfx//interface//buildings//market.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_market_street"
+		texturefile = "gfx//interface//buildings//market_street.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_trade_district"
+		texturefile = "gfx//interface//buildings//trade_district.tga"
+		loadType = "INGAME"
+	}	
+	
+	spriteType = {
+		name = "GFX_esbgarrison"
+		texturefile = "gfx//interface//buildings//garrison.tga"
+		loadType = "INGAME"
+	}	
+	spriteType = {
+		name = "GFX_newbarracks"
+		texturefile = "gfx//interface//buildings//barracks.tga"
+		loadType = "INGAME"
+	}	
+	spriteType = {
+		name = "GFX_militarycamps"
+		texturefile = "gfx//interface//buildings//militarycamps.tga"
+		loadType = "INGAME"
+	}	
+	
+	spriteType = {
+		name = "GFX_pier"
+		texturefile = "gfx//interface//buildings//pier.tga"
+		loadType = "INGAME"
+	}	
+	spriteType = {
+		name = "GFX_docks"
+		texturefile = "gfx//interface//buildings//docks.tga"
+		loadType = "INGAME"
+	}	
+	spriteType = {
+		name = "GFX_esbshipyard"
+		texturefile = "gfx//interface//buildings//shipyard.tga"
+		loadType = "INGAME"
+	}	
+	
+	
 }

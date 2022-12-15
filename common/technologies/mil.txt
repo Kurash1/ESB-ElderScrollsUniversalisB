@@ -17,6 +17,22 @@ technology = {
 	artillery_shock = 0.1
 	land_morale = 3.00
 	
+	keep = yes
+	castle = yes
+	fortress = yes
+	shrine = yes
+	esb_temple = yes
+	esb_cathedral = yes
+	market = yes
+	esbgarrison = yes
+	newbarracks = yes
+	militarycamps = yes
+	docks = yes
+	esbshipyard = yes
+	pier = yes
+	market_street = yes
+	trade_district = yes
+	
 	# Taleskan
 	enable = taleskan_spearman
 	enable = taleskan_archer

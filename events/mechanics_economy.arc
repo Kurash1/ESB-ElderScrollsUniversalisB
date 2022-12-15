@@ -1,4 +1,3 @@
-# Audax Validator "!" Ignore_1006
 namespace = es_economy
 
 country_event = {

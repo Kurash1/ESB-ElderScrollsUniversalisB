@@ -580,6 +580,7 @@ base_values = {
 	tolerance_of_heathens_capacity = 3
 	monthly_militarized_society = -0.10
 	yearly_tribal_allegiance = 1.0
+	monthly_reform_progress = 1
 }
 
 ai_nation = {

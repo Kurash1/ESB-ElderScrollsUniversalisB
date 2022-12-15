@@ -331,162 +331,162 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = es_esb.5
-	title = es_esb.5.t
-	desc = es_esb.5.d
-	picture = es_isolationism_2
-	
-	is_triggered_only = yes
-	
-	immediate = {
-		foreach artifacts = {
-			if = {
-				limit = {
-					has_country_flag = artifacts.id
-				}
-				clr_country_flag = artifacts.id
-				random_province = {
-					limit = {
-						artifacts.trigger
-					}
-					set_province_flag = artifacts.id
-				}
-			}
-		}
-	}
-	
-	option = {
-		name = es_esb.5
-	}
-}
-
-defineLoc es_esb.6.t = "Artifact Search"
-defineLoc es_esb.6.d = "You should not see this"
-defineLoc es_esb.6.a = "Too bad"
-province_event = {
-	id = es_esb.6
-	title = es_esb.6.t
-	desc = es_esb.6.d
-	picture = ES_BLESSED_BLADE_eventPicture
-	is_triggered_only = yes
-	hidden = yes
-	
-	option = {
-		name = es_esb.6.a
-		log = "es_esb.6"
-		if = { #Checks for artifacts
-			limit = {
-				OR = {
-					foreach artifacts = {
-						AND = {
-							has_province_flag = artifacts.id
-							owner = { NOT = { has_country_modifier = artifacts.id } }
-						}
-					}
-				}
-			}
-			log = "found artifact"
-			province_event = { #Gives artifacts
-				id = es_esb.8 
-				days = 1
-			}
-		}
-		else = {
-			province_event = {
-				id = es_esb.7
-				days = 1
-			}
-		}
-		ai_chance = {
-			factor = 100
-		}
-	}
-}
-
-defineLoc es_esb.7.t = "No artifacts found"
-defineLoc es_esb.7.d = "Bad news [Root.Owner.Monarch.GetTitle] while searching in [Root.GetName] we didn't find any artifacts"
-defineLoc es_esb.7.a = "Too bad"
-defineLoc es_esb.7.tt = "Though we might find an artifact in [Prev.GetName]"
-province_event = {
-	id = es_esb.7
-	title = es_esb.7.t
-	desc = es_esb.7.d
-	picture = ES_BLESSED_BLADE_eventPicture
-	is_triggered_only = yes
-
-	option = {
-		name = es_esb.7.a
-		#owner = {
-		#	random_owned_province = {
-		#		limit = {
-		#			OR = { 
-		#				foreach artifacts = {
-		#					has_province_flag = artifacts.id
-		#				} 
-		#			}
-		#		}
-		#		owner = {
-		#			custom_tooltip = es_esb.7.tt
-		#		}
-		#	}
-		#}
-	}
-}
-
-defineLoc es_esb.8.t = "Aritfacts?"
-defineLoc es_esb.8.d = "Great news [Root.Owner.Monarch.GetTitle] while searching in [Root.GetName] we found an Artifact"
-province_event = {
-	id = es_esb.8
-	title = es_esb.8.t
-	desc = es_esb.8.d
-	foreach artifacts = {
-		picture = {
-			trigger = {
-				has_province_flag = artifacts.id
-			}
-			picture = artifacts.picture
-		}
-	}
-	is_triggered_only = yes
-	
-	trigger = {
-		OR = {
-			foreach artifacts = {
-				AND = {
-					has_province_flag = artifacts.id
-				    owner = { NOT = { has_country_modifier = artifacts.id } }
-				}
-			}
-		}
-	}
-	
-	foreach artifacts = {
-		option = {
-			name = artifacts.id
-			trigger = {
-				has_province_flag = artifacts.id
-				owner = { NOT = { has_country_modifier = artifacts.id } }
-			}
-			owner = {
-				arc_modifier = {
-					id = artifacts.id
-					type = artifacts.type
-					name = artifacts.name
-					desc = artifacts.desc
-					modifiers = { artifacts.modifiers }
-				}
-			}
-			artifacts.effects
-			clr_province_flag = artifacts.id
-			BLA = {
-				set_country_flag = artifacts.id
-			}
-		}
-		
-	}
-	
-	after = {
-		log = "final: found artifact"
-	}
-}
+#country_event = {
+#	id = es_esb.5
+#	title = es_esb.5.t
+#	desc = es_esb.5.d
+#	picture = es_isolationism_2
+#	
+#	is_triggered_only = yes
+#	
+#	immediate = {
+#		foreach artifacts = {
+#			if = {
+#				limit = {
+#					has_country_flag = artifacts.id
+#				}
+#				clr_country_flag = artifacts.id
+#				random_province = {
+#					limit = {
+#						artifacts.trigger
+#					}
+#					set_province_flag = artifacts.id
+#				}
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = es_esb.5
+#	}
+#}
+#
+#defineLoc es_esb.6.t = "Artifact Search"
+#defineLoc es_esb.6.d = "You should not see this"
+#defineLoc es_esb.6.a = "Too bad"
+#province_event = {
+#	id = es_esb.6
+#	title = es_esb.6.t
+#	desc = es_esb.6.d
+#	picture = ES_BLESSED_BLADE_eventPicture
+#	is_triggered_only = yes
+#	hidden = yes
+#	
+#	option = {
+#		name = es_esb.6.a
+#		log = "es_esb.6"
+#		if = { #Checks for artifacts
+#			limit = {
+#				OR = {
+#					foreach artifacts = {
+#						AND = {
+#							has_province_flag = artifacts.id
+#							owner = { NOT = { has_country_modifier = artifacts.id } }
+#						}
+#					}
+#				}
+#			}
+#			log = "found artifact"
+#			province_event = { #Gives artifacts
+#				id = es_esb.8 
+#				days = 1
+#			}
+#		}
+#		else = {
+#			province_event = {
+#				id = es_esb.7
+#				days = 1
+#			}
+#		}
+#		ai_chance = {
+#			factor = 100
+#		}
+#	}
+#}
+#
+#defineLoc es_esb.7.t = "No artifacts found"
+#defineLoc es_esb.7.d = "Bad news [Root.Owner.Monarch.GetTitle] while searching in [Root.GetName] we didn't find any artifacts"
+#defineLoc es_esb.7.a = "Too bad"
+#defineLoc es_esb.7.tt = "Though we might find an artifact in [Prev.GetName]"
+#province_event = {
+#	id = es_esb.7
+#	title = es_esb.7.t
+#	desc = es_esb.7.d
+#	picture = ES_BLESSED_BLADE_eventPicture
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = es_esb.7.a
+#		#owner = {
+#		#	random_owned_province = {
+#		#		limit = {
+#		#			OR = { 
+#		#				foreach artifacts = {
+#		#					has_province_flag = artifacts.id
+#		#				} 
+#		#			}
+#		#		}
+#		#		owner = {
+#		#			custom_tooltip = es_esb.7.tt
+#		#		}
+#		#	}
+#		#}
+#	}
+#}
+#
+#defineLoc es_esb.8.t = "Aritfacts?"
+#defineLoc es_esb.8.d = "Great news [Root.Owner.Monarch.GetTitle] while searching in [Root.GetName] we found an Artifact"
+#province_event = {
+#	id = es_esb.8
+#	title = es_esb.8.t
+#	desc = es_esb.8.d
+#	foreach artifacts = {
+#		picture = {
+#			trigger = {
+#				has_province_flag = artifacts.id
+#			}
+#			picture = artifacts.picture
+#		}
+#	}
+#	is_triggered_only = yes
+#	
+#	trigger = {
+#		OR = {
+#			foreach artifacts = {
+#				AND = {
+#					has_province_flag = artifacts.id
+#				    owner = { NOT = { has_country_modifier = artifacts.id } }
+#				}
+#			}
+#		}
+#	}
+#	
+#	foreach artifacts = {
+#		option = {
+#			name = artifacts.id
+#			trigger = {
+#				has_province_flag = artifacts.id
+#				owner = { NOT = { has_country_modifier = artifacts.id } }
+#			}
+#			owner = {
+#				arc_modifier = {
+#					id = artifacts.id
+#					type = artifacts.type
+#					name = artifacts.name
+#					desc = artifacts.desc
+#					modifiers = { artifacts.modifiers }
+#				}
+#			}
+#			artifacts.effects
+#			clr_province_flag = artifacts.id
+#			BLA = {
+#				set_country_flag = artifacts.id
+#			}
+#		}
+#		
+#	}
+#	
+#	after = {
+#		log = "final: found artifact"
+#	}
+#}

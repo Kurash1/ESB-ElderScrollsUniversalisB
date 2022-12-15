@@ -1,28 +1,19 @@
 temple = {
-	cost = 75
-	time = 12
+	make_obsolete = shrine
+	build_trigger = {
+		owner = {
+			has_idea_group = religious_ideas
+		}
+	}
+	cost = 150
+	time = 24
 	modifier = {
-		local_missionary_strength = 0.015	
-		local_unrest = -1.5
-		local_tax_modifier = 0.4
+		local_tax_modifier = 0.5
 	}
 	
-	on_built = {
-		add_development_from_building = {
-			building = temple
-			type = tax
-			value = 1
-		}
-	}
-	on_destroyed = {
-		remove_development_from_building = {
-			building = temple
-			type = tax
-			value = 1
-		}
-	}
-	on_obsolete = {
-	}
+	on_built = { }
+	on_destroyed = { }
+	on_obsolete = { }
 	
 	ai_will_do = {
 		factor = 1			
@@ -39,31 +30,21 @@ temple = {
 
 cathedral = {
 	make_obsolete = temple
-	
-	cost = 150			
-	time = 24			
+	build_trigger = {
+		owner = {
+			has_idea_group = religious_ideas
+			is_defender_of_faith = yes
+		}
+	}
+	cost = 200			
+	time = 36			
 	modifier = {
-		local_missionary_strength = 0.025	
-		local_culture_conversion_cost = -0.25		
-		local_tax_modifier = 0.6
+		local_tax_modifier = 1.0
 	}
 	
-	on_built = {
-		add_development_from_building = {
-			building = cathedral
-			type = tax
-			value = 1
-		}
-	}
-	on_destroyed = {
-		remove_development_from_building = {
-			building = cathedral
-			type = tax
-			value = 1
-		}
-	}
-	on_obsolete = {
-	}
+	on_built = { }
+	on_destroyed = { }
+	on_obsolete = { }
 	
 	ai_will_do = {
 		factor = 5		

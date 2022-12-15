@@ -5,6 +5,10 @@ spriteTypes = {
 		texturefile = "gfx//interface//banner_mid_10.dds"
 	}
 	spriteType = {
+		name = "GFX_banner_mid_9"
+		texturefile = "gfx//interface//banner_mid_9.dds"
+	}
+	spriteType = {
 		name = "GFX_banner_right_4"
 		texturefile = "gfx//interface//banner_right_4.dds"
 	}
