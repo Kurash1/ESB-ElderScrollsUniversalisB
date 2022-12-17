@@ -231,7 +231,7 @@ NDefines.NCountry.CLAIM_THRONE_PRESTIGE_PENALTY = -20.0			-- Prestige penalty wh
 NDefines.NCountry.BREAK_VASSAL_PRESTIGE_PENALTY = -25.0			-- Prestige penalty when break vassalisation
 NDefines.NCountry.BREAK_MARRIAGE_PRESTIGE_PENALTY = -10			-- Prestige penalty when break royal marriage
 NDefines.NCountry.BREAK_MARRIAGE_STABILITY_PENALTY = -1			-- Stability penalty when break royal marriage
-NDefines.NCountry.FORM_MARRIAGE_HIGHER_PRESTIGE = -2.5				-- Legitimacy Change when forming a royal marriage while having more Prestige than the other country.
+NDefines.NCountry.FORM_MARRIAGE_HIGHER_PRESTIGE = -2.5			-- Legitimacy Change when forming a royal marriage while having more Prestige than the other country.
 NDefines.NCountry.FORM_MARRIAGE_HIGHER_LEGITIMACY = -5			-- Legitimacy Change when forming a royal marriage while having more legitimacy than the other country.
 NDefines.NCountry.ANNEX_OR_INTEGRATE_PRESTIGE = 5.0				-- Prestige gain on diplomatic annex or integrate
 NDefines.NCountry.PROVINCE_DISCOVERY_PRESTIGE = 0.1				-- Prestige change when first in tech group to discover first province in a region
@@ -240,9 +240,9 @@ NDefines.NCountry.PROVINCE_DISCOVERY_YEARS_RELIGION = 100		-- Years until discov
 NDefines.NCountry.START_YEARLY_INFLATION = 0.0 					-- _CDEF_START_YEARLY
 NDefines.NCountry.START_YEARLY_INFLATION = 0.0 					-- _CDEF_START_YEARLY_INFLATION_
 NDefines.NCountry.CLAIM_LOSE = 25								-- how many years until a claim is lost.
-NDefines.NCountry.CORE_LOSE = 150 								-- how many years until a core is lost.
-NDefines.NCountry.CORE_LOSE_CULTURE_GROUP = 350					-- how many years until a core in a country's culture group is lost.
-NDefines.NCountry.CORE_LOSE_PRIMARY_CULTURE_TAG = -1				-- how many years until a core is lost for the primary tag of a country (-1 = never lost)
+NDefines.NCountry.CORE_LOSE = 10000 							-- how many years until a core is lost.
+NDefines.NCountry.CORE_LOSE_CULTURE_GROUP = 10000				-- how many years until a core in a country's culture group is lost.
+NDefines.NCountry.CORE_LOSE_PRIMARY_CULTURE_TAG = -1			-- how many years until a core is lost for the primary tag of a country (-1 = never lost)
 NDefines.NCountry.CORE_LOSE_PRESTIGE = 0.0						-- Prestige change when lost core
 NDefines.NCountry.ABANDON_CORE_PRESTIGE = 0.0					-- The cost of abandoning a core that some other country owns.
 NDefines.NCountry.ABANDON_IDEAGROUP_REFUND = 0.10				-- The part of the idea group spent that will be refunded upon abandonment.

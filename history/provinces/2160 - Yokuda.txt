@@ -9,3 +9,4 @@ capital = "Varea"
 is_city = no
 owner = TGN
 controller = TGN
+add_core = YUL

@@ -1287,7 +1287,7 @@ esb_beast_tongue = {
 		land_attrition = -0.20
 	}
 	esb_beast_tongue2 = {
-		cavalry_power = -0.15
+		cavalry_power = 0.15
 	}
 	esb_beast_tongue3 = {
 		leader_land_manuever = 1
