@@ -74,6 +74,46 @@ dragon_cult_ideas = {
 #############################
 ###     Culture Ideas     ###
 #############################
+# Agaceph Ideas
+agaceph_ideas = {
+	trigger = {
+		OR = {
+			primary_culture = agaceph
+		}
+	}
+	free = yes
+	start = {
+		global_spy_defence = 0.25
+		spy_offence = 0.25
+	}
+	bonus = {
+		leader_siege = 1
+	}
+	agaceph_ideas_1 = {
+		global_autonomy = -0.05
+	}
+	agaceph_ideas_2 = {
+		caravan_power = 0.25
+	}
+	agaceph_ideas_3 = {
+		diplomatic_reputation = -1
+		development_cost = -0.15
+	}
+	agaceph_ideas_4 = {
+		global_unrest = 1
+		production_efficiency = 0.125
+	}
+	agaceph_ideas_5 = {
+		reform_progress_growth = 0.25
+	}
+	agaceph_ideas_6 = {
+		fire_damage = 0.05
+		hostile_attrition = 1
+	}
+	agaceph_ideas_7 = {
+		defensiveness = 0.15
+	}
+}
 
 # Akaviri Ideas
 akaviri_ideas = {
@@ -200,6 +240,89 @@ arachnid_ideas = {
 	arachnid_ideas_7 = {
 		# Ornaments 1: Living ornaments for decoration and sustenance
 		prestige = 0.5
+	}
+}
+
+# Archein Ideas
+archein_ideas = {
+	trigger = {
+		primary_culture = archein
+	}
+	free = yes
+	start = {
+		idea_cost = -0.125
+		improve_relation_modifier = 0.2
+	}
+	bonus = {
+		global_trade_goods_size = 0.125
+	}
+	archein_ideas_1 = {
+		yearly_corruption = 0.05
+		global_tax_modifier = 0.20
+	}
+	archein_ideas_2 = {
+		global_trade_power = 0.15
+		relation_with_same_culture_group = -15
+	}
+	archein_ideas_3 = {
+		diplomatic_reputation = 2
+		relation_with_other_culture = 15
+	}
+	archein_ideas_4 = {
+		shock_damage = 0.10
+	}
+	archein_ideas_5 = {
+		hostile_attrition = 1
+		max_hostile_attrition = 1
+	}
+	archein_ideas_6 = {
+		state_maintenance_modifier = -0.30
+	}
+	archein_ideas_7 = {
+		trade_company_governing_cost = -0.15
+		production_efficiency = 0.10
+	}
+}
+
+# Argonian Ideas
+argonian_ideas = {
+	trigger = {
+		primary_culture = argonian
+	}
+	free = yes
+	start = {
+		land_morale = 0.15
+		land_attrition = -0.2
+	}
+	bonus = {
+		build_cost = -0.2
+	}
+	argonian_ideas_1 = {
+		prestige = 0.5
+		state_maintenance_modifier = -0.1
+	}
+	argonian_ideas_2 = {
+		privateer_efficiency = 0.2
+		hostile_attrition = 1
+	}
+	argonian_ideas_3 = {
+		global_autonomy = -0.05
+		global_missionary_strength = 0.1
+	}
+	argonian_ideas_4 = {
+		global_unrest = -2
+		religious_unity = 0.10
+	}
+	argonian_ideas_5 = {
+		diplomatic_reputation = 0.5
+		spy_offence = 0.1
+	}
+	argonian_ideas_6 = {
+		infantry_shock = 0.15
+	}
+	argonian_ideas_7 = {
+		years_of_nationalism = -5
+		fabricate_claims_cost = -0.15
 	}
 }
 
@@ -614,6 +737,46 @@ great_house_ideas = {
 	}
 }
 
+# Hapsleet Ideas
+hapsleet_ideas = {
+	trigger = {
+		primary_culture = hapsleet
+	}
+	free = yes
+	start = {
+		stability_cost_modifier = -0.25
+		num_accepted_cultures = 1
+	}
+	bonus = {
+		ae_impact = -0.25
+	}
+	hapsleet_ideas_1 = {
+		global_own_trade_power = 0.33
+		global_foreign_trade_power = -0.15
+	}
+	hapsleet_ideas_2 = {
+		own_territory_dice_roll_bonus = 1
+	}
+	hapsleet_ideas_3 = {
+		movement_speed = 0.05
+		land_morale = 0.10
+	}
+	hapsleet_ideas_4 = {
+		no_religion_penalty = yes
+		relation_with_same_religion = -10
+	}
+	hapsleet_ideas_5 = {
+		leader_land_fire = 1
+	}
+	hapsleet_ideas_6 = {
+		naval_morale = 0.15
+		merchants = 1
+	}
+	hapsleet_ideas_7 = {
+		fort_maintenance_modifier = -0.33
+	}
+}
+
 # Harvester Ideas
 harvester_ideas = {
 	trigger = {
@@ -830,50 +993,6 @@ kothringi_ideas = {
 	}
 }
 
-KRE_ideas = {
-	start = {
-		same_culture_advisor_cost = -0.25
-		years_of_nationalism = -5
-	}
-
-	bonus = {
-		global_autonomy = -0.05
-	}
-
-	trigger = {
-		primary_culture = kreathmen
-	}
-	
-	free = yes
-
-	KRE_ideas_1 = {
-		infantry_cost = -0.15
-	}
-	KRE_ideas_2 = {
-		production_efficiency = 0.05
-		morale_damage_received = -0.10
-	}
-	KRE_ideas_3 = {
-		fort_maintenance_modifier = -0.20
-	}
-	KRE_ideas_4 = {
-		improve_relation_modifier = 0.15
-		manpower_recovery_speed = 0.10
-	}
-	KRE_ideas_5 = {
-		monarch_military_power = 1
-		diplomatic_reputation = 1
-	}
-	KRE_ideas_6 = {
-		ship_durability = 0.10
-	}
-	KRE_ideas_7 = {
-		hostile_attrition = 1
-		defensiveness = 0.15
-	}
-}
-
-
 # Lilmothiit Ideas
 lilmothiit_ideas = {
 	trigger = {
@@ -996,6 +1115,43 @@ minotaur_ideas = {
 	}
 }
 
+# Naga Ideas
+naga_ideas = {
+	trigger = {
+		primary_culture = naga
+	}
+	free = yes
+	start = {
+		war_exhaustion_cost = -0.20
+		free_policy = 1
+	}
+	bonus = {
+		same_culture_advisor_cost = -0.15
+	}
+	naga_ideas_1 = {
+		land_attrition = -0.15
+	}
+	naga_ideas_2 = {
+		infantry_power = 0.10
+	}
+	naga_ideas_3 = {
+		trade_steering = 0.10
+		embargo_efficiency = 0.25
+	}
+	naga_ideas_4 = {
+		army_tradition_from_battle = 0.75
+	}
+	naga_ideas_5 = {
+		morale_damage = 0.0125
+	}
+	naga_ideas_6 = {
+		production_efficiency = 0.10
+	}
+	naga_ideas_7 = {
+		diplomatic_reputation = 2
+	}
+}
+
 # Nedic Ideas
 nedic_ideas = {
 	trigger = {
@@ -1109,6 +1265,44 @@ nordic_ideas = {
 	}
 	nordic_ideas_7 = {
 		global_unrest = -2
+	}
+}
+
+# Paatru Ideas
+paatru_ideas = {
+	trigger = {
+		primary_culture = paatru
+	}
+	free = yes
+	start = {
+		vassal_forcelimit_bonus = 0.33
+		ae_impact = -0.20
+	}
+	bonus = {
+		diplomatic_upkeep = 1
+	}
+	paatru_ideas_1 = {
+		tolerance_own = 2
+	}
+	paatru_ideas_2 = {
+		global_allowed_num_of_buildings = 1
+	}
+	paatru_ideas_3 = {
+		land_morale = 0.15
+	}
+	paatru_ideas_4 = {
+		liberty_desire = -10
+		autonomy_change_time = -0.25
+	}
+	paatru_ideas_5 = {
+		years_of_nationalism = -5
+	}
+	paatru_ideas_6 = {
+		cavalry_power = 0.25
+		cavalry_cost = 0.15
+	}
+	paatru_ideas_7 = {
+		unjustified_demands = -0.33
 	}
 }
 
@@ -1259,6 +1453,45 @@ riekling_ideas = {
 	}
 	riekling_ideas_7 = {
 		fire_damage_received = -0.15
+	}
+}
+
+# Sarpa Ideas
+sarpa_ideas = {
+	trigger = {
+		primary_culture = sarpa
+	}
+	free = yes
+	start = {
+		envoy_travel_time = -0.33
+		max_absolutism = 10
+	}
+	bonus = {
+		mercantilism_cost = -0.15
+	}
+	sarpa_ideas_1 = {
+		movement_speed = 0.10
+	}
+	sarpa_ideas_2 = {
+		religious_unity = 0.25
+	}
+	sarpa_ideas_3 = {
+		global_trade_goods_size_modifier = 0.15
+	}
+	sarpa_ideas_4 = {
+		diplomatic_reputation = -1
+		can_chain_claim = yes
+	}
+	sarpa_ideas_5 = {
+		siege_ability = 0.10
+		fire_damage_received = -0.05
+	}
+	sarpa_ideas_6 = {
+		morale_damage_received = -0.025
+	}
+	sarpa_ideas_7 = {
+		privateer_efficiency = 0.25
+		embargo_efficiency = 0.25
 	}
 }
 
@@ -1636,47 +1869,6 @@ yokudan_ideas = {
 #############################
 ###  Culture Group Ideas  ###
 #############################
-# Argonian Ideas
-argonian_ideas = {
-	trigger = {
-		culture_group = marsh_cg
-	}
-	free = yes
-	start = {
-		land_morale = 0.15
-		land_attrition = -0.2
-	}
-	bonus = {
-		build_cost = -0.2
-	}
-	argonian_ideas_1 = {
-		prestige = 0.5
-		state_maintenance_modifier = -0.1
-	}
-	argonian_ideas_2 = {
-		privateer_efficiency = 0.2
-		hostile_attrition = 1
-	}
-	argonian_ideas_3 = {
-		global_autonomy = -0.05
-		global_missionary_strength = 0.01
-	}
-	argonian_ideas_4 = {
-		global_unrest = -2
-		religious_unity = 0.10
-	}
-	argonian_ideas_5 = {
-		diplomatic_reputation = 0.5
-		spy_offence = 0.1
-	}
-	argonian_ideas_6 = {
-		infantry_shock = 0.15
-	}
-	argonian_ideas_7 = {
-		years_of_nationalism = -5
-		fabricate_claims_cost = -0.15
-	}
-}
 
 # Bosmer Ideas
 bosmer_ideas = {
@@ -2052,7 +2244,7 @@ goblin_ideas = {
 	free = yes
 	
 	# The Blue God
-	# All the Goblins worship Malacath, however, they can do it in different ways. For example, some goblins paint his statures in blue colour, while others conduct various rithuals to please Muluk, one of the Malacath's aspects.  
+	# All the Goblins worship Malacath, however, they can do it in different ways. For example, some goblins paint his statures in blue colour, while others conduct various rituals to please Muluk, one of the Malacath's aspects.  
 	goblin_ideas_1 = {
 		tolerance_heretic = 1.5
 		land_morale = 0.10
