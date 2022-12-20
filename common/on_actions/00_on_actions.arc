@@ -2,50 +2,9 @@
 
 # country
 on_startup = {
-
 	2635 = {
 		cede_province = BLA
 		add_core = BLA
-	}
-
-	if = {
-		limit = {
-			tag = BLA
-			NOT = { has_country_flag = campaign_start }
-		}
-		set_variable = {
-			which = year
-			value = 57
-		}
-		set_country_flag = campaign_start
-		country_event = {
-			id = es_ideas.0
-			days = (30*365)
-		}
-		every_country = {
-			add_stability = 2
-			defines.functions.set_to_global_idea_level
-			set_variable = {
-				which = year_of_coronation
-				value = 57
-			}
-			export_to_variable = {
-				variable_name = age_on_coronation
-				value = trigger_value:ruler_age
-			}
-		}
-		country_event = { #Artifacts
-			id = es_esb.4
-		}
-		
-		#Bookmarks 
-		if = {
-			limit = { is_year = 57 NOT = { is_year = 58 } }
-			country_event = {
-				id = es_scenario_operator.1
-				days = 0
-			}
-		}
 	}
 
     set_allow_female_emperor = yes
@@ -159,6 +118,9 @@ on_startup = {
 			es_change_opinion = yes
 			es_change_country_names = yes
 			change_available_deities = yes
+			
+			add_stability = 2
+			defines.functions.set_to_global_idea_level
 		}
 
 		random_country = {
@@ -198,8 +160,25 @@ on_startup = {
 		}
 		if = { limit = { is_year = 862 } every_country = { limit = { NOT = { culture_group = velothi_cg } capital_scope = { continent = Tamriel } } country_event = { id = dark_brotherhood_spawn.5 days = 9125 } } }
 		
-		
 		BLA = {
+			set_country_flag = campaign_start
+			country_event = {
+				id = es_ideas.0
+				days = (30*365)
+			}
+			country_event = { #Artifacts
+				id = es_esb.4
+			}
+			
+			#Bookmarks 
+			if = {
+				limit = { is_year = 57 NOT = { is_year = 58 } }
+				country_event = {
+					id = es_scenario_operator.1
+					days = 0
+				}
+			}
+		
 			add_country_modifier = { name = "red_mountain_eruption" duration = 3650 }
 			add_country_modifier = { name = "sand_storm_1" duration = 3650 }
 			add_country_modifier = { name = "tropical_storm_1" duration = 3650 }	
@@ -312,6 +291,16 @@ on_startup = {
 	initialize_schools_effect = yes
 	
 	country_event = { id = es_birthsigns.0 days = 1 }
+	
+	export_to_variable = {
+		which = year_on_coronation
+		value = trigger_value:is_year
+	}
+	export_to_variable = {
+		variable_name = ruler_age_on_coronation
+		value = trigger_value:ruler_age
+	}
+	log = "[ROOT.year_on_coronation.GetValue] [ROOT.ruler_age_on_coronation.GetValue]"
 }
 
 # country
@@ -1165,22 +1154,15 @@ on_new_consort = {
 # country
 on_monarch_death = {
 	export_to_variable = {
-        variable_name = new_age
-        value = trigger_value:ruler_age
-    }
-	log = "RulerDeath_[ROOT.age_on_coronation.GetValue]_[ROOT.year_of_coronation.GetValue]_[GetYear]"
+		which = year_on_coronation
+		value = trigger_value:is_year
+	}
 	export_to_variable = {
-        variable_name = age_on_coronation
-        value = trigger_value:ruler_age
-    }
-	set_variable = {
-		which = year
-		which = BLA
+		variable_name = ruler_age_on_coronation
+		value = trigger_value:ruler_age
 	}
-	set_variable = {
-		which = year_of_coronation
-		which = year
-	}
+	log = "RulerDeath:[ROOT.year_on_coronation.GetValue]:[ROOT.ruler_age_on_coronation.GetValue]:[GetYear]"
+	
 	if = { limit = { ai = no has_reform = backbone_of_the_nation } add_stability = -1 }
 	every_owned_province = {
 		limit = {

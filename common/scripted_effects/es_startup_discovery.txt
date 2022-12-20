@@ -48,535 +48,538 @@ es_startup_discovery_helper = {
 # Discovers land based you or a subject owning land in different superregions
 # Special cases allow additional discovery for Deadric planes and HRE members
 es_startup_discovery = {
-	# Pyandonea
-	if = {
-		limit = {
-			OR = {
-				es_startup_should_reveal_superregion = {
-					which = pyandonea_superregion
-				}
-				es_ties_to_superregion = {
-					which = summerset_islands_superregion
-				}
-				es_ties_to_region = {
-					which = southern_valenwood_lr
-				}
-			}
-		}
-		pyandonea_superregion = {
-			es_startup_discovery_helper = yes
-		}
-		# Lakes & Wastelands
-		discovery_pyandonea_extras = {
-			discover_country = ROOT
-		}
+	yokuda_superregion = {
+		es_startup_discovery_helper = yes
 	}
-	# # Tamriel (Red Mountain)
-	# if = {
-	# 	limit = {
-	# 		OR = {
-	# 			es_startup_should_reveal_superregion = {
-	# 				which = tamriel_superregion
-	# 			}
-	# 			es_startup_should_reveal_superregion = {
-	# 				which = morrowind_superregion
-	# 			}
-	# 		}
-	# 	}
-	# 	tamriel_superregion = {
-	# 		es_startup_discovery_helper = yes
-	# 	}
-	# 	# Lakes & Wastelands
-	# 	discovery_tamriel_extras = {
-	# 		discover_country = ROOT
-	# 	}
-	# }
-	# Summerset
-	if = {
-		limit = {
-			OR = {
-				es_startup_should_reveal_superregion = {
-					which = summerset_islands_superregion
-				}
-				es_ties_to_superregion = {
-					which = pyandonea_superregion
-				}
-				es_ties_to_superregion = {
-					which = valenwood_superregion
-				}
-				es_ties_to_superregion = {
-					which = hammerfell_superregion
-				}
-				es_ties_to_superregion = {
-					which = yokuda_superregion
-				}
-				is_part_of_hre = yes
-			}
-		}
-		summerset_islands_superregion = {
-			es_startup_discovery_helper = yes
-		}
-		# Lakes & Wastelands
-		discovery_summerset_islands_extras = {
-			discover_country = ROOT
-		}
-	}
-	# Valenwood
-	if = {
-		limit = {
-			OR = {
-				es_startup_should_reveal_superregion = {
-					which = valenwood_superregion
-				}
-				es_ties_to_superregion = {
-					which = pyandonea_superregion
-				}
-				es_ties_to_superregion = {
-					which = summerset_islands_superregion
-				}
-				es_ties_to_superregion = {
-					which = elsweyr_superregion
-				}
-				es_ties_to_region = {
-					which = golden_coast_lr
-				}
-				es_ties_to_region = {
-					which = western_cyrodiil_lr
-				}
-			}
-		}
-		valenwood_superregion = {
-			es_startup_discovery_helper = yes
-		}
-		# Lakes & Wastelands
-		discovery_valenwood_extras = {
-			discover_country = ROOT
-		}
-	}
-	# Elsweyr
-	if = {
-		limit = {
-			OR = {
-				es_startup_should_reveal_superregion = {
-					which = elsweyr_superregion
-				}
-				es_ties_to_superregion = {
-					which = valenwood_superregion
-				}
-				es_ties_to_region = {
-					which = murkmire_lr
-				}
-				es_ties_to_region = {
-					which = eastern_cyrodiil_lr
-				}
-				es_ties_to_region = {
-					which = central_cyrodiil_lr
-				}
-				es_ties_to_region = {
-					which = western_cyrodiil_lr
-				}
-			}
-		}
-		elsweyr_superregion = {
-			es_startup_discovery_helper = yes
-		}
-		# Lakes & Wastelands
-		discovery_elsweyr_extras = {
-			discover_country = ROOT
-		}
-	}
-	# Morrowind
-	if = {
-		limit = {
-			OR = {
-				es_startup_should_reveal_superregion = {
-					which = morrowind_superregion
-				}
-				es_ties_to_region = {
-					which = shadowfen_lr
-				}
-			}
-		}
-		morrowind_superregion = {
-			es_startup_discovery_helper = yes
-		}
-		# Lakes & Wastelands
-		discovery_morrowind_extras = {
-			discover_country = ROOT
-		}
-	}
-	# Black Marsh
-	if = {
-		limit = {
-			OR = {
-				es_startup_should_reveal_superregion = {
-					which = black_marsh_superregion
-				}
-				es_ties_to_region = {
-					which = deshaan_lr
-				}
-				es_ties_to_region = {
-					which = morrowind_lr
-				}
-				es_ties_to_region = {
-					which = eastern_cyrodiil_lr
-				}
-			}
-		}
-		black_marsh_superregion = {
-			es_startup_discovery_helper = yes
-		}
-		# Lakes & Wastelands
-		discovery_black_marsh_extras = {
-			discover_country = ROOT
-		}
-	}
-	# Cyrodiil
-	if = {
-		limit = {
-			OR = {
-				es_startup_should_reveal_superregion = {
-					which = cyrodiil_superregion
-				}
-				is_part_of_hre = yes
-			}
-		}
-		cyrodiil_superregion = {
-			es_startup_discovery_helper = yes
-		}
-		# Lakes & Wastelands
-		discovery_cyrodiil_extras = {
-			discover_country = ROOT
-		}
-	}
-	# Hammerfell
-	if = {
-		limit = {
-			OR = {
-				es_startup_should_reveal_superregion = {
-					which = hammerfell_superregion
-				}
-				es_ties_to_superregion = {
-					which = yokuda_superregion
-				}
-				es_ties_to_superregion = {
-					which = high_rock_superregion
-				}
-				es_ties_to_region = {
-					which = golden_coast_lr
-				}
-				es_ties_to_region = {
-					which = auridon_lr
-				}
-				is_part_of_hre = yes
-			}
-		}
-		hammerfell_superregion = {
-			es_startup_discovery_helper = yes
-		}
-		# Lakes & Wastelands
-		discovery_hammerfell_extras = {
-			discover_country = ROOT
-		}
-	}
-	# High Rock
-	if = {
-		limit = {
-			OR = {
-				es_startup_should_reveal_superregion = {
-					which = high_rock_superregion
-				}
-				es_ties_to_superregion = {
-					which = yokuda_superregion
-				}
-				es_ties_to_superregion = {
-					which = hammerfell_superregion
-				}
-				es_ties_to_superregion = {
-					which = skyrim_superregion
-				}
-				is_part_of_hre = yes
-			}
-		}
-		high_rock_superregion = {
-			es_startup_discovery_helper = yes
-		}
-		# Lakes & Wastelands
-		discovery_high_rock_extras = {
-			discover_country = ROOT
-		}
-	}
-	# Skyrim
-	if = {
-		limit = {
-			OR = {
-				es_startup_should_reveal_superregion = {
-					which = skyrim_superregion
-				}
-				es_ties_to_region = {
-					which = wrothgar_lr
-				}
-				es_ties_to_region = {
-					which = dragontail_mountains_lr
-				}
-				es_ties_to_region = {
-					which = velothi_mountains_lr
-				}
-				culture_group = dwemer_cg
-			}
-		}
-		skyrim_superregion = {
-			es_startup_discovery_helper = yes
-		}
-		# Lakes & Wastelands
-		discovery_skyrim_extras = {
-			discover_country = ROOT
-		}
-	}
-	# Yokuda
-	if = {
-		limit = {
-			OR = {
-				es_startup_should_reveal_superregion = {
-					which = yokuda_superregion
-				}
-				es_ties_to_superregion = {
-					which = summerset_islands_superregion
-				}
-				es_ties_to_superregion = {
-					which = hammerfell_superregion
-				}
-				es_ties_to_superregion = {
-					which = high_rock_superregion
-				}
-			}
-		}
-		yokuda_superregion = {
-			es_startup_discovery_helper = yes
-		}
-		# Lakes & Wastelands
-		discovery_yokuda_extras = {
-			discover_country = ROOT
-		}
-	}
-	# Atmora
-	if = {
-		limit = {
-			OR = {
-				es_startup_should_reveal_superregion = {
-					which = atmora_superregion
-				}
-				primary_culture = nord
-			}
-		}
-		atmora_superregion = {
-			es_startup_discovery_helper = yes
-		}
-		# Lakes & Wastelands
-		discovery_atmora_extras = {
-			discover_country = ROOT
-		}
-	}
-	# Kamal
-	if = {
-		limit = {
-			OR = {
-				es_startup_should_reveal_superregion = {
-					which = kamal_superregion
-				}
-				es_ties_to_superregion = {
-					which = northern_islands_superregion
-				}
-				es_ties_to_superregion = {
-					which = thousand_superregion
-				}
-				es_ties_to_superregion = {
-					which = po_tun_superregion
-				}
-				es_ties_to_superregion = {
-					which = upper_akavir_superregion
-				}
-				es_ties_to_superregion = {
-					which = akavir_superregion
-				}
-			}
-		}
-		kamal_superregion = {
-			es_startup_discovery_helper = yes
-		}
-		# Lakes & Wastelands
-		discovery_kamal_extras = {
-			discover_country = ROOT
-		}
-	}
-	# Thousand Islands
-	if = {
-		limit = {
-			OR = {
-				es_startup_should_reveal_superregion = {
-					which = thousand_superregion
-				}
-				es_ties_to_superregion = {
-					which = kamal_superregion
-				}
-				es_ties_to_superregion = {
-					which = po_tun_superregion
-				}
-			}
-		}
-		thousand_superregion = {
-			es_startup_discovery_helper = yes
-		}
-		# Lakes & Wastelands
-		discovery_thousand_extras = {
-			discover_country = ROOT
-		}
-	}
-	# Po Tun
-	if = {
-		limit = {
-			OR = {
-				es_startup_should_reveal_superregion = {
-					which = po_tun_superregion
-				}
-				es_ties_to_superregion = {
-					which = kamal_superregion
-				}
-				es_ties_to_superregion = {
-					which = thousand_superregion
-				}
-				es_ties_to_superregion = {
-					which = upper_akavir_superregion
-				}
-			}
-		}
-		po_tun_superregion = {
-			es_startup_discovery_helper = yes
-		}
-		# Lakes & Wastelands
-		discovery_po_tun_extras = {
-			discover_country = ROOT
-		}
-	}
-	# Tsakara
-	if = {
-		limit = {
-			OR = {
-				es_startup_should_reveal_superregion = {
-					which = tsakara_superregion
-				}
-				es_ties_to_superregion = {
-					which = upper_akavir_superregion
-				}
-			}
-		}
-		tsakara_superregion = {
-			es_startup_discovery_helper = yes
-		}
-		# Lakes & Wastelands
-		discovery_tsakara_extras = {
-			discover_country = ROOT
-		}
-	}
-	# Upper Akavir
-	if = {
-		limit = {
-			OR = {
-				es_startup_should_reveal_superregion = {
-					which = upper_akavir_superregion
-				}
-				es_ties_to_superregion = {
-					which = kamal_superregion
-				}
-				es_ties_to_superregion = {
-					which = po_tun_superregion
-				}
-				es_ties_to_superregion = {
-					which = tsakara_superregion
-				}
-			}
-		}
-		upper_akavir_superregion = {
-			es_startup_discovery_helper = yes
-		}
-		# Lakes & Wastelands
-		discovery_upper_akavir_extras = {
-			discover_country = ROOT
-		}
-	}
-	# Northern Islands
-	if = {
-		limit = {
-			OR = {
-				es_startup_should_reveal_superregion = {
-					which = northern_islands_superregion
-				}
-				es_ties_to_superregion = {
-					which = kamal_superregion
-				}
-				es_ties_to_superregion = {
-					which = akavir_superregion
-				}
-			}
-		}
-		northern_islands_superregion = {
-			es_startup_discovery_helper = yes
-		}
-		# Lakes & Wastelands
-		discovery_northern_islands_extras = {
-			discover_country = ROOT
-		}
-	}
-	# Akavir
-	if = {
-		limit = {
-			OR = {
-				es_startup_should_reveal_superregion = {
-					which = akavir_superregion
-				}
-				es_ties_to_superregion = {
-					which = kamal_superregion
-				}
-				es_ties_to_superregion = {
-					which = northern_islands_superregion
-				}
-			}
-		}
-		akavir_superregion = {
-			es_startup_discovery_helper = yes
-		}
-		# Lakes & Wastelands
-		discovery_akavir_extras = {
-			discover_country = ROOT
-		}
-	}
-	# Daedric Planes
-	if = {
-		limit = {
-			es_startup_should_reveal_superregion = {
-				which = deadlands_superregion
-			}
-		}
-		deadlands_superregion = {
-			es_startup_discovery_helper = yes
-		}
-		# Lakes & Wastelands
-		discovery_daedric_planes_extras = {
-			discover_country = ROOT
-		}
-	}
-	if = {
-		limit = {
-			es_startup_should_reveal_superregion = {
-				which = coldharbour_superregion
-			}
-		}
-		coldharbour_superregion = {
-			es_startup_discovery_helper = yes
-		}
-		# Lakes & Wastelands
-		discovery_daedric_planes_extras = {
-			discover_country = ROOT
-		}
-	}
+	## Pyandonea
+	#if = {
+	#	limit = {
+	#		OR = {
+	#			es_startup_should_reveal_superregion = {
+	#				which = pyandonea_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = summerset_islands_superregion
+	#			}
+	#			es_ties_to_region = {
+	#				which = southern_valenwood_lr
+	#			}
+	#		}
+	#	}
+	#	pyandonea_superregion = {
+	#		es_startup_discovery_helper = yes
+	#	}
+	#	# Lakes & Wastelands
+	#	discovery_pyandonea_extras = {
+	#		discover_country = ROOT
+	#	}
+	#}
+	## # Tamriel (Red Mountain)
+	## if = {
+	## 	limit = {
+	## 		OR = {
+	## 			es_startup_should_reveal_superregion = {
+	## 				which = tamriel_superregion
+	## 			}
+	## 			es_startup_should_reveal_superregion = {
+	## 				which = morrowind_superregion
+	## 			}
+	## 		}
+	## 	}
+	## 	tamriel_superregion = {
+	## 		es_startup_discovery_helper = yes
+	## 	}
+	## 	# Lakes & Wastelands
+	## 	discovery_tamriel_extras = {
+	## 		discover_country = ROOT
+	## 	}
+	## }
+	## Summerset
+	#if = {
+	#	limit = {
+	#		OR = {
+	#			es_startup_should_reveal_superregion = {
+	#				which = summerset_islands_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = pyandonea_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = valenwood_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = hammerfell_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = yokuda_superregion
+	#			}
+	#			is_part_of_hre = yes
+	#		}
+	#	}
+	#	summerset_islands_superregion = {
+	#		es_startup_discovery_helper = yes
+	#	}
+	#	# Lakes & Wastelands
+	#	discovery_summerset_islands_extras = {
+	#		discover_country = ROOT
+	#	}
+	#}
+	## Valenwood
+	#if = {
+	#	limit = {
+	#		OR = {
+	#			es_startup_should_reveal_superregion = {
+	#				which = valenwood_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = pyandonea_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = summerset_islands_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = elsweyr_superregion
+	#			}
+	#			es_ties_to_region = {
+	#				which = golden_coast_lr
+	#			}
+	#			es_ties_to_region = {
+	#				which = western_cyrodiil_lr
+	#			}
+	#		}
+	#	}
+	#	valenwood_superregion = {
+	#		es_startup_discovery_helper = yes
+	#	}
+	#	# Lakes & Wastelands
+	#	discovery_valenwood_extras = {
+	#		discover_country = ROOT
+	#	}
+	#}
+	## Elsweyr
+	#if = {
+	#	limit = {
+	#		OR = {
+	#			es_startup_should_reveal_superregion = {
+	#				which = elsweyr_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = valenwood_superregion
+	#			}
+	#			es_ties_to_region = {
+	#				which = murkmire_lr
+	#			}
+	#			es_ties_to_region = {
+	#				which = eastern_cyrodiil_lr
+	#			}
+	#			es_ties_to_region = {
+	#				which = central_cyrodiil_lr
+	#			}
+	#			es_ties_to_region = {
+	#				which = western_cyrodiil_lr
+	#			}
+	#		}
+	#	}
+	#	elsweyr_superregion = {
+	#		es_startup_discovery_helper = yes
+	#	}
+	#	# Lakes & Wastelands
+	#	discovery_elsweyr_extras = {
+	#		discover_country = ROOT
+	#	}
+	#}
+	## Morrowind
+	#if = {
+	#	limit = {
+	#		OR = {
+	#			es_startup_should_reveal_superregion = {
+	#				which = morrowind_superregion
+	#			}
+	#			es_ties_to_region = {
+	#				which = shadowfen_lr
+	#			}
+	#		}
+	#	}
+	#	morrowind_superregion = {
+	#		es_startup_discovery_helper = yes
+	#	}
+	#	# Lakes & Wastelands
+	#	discovery_morrowind_extras = {
+	#		discover_country = ROOT
+	#	}
+	#}
+	## Black Marsh
+	#if = {
+	#	limit = {
+	#		OR = {
+	#			es_startup_should_reveal_superregion = {
+	#				which = black_marsh_superregion
+	#			}
+	#			es_ties_to_region = {
+	#				which = deshaan_lr
+	#			}
+	#			es_ties_to_region = {
+	#				which = morrowind_lr
+	#			}
+	#			es_ties_to_region = {
+	#				which = eastern_cyrodiil_lr
+	#			}
+	#		}
+	#	}
+	#	black_marsh_superregion = {
+	#		es_startup_discovery_helper = yes
+	#	}
+	#	# Lakes & Wastelands
+	#	discovery_black_marsh_extras = {
+	#		discover_country = ROOT
+	#	}
+	#}
+	## Cyrodiil
+	#if = {
+	#	limit = {
+	#		OR = {
+	#			es_startup_should_reveal_superregion = {
+	#				which = cyrodiil_superregion
+	#			}
+	#			is_part_of_hre = yes
+	#		}
+	#	}
+	#	cyrodiil_superregion = {
+	#		es_startup_discovery_helper = yes
+	#	}
+	#	# Lakes & Wastelands
+	#	discovery_cyrodiil_extras = {
+	#		discover_country = ROOT
+	#	}
+	#}
+	## Hammerfell
+	#if = {
+	#	limit = {
+	#		OR = {
+	#			es_startup_should_reveal_superregion = {
+	#				which = hammerfell_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = yokuda_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = high_rock_superregion
+	#			}
+	#			es_ties_to_region = {
+	#				which = golden_coast_lr
+	#			}
+	#			es_ties_to_region = {
+	#				which = auridon_lr
+	#			}
+	#			is_part_of_hre = yes
+	#		}
+	#	}
+	#	hammerfell_superregion = {
+	#		es_startup_discovery_helper = yes
+	#	}
+	#	# Lakes & Wastelands
+	#	discovery_hammerfell_extras = {
+	#		discover_country = ROOT
+	#	}
+	#}
+	## High Rock
+	#if = {
+	#	limit = {
+	#		OR = {
+	#			es_startup_should_reveal_superregion = {
+	#				which = high_rock_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = yokuda_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = hammerfell_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = skyrim_superregion
+	#			}
+	#			is_part_of_hre = yes
+	#		}
+	#	}
+	#	high_rock_superregion = {
+	#		es_startup_discovery_helper = yes
+	#	}
+	#	# Lakes & Wastelands
+	#	discovery_high_rock_extras = {
+	#		discover_country = ROOT
+	#	}
+	#}
+	## Skyrim
+	#if = {
+	#	limit = {
+	#		OR = {
+	#			es_startup_should_reveal_superregion = {
+	#				which = skyrim_superregion
+	#			}
+	#			es_ties_to_region = {
+	#				which = wrothgar_lr
+	#			}
+	#			es_ties_to_region = {
+	#				which = dragontail_mountains_lr
+	#			}
+	#			es_ties_to_region = {
+	#				which = velothi_mountains_lr
+	#			}
+	#			culture_group = dwemer_cg
+	#		}
+	#	}
+	#	skyrim_superregion = {
+	#		es_startup_discovery_helper = yes
+	#	}
+	#	# Lakes & Wastelands
+	#	discovery_skyrim_extras = {
+	#		discover_country = ROOT
+	#	}
+	#}
+	## Yokuda
+	#if = {
+	#	limit = {
+	#		OR = {
+	#			es_startup_should_reveal_superregion = {
+	#				which = yokuda_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = summerset_islands_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = hammerfell_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = high_rock_superregion
+	#			}
+	#		}
+	#	}
+	#	yokuda_superregion = {
+	#		es_startup_discovery_helper = yes
+	#	}
+	#	# Lakes & Wastelands
+	#	discovery_yokuda_extras = {
+	#		discover_country = ROOT
+	#	}
+	#}
+	## Atmora
+	#if = {
+	#	limit = {
+	#		OR = {
+	#			es_startup_should_reveal_superregion = {
+	#				which = atmora_superregion
+	#			}
+	#			primary_culture = nord
+	#		}
+	#	}
+	#	atmora_superregion = {
+	#		es_startup_discovery_helper = yes
+	#	}
+	#	# Lakes & Wastelands
+	#	discovery_atmora_extras = {
+	#		discover_country = ROOT
+	#	}
+	#}
+	## Kamal
+	#if = {
+	#	limit = {
+	#		OR = {
+	#			es_startup_should_reveal_superregion = {
+	#				which = kamal_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = northern_islands_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = thousand_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = po_tun_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = upper_akavir_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = akavir_superregion
+	#			}
+	#		}
+	#	}
+	#	kamal_superregion = {
+	#		es_startup_discovery_helper = yes
+	#	}
+	#	# Lakes & Wastelands
+	#	discovery_kamal_extras = {
+	#		discover_country = ROOT
+	#	}
+	#}
+	## Thousand Islands
+	#if = {
+	#	limit = {
+	#		OR = {
+	#			es_startup_should_reveal_superregion = {
+	#				which = thousand_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = kamal_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = po_tun_superregion
+	#			}
+	#		}
+	#	}
+	#	thousand_superregion = {
+	#		es_startup_discovery_helper = yes
+	#	}
+	#	# Lakes & Wastelands
+	#	discovery_thousand_extras = {
+	#		discover_country = ROOT
+	#	}
+	#}
+	## Po Tun
+	#if = {
+	#	limit = {
+	#		OR = {
+	#			es_startup_should_reveal_superregion = {
+	#				which = po_tun_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = kamal_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = thousand_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = upper_akavir_superregion
+	#			}
+	#		}
+	#	}
+	#	po_tun_superregion = {
+	#		es_startup_discovery_helper = yes
+	#	}
+	#	# Lakes & Wastelands
+	#	discovery_po_tun_extras = {
+	#		discover_country = ROOT
+	#	}
+	#}
+	## Tsakara
+	#if = {
+	#	limit = {
+	#		OR = {
+	#			es_startup_should_reveal_superregion = {
+	#				which = tsakara_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = upper_akavir_superregion
+	#			}
+	#		}
+	#	}
+	#	tsakara_superregion = {
+	#		es_startup_discovery_helper = yes
+	#	}
+	#	# Lakes & Wastelands
+	#	discovery_tsakara_extras = {
+	#		discover_country = ROOT
+	#	}
+	#}
+	## Upper Akavir
+	#if = {
+	#	limit = {
+	#		OR = {
+	#			es_startup_should_reveal_superregion = {
+	#				which = upper_akavir_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = kamal_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = po_tun_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = tsakara_superregion
+	#			}
+	#		}
+	#	}
+	#	upper_akavir_superregion = {
+	#		es_startup_discovery_helper = yes
+	#	}
+	#	# Lakes & Wastelands
+	#	discovery_upper_akavir_extras = {
+	#		discover_country = ROOT
+	#	}
+	#}
+	## Northern Islands
+	#if = {
+	#	limit = {
+	#		OR = {
+	#			es_startup_should_reveal_superregion = {
+	#				which = northern_islands_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = kamal_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = akavir_superregion
+	#			}
+	#		}
+	#	}
+	#	northern_islands_superregion = {
+	#		es_startup_discovery_helper = yes
+	#	}
+	#	# Lakes & Wastelands
+	#	discovery_northern_islands_extras = {
+	#		discover_country = ROOT
+	#	}
+	#}
+	## Akavir
+	#if = {
+	#	limit = {
+	#		OR = {
+	#			es_startup_should_reveal_superregion = {
+	#				which = akavir_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = kamal_superregion
+	#			}
+	#			es_ties_to_superregion = {
+	#				which = northern_islands_superregion
+	#			}
+	#		}
+	#	}
+	#	akavir_superregion = {
+	#		es_startup_discovery_helper = yes
+	#	}
+	#	# Lakes & Wastelands
+	#	discovery_akavir_extras = {
+	#		discover_country = ROOT
+	#	}
+	#}
+	## Daedric Planes
+	#if = {
+	#	limit = {
+	#		es_startup_should_reveal_superregion = {
+	#			which = deadlands_superregion
+	#		}
+	#	}
+	#	deadlands_superregion = {
+	#		es_startup_discovery_helper = yes
+	#	}
+	#	# Lakes & Wastelands
+	#	discovery_daedric_planes_extras = {
+	#		discover_country = ROOT
+	#	}
+	#}
+	#if = {
+	#	limit = {
+	#		es_startup_should_reveal_superregion = {
+	#			which = coldharbour_superregion
+	#		}
+	#	}
+	#	coldharbour_superregion = {
+	#		es_startup_discovery_helper = yes
+	#	}
+	#	# Lakes & Wastelands
+	#	discovery_daedric_planes_extras = {
+	#		discover_country = ROOT
+	#	}
+	#}
 }

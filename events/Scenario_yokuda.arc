@@ -26,7 +26,7 @@ country_event = { # Taleskan Assassination
 	id = scenario_yokuda.1
 	defineloc scenario_yokuda.1.title = "Assassination of Ahmur At-Taleskan"
 	title = scenario_yokuda.1.title
-	defineloc scenario_yokuda.1.desc = "Today Ahmur At-Taleskan was killed by a group of unidentified assassins. His death will plung the kingdom into chaos and usher in a period of turmoil. There are four factions vying for control of Taleskan after Ahmur's death.\n\nKhud At-Taleskan. Khud's supporters say that he is the rightful king because of his skill as a leader and warrior. While Critics of Khud's, claim that his legitimacy is in question because of Ahmur's refusal to acknowledge him as heir. They argue that Khud is not the rightful king because he does not have the backing of the previous king.\nDerik Af-Taleskan, a powerful warrior and leader who will stop at nothing to conquer Taleskan. His supporters argue that he is what Taleskan needs; a mighty warlord, who can protect the civilians from attack by any enemy. However, critics argue that although Derik has brought peace and stability to his own region, he has done so through tyranny and oppression.\nSia Al-Hodana is a well-known merchant in Taleskan. He is known for his ingenuity in dealing with economic problems and military problems with his large mercenary armies. His supporters claim that he is a great leader who knows how to handle any situation that comes up. However, his critics say that he is corrupt and only interested in power. They also claim that he is allied with the enemy nation of Seawind.\nFarsh Aj-Kayam, a charismatic leader and mystic, who has rallied the lower class citizens of the city to his cause, promising them a better future. He has built himself a cult of followers who believe in his vision for a new Taleskan. With their support, he is planning to overthrow the current regime and bring about a religious revolution."
+	defineloc scenario_yokuda.1.desc = "Taleskan is in turmoil after the assassination of King Ahmur At-Taleskan. Four factions are vying for control of the kingdom, each with their own vision for the future of Taleskan.\n\nKhud At-Taleskan is a skilled leader and warrior who claims to be the rightful heir to the throne. His supporters believe that he is the best choice to lead Taleskan into a bright future, but critics argue that his legitimacy is in question due to King Ahmur's refusal to acknowledge him as his successor.\n\nDerik Af-Taleskan is a powerful warrior who will stop at nothing to conquer Taleskan. He has brought peace and stability to his own region, but his methods have been criticized as oppressive and tyrannical. Derik's supporters believe that he is the strong leader that Taleskan needs to protect its citizens from attack.\n\nSia Al-Hodana is a well-known merchant and leader of a large mercenary army. He is known for his economic and military savvy, but his critics claim that he is corrupt and only interested in power. Sia's supporters argue that he is a great leader who can handle any situation that arises.\n\nFarsh Aj-Kayam is a charismatic leader and mystic who has rallied the lower class citizens of the city to his cause. He has promised them a better future and has built a cult of followers who believe in his vision for a new Taleskan. Farsh hopes to overthrow the current regime and bring about a religious revolution.\n\nAs the civil war rages on, it remains to be seen which faction will emerge victorious and shape the future of Taleskan."
 	desc = scenario_yokuda.1.desc
 	picture = ES_DEATH_OF_MONARCH_eventPicture	
 	is_triggered_only = yes
@@ -34,7 +34,8 @@ country_event = { # Taleskan Assassination
 	
 	immediate = {
 		hidden_effect = {
-			kill_ruler = yes
+			country_event = { id = scenario_yokuda.7 days = 8years }
+			#kill_ruler = yes
 			#set_country_flag = mutual_auto_siege
 			#country_event = {
 			#	id = scenario_yokuda.2
@@ -114,37 +115,52 @@ country_event = { # Taleskan Assassination
 	option = {
 		defineloc scenario_yokuda.1.a = "Support Khud At-Taleskan"
 		name = scenario_yokuda.1.a
+		
+		add_heir_personality = careful_personality
+		define_ruler = {
+			name = "Khud"
+			dynasty = "At-Taleskan"
+			age = 23
+			adm = 5
+			dip = 4
+			mil = 6
+			
+			fixed = yes
+			claim = 20
+		}
+		
 		hidden_effect = {
+			country_event = { id = scenario_yokuda.10 days = 4years }
 			random_list = {
 				1 = { 
-					country_event = { id = scenario_yokuda.3 days = 1years }
-					country_event = { id = scenario_yokuda.4 days = 2years }
-					country_event = { id = scenario_yokuda.5 days = 3years }
-				}
-				1 = { 
-					country_event = { id = scenario_yokuda.3 days = 1years }
-					country_event = { id = scenario_yokuda.5 days = 2years }
-					country_event = { id = scenario_yokuda.4 days = 3years }
-				}
-				1 = { 
-					country_event = { id = scenario_yokuda.4 days = 1years }
-					country_event = { id = scenario_yokuda.5 days = 2years }
-					country_event = { id = scenario_yokuda.3 days = 3years }
-				}
-				1 = { 
-					country_event = { id = scenario_yokuda.4 days = 1years }
 					country_event = { id = scenario_yokuda.3 days = 2years }
-					country_event = { id = scenario_yokuda.5 days = 3years }
+					country_event = { id = scenario_yokuda.4 days = 6years }
+					country_event = { id = scenario_yokuda.5 days = 10years }
 				}
 				1 = { 
-					country_event = { id = scenario_yokuda.5 days = 1years }
-					country_event = { id = scenario_yokuda.4 days = 2years }
-					country_event = { id = scenario_yokuda.3 days = 3years }
-				}
-				1 = { 
-					country_event = { id = scenario_yokuda.5 days = 1years }
 					country_event = { id = scenario_yokuda.3 days = 2years }
-					country_event = { id = scenario_yokuda.4 days = 3years }
+					country_event = { id = scenario_yokuda.5 days = 6years }
+					country_event = { id = scenario_yokuda.4 days = 10years }
+				}
+				1 = { 
+					country_event = { id = scenario_yokuda.4 days = 2years }
+					country_event = { id = scenario_yokuda.5 days = 6years }
+					country_event = { id = scenario_yokuda.3 days = 10years }
+				}
+				1 = { 
+					country_event = { id = scenario_yokuda.4 days = 2years }
+					country_event = { id = scenario_yokuda.3 days = 6years }
+					country_event = { id = scenario_yokuda.5 days = 10years }
+				}
+				1 = { 
+					country_event = { id = scenario_yokuda.5 days = 2years }
+					country_event = { id = scenario_yokuda.4 days = 6years }
+					country_event = { id = scenario_yokuda.3 days = 10years }
+				}
+				1 = { 
+					country_event = { id = scenario_yokuda.5 days = 2years }
+					country_event = { id = scenario_yokuda.3 days = 6years }
+					country_event = { id = scenario_yokuda.4 days = 10years }
 				}
 			}
 		}
@@ -342,3 +358,153 @@ country_event = { #Farsh Aj-Kayam
 	}
 }
 
+#.6 Khud
+
+#.7 Ansei-Rakka
+country_event = {
+	id = scenario_yokuda.7
+	defineloc scenario_yokuda.7.title = "The Ansei-Rakka Threat"
+	title = scenario_yokuda.7.title
+	defineloc scenario_yokuda.7.desc = "As the civil war rages on, the Ansei-Rakka, a group of bandits, have taken advantage of the chaos to plunder and loot the countryside. The Ansei-Rakka are known for their ruthless and cunning tactics, and have become a major problem for all of the factions fighting for control of the kingdom. They strike without warning, taking whatever they can and disappearing back into the shadows. The factions are forced to divert valuable resources away from the war effort to deal with this threat, further complicating the already chaotic situation. The Ansei-Rakka show no sign of slowing down, and it remains to be seen how this will affect the outcome of the civil war."
+	desc = scenario_yokuda.7.desc
+	picture = ES_DESERT_RIDERS_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+		defineloc scenario_yokuda.7.a = "Ignore the Ansei-Rakka"
+		name = scenario_yokuda.7.a
+		
+		add_country_modifier = {
+			name = ansei_rakka_ignored
+			duration = 5years
+			defineloc ansei_rakka_ignored_desc = "We have chosen to ignore the Ansei-Rakka"
+			desc = ansei_rakka_ignored_desc
+		}
+	}
+	
+	option = {
+		defineloc scenario_yokuda.7.b = "Negotiate with the Ansei-Rakka"
+		name = scenario_yokuda.7.b
+		
+		add_treasury = -250
+		add_manpower = 5
+		
+		add_country_modifier = {
+			name = ansei_rakka_soldiers
+			duration = 1years
+			defineloc ansei_rakka_soldiers_desc = "We have decided to hire Ansei-Rakka soldiers"
+			desc = ansei_rakka_soldiers_desc
+		}
+		
+		set_country_flag = sword_singers
+	}
+	
+	option = {
+		defineloc scenario_yokuda.7.c = "Catch the Ansei-Rakka in a trap"
+		name = scenario_yokuda.7.c
+		add_treasury = -50
+		add_manpower = -1
+		for i = 0 to 6 = {
+			if = {
+				limit = {
+					dip = i
+					NOT = { dip = (i+1) }
+				}
+				random_list = {
+					i = {
+						country_event = { id = scenario_yokuda.9 days = 1months } #Successful Capture of the Ansei-Rakka
+					}
+					3 = { 
+						country_event = { id = scenario_yokuda.8 days = 1months } #Failure to capture the Ansei-Rakka
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = scenario_yokuda.8
+	defineloc scenario_yokuda.8.title = "The Ansei-Rakka Slip Through Our Grasp"
+	title = scenario_yokuda.8.title
+	defineloc scenario_yokuda.8.desc = "Despite our best efforts, the Ansei-Rakka have managed to evade our trap and escape capture. Their cunning and resourcefulness have proven to be a formidable challenge, and we are left empty-handed and frustrated. The Ansei-Rakka continue to be a thorn in our side, and it seems that they will be a persistent threat that we will need to deal with. We must redouble our efforts and come up with a new plan to bring these bandits to justice."
+	desc = scenario_yokuda.8.desc
+	is_triggered_only = yes
+	picture = ES_NOMAD_RIDERS_eventPicture
+	
+	option = {
+		defineloc scenario_yokuda.8.a = "Try again"
+		name = scenario_yokuda.8.a
+		add_treasury = -50
+		add_manpower = -1
+		for i = 0 to 6 = {
+			if = {
+				limit = {
+					dip = i
+					NOT = { dip = (i+1) }
+				}
+				random_list = {
+					i = {
+						country_event = { id = scenario_yokuda.9 days = 1months } #Successful Capture of the Ansei-Rakka
+					}
+					3 = { 
+						country_event = { id = scenario_yokuda.8 days = 1months } #Failure to capture the Ansei-Rakka
+					}
+				}
+			}
+		}
+	}
+	option = {
+		defineloc scenario_yokuda.8.b = "We must give up"
+		name = scenario_yokuda.8.b
+		
+		add_country_modifier = {
+			name = ansei_rakka_ignored
+			duration = 5years
+			defineloc ansei_rakka_ignored_desc = "We have chosen to ignore the Ansei-Rakka"
+			desc = ansei_rakka_ignored_desc
+		}
+	}
+}
+
+country_event = {
+	id = scenario_yokuda.9
+	defineloc scenario_yokuda.9.title = "Ansei-Rakka Captured"
+	title = scenario_yokuda.9.title
+	defineloc scenario_yokuda.9.desc = "Our efforts have finally paid off, as we have successfully captured the Ansei-Rakka. The bandits were caught off guard and were unable to escape our trap. We have taken a significant number of them into custody, and the rest have scattered and fled. This is a major victory for us, as the Ansei-Rakka have been a constant thorn in our side. Their capture will surely demoralize the rest of their group and make it easier for us to track them down. We will interrogate the captured Ansei-Rakka and use the information we gather to hunt down the rest of the group. This marks the end for the Ansei-Rakka."
+	desc = scenario_yokuda.9.desc
+	picture = ES_CONVOY_ASSAULT_eventPicture
+	is_triggered_only = yes
+	
+	option = {
+		defineloc scenario_yokuda.9.a = "Finally"
+		name = scenario_yokuda.9.a
+		
+		add_prestige = 25
+	}
+}
+
+country_event = {
+	id = scenario_yokuda.10
+	defineloc scenario_yokuda.10.title = "Totambu's Offer of Assistance"
+	title = scenario_yokuda.10.title
+	defineloc scenario_yokuda.10.desc = "The empire of Totambu has offered to lend assistance to Khud At-Taleskan in his bid for the throne. Totambu has long had close alliances with the royal family of Taleskan, and sees Khud as the rightful heir to the throne. As such, Totambu has offered to send a force of soldiers to aid in Khud's efforts to secure his claim to the throne. The Totambuan soldiers are highly trained and well-equipped, and could be a valuable asset in the ongoing conflict. This offer comes at a critical time, as Khud faces competition from other factions vying for control of the kingdom. While Khud must carefully consider the potential implications of accepting Totambu's offer, it is clear that their assistance could be a turning point in his campaign for the throne."
+	desc = scenario_yokuda.10.desc
+	is_triggered_only = yes
+	picture = ES_CORONATION_SWORD_eventPicture
+	
+	option = {
+		defineloc scenario_yokuda.10.a = "Take the Assistance"
+		name = scenario_yokuda.10.a
+		add_treasury = 150
+		add_manpower = 10
+		#+opinion
+		#+integration
+	}
+	option = {
+		defineloc scenario_yokuda.10.b = "Reject Assistance"
+		name = scenario_yokuda.10.b
+		#-opinion
+		#-integration
+	}
+}

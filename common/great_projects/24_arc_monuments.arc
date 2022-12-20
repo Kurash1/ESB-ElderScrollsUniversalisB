@@ -44,7 +44,7 @@ foreach monument = {
 		tier_1 = { 
 			upgrade_time = { months = 120 } 
 			cost_to_upgrade = { factor = 3000 } 
-			province_modifiers = { } 
+			province_modifiers = { monument.tier_1_provmod } 
 			area_modifier = { } 
 			country_modifiers = { monument.tier_1_mod } 
 			on_upgraded = { } 
@@ -52,7 +52,7 @@ foreach monument = {
 		tier_2 = { 
 			upgrade_time = { months = 240 } 
 			cost_to_upgrade = { factor = 7500 } 
-			province_modifiers = { } 
+			province_modifiers = { monument.tier_2_provmod } 
 			area_modifier = { } 
 			country_modifiers = { monument.tier_2_mod } 
 			on_upgraded = { } 
@@ -60,7 +60,7 @@ foreach monument = {
 		tier_3 = { 
 			upgrade_time = { months = 360 } 
 			cost_to_upgrade = { factor = 15000 } 
-			province_modifiers = { } 
+			province_modifiers = { monument.tier_3_provmod } 
 			area_modifier = { } 
 			country_modifiers = { monument.tier_3_mod } 
 			on_upgraded = { } 

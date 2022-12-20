@@ -368,23 +368,26 @@ port_telvannis = {
 }
 
 taleskan = {
-	start = 341
+	start = p@taleskan
 }
 totambu = {
-	start = 2139
+	start = p@totambu
 }
 yul = {
-	start = 2154
+	start = p@yul
 }
 tagon = {
-	start = 2164
+	start = p@tagon
 }
 old_sinistralis = {
-	start = 340
+	start = p@old_sinistralis
 }
 makan = {
-	start = 3446
+	start = p@makan
 }
 sinistralis = {
-	start = 3441
+	start = p@sinistralis
+}
+lumut = {
+	start = p@lumut
 }

@@ -3,55 +3,154 @@ default = {
 	keep_trigger = {
 		always = yes
 	}
-	tier_0 = { 
-		upgrade_time = { months = 0 } 
-		cost_to_upgrade = { factor = 0 } 
-		province_modifiers = { } 
-		area_modifier = { } 
-		country_modifiers = { } 
-		on_upgraded = { } 
-	} 
-	tier_1 = { 
-		upgrade_time = { months = 120 } 
-		cost_to_upgrade = { factor = 3000 } 
-		province_modifiers = { } 
-		area_modifier = { } 
-		country_modifiers = { } 
-		on_upgraded = { } 
-	} 
-	tier_2 = { 
-		upgrade_time = { months = 240 } 
-		cost_to_upgrade = { factor = 7500 } 
-		province_modifiers = { } 
-		area_modifier = { } 
-		country_modifiers = { } 
-		on_upgraded = { } 
-	} 
-	tier_3 = { 
-		upgrade_time = { months = 360 } 
-		cost_to_upgrade = { factor = 15000 } 
-		province_modifiers = { } 
-		area_modifier = { } 
-		country_modifiers = { } 
-		on_upgraded = { } 
-	} 
 }
-
-test = {
-	start = 1206
+ancient_enchatninghouse = { 
+	start = 3518
 	trigger = {
 		has_owner_religion = yes
+		has_owner_culture = yes
 		owner = {
-			primary_culture = ayleid
+			primary_culture = sinistral
 		}
 	}
 	tier_1_mod = {
-		discipline = 0.025
+		infantry_power = 0.05
+		fire_damage = 0.05
 	}
 	tier_2_mod = {
-		discipline = 0.05
+		infantry_power = 0.10
+		fire_damage = 0.10
 	}
 	tier_3_mod = {
-		discipline = 0.10
+		infantry_power = 0.20
+		fire_damage = 0.15
+	}
+}
+hattu_great_forge = { 
+	start = 332
+	trigger = {
+		has_owner_religion = yes
+		has_owner_culture = yes
+		owner = {
+			primary_culture = hattu_orc
+		}
+	}
+	tier_1_mod = {
+		shock_damage_received = -0.05
+		shock_damage = 0.05
+		army_tradition = 0.5	
+	}
+	tier_2_mod = {
+		shock_damage_received = -0.10
+		shock_damage = 0.10
+		army_tradition = 1	
+	}
+	tier_3_mod = {
+		shock_damage_received = -0.15
+		shock_damage = 0.20
+		army_tradition = 2	
+	}
+}
+orichalic_lighthouse = { 
+	start = 354
+	trigger = {
+		has_owner_religion = yes
+		has_owner_culture = yes
+		owner = {
+			primary_culture = sinistral
+		}
+	}
+	tier_1_mod = {
+		trade_efficiency = 0.10
+		naval_morale = 0.10	
+	}
+	tier_2_mod = {
+		trade_efficiency = 0.20
+		naval_morale = 0.20	
+	}
+	tier_3_mod = {
+		trade_efficiency = 0.30
+		naval_morale = 0.30	
+		merchants = 1
+	}
+}
+royal_palace_of_totambu = { 
+	start = 2139
+	trigger = {
+		owner = {
+			culture_group = yokudan
+		}
+	}
+	tier_1_mod = {
+		development_cost = -0.10
+		improve_relation_modifier  = 0.1
+	}
+	tier_2_mod = {
+		development_cost = -0.20
+		improve_relation_modifier  = 0.2
+		diplomatic_upkeep = 1
+	}
+	tier_3_mod = {
+		development_cost = -0.30
+		administrative_efficiency = 0.05
+		diplomats = 1
+		improve_relation_modifier  = 0.30
+		diplomatic_upkeep = 2	
+	}
+}
+ruined_ancient_malakath's_shrine = { 
+	start = 2667
+	trigger = {
+		has_owner_religion = yes
+		owner = {
+			primary_culture = hattu_orc
+		}
+	}
+	tier_1_mod = {
+		land_morale = 0.05
+		global_missionary_strength = 0.01
+	}
+	tier_2_mod = {
+		land_morale = 0.10
+		missionaries = 1
+		global_missionary_strength = 0.02
+	}
+	tier_3_mod = {
+		land_morale = 0.15
+		missionaries = 2
+		global_missionary_strength = 0.03
+	}
+}
+the_last_stand_castle = { 
+	start = 2179
+	trigger = {
+		fort_level = 1
+		has_owner_religion = yes
+		owner = {
+			primary_culture = sinistral
+		}
+	}
+	tier_1_mod = {
+		land_morale = 0.05
+	}
+	tier_1_provmod = {
+		fort_level = 1
+		local_defensiveness = 0.20
+	}
+	tier_2_mod = {
+		land_morale = 0.10
+	}
+	tier_2_provmod = {
+		fort_level = 2
+		local_defensiveness = 0.40
+		local_hostile_attrition = 1
+	}
+	tier_3_mod = {
+		land_morale = 0.20
+	}
+	tier_3_provmod = {
+		fort_level = 3
+		local_defensiveness = 0.60
+		local_hostile_attrition = 2
 	}
 }

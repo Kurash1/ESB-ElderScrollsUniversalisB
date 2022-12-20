@@ -1,3 +1,5 @@
+#Taleskan is a country that historically has been lead by a warrior cast, however with their expansions westward they have started to become influenced by the cultures of Seawind, and in their country ideas of "trade is prosperity" have started to emerge, while their royal family has for ages stayed their normal ways, the curren ruler was a strong warrior-leader like many kings before him, but at the start of the game he is getting assassinated and as he did not name his "son" heir there is a guarantee of civil war, there are 4 main sides for this civil war, 1: the so called "son" of the former king khud at-taleskan he is a young genius, and masterful tactician though of shorter build, 2: Derik af-taleskan the brother of the former king and lord of the east, the original homelands of the taleskani people, he is a warrior at his heart however shows many dictatorial tendencies aswell, 3: Sia Al-Hodana a merchant-noble from the western city of hodana, with many connections to mercenary companies, and a nearly infinite amount of money he is vying for control, 4: Farsh Aj-kayam an elder and mystic in the capital, who has managed to make himself a sizeable cult. 
+
 #Base / Khud
 flavour_missions_1_yoktal = {
 	slot = 6
@@ -42,9 +44,12 @@ flavour_missions_2_yoktal = {
 		
 		trigger = {
 			army_size_percentage = 1.0
-			army_strength = {
-				who = HOR
-				value = 2.0
+			all_owned_province = {
+				OR = {
+					NOT = { development = 15 }
+					has_building = esbgarrison
+					has_building = newbarracks
+				}
 			}
 		}
 		
@@ -164,7 +169,7 @@ flavour_missions_3_yoktal = {
 		}
 		
 		effect = {
-			3458, 341, 2159, 3462 = {
+			p@kefa-ra, p@taleskan, p@retha-rana, p@yatara = {
 				add_base_production = 1
 				add_prosperity = 25
 				add_construction_progress = 50%
@@ -246,11 +251,20 @@ flavour_missions_4_yoktal = {
 		required_missions = { esb_yok_taleskan_new_age_mission }
 		
 		trigger = {
-			
+			navy_size = 20
+			OR = {
+				advisor = esu_colonial_overseer
+				advisor = esu_conquistador
+				advisor = esu_corsair
+				advisor = esu_navarch
+			}
 		}
 		
 		effect = {
-			
+			add_country_modifier = {
+				name = esb_yok_taleskan_navy_reform_mission_modifier
+				duration = 25years
+			}
 		}
 	}
 	defineloc esb_yok_taleskan_kanesh_mission_title = "Lord of Fire"

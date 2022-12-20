@@ -1,10 +1,10 @@
 religion = yokudan_pantheon
 culture = yokudan_taleskan
 hre = no
-base_tax = 5
+base_tax = 6
 base_production = 4
 trade_goods = unknown
-base_manpower = 2
+base_manpower = 6
 capital = "Omine"
 is_city = yes
 owner = TAL

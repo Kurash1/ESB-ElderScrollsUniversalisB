@@ -1,3 +1,21 @@
+esb_yok_taleskan_navy_reform_mission_modifier = {
+	naval_morale = 0.15
+	light_ship_power = 0.1
+	light_ship_cost = -0.1
+	#navy_tradition = 1
+}
+
+ansei_rakka_ignored = {
+	global_monthly_devastation = 0.05
+	global_unrest = 1
+	prestige = -0.5
+}
+ansei_rakka_soldiers = {
+	prestige = -0.5
+	global_unrest = 1
+	land_morale = 0.05
+}
+
 #tal_preceding_civilwar = {
 #	can_not_declare_war = yes
 #}

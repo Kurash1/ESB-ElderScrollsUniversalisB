@@ -1369,6 +1369,11 @@ march_bonus = {
 	manpower_recovery_speed = 0.15
 }
 
+#Yokudan Vassal
+yokuda_vassal_subject = {
+	diplomatic_upkeep = -2
+}
+
 #Holy Order
 holy_order_subject = {
 	land_forcelimit = 1.5
