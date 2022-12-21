@@ -1,24 +1,18 @@
-#
-#
-#
-#religion = old_gods_cult
-#culture = reachmen
-#hre = no
-#base_tax = 6
-#base_production = 8
-#trade_goods = unknown
-#base_manpower = 4
-#capital = "Bthardamz"
-#is_city = no
-##57.1.1 = { 
-#    
-#    
-#    
-#    is_city = no
-##}
-#
-#272.1.1 = { #} 
-#535.1.1 = { #} 
-#862.1.1 = { #} 
-#1177.1.1 = { #} 
-#1466.1.1 = { #} 
+religion = old_gods_cult
+culture = reachmen
+hre = no
+base_tax = 6
+base_production = 8
+trade_goods = unknown
+base_manpower = 4
+capital = "Bthardamz"
+is_city = no
+owner = BD0
+controller = BD0
+add_core = BD0
+57.1.1 = { is_city = no } 
+272.1.1 = { } 
+535.1.1 = { } 
+862.1.1 = { } 
+1177.1.1 = { } 
+1466.1.1 = { } 

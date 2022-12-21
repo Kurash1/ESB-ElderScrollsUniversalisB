@@ -1,15 +1,18 @@
-#religion = snow_elves_pantheon
-#culture = snow_elven
-#hre = no
-#base_tax = 3
-#base_production = 3
-#trade_goods = unknown
-#base_manpower = 3
-#capital = "Ruunvald"
-#is_city = yes
-##57.1.1 = { #} 
-#272.1.1 = { #owner = SKY #controller = SKY #add_core = SKY #} 
-#535.1.1 = { #} 
-#862.1.1 = { #} 
-#1177.1.1 = { #} 
-#1466.1.1 = { #} 
+religion = snow_elves_pantheon
+culture = snow_elven
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = unknown
+base_manpower = 3
+capital = "Ruunvald"
+is_city = yes
+owner = NA1
+controller = NA1
+add_core = NA1
+57.1.1 = { } 
+272.1.1 = { owner = SKY controller = SKY add_core = SKY } 
+535.1.1 = { } 
+862.1.1 = { } 
+1177.1.1 = { } 
+1466.1.1 = { } 

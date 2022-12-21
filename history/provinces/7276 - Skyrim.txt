@@ -1,12 +1,12 @@
-#
-#
-#
-#culture = kreathmen
-#religion = old_gods_cult
-#hre = no
-#base_tax = 1
-#base_production = 1
-#trade_goods = unknown
-#base_manpower = 1
-#capital = "Iddra"
-#is_city = no
+
+
+
+culture = kreathmen
+religion = old_gods_cult
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Iddra"
+is_city = no

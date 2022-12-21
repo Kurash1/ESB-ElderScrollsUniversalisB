@@ -1,36 +1,35 @@
-##owner = KC2
-##controller = KC2
-##add_core = KC2
-#religion = dremora_pantheon
-#culture = al_dremoran
-#hre = no
-#base_tax = 2
-#base_production = 2
-#trade_goods = unknown
-#base_manpower = 2
-#capital = "Cadva"
-#is_city = yes
-#
-#
-#
-##57.1.1 = {
-#    #owner = KC2
-#    #controller = KC2
-#    #add_core = KC2
-##}
-#
-#272.1.1 = {
-##}
-#
-#535.1.1 = {
-##}
-#
-#862.1.1 = {
-##}
-#
-#1177.1.1 = {
-##}
-#
-#1466.1.1 = {
-##}
-#
+owner = KC2
+controller = KC2
+add_core = KC2
+religion = dremora_pantheon
+culture = al_dremoran
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = unknown
+base_manpower = 2
+capital = "Cadva"
+is_city = yes
+
+
+
+57.1.1 = {
+    owner = KC2
+    controller = KC2
+    add_core = KC2
+}
+
+272.1.1 = {
+}
+
+535.1.1 = {
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}

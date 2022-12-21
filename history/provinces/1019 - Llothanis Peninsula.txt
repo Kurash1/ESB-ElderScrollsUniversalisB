@@ -1,29 +1,28 @@
-##owner = MB5
-##controller = MB5
-##add_core = MB5
-#religion = chimer_pantheon
-#culture = ashlander_chimer
-#hre = no
-#base_tax = 3
-#base_production = 3
-#trade_goods = unknown
-#base_manpower = 3
-#capital = "Tel Mothrivra"
-#is_city = yes
-#center_of_trade = 1
-##57.1.1 = {
-#	#owner = MB5
-#	#controller = MB5
-#	#add_core = MB5
-##}
-#272.1.1 = {
-##}
-#535.1.1 = {
-##}
-#862.1.1 = {
-##}
-#1177.1.1 = {
-##}
-#1466.1.1 = {
-##}
-#
+owner = MB5
+controller = MB5
+add_core = MB5
+religion = chimer_pantheon
+culture = ashlander_chimer
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = unknown
+base_manpower = 3
+capital = "Tel Mothrivra"
+is_city = yes
+center_of_trade = 1
+57.1.1 = {
+	owner = MB5
+	controller = MB5
+	add_core = MB5
+}
+272.1.1 = {
+}
+535.1.1 = {
+}
+862.1.1 = {
+}
+1177.1.1 = {
+}
+1466.1.1 = {
+}

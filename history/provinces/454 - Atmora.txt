@@ -1,11 +1,10 @@
-#religion = dragon_cult
-#culture = glacial
-#hre = no
-#base_tax = 3
-#base_production = 3
-#trade_goods = unknown
-#base_manpower = 3
-#capital = "Haecyunes"
-#is_city = no
-#
-#
+religion = dragon_cult
+culture = glacial
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = unknown
+base_manpower = 3
+capital = "Haecyunes"
+is_city = no
+

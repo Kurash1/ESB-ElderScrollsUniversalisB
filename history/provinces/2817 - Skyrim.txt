@@ -1,22 +1,25 @@
-#religion = nordic_pantheon
-#culture = nord
-#hre = no
-#base_tax = 1
-#base_production = 1
-#trade_goods = unknown
-#base_manpower = 1
-#capital = "Unamir"
-#is_city = yes
-##57.1.1 = { #} 
-#272.1.1 = { 
-#    #owner = SKY
-#    #controller = SKY
-#    #add_core = SKY
-#    religion = nordic_pantheon
-#    culture = nord
-##}
-#
-#535.1.1 = { #} 
-#862.1.1 = { #} 
-#1177.1.1 = { #} 
-#1466.1.1 = { #} 
+religion = nordic_pantheon
+culture = nord
+hre = yes
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Unamir"
+is_city = yes
+owner = NA3
+controller = NA3
+add_core = NA3
+57.1.1 = { } 
+272.1.1 = { 
+    owner = SKY
+    controller = SKY
+    add_core = SKY
+    religion = nordic_pantheon
+    culture = nord
+}
+
+535.1.1 = { } 
+862.1.1 = { } 
+1177.1.1 = { } 
+1466.1.1 = { } 

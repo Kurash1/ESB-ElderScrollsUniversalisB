@@ -1,29 +1,28 @@
-##owner = MC5
-##controller = MC5
-##add_core = MC5
-#religion = chimer_pantheon
-#culture = ashlander_chimer
-#hre = no
-#base_tax = 5
-#base_production = 5
-#trade_goods = unknown
-#base_manpower = 5
-#capital = "Kogotel"
-#is_city = yes
-#center_of_trade = 1
-##57.1.1 = {
-#	#owner = MC5
-#	#controller = MC5
-#	#add_core = MC5
-##}
-#272.1.1 = {
-##}
-#535.1.1 = {
-##}
-#862.1.1 = {
-##}
-#1177.1.1 = {
-##}
-#1466.1.1 = {
-##}
-#
+owner = MC5
+controller = MC5
+add_core = MC5
+religion = chimer_pantheon
+culture = ashlander_chimer
+hre = no
+base_tax = 5
+base_production = 5
+trade_goods = unknown
+base_manpower = 5
+capital = "Kogotel"
+is_city = yes
+center_of_trade = 1
+57.1.1 = {
+	owner = MC5
+	controller = MC5
+	add_core = MC5
+}
+272.1.1 = {
+}
+535.1.1 = {
+}
+862.1.1 = {
+}
+1177.1.1 = {
+}
+1466.1.1 = {
+}

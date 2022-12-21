@@ -1,25 +1,25 @@
-##owner = NIG
-##controller = NIG
-##add_core = NIG
-#religion = nordic_pantheon
-#culture = nord
-#hre = no
-#base_tax = 1
-#base_production = 1
-#trade_goods = unknown
-#base_manpower = 1
-#capital = "Ironbind Barrow"
-#is_city = yes
-##57.1.1 = { 
-#    #owner = NIG
-#    #controller = NIG
-#    #add_core = NIG
-#    religion = nordic_pantheon
-#    culture = nord
-##}
-#
-#272.1.1 = { #owner = NB1 #controller = NB1 #add_core = NB1 #} 
-#535.1.1 = { #} 
-#862.1.1 = { #} 
-#1177.1.1 = { #} 
-#1466.1.1 = { #} 
+owner = NIG
+controller = NIG
+add_core = NIG
+religion = nordic_pantheon
+culture = nord
+hre = yes
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Ironbind Barrow"
+is_city = yes
+57.1.1 = { 
+    owner = NIG
+    controller = NIG
+    add_core = NIG
+    religion = nordic_pantheon
+    culture = nord
+}
+
+272.1.1 = { owner = NB1 controller = NB1 add_core = NB1 } 
+535.1.1 = { } 
+862.1.1 = { } 
+1177.1.1 = { } 
+1466.1.1 = { } 

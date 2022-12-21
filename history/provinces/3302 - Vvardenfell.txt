@@ -1,27 +1,26 @@
-##owner = MI2
-##controller = MI2
-##add_core = MI2
-#religion = malacath_cult
-#culture = orsimer
-#hre = no
-#base_tax = 7
-#base_production = 5
-#trade_goods = mushrooms
-#base_manpower = 9
-#is_city = yes
-##57.1.1 = {
-#	#owner = MI2
-#	#controller = MI2
-#	#add_core = MI2
-##}
-#272.1.1 = {
-##}
-#535.1.1 = {
-##}
-#862.1.1 = {
-##}
-#1177.1.1 = {
-##}
-#1466.1.1 = {
-##}
-#
+owner = MI2
+controller = MI2
+add_core = MI2
+religion = malacath_cult
+culture = orsimer
+hre = no
+base_tax = 7
+base_production = 5
+trade_goods = mushrooms
+base_manpower = 9
+is_city = yes
+57.1.1 = {
+	owner = MI2
+	controller = MI2
+	add_core = MI2
+}
+272.1.1 = {
+}
+535.1.1 = {
+}
+862.1.1 = {
+}
+1177.1.1 = {
+}
+1466.1.1 = {
+}

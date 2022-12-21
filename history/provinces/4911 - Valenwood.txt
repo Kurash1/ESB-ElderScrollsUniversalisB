@@ -1,11 +1,10 @@
-#religion = bosmer_pantheon
-#culture = bosmer
-#hre = no
-#base_tax = 2
-#base_production = 2
-#trade_goods = unknown
-#base_manpower = 2
-#capital = "Faurneth"
-#is_city = no
-#
-#
+religion = bosmer_pantheon
+culture = bosmer
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = unknown
+base_manpower = 2
+capital = "Faurneth"
+is_city = no
+

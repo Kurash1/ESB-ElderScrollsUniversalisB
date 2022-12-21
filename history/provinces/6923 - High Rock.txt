@@ -1,35 +1,34 @@
-##owner = BB5
-##controller = BB5
-##add_core = BB5
-#religion = altmeri_pantheon
-#culture = altmer
-#hre = no
-#base_tax = 3
-#base_production = 3
-#trade_goods = unknown
-#base_manpower = 3
-#capital = "Muirie"
-#is_city = yes
-#
-#
-##57.1.1 = {
-#   #owner = BB4
-#   #controller = BB4
-#   #add_core = BB4
-##}
-#
-#272.1.1 = {
-##}
-#
-#535.1.1 = {
-##}
-#
-#862.1.1 = {
-##}
-#
-#1177.1.1 = {
-##}
-#
-#1466.1.1 = {
-##}
-#
+owner = BB5
+controller = BB5
+add_core = BB5
+religion = altmeri_pantheon
+culture = altmer
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = unknown
+base_manpower = 3
+capital = "Muirie"
+is_city = yes
+
+
+57.1.1 = {
+   owner = BB4
+   controller = BB4
+   add_core = BB4
+}
+
+272.1.1 = {
+}
+
+535.1.1 = {
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}

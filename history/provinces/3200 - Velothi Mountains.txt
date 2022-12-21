@@ -1,10 +1,12 @@
-#religion = hircine_cult
-#culture = riekling
-#hre = no
-#base_tax = 1
-#base_production = 1
-#trade_goods = unknown
-#base_manpower = 1
-#capital = "Hvitkald"
-#is_city = no
-#
+religion = hircine_cult
+culture = riekling
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Hvitkald"
+is_city = no
+owner = RIE
+controller = RIE
+add_core = RIE

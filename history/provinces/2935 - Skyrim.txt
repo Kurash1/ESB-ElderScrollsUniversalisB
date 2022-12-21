@@ -1,22 +1,16 @@
-#religion = nordic_pantheon
-#culture = nord
-#hre = no
-#base_tax = 1
-#base_production = 1
-#trade_goods = unknown
-#base_manpower = 1
-#capital = "Hrokret"
-#is_city = yes
-#
-#535.1.1 = {
-##}
-#
-#862.1.1 = {
-##}
-#
-#1177.1.1 = {
-##}
-#
-#1466.1.1 = {
-##}
-#
+religion = cult_of_ancestors
+culture = giant
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Hrokret"
+is_city = yes
+owner = NE3
+controller = NE3
+add_core = NE3
+535.1.1 = { } 
+862.1.1 = { } 
+1177.1.1 = { } 
+1466.1.1 = { } 

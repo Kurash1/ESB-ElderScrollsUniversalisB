@@ -1,36 +1,35 @@
-##owner = DT1
-##controller = DT1
-##add_core = DT1
-#religion = mehrunes_dagon_cult
-#culture = clanfear
-#hre = no
-#base_tax = 7
-#base_production = 5
-#trade_goods = unknown
-#base_manpower = 9
-#capital = "Chaos Stronghold"
-#is_city = yes
-#
-#center_of_trade = 1
-#
-##57.1.1 = {
-#    #owner = DT1
-#    #controller = DT1
-#    #add_core = DT1
-##}
-#
-#272.1.1 = {
-##}
-#
-#535.1.1 = {
-##}
-#
-#862.1.1 = {
-##}
-#
-#1177.1.1 = {
-##}
-#
-#1466.1.1 = {
-##}
-#
+owner = DT1
+controller = DT1
+add_core = DT1
+religion = mehrunes_dagon_cult
+culture = clanfear
+hre = no
+base_tax = 7
+base_production = 5
+trade_goods = unknown
+base_manpower = 9
+capital = "Chaos Stronghold"
+is_city = yes
+
+center_of_trade = 1
+
+57.1.1 = {
+    owner = DT1
+    controller = DT1
+    add_core = DT1
+}
+
+272.1.1 = {
+}
+
+535.1.1 = {
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}

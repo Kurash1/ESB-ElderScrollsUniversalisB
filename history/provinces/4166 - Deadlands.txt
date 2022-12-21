@@ -1,11 +1,10 @@
-#religion = molag_bal_cult
-#culture = xivilai
-#hre = no
-#base_tax = 1
-#base_production = 1
-#trade_goods = unknown
-#base_manpower = 1
-#capital = "Valvyre"
-#is_city = no
-#
-#
+religion = molag_bal_cult
+culture = xivilai
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Valvyre"
+is_city = no
+

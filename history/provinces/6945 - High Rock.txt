@@ -1,29 +1,18 @@
-#religion = altmeri_pantheon
-#culture = breton
-#hre = no
-#base_tax = 1
-#base_production = 1
-#trade_goods = unknown
-#base_manpower = 1
-#capital = "Roxgeline"
-#is_city = no
-#
-#
-##57.1.1 = {
-##}
-#
-#272.1.1 = {
-##}
-#
-#535.1.1 = {
-##}
-#
-#862.1.1 = {
-##}
-#
-#1177.1.1 = {
-##}
-#
-#1466.1.1 = {
-##}
-#
+religion = altmeri_pantheon
+culture = altmer
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Roxgeline"
+is_city = no
+owner = BB6
+controller = BB6
+add_core = BB6
+57.1.1 = { } 
+272.1.1 = { } 
+535.1.1 = { } 
+862.1.1 = { } 
+1177.1.1 = { } 
+1466.1.1 = { } 

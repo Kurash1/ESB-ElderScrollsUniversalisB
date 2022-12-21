@@ -1,35 +1,34 @@
-##owner = VC1
-##controller = VC1
-##add_core = VC1
-#religion = bosmer_pantheon
-#culture = bosmer
-#hre = no
-#base_tax = 3
-#base_production = 3
-#trade_goods = unknown
-#base_manpower = 3
-#capital = "Camosky"
-#is_city = yes
-#
-#
-##57.1.1 = {
-#    #owner = VC0
-#    #controller = VC0
-#    #add_core = VC0
-##}
-#
-#272.1.1 = {
-##}
-#
-#535.1.1 = {
-##}
-#
-#862.1.1 = {
-##}
-#
-#1177.1.1 = {
-##}
-#
-#1466.1.1 = {
-##}
-#
+owner = VC1
+controller = VC1
+add_core = VC1
+religion = bosmer_pantheon
+culture = bosmer
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = unknown
+base_manpower = 3
+capital = "Camosky"
+is_city = yes
+
+
+57.1.1 = {
+    owner = VC0
+    controller = VC0
+    add_core = VC0
+}
+
+272.1.1 = {
+}
+
+535.1.1 = {
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}

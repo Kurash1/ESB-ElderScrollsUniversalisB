@@ -1,37 +1,36 @@
-##owner = CC8
-##controller = CC8
-##add_core = CC8
-#religion = mehrunes_dagon_cult
-#culture = ayleid
-#hre = no
-#base_tax = 2
-#base_production = 2
-#trade_goods = unknown
-#base_manpower = 2
-#capital = "Camitia"
-#is_city = yes
-#
-#
-#
-##57.1.1 = {
-#   #owner = CC7
-#   #controller = CC7
-#   #add_core = CC7
-##}
-#
-#272.1.1 = {
-#   religion = nedic_pantheon
-##}
-#
-#535.1.1 = {
-##}
-#
-#862.1.1 = {
-##}
-#
-#1177.1.1 = {
-##}
-#
-#1466.1.1 = {
-##}
-#
+owner = CC8
+controller = CC8
+add_core = CC8
+religion = mehrunes_dagon_cult
+culture = ayleid
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = unknown
+base_manpower = 2
+capital = "Camitia"
+is_city = yes
+
+
+
+57.1.1 = {
+   owner = CC7
+   controller = CC7
+   add_core = CC7
+}
+
+272.1.1 = {
+   religion = nedic_pantheon
+}
+
+535.1.1 = {
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}

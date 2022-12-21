@@ -1,36 +1,35 @@
-##owner = PB4
-##controller = PB4
-##add_core = PB4
-#religion = serpant_king
-#culture = maormer
-#hre = no
-#base_tax = 5
-#base_production = 5
-#trade_goods = unknown
-#base_manpower = 5
-#capital = "Gella"
-#is_city = yes
-#
-#
-#
-##57.1.1 = {
-#    #owner = PB4
-#    #controller = PB4
-#    #add_core = PB4
-##}
-#
-#272.1.1 = {
-##}
-#
-#535.1.1 = {
-##}
-#
-#862.1.1 = {
-##}
-#
-#1177.1.1 = {
-##}
-#
-#1466.1.1 = {
-##}
-#
+owner = PB4
+controller = PB4
+add_core = PB4
+religion = serpant_king
+culture = maormer
+hre = no
+base_tax = 5
+base_production = 5
+trade_goods = unknown
+base_manpower = 5
+capital = "Gella"
+is_city = yes
+
+
+
+57.1.1 = {
+    owner = PB4
+    controller = PB4
+    add_core = PB4
+}
+
+272.1.1 = {
+}
+
+535.1.1 = {
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}
