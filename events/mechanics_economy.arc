@@ -74,6 +74,8 @@ country_event = {
 		
 	}
 }
+
+using "common/on_actions/arc_on_actions.class" as on_actions
 country_event = { #1 Year Pulse
     id = es_economy.2
 	title = es_economy.1.t
@@ -83,10 +85,12 @@ country_event = { #1 Year Pulse
 	is_triggered_only = yes
 	
 	immediate = {
-		change_variable = {
-			which = year
-			value = 1
+		country_event = {
+			id = es_economy.2
+			days = 366
 		}
+	
+		on_actions.on_actions.on_yearly_pulse
 	}
 	
 	option = {

@@ -32,6 +32,7 @@ technology = {
 	pier = yes
 	market_street = yes
 	trade_district = yes
+	change_tradegood = yes
 	
 	# Taleskan
 	enable = taleskan_spearman
@@ -98,12 +99,24 @@ technology = {
 	enable = giant_C01
 	enable = giant_C02
 	enable = giant_A01
+	# Goblin
+	enable = goblin_I01
+	enable = goblin_I02
+	enable = goblin_C01
+	enable = goblin_C02
+	enable = goblin_A01
 	# Maormer
 	enable = maormer_I01
 	enable = maormer_I02
 	enable = maormer_C01
 	enable = maormer_C02
 	enable = maormer_A01
+	# Sload
+	enable = sload_I01
+	enable = sload_I02
+	enable = sload_C01
+	enable = sload_C02
+	enable = sload_A01
 	# Yokudan
 	enable = yokudan_I01
 	enable = yokudan_I02
@@ -113,7 +126,6 @@ technology = {
 	
 	
 	# Infantry Tier 0 
-	enable = sload_I00
 	enable = redguard_I00
 	enable = northern_I00
 	enable = nord_I00
@@ -138,7 +150,6 @@ technology = {
 	enable = minotaur_I00
 	enable = kothringi_I00
 	# Cavalry Tier 0 
-	enable = sload_C00
 	enable = redguard_C00
 	enable = northern_C00
 	enable = nord_C00
@@ -163,7 +174,6 @@ technology = {
 	enable = minotaur_C00
 	enable = kothringi_C00
 	# Artillery Tier 0 
-	enable = sload_A00
 	enable = redguard_A00
 	enable = northern_A00
 	enable = nord_A00
@@ -200,11 +210,11 @@ technology = {
 	
 	#ramparts = yes
 	#grain_depot = yes
-	soldier_households = yes
-	barracks = yes
-	regimental_camp = yes
-	armory = yes
-	earth_rampart = yes
+	#soldier_households = yes
+	#barracks = yes
+	#regimental_camp = yes
+	#armory = yes
+	#earth_rampart = yes
 	#weapons = yes
 	#fort_16th = yes
 	#conscription_center = yes

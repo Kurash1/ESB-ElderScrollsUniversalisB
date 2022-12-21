@@ -97,7 +97,7 @@ defineLoc es_esb.1.d = "To what trade good do you wish to change the province to
 defineLoc es_esb.tt0 = "This province doesn't fulfill the conditions for the chosen tradegood"
 defineLoc es_esb.tt1 = "You do not have the required mana availiable to choose this option"
 
-var costmult = 25
+var costmult = 50
 
 province_event = {
 	id = es_esb.1
@@ -188,6 +188,10 @@ province_event = {
 		
 		option = {
 			name = tradegoods.id
+			trigger = {
+				tradegoods.triggers
+				NOT = { trade_goods = tradegoods.id }
+			}
 			if = {
 				limit = {
 					tradegoods.triggers
@@ -197,30 +201,30 @@ province_event = {
 					limit = {
 						owner = {
 							full_idea_group = transmutation_ideas
-							adm_power = (cost*0.9)
+							#adm_power = (cost*0.9)
 							dip_power = (cost*0.9)
-							mil_power = (cost*0.9)
+							#mil_power = (cost*0.9)
 						}
 					}
 					owner = {
-						adm_power_cost = (cost*0.9)
+						#adm_power_cost = (cost*0.9)
 						dip_power_cost = (cost*0.9)
-						mil_power_cost = (cost*0.9)
+						#mil_power_cost = (cost*0.9)
 					}
 					change_trade_goods = tradegoods.id
 				}
 				else_if = {
 					limit = {
 						owner = {
-							adm_power = cost
+							#adm_power = cost
 							dip_power = cost
-							mil_power = cost
+							#mil_power = cost
 						}
 					}
 					owner = {
-						adm_power_cost = cost
+						#adm_power_cost = cost
 						dip_power_cost = cost
-						mil_power_cost = cost
+						#mil_power_cost = cost
 					}
 					change_trade_goods = tradegoods.id
 				}

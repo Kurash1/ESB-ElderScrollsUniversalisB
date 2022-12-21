@@ -161,7 +161,10 @@ on_startup = {
 		if = { limit = { is_year = 862 } every_country = { limit = { NOT = { culture_group = velothi_cg } capital_scope = { continent = Tamriel } } country_event = { id = dark_brotherhood_spawn.5 days = 9125 } } }
 		
 		BLA = {
-			set_country_flag = campaign_start
+			country_event = {
+				id = es_economy.2
+				days = 0
+			}
 			country_event = {
 				id = es_ideas.0
 				days = (30*365)
@@ -1153,15 +1156,20 @@ on_new_consort = {
 
 # country
 on_monarch_death = {
-	export_to_variable = {
-		which = year_on_coronation
-		value = trigger_value:is_year
+	if = {
+		limit = {
+			is_human_nation_trigger = yes
+		}
+		log = "RulerDeath:[ROOT.year_on_coronation.GetValue]:[ROOT.ruler_age_on_coronation.GetValue]:[ROOT.Culture.GetValue]"
+		export_to_variable = {
+			which = year_on_coronation
+			value = trigger_value:is_year
+		}
+		export_to_variable = {
+			variable_name = ruler_age_on_coronation
+			value = trigger_value:ruler_age
+		}
 	}
-	export_to_variable = {
-		variable_name = ruler_age_on_coronation
-		value = trigger_value:ruler_age
-	}
-	log = "RulerDeath:[ROOT.year_on_coronation.GetValue]:[ROOT.ruler_age_on_coronation.GetValue]:[GetYear]"
 	
 	if = { limit = { ai = no has_reform = backbone_of_the_nation } add_stability = -1 }
 	every_owned_province = {
@@ -1941,19 +1949,6 @@ on_siberian_pulse = {
 
 # country random events
 on_bi_yearly_pulse = {
-	if = {
-		limit = {
-			tag = BLA
-		}
-		country_event = {
-			id = es_economy.2
-			days = 0
-		}
-		country_event = {
-			id = es_economy.2
-			days = 1years
-		}
-	}
 	## Development Mechanics
 	#random_owned_province = {
 	#	limit = {

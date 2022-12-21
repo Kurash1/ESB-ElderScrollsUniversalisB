@@ -426,3 +426,8 @@
  scenario_yokuda.10.desc: "The empire of Totambu has offered to lend assistance to Khud At-Taleskan in his bid for the throne. Totambu has long had close alliances with the royal family of Taleskan, and sees Khud as the rightful heir to the throne. As such, Totambu has offered to send a force of soldiers to aid in Khud's efforts to secure his claim to the throne. The Totambuan soldiers are highly trained and well-equipped, and could be a valuable asset in the ongoing conflict. This offer comes at a critical time, as Khud faces competition from other factions vying for control of the kingdom. While Khud must carefully consider the potential implications of accepting Totambu's offer, it is clear that their assistance could be a turning point in his campaign for the throne."
  scenario_yokuda.10.a: "Take the Assistance"
  scenario_yokuda.10.b: "Reject Assistance"
+ esb_yok_taleskan_zarthos_deal_mission_title: "Deal for the Zarthos"
+ esb_yok_taleskan_zarthos_deal_mission_desc: ""
+ building_change_tradegood: "Change Tradegood"
+ building_change_tradegood_desc: ""
+ taleskan_kanesh: "Taleskan-Kanesh"

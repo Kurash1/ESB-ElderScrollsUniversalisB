@@ -64,11 +64,21 @@ technology = {
 	enable = giant_G01
 	enable = giant_L01
 	enable = giant_H01
+	# Goblin
+	enable = goblin_T01
+	enable = goblin_G01
+	enable = goblin_L01
+	enable = goblin_H01
 	# Maormer
 	enable = maormer_G00
 	enable = maormer_H00
 	enable = maormer_L00
 	enable = maormer_T00
+	# Sload
+	enable = sload_G01
+	enable = sload_H01
+	enable = sload_L01
+	enable = sload_T01
 	# Yokudan
 	enable = yokudan_G01
 	enable = yokudan_H01
@@ -77,7 +87,6 @@ technology = {
 	
 	
 	# Ships Tier 0 
-	enable = sload_G00
 	enable = redguard_G00
 	enable = northern_G00
 	enable = nord_G00
@@ -101,7 +110,6 @@ technology = {
 	enable = goblin_G00
 	enable = minotaur_G00
 	enable = kothringi_G00
-	enable = sload_H00
 	enable = redguard_H00
 	enable = northern_H00
 	enable = nord_H00
@@ -125,7 +133,6 @@ technology = {
 	enable = goblin_H00
 	enable = minotaur_H00
 	enable = kothringi_H00
-	enable = sload_L00
 	enable = redguard_L00
 	enable = northern_L00
 	enable = nord_L00
@@ -149,7 +156,6 @@ technology = {
 	enable = goblin_L00
 	enable = minotaur_L00
 	enable = kothringi_L00
-	enable = sload_T00
 	enable = redguard_T00
 	enable = northern_T00
 	enable = nord_T00	
@@ -185,17 +191,17 @@ technology = {
 	range = 250
 	
 	artifact_search = yes
-	marketplace = yes
-	workshop = yes
+	#marketplace = yes
+	#workshop = yes
 	allow_client_states = yes
-	shipyard = yes
-	coastal_defence = yes
-	impressment_offices = yes
-	may_steal_maps = yes
-	dock = yes
+	#shipyard = yes
+	#coastal_defence = yes
+	#impressment_offices = yes
+	#may_steal_maps = yes
+	#dock = yes
 	#march_building = yes
 	#embassy = yes
-	post_office = yes
+	#post_office = yes
 	#counting_house = yes
 	reduced_naval_attrition = yes
 	#mills = yes

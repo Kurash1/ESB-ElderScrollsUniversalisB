@@ -1,10 +1,10 @@
 religion = yokudan_pantheon
 culture = yokudan_kanesh
 hre = no
-base_tax = 1
-base_production = 1
+base_tax = 6
+base_production = 2
+base_manpower = 6
 trade_goods = unknown
-base_manpower = 1
 capital = ""
 is_city = yes
 owner = KAN

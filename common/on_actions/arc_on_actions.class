@@ -1,6 +1,33 @@
 on_actions = {
-	on_yearly_pulse = {
-		
+	on_yearly_pulse = { #BLA
+		change_variable = {
+			which = year
+			value = 1
+		}
+		every_country = {
+			trigger_switch = {
+				on_trigger = ruler_age
+				for age = 12 to 0 = {
+					(age*10) = {
+						random = {
+							chance = (age*age*0.05)
+							kill_ruler = yes
+						}
+					}
+				}
+			}
+			trigger_switch = {
+				on_trigger = heir_age
+				for age = 12 to 0 = {
+					(age*10) = {
+						random = {
+							chance = (age*age*0.05)
+							kill_heir = yes
+						}
+					}
+				}
+			}
+		}
 	}
 	on_genocide = {
 	

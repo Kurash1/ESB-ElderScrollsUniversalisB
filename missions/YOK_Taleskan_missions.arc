@@ -55,25 +55,37 @@ flavour_missions_2_yoktal = {
 		
 		effect = {
 			add_war_exhaustion = -2
-			add_yearly_manpower = 0.5
+			add_yearly_manpower = 2.5
 			add_army_professionalism = 5%
 		}
 	}
-	defineloc esb_yok_taleskan_hattu_orcs_mission_title = "Break the old Oath"
-	defineloc esb_yok_taleskan_hattu_orcs_mission_desc = ""
-	esb_yok_taleskan_hattu_orcs_mission = {
-		icon = orcish_camp
+	defineloc esb_yok_taleskan_zarthos_deal_mission_title = "Deal for the Zarthos"
+	defineloc esb_yok_taleskan_zarthos_deal_mission_desc = ""
+	esb_yok_taleskan_zarthos_deal_mission = {
+		icon = docks_2
 		position = 6
 		required_missions = { esb_yok_taleskan_army_reform_mission esb_yok_taleskan_seawind_mission }
 		
 		trigger = {
-			
+			4363 = {
+				all_neighbor_province = {
+					is_city = yes
+					OR = {
+						owned_by = ROOT
+						owned_by = c@totambu
+					}
+				}
+			}
 		}
 		
 		effect = {
-			c@hattu_orcs = {
-				every_owned_province = {
-					add_claim = c@taleskan
+			4363 = {
+				every_neighbor_province = {
+					limit = {
+						is_city = yes
+						owned_by = c@totambu
+					}
+					cede_province = ROOT
 				}
 			}
 		}
@@ -205,14 +217,50 @@ flavour_missions_3_yoktal = {
 	esb_yok_taleskan_desert_mission = {
 		icon = yokudan_city
 		position = 7
-		required_missions = { esb_yok_taleskan_seawind_mission esb_yok_taleskan_hattu_orcs_mission esb_yok_taleskan_kanesh_mission }
+		required_missions = { esb_yok_taleskan_seawind_mission esb_yok_taleskan_zarthos_deal_mission esb_yok_taleskan_kanesh_mission }
 		
 		trigger = {
-			
+			OR = {
+				AND = {
+					army_size = c@high_desert
+					NOT = {
+						alliance_with = c@high_desert
+					}
+				}
+				AND = {
+					c@high_desert = {
+						alliance_with = ROOT
+						trust = {
+							who = ROOT
+							value = 100
+						}
+						NOT = {
+							total_development = ROOT
+						}
+					}
+				}
+			}
 		}
 		
 		effect = {
-			
+			if = {
+				limit = {
+					alliance_with = c@high_desert
+				}
+				c@high_desert = {
+					every_owned_province = {
+						add_core = ROOT
+						cede_province = ROOT
+					}
+				}
+			}
+			else = {			
+				c@high_desert = {
+					every_owned_province = {
+						add_claim = ROOT
+					}
+				}
+			}
 		}
 	}
 }
@@ -275,11 +323,49 @@ flavour_missions_4_yoktal = {
 		required_missions = { esb_yok_taleskan_navy_reform_mission esb_yok_taleskan_seawind_mission }
 		
 		trigger = {
-			
+			OR = {
+				AND = {
+					all_owned_province = {
+						ROOT = {
+							is_core = PREV
+						}
+					}
+					naval_strength = {
+						who = KAN
+						value = 1.5
+					}
+				}
+				AND = {
+					c@kanesh = {
+						alliance_with = ROOT
+						trust = {
+							who = ROOT
+							value = 100
+						}
+						NOT = {
+							total_development = ROOT
+						}
+					}
+				}
+			}
 		}
 		
 		effect = {
-			
+			if = {
+				limit = {
+					alliance_with = c@kanesh
+				}
+				inherit = c@kanesh
+				defineloc taleskan_kanesh = "Taleskan-Kanesh"
+				override_country_name = taleskan_kanesh
+			}
+			else = {			
+				c@kanesh = {
+					every_owned_province = {
+						add_claim = ROOT
+					}
+				}
+			}
 		}
 	}
 }

@@ -49,3 +49,24 @@ artifact_search = {
 		remove_building = artifact_search
 	}
 }
+
+defineloc building_change_tradegood = "Change Tradegood"
+defineloc building_change_tradegood_desc = ""
+change_tradegood = {
+	cost = 100
+	time = 1
+	
+	modifier = {
+		allowed_num_of_buildings = 1
+	}
+	
+	ai_will_do = {
+		factor = 0
+	}
+	on_built = { 
+		province_event = {
+			id = es_esb.1
+			days = 0
+		}
+	}
+}

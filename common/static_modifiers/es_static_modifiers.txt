@@ -541,6 +541,7 @@ scorched_earth = {
 ##########################################################################
 
 base_values = {
+	monarch_lifespan = 2.0
 	max_absolutism = 30
 	max_revolutionary_zeal = 50
 	merc_maintenance_modifier = 0.5
