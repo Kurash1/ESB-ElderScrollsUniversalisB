@@ -18,8 +18,8 @@ capital = 3206
 		name = "Brazzedit"
 		birth_date = 2.1.1
 		adm = 4
-		dip = 1
-		mil = 1
+		dip = 3
+		mil = 4
     }
 }
 
