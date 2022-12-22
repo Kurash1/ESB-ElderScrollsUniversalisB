@@ -28,7 +28,7 @@ technology = {
 technology = {
 	# Tech 1 
 	year = 60
-	governing_capacity = 50
+	governing_capacity = 500
 	allowed_idea_groups = 1
 	expects_institution = {
 		inscription = 0.01
