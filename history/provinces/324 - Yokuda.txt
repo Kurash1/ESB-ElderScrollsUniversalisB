@@ -1,0 +1,20 @@
+owner = THR
+controller = THR
+add_core = THR
+religion = sload_faith
+culture = sload
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = unknown
+base_manpower = 3
+capital = "Morane"
+is_city = yes
+
+
+
+57.1.1 = {
+    owner = THR
+    controller = THR
+    add_core = THR
+}

@@ -1,0 +1,34 @@
+owner = AA7
+controller = AA7
+add_core = AA7
+religion = hist
+culture = archein
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Oneer"
+is_city = yes
+
+
+57.1.1 = {
+   owner = AD4
+   controller = AD4
+   add_core = AD4
+}
+
+272.1.1 = {
+}
+
+535.1.1 = {
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}

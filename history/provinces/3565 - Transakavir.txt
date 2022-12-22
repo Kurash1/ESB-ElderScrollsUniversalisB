@@ -1,0 +1,32 @@
+owner = UB1
+controller = UB1
+add_core = UB1
+religion = tsaesci_pantheon
+culture = tsaesci
+hre = no
+base_tax = 5
+base_production = 5
+trade_goods = unknown
+base_manpower = 5
+capital = "Naheois"
+is_city = yes
+
+
+
+57.1.1 = {
+}
+
+272.1.1 = {
+}
+
+535.1.1 = {
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}

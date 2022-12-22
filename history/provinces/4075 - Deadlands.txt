@@ -1,0 +1,36 @@
+owner = DW2
+controller = DW2
+add_core = DW2
+religion = mehrunes_dagon_cult
+culture = xivilai
+hre = no
+base_tax = 7
+base_production = 5
+trade_goods = ebony
+base_manpower = 9
+capital = "Dagon's Citadel"
+is_city = yes
+
+center_of_trade = 1
+
+
+57.1.1 = {
+    owner = DW2
+    controller = DW2
+    add_core = DW2
+}
+
+272.1.1 = {
+}
+
+535.1.1 = {
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}

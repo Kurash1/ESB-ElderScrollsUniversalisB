@@ -1,0 +1,10 @@
+religion = orcish_pantheon
+culture = wood_orsimer
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = unknown
+base_manpower = 3
+capital = "Naetneth"
+is_city = no
+

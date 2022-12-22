@@ -1,0 +1,32 @@
+owner = AD6
+controller = AD6
+add_core = AD6
+religion = nocturnal_cult
+culture = lilmothiit
+hre = no
+base_tax = 6
+base_production = 6
+trade_goods = unknown
+base_manpower = 6
+capital = "Blackrose"
+is_city = yes
+
+
+
+57.1.1 = {
+}
+
+272.1.1 = {
+}
+
+535.1.1 = {
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}
