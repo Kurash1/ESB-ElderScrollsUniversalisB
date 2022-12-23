@@ -1,5 +1,6 @@
 constants = {
 	max_idea_groups = 50
+	years_between_idea_groups = 25
 	max_dev_average = 25
 }
 functions = {

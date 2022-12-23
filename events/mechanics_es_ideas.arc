@@ -14,7 +14,7 @@ country_event = {
 		}
 		country_event = {
 			id = es_ideas.0
-			days = (30*365)
+			days = (defines.constants.years_between_idea_groups*365)
 		}
 	}
 	
