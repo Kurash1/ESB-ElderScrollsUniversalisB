@@ -1,0 +1,141 @@
+army_tradition = {
+	name = "Military Colleges"
+	value = 0.5
+	trigger = {
+		num_of_generals_with_traits = 10
+	}
+}
+yearly_army_professionalism = {
+	name = "Professional Army"
+	value = 0.1
+	trigger = {
+		army_professionalism = 0.5
+	}
+}
+infantry_cost = {
+	name = "Infantry Army"
+	value = -0.1
+	trigger = {
+		num_of_infantry = 250
+	}
+}
+cavalry_cost = {
+	name = "Cavalry Army"
+	value = -0.1
+	trigger = {
+		num_of_cavalry = 100
+	}
+}
+artillery_cost = {
+	name = "Artillery Army"
+	value = -0.1
+	trigger = {
+		num_of_artillery = 100
+	}
+}
+discipline = {
+	name = "Disciplined Army"
+	value = 0.05
+	trigger = {
+		mil = 6
+	}
+}
+land_morale = {
+	name = "Prestigious Army"
+	value = 0.1
+	trigger = {
+		prestige = 100
+		army_tradition = 100
+	}
+}
+defensiveness = {
+	name = "Fortress [ROOT.GetValue]"
+	value = 0.25
+	trigger = {
+		calc_true_if = {
+			all_owned_province = {
+				fort_level = 1
+			}
+			amount = 100
+		}
+	}
+}
+#stability_cost_modifier = { #Introduce when stability is fixed
+#	name = "Stable Country"
+#	value = -0.1
+#	trigger = {
+#		stability = 3
+#	}
+#}
+movement_speed = {
+	name = "Speed tactics"
+	value = 0.1
+	trigger = {
+		cavalry_fraction = 0.9
+	}
+}
+#fire_damage
+#fire_damage_received
+#shock_damage
+#shock_damage_received
+#morale_damage
+#morale_damage_received
+#land_attrition
+#reinforce_speed
+#manpower_recovery_speed
+#global_manpower_modifier
+#land_forcelimit_modifier
+#land_maintenance_modifier
+#fort_maintenance_modifier
+#war_exhaustion
+#general_cost
+#navy_tradition
+#heavy_ship_cost
+#light_ship_cost
+#galley_cost
+#transport_cost
+#naval_forcelimit_modifier
+#naval_maintenance_modifier
+#global_sailors_modifier
+#sailors_recovery_speed
+#naval_attrition
+#naval_morale
+#ship_durability
+#admiral_cost
+#diplomats
+#diplomatic_reputation
+#diplomatic_upkeep
+#envoy_travel_time
+#improve_relation_modifier
+#ae_impact
+#unjustified_demands
+#global_tax_modifier
+#production_efficiency
+#state_maintenance_modifier
+#inflation_reduction
+#development_cost
+#build_cost
+#build_time
+#administrative_efficiency
+#core_creation
+#prestige
+#monthly_splendor
+#yearly_corruption
+#advisor_cost
+#yearly_absolutism
+#governing_capacity_modifier
+#reform_progress_growth
+#all_estate_loyalty_equilibrium
+#culture_conversion_cost
+#global_unrest
+#global_autonomy
+#spy_offence
+#global_missionary_strength
+#missionaries
+#religious_unity
+#caravan_power
+#merchants
+#global_trade_power
+#trade_efficiency
+#trade_steering
+#colonists 
