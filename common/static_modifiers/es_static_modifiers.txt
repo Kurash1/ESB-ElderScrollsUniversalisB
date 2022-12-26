@@ -1397,12 +1397,12 @@ vassal_subject = {
 
 vassal_nation = {
 	development_cost = -0.35
-	discipline = -0.15
-	mercenary_discipline = -0.15
-	land_morale = -0.35
-	naval_morale = -0.35
-	recover_army_morale_speed = -0.05
-	recover_navy_morale_speed = -0.05
+	#discipline = -0.15
+	#mercenary_discipline = -0.15
+	#land_morale = -0.35
+	#naval_morale = -0.35
+	#recover_army_morale_speed = -0.05
+	#recover_navy_morale_speed = -0.05
 }
 
 ### Imperial Province
