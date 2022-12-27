@@ -222,7 +222,7 @@ mages_colleges = {
 	}
 	#Positive modifiers granted while the privilege is active
 	benefits = {
-		technology_cost = -0.05
+		idea_cost = -0.1
 	}
 	# conditional_modifier = {
 	# 	#Modifier that are applied if the specified conditions are true.

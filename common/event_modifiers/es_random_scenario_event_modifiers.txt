@@ -5,7 +5,7 @@ restored_Kardala = {
 
 researching_the_Elder_Scrolls = {
 	idea_cost = -0.1
-	technology_cost = 0.1
+	#technology_cost = 0.1
 }
 
 secrets_of_the_elven_armor = {

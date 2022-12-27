@@ -691,7 +691,7 @@ innovative_supremacy = {
 	allow_normal_conversion = yes
 	modifiers = {
 		idea_cost = -0.1
-		technology_cost = -0.1
+		#technology_cost = -0.1
 	}
 }
 #Extensive Army

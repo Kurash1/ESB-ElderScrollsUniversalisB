@@ -816,7 +816,7 @@ army_tradition = {
 	land_morale = 0.25
 	manpower_recovery_speed = 0.10
 	siege_ability = 0.05
-	monthly_militarized_society = 0.1
+	monthly_militarized_society = 0.05
 	#nobility_loyalty_modifier = 0.05
 	#warriors_loyalty_modifier = 0.05
 	#
@@ -935,7 +935,6 @@ legitimacy = {
 	tolerance_heretic = 2
 	diplomatic_reputation = 2
 	vassal_income = 0.5
-	monthly_militarized_society = 0.10
 	max_absolutism = 20
 	nobility_loyalty_modifier = 0.1			  
 }
@@ -1279,7 +1278,7 @@ high_army_professionalism = {
 	fire_damage = 0.1
 	shock_damage = 0.1
 	siege_ability = 0.25
-	monthly_militarized_society = 0.1
+	monthly_militarized_society = 0.05
 	drill_decay_modifier = -0.25
 }
 

@@ -293,7 +293,7 @@ py_mi_trading_tiguna = {
 }
 
 py_mi_innovating_eilyse = {
-	technology_cost = -0.05
+	idea_cost = -0.05
 	innovativeness_gain = 0.25
 }
 
@@ -497,7 +497,7 @@ yok_mi_sweet_home_hammerfell = {
 
 yok_mi_sweet_razing_rourkens = {
 	development_cost = -0.1
-	technology_cost = -0.1
+	idea_cost = -0.1
 }
 
 yok_mi_landing_limai = {
@@ -519,7 +519,7 @@ yok_mi_desert_dessert = {
 
 yok_mi_memory_stones = {
 	global_institution_spread = 0.05
-	technology_cost = -0.05
+	idea_cost = -0.05
 }
 
 yok_mi_settling_high_rock = {
@@ -723,7 +723,7 @@ es_golden_reserves = {
 }
 
 es_civilization_of_the_north = {
-	technology_cost = -0.05
+	#technology_cost = -0.05
 	idea_cost = -0.10
 	global_institution_spread = 0.15
 }
@@ -763,7 +763,7 @@ es_fur_trade = {
 }
 
 es_island_of_civilization = {
-	technology_cost = -0.10
+	idea_cost = -0.10
 	institution_spread_from_true_faith = 0.25
 	embracement_cost = -0.50
 }
@@ -1114,7 +1114,7 @@ airshipped_corpses_sl = {
 }
 
 private_island_sl = {
-	technology_cost = -0.05
+	idea_cost = -0.05
 	prestige_decay = -0.01
 }
 
@@ -1403,7 +1403,7 @@ es_raiding_orcs_iro = {
 }
 
 es_dwemer_tech_raided_iro = {
-	technology_cost = -0.1
+	#technology_cost = -0.1
 	idea_cost = -0.1
 }
 
@@ -1647,7 +1647,7 @@ es_subjugate_wrothgar_orcs_modifier = {
 }
 
 es_rivenspire_secrets_modifier = {
-	technology_cost = -0.10
+	#technology_cost = -0.10
 	idea_cost = -0.10
 	institution_spread_from_true_faith = 0.10
 }
@@ -1908,7 +1908,7 @@ es_monuments_of_tang_mo_modifier = {
 es_temples_of_knowlege_modifier = {
 	global_institution_spread = 0.25
 	idea_cost = -0.15
-	technology_cost = -0.10
+	#technology_cost = -0.10
 }
 
 es_tang_mo_champions_modifier = {

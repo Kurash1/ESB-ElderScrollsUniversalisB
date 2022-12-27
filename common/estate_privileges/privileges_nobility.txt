@@ -147,7 +147,7 @@ recruit_advisors = {
 	}
 	#Positive modifiers granted while the privilege is active
 	benefits = {
-		technology_cost = -0.05
+		idea_cost = -0.05
 		advisor_pool = 1
 	}
 	# conditional_modifier = {

@@ -746,7 +746,7 @@ ob_manpower = {
 
 # Unknown Technologies
 es_incident_embrace_technology = {
-	technology_cost = -0.10
+	idea_cost = -0.10
 	advisor_cost = 0.15
 }
 

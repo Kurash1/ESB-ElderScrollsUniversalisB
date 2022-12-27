@@ -67,11 +67,11 @@ es_capital_developed = {
 }
 
 es_1_innovatives_increased = {
-    idea_cost = -0.05
+    idea_cost = -0.025
 }
 
 es_2_innovatives_increased = {
-    technology_cost = -0.10
+    idea_cost = -0.025
 }
 
 es_3_innovatives_increased = {

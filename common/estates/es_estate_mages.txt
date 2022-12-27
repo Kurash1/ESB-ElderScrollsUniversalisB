@@ -36,7 +36,7 @@ estate_mages = {
 		idea_cost = -0.1
 	}
 	country_modifier_angry = {
-		technology_cost = 0.1
+		idea_cost = 0.1
 	}
 	land_ownership_modifier = {
 		mages_loyalty_modifier = 0.2

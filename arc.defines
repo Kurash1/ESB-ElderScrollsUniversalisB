@@ -2,6 +2,13 @@ constants = {
 	max_idea_groups = 50
 	years_between_idea_groups = 25
 	max_dev_average = 25
+	
+	major_monument_price_tier1 = 3000
+	major_monument_price_tier2 = 7500
+	major_monument_price_tier3 = 15000
+	minor_monument_price_tier1 = 1000
+	minor_monument_price_tier2 = 2500
+	minor_monument_price_tier3 = 5000
 }
 functions = {
 	conquest_yokuda = {

@@ -707,7 +707,7 @@ battle_pope_reform = {
 			land_morale = 0.1
 		}
 		snow_elves_cg = {
-			idea_cost = -0.10
+			idea_cost = -0.05
 		}
 		orsimer_cg = {
 			discipline = 0.05
@@ -749,7 +749,7 @@ battle_pope_reform = {
 		    global_manpower_modifier = 0.10
 		}
 		unknown_cg = {
-		    technology_cost = -0.10
+		    idea_cost = -0.05
 		}
 	}
 	

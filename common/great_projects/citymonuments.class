@@ -1,75 +1,70 @@
 default = {
-	build_cost = 1000
+	build_cost = defines.constants.minor_monument_price_tier1
 	keep_trigger = {
 		always = yes
 	}
-	tier_0 = { 
-		upgrade_time = { months = 0 } 
-		cost_to_upgrade = { factor = 0 } 
-		province_modifiers = { } 
-		area_modifier = { } 
-		country_modifiers = { } 
-		on_upgraded = { } 
+	tier_0_upgrade_time = 0
+	tier_0_cost_to_upgrade = 0
+	tier_0_province_modifiers = { } 
+	tier_0_area_modifier = { } 
+	tier_0_country_modifiers = { } 
+	tier_0_on_upgraded = { } 
+	
+	tier_1_upgrade_time = 60
+	tier_1_cost_to_upgrade = defines.constants.minor_monument_price_tier1 
+	tier_1_province_modifiers = { 
+		local_defensiveness = 0.1 
+		local_friendly_movement_speed = 0.05 
+		local_development_cost = -0.1 
+		supply_limit = 10 
+		local_build_cost = -0.1 
+		local_build_time = -0.1 
+		regiment_recruit_speed = -0.1 
+		ship_recruit_speed = -0.1 
+		local_institution_spread = 0.1 
+		trade_goods_size_modifier = 0.05 
 	} 
-	tier_1 = { 
-		upgrade_time = { months = 60 } 
-		cost_to_upgrade = { factor = 1000 } 
-		province_modifiers = { 
-			local_defensiveness = 0.1 
-			local_friendly_movement_speed = 0.05 
-			local_development_cost = -0.1 
-			supply_limit = 10 
-			local_build_cost = -0.1 
-			local_build_time = -0.1 
-			regiment_recruit_speed = -0.1 
-			ship_recruit_speed = -0.1 
-			local_institution_spread = 0.1 
-			trade_goods_size_modifier = 0.05 
-		} 
-		area_modifier = { } 
-		country_modifiers = { } 
-		on_upgraded = { } 
+	tier_1_area_modifier = { } 
+	tier_1_country_modifiers = { } 
+	tier_1_on_upgraded = { } 
+	
+	tier_2_upgrade_time = 120
+	tier_2_cost_to_upgrade = defines.constants.minor_monument_price_tier2
+	tier_2_province_modifiers = { 
+		local_defender_dice_roll_bonus = 1 
+		local_defensiveness = 0.20 
+		local_friendly_movement_speed = 0.10 
+		local_development_cost = -0.20 
+		supply_limit = 20 
+		local_build_cost = -0.20 
+		local_build_time = -0.20 
+		regiment_recruit_speed = -0.20 
+		ship_recruit_speed = -0.20 
+		local_institution_spread = 0.20 
+		trade_goods_size_modifier = 0.10 
 	} 
-	tier_2 = { 
-		upgrade_time = { months = 120 } 
-		cost_to_upgrade = { factor = 2500 } 
-		province_modifiers = { 
-			local_defender_dice_roll_bonus = 1 
-			local_defensiveness = 0.20 
-			local_friendly_movement_speed = 0.10 
-			local_development_cost = -0.20 
-			supply_limit = 20 
-			local_build_cost = -0.20 
-			local_build_time = -0.20 
-			regiment_recruit_speed = -0.20 
-			ship_recruit_speed = -0.20 
-			local_institution_spread = 0.20 
-			trade_goods_size_modifier = 0.10 
-		} 
-		area_modifier = { } 
-		country_modifiers = { } 
-		on_upgraded = { } 
+	tier_2_area_modifier = { } 
+	tier_2_country_modifiers = { } 
+	tier_2_on_upgraded = { } 
+	
+	tier_3_upgrade_time = 180
+	tier_3_cost_to_upgrade = defines.constants.minor_monument_price_tier3
+	tier_3_province_modifiers = { 
+		local_defender_dice_roll_bonus = 2 
+		local_defensiveness = 0.30 
+		local_friendly_movement_speed = 0.15 
+		local_development_cost = -0.25 
+		supply_limit = 25 
+		local_build_cost = -0.25 
+		local_build_time = -0.25 
+		regiment_recruit_speed = -0.25 
+		ship_recruit_speed = -0.25 
+		local_institution_spread = 0.25 
+		trade_goods_size_modifier = 0.15 
 	} 
-	tier_3 = { 
-		upgrade_time = { months = 180 } 
-		cost_to_upgrade = { factor = 5000 } 
-		province_modifiers = { 
-			local_defender_dice_roll_bonus = 2 
-			local_defensiveness = 0.30 
-			local_friendly_movement_speed = 0.15 
-			local_development_cost = -0.25 
-			supply_limit = 25 
-			local_build_cost = -0.25 
-			local_build_time = -0.25 
-			regiment_recruit_speed = -0.25 
-			ship_recruit_speed = -0.25 
-			local_institution_spread = 0.25 
-			trade_goods_size_modifier = 0.15 
-		} 
-		area_modifier = { } 
-		country_modifiers = { } 
-		on_upgraded = { } 
-	} 
+	tier_3_area_modifier = { } 
+	tier_3_country_modifiers = { } 
+	tier_3_on_upgraded = { } 
 }
 nchuand-zel = {
 	start = 1355

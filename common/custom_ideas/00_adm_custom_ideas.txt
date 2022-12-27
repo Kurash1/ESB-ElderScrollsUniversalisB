@@ -212,18 +212,18 @@ adm_idea_modifiers = {
 			factor = 1
  		}
 	}		
-	custom_idea_technology_cost = {
-		technology_cost = -0.05
-		level_cost_2 = 35
-		level_cost_3 = 75
-		level_cost_4 = 125
-        level_cost_5 = 150
-        max_level = 5	
-		default = 5	
-		chance = {
-			factor = 1
- 		}
-	}
+	#custom_idea_technology_cost = {
+	#	technology_cost = -0.05
+	#	level_cost_2 = 35
+	#	level_cost_3 = 75
+	#	level_cost_4 = 125
+    #    level_cost_5 = 150
+    #    max_level = 5	
+	#	default = 5	
+	#	chance = {
+	#		factor = 1
+ 	#	}
+	#}
 	custom_idea_idea_cost = {
 		idea_cost = -0.05
 		level_cost_2 = 35

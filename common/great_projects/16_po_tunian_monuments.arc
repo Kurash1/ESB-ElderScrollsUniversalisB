@@ -1,0 +1,478 @@
+# eternal_palace
+# pristine_jungles
+# port_singalam
+# celestial_gates
+# dragon_heart_temple
+
+celestial_gates = {
+	start = 661
+	
+	date = 54.01.01
+	
+	time = { months = 0 }
+	
+	build_cost = defines.constants.minor_monument_price_tier1
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	
+	type = monument
+
+	build_trigger = { 
+		owner = { 
+			is_free_or_tributary_trigger = yes
+		}
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+	}
+
+	on_built = { }
+	on_destroyed = { }
+
+	can_use_modifiers_trigger = {
+		owner = { 
+			is_free_or_tributary_trigger = yes
+		}
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		} 
+	}
+	can_upgrade_trigger = {
+		owner = { 
+			is_free_or_tributary_trigger = yes
+		}
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		} 
+	}
+	keep_trigger = { always = yes }
+
+	tier_0 = {
+		upgrade_time = { months = 0 }
+		cost_to_upgrade = { factor = 0 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+
+	tier_1 = {
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier1 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { 
+			drill_gain_modifier = 0.5 
+			discipline = 0.02
+			infantry_shock = 0.05
+		}
+		on_upgraded = { }
+	}
+
+	tier_2 = {
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier2 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { 
+			drill_gain_modifier = 0.75 
+			discipline = 0.04
+			infantry_shock = 0.10
+		}
+		on_upgraded = { }
+	}
+
+	tier_3 = {
+		upgrade_time = { months = 360 }
+		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier3 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { 
+			drill_gain_modifier = 1.00 
+			discipline = 0.05
+			infantry_shock = 0.15
+		}
+		on_upgraded = { }
+	}
+}
+
+port_singalam = {
+	start = 611
+	
+	date = 54.01.01
+	
+	time = { months = 0 }
+	
+	build_cost = defines.constants.minor_monument_price_tier1
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	
+	type = monument
+
+	build_trigger = { 
+		owner = { 
+			is_free_or_tributary_trigger = yes
+		}
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+	}
+
+	on_built = { }
+	on_destroyed = { }
+
+	can_use_modifiers_trigger = {
+		owner = { 
+			is_free_or_tributary_trigger = yes
+		}
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		} 
+	}
+	can_upgrade_trigger = {
+		owner = { 
+			is_free_or_tributary_trigger = yes
+		}
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		} 
+	}
+	keep_trigger = { always = yes }
+
+	tier_0 = {
+		upgrade_time = { months = 0 }
+		cost_to_upgrade = { factor = 0 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+
+	tier_1 = {
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier1 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { 
+			trade_steering = 0.1
+			sailors_recovery_speed = 0.1
+			naval_morale = 0.05
+		}
+		on_upgraded = { }
+	}
+
+	tier_2 = {
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier2 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { 
+			trade_steering = 0.2
+			sailors_recovery_speed = 0.2
+			naval_morale = 0.1
+		}
+		on_upgraded = { }
+	}
+
+	tier_3 = {
+		upgrade_time = { months = 360 }
+		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier3 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { 
+			trade_steering = 0.25
+			merchants = 1
+			sailors_recovery_speed = 0.25
+			naval_morale = 0.15
+		}
+		on_upgraded = { }
+	}
+}
+
+dragon_heart_temple = {
+	start = 631
+	
+	date = 54.01.01
+	
+	time = { months = 0 }
+	
+	build_cost = defines.constants.minor_monument_price_tier1
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	
+	type = monument
+
+	build_trigger = { 
+		religion = po_tun_pantheon
+		has_owner_religion = yes
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+	}
+
+	on_built = { }
+	on_destroyed = { }
+
+	can_use_modifiers_trigger = {
+		religion = po_tun_pantheon
+		has_owner_religion = yes
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+	}
+	can_upgrade_trigger = {
+		religion = po_tun_pantheon
+		has_owner_religion = yes
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+	}
+	keep_trigger = { always = yes }
+
+	tier_0 = {
+		upgrade_time = { months = 0 }
+		cost_to_upgrade = { factor = 0 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+
+	tier_1 = {
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier1 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { 
+			fire_damage = 0.05
+			prestige = 0.5
+			artillery_power = 0.05
+		}
+		on_upgraded = { }
+	}
+
+	tier_2 = {
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier2 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { 
+			fire_damage = 0.075
+			prestige = 1.0
+			artillery_power = 0.1
+		}
+		on_upgraded = { }
+	}
+
+	tier_3 = {
+		upgrade_time = { months = 360 }
+		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier3 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { 
+			fire_damage = 0.1
+			prestige = 1.5
+			artillery_power = 0.15
+		}
+		on_upgraded = { }
+	}
+}
+
+pristine_jungles = {
+	start = 1677
+	
+	date = 54.01.01
+	
+	time = { months = 0 }
+	
+	build_cost = defines.constants.minor_monument_price_tier1
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	
+	type = monument
+
+	build_trigger = { 
+		owner = { 
+			culture_group = po_tun_cg
+		}
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+	}
+
+	on_built = { }
+	on_destroyed = { }
+
+	can_use_modifiers_trigger = {
+		owner = { 
+			culture_group = po_tun_cg
+		}
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		} 
+	}
+	can_upgrade_trigger = {
+		owner = { 
+			culture_group = po_tun_cg
+		}
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		} 
+	}
+	keep_trigger = { always = yes }
+
+	tier_0 = {
+		upgrade_time = { months = 0 }
+		cost_to_upgrade = { factor = 0 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+
+	tier_1 = {
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier1 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { 
+			global_colonial_growth = 10
+			development_cost = -0.05
+			production_efficiency = 0.05
+		}
+		on_upgraded = { }
+	}
+
+	tier_2 = {
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier2 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { 
+			global_colonial_growth = 10
+			development_cost = -0.10
+			production_efficiency = 0.075
+		}
+		on_upgraded = { }
+	}
+
+	tier_3 = {
+		upgrade_time = { months = 360 }
+		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier3 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { 
+			global_colonial_growth = 25
+			development_cost = -0.15
+			colonists = 1
+			production_efficiency = 0.1
+		}
+		on_upgraded = { }
+	}
+}
+
+eternal_palace = {
+	start = 646
+	
+	date = 54.01.01
+	
+	time = { months = 0 }
+	
+	build_cost = defines.constants.minor_monument_price_tier1
+	can_be_moved = no
+	move_days_per_unit_distance = 10
+	starting_tier = 0
+	
+	type = monument
+
+	build_trigger = { 
+		culture = po_tun
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		}
+	}
+
+	on_built = { }
+	on_destroyed = { }
+
+	can_use_modifiers_trigger = {
+		culture = po_tun
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		} 
+	}
+	can_upgrade_trigger = {
+		culture = po_tun
+		OR = {
+			has_owner_culture = yes
+			has_owner_accepted_culture = yes
+		} 
+	}
+	keep_trigger = { always = yes }
+
+	tier_0 = {
+		upgrade_time = { months = 0 }
+		cost_to_upgrade = { factor = 0 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+
+	tier_1 = {
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier1 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { 
+			state_maintenance_modifier = -0.05 
+			governing_capacity_modifier = 0.05
+			administrative_efficiency = 0.02
+		}
+		on_upgraded = { }
+	}
+
+	tier_2 = {
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier2 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { 
+			state_maintenance_modifier = -0.1
+			governing_capacity_modifier = 0.1
+			administrative_efficiency = 0.04
+		}
+		on_upgraded = { }
+	}
+
+	tier_3 = {
+		upgrade_time = { months = 360 }
+		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier3 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = { 
+			state_maintenance_modifier = -0.15 
+			governing_capacity_modifier = 0.15
+			administrative_efficiency = 0.05
+		}
+		on_upgraded = { }
+	}
+}

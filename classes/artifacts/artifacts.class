@@ -567,7 +567,7 @@ staff_of_magnus = {
 		}
 
     modifiers = {
-        	technology_cost = -0.1
+        	idea_cost = -0.05
     }
     effects = {
 		owner = { change_innovativeness = 5 }

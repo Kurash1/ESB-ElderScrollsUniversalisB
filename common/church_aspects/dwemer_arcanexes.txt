@@ -36,7 +36,7 @@ repository_arcanex = {
 	is_blessing = yes
 	modifier = {
 		advisor_cost = -0.15
-		technology_cost = -0.05
+		#technology_cost = -0.05
 	}
 	ai_will_do = {
 		factor = 1

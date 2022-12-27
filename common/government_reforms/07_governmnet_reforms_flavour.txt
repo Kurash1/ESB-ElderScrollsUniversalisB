@@ -2388,7 +2388,7 @@ technological_council = {
 	icon = "achievement_victorian_three"
 	allow_normal_conversion = yes
 	modifiers = {
-		technology_cost = -0.05
+		idea_cost = -0.05
 	}
 }
 #Clerical Truth (Yellow)
@@ -2911,7 +2911,7 @@ copycat = {
 	icon = "achievement_ideas_guy"
 	allow_normal_conversion = yes
 	modifiers = {
-		technology_cost = -0.10
+		idea_cost = -0.10
 		embracement_cost = -0.25
 		diplomatic_reputation = -1.5
 	}

@@ -1084,7 +1084,7 @@ ancestor_scholar_personality = {
 	
 	knowledge_sharing = yes
 	
-	technology_cost = -0.10
+	idea_cost = -0.05
 	nation_designer_cost = 5
 } #comet chance less likely and makes it good (1 easier event), 2 easier events
 ancestor_entrepreneur_personality = {

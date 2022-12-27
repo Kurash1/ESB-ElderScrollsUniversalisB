@@ -294,7 +294,7 @@ es_estate_mages_disaster = {
 		devotion = -2.5
 		meritocracy = -2.5
 	
-		technology_cost = 0.25
+		#technology_cost = 0.25
 		idea_cost = 0.15
 		advisor_cost = 1.0
 		

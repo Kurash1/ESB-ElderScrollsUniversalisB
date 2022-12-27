@@ -5,7 +5,7 @@ antibankrapucy = {
 	manpower_recovery_speed = 1.0
 	sailors_recovery_speed = 1.0
 	advisor_cost = -1.0
-    technology_cost = -1.0
+    #technology_cost = -1.0
 	reinforce_speed = 0.50
 	global_colonial_growth = 250
 	idea_cost = -1.0
@@ -141,7 +141,7 @@ antibankrapucy = {
 06_etherial_research_facility = {
   global_institution_spread = 0.10
   idea_cost = -0.10
-  technology_cost = -0.10
+  #technology_cost = -0.10
 }
 
 06_etherial_crisis = {
@@ -409,7 +409,7 @@ skyrim_succession_war = {
 }
 
 17_disapearence_of_dwemers = {
-    technology_cost = 0.35
+    #technology_cost = 0.35
 	idea_cost = 0.25
 	advisor_cost = 0.15
 }
@@ -694,7 +694,7 @@ skyrim_succession_war = {
 
 25_forbidden_knowledges = {
     idea_cost = -0.35
-    technology_cost = -0.25
+    #technology_cost = -0.25
 	global_institution_spread = 0.15
 	devotion = -1
 	tolerance_own = -1.5
@@ -741,7 +741,7 @@ skyrim_succession_war = {
 
 27_desctruction_of_archives = {
     global_institution_spread = -0.25
-    technology_cost = 0.5
+    #technology_cost = 0.5
 	idea_cost = 0.75
 	embracement_cost = 1.0
 	advisor_cost = 0.10
@@ -758,7 +758,7 @@ skyrim_succession_war = {
 27_burning_books = {
     stability_cost_modifier = -1.0
 	global_unrest = -5
-	technology_cost = 0.50
+	#technology_cost = 0.50
 	idea_cost = 0.5
 	embracement_cost = 0.5
 }
@@ -766,7 +766,7 @@ skyrim_succession_war = {
 27_burning_heretics = {
     global_missionary_strength = 0.05
 	tolerance_own = 5
-    technology_cost = 0.50
+    #technology_cost = 0.50
 	idea_cost = 0.5
 	embracement_cost = 0.5
 }
@@ -1002,7 +1002,7 @@ blackrose_prison = {
 33_mages_guild = {
     fire_damage_received = -0.1
 	shock_damage_received = -0.1
-    technology_cost = 0.10
+    #technology_cost = 0.10
 	idea_cost = 0.25
 	drill_decay_modifier = -0.35
 }

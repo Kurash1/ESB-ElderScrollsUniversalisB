@@ -47,7 +47,7 @@ aetherium_crisis_disaster = {
 	modifier = {
 		idea_cost = 0.5
 		global_institution_spread = -0.35
-		technology_cost = 0.25
+		#technology_cost = 0.25
 	}
 	
 	on_start = es_6_scenario.2

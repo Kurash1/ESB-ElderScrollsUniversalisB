@@ -1038,7 +1038,7 @@ es_age_of_renascense = {
 			embracement_cost = -0.25
 		} ai_will_do = { factor = 1 } }
 		ab_9_2 = { modifier = {
-			technology_cost = -0.10
+			idea_cost = -0.05
 		} ai_will_do = { factor = 1 } }
 		ab_9_3 = { modifier = {
 			diplomats = 1

@@ -9,7 +9,7 @@ tribe_mechanic = {
 	modifiers = {
 	embracement_cost = 0.15
     global_institution_spread = -0.15
-	technology_cost = 0.15
+	#technology_cost = 0.15
 	idea_cost = 0.15
 	advisor_cost = 0.15
 	
@@ -538,7 +538,7 @@ retain_tribal_hierarchy_reform = {
 			land_morale = 0.1
 		}
 		snow_elves_cg = {
-			idea_cost = -0.10
+			idea_cost = -0.05
 		}
 		orsimer_cg = {
 			discipline = 0.05
@@ -580,7 +580,7 @@ retain_tribal_hierarchy_reform = {
 		    global_manpower_modifier = 0.10
 		}
 		unknown_cg = {
-		    technology_cost = -0.10
+		    idea_cost = -0.05
 		}
 	}
 	

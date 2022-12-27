@@ -19,7 +19,7 @@ fall_of_nobility = {
 }
 
 church_in_power = {
-	technology_cost = 0.25
+	#technology_cost = 0.25
 	idea_cost = 0.5
 	tolerance_heretic = -2.5
 	tolerance_heathen = -2.5
