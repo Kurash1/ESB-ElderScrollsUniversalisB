@@ -1,39 +1,38 @@
-##owner = CC4
-##controller = CC4
-##add_core = CC4
-#religion = meridia_cult
-#culture = ayleid
-#hre = no
-#base_tax = 4
-#base_production = 4
-#trade_goods = unknown
-#base_manpower = 4
-#capital = "Entim"
-#is_city = yes
-#
-#
-#
-##57.1.1 = {
-#   #owner = CI8
-#   #controller = CI8
-#   #add_core = CI8
-##}
-#
-#272.1.1 = {
-#   #owner = AYL
-#   #controller = AYL
-#   #add_core = AYL
-##}
-#
-#535.1.1 = {
-##}
-#
-#862.1.1 = {
-##}
-#
-#1177.1.1 = {
-##}
-#
-#1466.1.1 = {
-##}
-#
+owner = CC4
+controller = CC4
+add_core = CC4
+religion = meridia_cult
+culture = ayleid
+hre = no
+base_tax = 4
+base_production = 4
+trade_goods = unknown
+base_manpower = 4
+capital = "Entim"
+is_city = yes
+
+
+
+57.1.1 = {
+   owner = CI8
+   controller = CI8
+   add_core = CI8
+}
+
+272.1.1 = {
+   owner = AYL
+   controller = AYL
+   add_core = AYL
+}
+
+535.1.1 = {
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}

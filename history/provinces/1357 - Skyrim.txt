@@ -1,18 +1,18 @@
-#
-#
-#
-#culture = reachmen
-#religion = old_gods_cult
-#hre = no
-#base_tax = 3
-#base_production = 3
-#trade_goods = unknown
-#base_manpower = 3
-#capital = "Hertith"
-#is_city = no
-##57.1.1 = { 
-#    #owner = NC4
-#    #controller = NC4
-#    #add_core = NC4
-#    is_city = yes
-##}
+
+
+
+culture = reachmen
+religion = old_gods_cult
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = unknown
+base_manpower = 3
+capital = "Hertith"
+is_city = no
+57.1.1 = { 
+    owner = NC4
+    controller = NC4
+    add_core = NC4
+    is_city = yes
+}

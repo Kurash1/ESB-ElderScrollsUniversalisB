@@ -1,12 +1,11 @@
-#religion = malacath_cult
-#culture = orsimer
-#hre = no
-#base_tax = 1
-#base_production = 1
-#trade_goods = unknown
-#base_manpower = 4
-#capital = "Kaushtarari"
-#is_city = no
-#
-#
-#
+religion = malacath_cult
+culture = orsimer
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 4
+capital = "Kaushtarari"
+is_city = no
+
+

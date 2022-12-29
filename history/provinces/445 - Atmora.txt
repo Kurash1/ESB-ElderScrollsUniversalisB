@@ -1,33 +1,32 @@
-##owner = DD6
-##controller = DD6
-##add_core = DD6
-#religion = dragon_cult
-#culture = glacial
-#hre = no
-#base_tax = 7
-#base_production = 7
-#trade_goods = unknown
-#base_manpower = 7
-#capital = "Flycymina"
-#is_city = yes
-#
-#
-#
-##57.1.1 = {
-##}
-#
-#272.1.1 = {
-##}
-#
-#535.1.1 = {
-##}
-#
-#862.1.1 = {
-##}
-#
-#1177.1.1 = {
-##}
-#
-#1466.1.1 = {
-##}
-#
+owner = DD6
+controller = DD6
+add_core = DD6
+religion = dragon_cult
+culture = glacial
+hre = no
+base_tax = 7
+base_production = 7
+trade_goods = unknown
+base_manpower = 7
+capital = "Flycymina"
+is_city = yes
+
+
+
+57.1.1 = {
+}
+
+272.1.1 = {
+}
+
+535.1.1 = {
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}

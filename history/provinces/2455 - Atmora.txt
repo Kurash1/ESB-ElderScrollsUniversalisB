@@ -1,42 +1,41 @@
-##owner = DD4
-##controller = DD4
-##add_core = DD4
-#religion = dragon_cult
-#culture = glacial
-#hre = no
-#base_tax = 1
-#base_production = 1
-#trade_goods = unknown
-#base_manpower = 1
-#capital = "Mizette"
-#is_city = yes
-#
-#
-#
-##57.1.1 = {
-#    #owner = DA3
-#    #controller = DA3
-#    #add_core = DA3
-##}
-#
-#272.1.1 = {
-#    #owner = DRA religion = dragon_cult
-#    #controller = DRA
-#    #add_core = DRA
-##}
-#
-#535.1.1 = {
-#    
-#    
-#    is_city = no
-##}
-#
-#862.1.1 = {
-##}
-#
-#1177.1.1 = {
-##}
-#
-#1466.1.1 = {
-##}
-#
+owner = DD4
+controller = DD4
+add_core = DD4
+religion = dragon_cult
+culture = glacial
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Mizette"
+is_city = yes
+
+
+
+57.1.1 = {
+    owner = DA3
+    controller = DA3
+    add_core = DA3
+}
+
+272.1.1 = {
+    owner = DRA religion = dragon_cult
+    controller = DRA
+    add_core = DRA
+}
+
+535.1.1 = {
+    
+    
+    is_city = no
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}

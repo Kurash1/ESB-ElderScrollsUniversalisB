@@ -1,11 +1,10 @@
-#religion = po_tun_pantheon
-#culture = po_tun
-#hre = no
-#base_tax = 2
-#base_production = 2
-#trade_goods = unknown
-#base_manpower = 2
-#capital = "Pruihame"
-#is_city = no
-#
-#
+religion = po_tun_pantheon
+culture = po_tun
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = unknown
+base_manpower = 2
+capital = "Pruihame"
+is_city = no
+

@@ -1,25 +1,24 @@
-#religion = all_maker_cult
-#culture = skaal
-#hre = no
-#base_tax = 1
-#base_production = 1
-#trade_goods = unknown
-#base_manpower = 1
-#capital = "Valbrandr"
-#is_city = no
-##57.1.1 = {
-##}
-#272.1.1 = {
-#	#owner = SKA
-#	#controller = SKA
-#	#add_core = SKA
-##}
-#535.1.1 = {
-##}
-#862.1.1 = {
-##}
-#1177.1.1 = {
-##}
-#1466.1.1 = {
-##}
-#
+religion = all_maker_cult
+culture = skaal
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Valbrandr"
+is_city = no
+57.1.1 = {
+}
+272.1.1 = {
+	owner = SKA
+	controller = SKA
+	add_core = SKA
+}
+535.1.1 = {
+}
+862.1.1 = {
+}
+1177.1.1 = {
+}
+1466.1.1 = {
+}

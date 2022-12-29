@@ -1,33 +1,32 @@
-##owner = DA8
-##controller = DA8
-##add_core = DA8
-#religion = cult_of_ancestors
-#culture = frost_giant
-#hre = no
-#base_tax = 2
-#base_production = 2
-#trade_goods = unknown
-#base_manpower = 2
-#capital = "Asta"
-#is_city = yes
-#
-#
-#
-##57.1.1 = {
-##}
-#
-#272.1.1 = {
-##}
-#
-#535.1.1 = {
-##}
-#
-#862.1.1 = {
-##}
-#
-#1177.1.1 = {
-##}
-#
-#1466.1.1 = {
-##}
-#
+owner = DA8
+controller = DA8
+add_core = DA8
+religion = cult_of_ancestors
+culture = frost_giant
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = unknown
+base_manpower = 2
+capital = "Asta"
+is_city = yes
+
+
+
+57.1.1 = {
+}
+
+272.1.1 = {
+}
+
+535.1.1 = {
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}

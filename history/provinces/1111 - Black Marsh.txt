@@ -1,35 +1,34 @@
-##owner = AA7
-##controller = AA7
-##add_core = AA7
-#religion = nocturnal_cult
-#culture = lilmothiit
-#hre = no
-#base_tax = 3
-#base_production = 3
-#trade_goods = unknown
-#base_manpower = 3
-#capital = "Neeslei"
-#is_city = yes
-#
-#
-##57.1.1 = {
-#   #owner = AA6
-#   #controller = AA6
-#   #add_core = AA6
-##}
-#
-#272.1.1 = {
-##}
-#
-#535.1.1 = {
-##}
-#
-#862.1.1 = {
-##}
-#
-#1177.1.1 = {
-##}
-#
-#1466.1.1 = {
-##}
-#
+owner = AA7
+controller = AA7
+add_core = AA7
+religion = nocturnal_cult
+culture = lilmothiit
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = unknown
+base_manpower = 3
+capital = "Neeslei"
+is_city = yes
+
+
+57.1.1 = {
+   owner = AA6
+   controller = AA6
+   add_core = AA6
+}
+
+272.1.1 = {
+}
+
+535.1.1 = {
+}
+
+862.1.1 = {
+}
+
+1177.1.1 = {
+}
+
+1466.1.1 = {
+}

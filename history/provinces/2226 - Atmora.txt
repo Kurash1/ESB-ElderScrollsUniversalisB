@@ -1,11 +1,10 @@
-#religion = cult_of_ancestors
-#culture = sea_giant
-#hre = no
-#base_tax = 1
-#base_production = 1
-#trade_goods = wood
-#base_manpower = 1
-#capital = "Meyovon"
-#is_city = no
-#
-#
+religion = cult_of_ancestors
+culture = sea_giant
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = wood
+base_manpower = 1
+capital = "Meyovon"
+is_city = no
+

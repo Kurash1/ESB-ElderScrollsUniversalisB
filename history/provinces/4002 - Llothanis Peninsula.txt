@@ -1,31 +1,30 @@
-##owner = MF7
-##controller = MF7
-##add_core = MF7
-#religion = chimer_pantheon
-#culture = ashlander_chimer
-#hre = no
-#base_tax = 3
-#base_production = 3
-#trade_goods = unknown
-#base_manpower = 3
-#capital = "Enamor Dayn"
-#is_city = yes
-#
-#center_of_trade = 1
-#
-##57.1.1 = {
-#	#owner = MF7
-#	#controller = MF7
-#	#add_core = MF7
-##}
-#272.1.1 = {
-##}
-#535.1.1 = {
-##}
-#862.1.1 = {
-##}
-#1177.1.1 = {
-##}
-#1466.1.1 = {
-##}
-#
+owner = MF7
+controller = MF7
+add_core = MF7
+religion = chimer_pantheon
+culture = ashlander_chimer
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = unknown
+base_manpower = 3
+capital = "Enamor Dayn"
+is_city = yes
+
+center_of_trade = 1
+
+57.1.1 = {
+	owner = MF7
+	controller = MF7
+	add_core = MF7
+}
+272.1.1 = {
+}
+535.1.1 = {
+}
+862.1.1 = {
+}
+1177.1.1 = {
+}
+1466.1.1 = {
+}
