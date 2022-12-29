@@ -294,16 +294,6 @@ on_startup = {
 	initialize_schools_effect = yes
 	
 	country_event = { id = es_birthsigns.0 days = 1 }
-	
-	export_to_variable = {
-		which = year_on_coronation
-		value = trigger_value:is_year
-	}
-	export_to_variable = {
-		variable_name = ruler_age_on_coronation
-		value = trigger_value:ruler_age
-	}
-	log = "[ROOT.year_on_coronation.GetValue] [ROOT.ruler_age_on_coronation.GetValue]"
 }
 
 # country
@@ -1156,20 +1146,6 @@ on_new_consort = {
 
 # country
 on_monarch_death = {
-	if = {
-		limit = {
-			is_human_nation_trigger = yes
-		}
-		log = "RulerDeath:[ROOT.year_on_coronation.GetValue]:[ROOT.ruler_age_on_coronation.GetValue]:[ROOT.Culture.GetValue]"
-		export_to_variable = {
-			which = year_on_coronation
-			value = trigger_value:is_year
-		}
-		export_to_variable = {
-			variable_name = ruler_age_on_coronation
-			value = trigger_value:ruler_age
-		}
-	}
 	
 	if = { limit = { ai = no has_reform = backbone_of_the_nation } add_stability = -1 }
 	every_owned_province = {
@@ -1949,6 +1925,34 @@ on_siberian_pulse = {
 
 # country random events
 on_bi_yearly_pulse = {
+	if = {
+		limit = {
+			is_human_ruler_trigger = yes
+		}
+		trigger_switch = {
+			on_trigger = ruler_age
+			for age = 12 to 0 = {
+				(age*10) = {
+					random = {
+						chance = (age*age*0.05)
+						kill_ruler = yes
+					}
+				}
+			}
+		}
+		trigger_switch = {
+			on_trigger = heir_age
+			for age = 12 to 0 = {
+				(age*10) = {
+					random = {
+						chance = (age*age*0.05)
+						kill_heir = yes
+					}
+				}
+			}
+		}
+	}
+
 	## Development Mechanics
 	#random_owned_province = {
 	#	limit = {
@@ -2899,14 +2903,6 @@ on_conquest = {
 on_country_creation = { 
 	add_stability = 2
 	defines.functions.set_to_global_idea_level
-	set_variable = {
-		which = year_of_coronation
-		value = 57
-	}
-	export_to_variable = {
-		variable_name = age_on_coronation
-		value = trigger_value:ruler_age
-	}
 }
 
 on_federation_leader_change = {

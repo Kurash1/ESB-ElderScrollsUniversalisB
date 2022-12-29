@@ -582,6 +582,7 @@ base_values = {
 	monthly_militarized_society = -0.10
 	yearly_tribal_allegiance = 1.0
 	monthly_reform_progress = 1
+	#may_establish_frontier = yes
 }
 
 ai_nation = {
