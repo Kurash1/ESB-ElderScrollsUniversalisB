@@ -1,36 +1,37 @@
-owner = CI4
-controller = CI4
-add_core = CI4
-religion = meridia_cult
-culture = ayleid
-hre = no
-base_tax = 2
-base_production = 2
-trade_goods = unknown
-base_manpower = 2
-capital = "Sexely"
-is_city = yes
-
-
-
-57.1.1 = {
-   owner = CB9
-   controller = CB9
-   add_core = CB9
-   religion = nedic_pantheon
-}
-
-272.1.1 = {
-}
-
-535.1.1 = {
-}
-
-862.1.1 = {
-}
-
-1177.1.1 = {
-}
-
-1466.1.1 = {
-}
+##owner = CI4
+##controller = CI4
+##add_core = CI4
+#religion = meridia_cult
+#culture = ayleid
+#hre = no
+#base_tax = 2
+#base_production = 2
+#trade_goods = unknown
+#base_manpower = 2
+#capital = "Sexely"
+#is_city = yes
+#
+#
+#
+##57.1.1 = {
+#   #owner = CB9
+#   #controller = CB9
+#   #add_core = CB9
+#   religion = nedic_pantheon
+##}
+#
+#272.1.1 = {
+##}
+#
+#535.1.1 = {
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#

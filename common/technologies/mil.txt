@@ -146,6 +146,7 @@ technology = {
 	enable = soul_shriven_I00
 	enable = void_I00
 	enable = lilmothiit_I00
+	enable = goblin_I00
 	enable = minotaur_I00
 	enable = kothringi_I00
 	# Cavalry Tier 0 
@@ -169,6 +170,7 @@ technology = {
 	enable = soul_shriven_C00
 	enable = void_C00
 	enable = lilmothiit_C00
+	enable = goblin_C00
 	enable = minotaur_C00
 	enable = kothringi_C00
 	# Artillery Tier 0 
@@ -192,6 +194,7 @@ technology = {
 	enable = soul_shriven_A00
 	enable = void_A00
 	enable = lilmothiit_A00
+	enable = goblin_A00
 	enable = minotaur_A00
 	enable = kothringi_A00
 	may_drill = yes

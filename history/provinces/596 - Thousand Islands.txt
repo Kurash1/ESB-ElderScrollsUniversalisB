@@ -1,10 +1,11 @@
-religion = tang_mo_pantheon
-culture = tangmo
-hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-capital = Inegari
-is_city = no
-
+#religion = tang_mo_pantheon
+#culture = tangmo
+#hre = no
+#base_tax = 1
+#base_production = 1
+#trade_goods = unknown
+#base_manpower = 1
+#capital = Inegari
+#is_city = no
+#
+#

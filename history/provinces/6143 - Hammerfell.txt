@@ -1,18 +1,18 @@
-owner = HB6
-controller = HB6
-add_core = HB6
-religion = keptu_pantheon
-culture = perena
-hre = no
-base_tax = 2
-base_production = 2
-trade_goods = unknown
-base_manpower = 2
-capital = "Danith"
-is_city = yes
-57.1.1 = { owner = HA1 controller = HA1 add_core = HA1 } 
-272.1.1 = { } 
-535.1.1 = { } 
-862.1.1 = { } 
-1177.1.1 = { } 
-1466.1.1 = { } 
+##owner = HB6
+##controller = HB6
+##add_core = HB6
+#religion = keptu_pantheon
+#culture = perena
+#hre = no
+#base_tax = 2
+#base_production = 2
+#trade_goods = unknown
+#base_manpower = 2
+#capital = "Danith"
+#is_city = yes
+##57.1.1 = { #owner = HA1 #controller = HA1 #add_core = HA1 #} 
+#272.1.1 = { #} 
+#535.1.1 = { #} 
+#862.1.1 = { #} 
+#1177.1.1 = { #} 
+#1466.1.1 = { #} 

@@ -1,10 +1,11 @@
-religion = bosmer_pantheon
-culture = bosmer
-hre = no
-base_tax = 3
-base_production = 3
-trade_goods = unknown
-base_manpower = 3
-capital = "Galrchel"
-is_city = no
-
+#religion = bosmer_pantheon
+#culture = bosmer
+#hre = no
+#base_tax = 3
+#base_production = 3
+#trade_goods = unknown
+#base_manpower = 3
+#capital = "Galrchel"
+#is_city = no
+#
+#

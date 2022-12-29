@@ -1,27 +1,28 @@
-owner = MB4
-controller = MB4
-add_core = MB4
-religion = azura_cult
-culture = ashlander_chimer
-hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-capital = "Holamayan"
-is_city = yes
-57.1.1 = {
-	owner = MB4
-	controller = MB4
-	add_core = MB4
-}
-272.1.1 = {
-}
-535.1.1 = {
-}
-862.1.1 = {
-}
-1177.1.1 = {
-}
-1466.1.1 = {
-}
+##owner = MB4
+##controller = MB4
+##add_core = MB4
+#religion = azura_cult
+#culture = ashlander_chimer
+#hre = no
+#base_tax = 1
+#base_production = 1
+#trade_goods = unknown
+#base_manpower = 1
+#capital = "Holamayan"
+#is_city = yes
+##57.1.1 = {
+#	#owner = MB4
+#	#controller = MB4
+#	#add_core = MB4
+##}
+#272.1.1 = {
+##}
+#535.1.1 = {
+##}
+#862.1.1 = {
+##}
+#1177.1.1 = {
+##}
+#1466.1.1 = {
+##}
+#

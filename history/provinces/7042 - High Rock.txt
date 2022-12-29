@@ -1,34 +1,35 @@
-owner = BC7
-controller = BC7
-add_core = BC7
-religion = altmeri_pantheon
-culture = breton
-hre = no
-base_tax = 3
-base_production = 3
-trade_goods = unknown
-base_manpower = 3
-capital = "Pherrie"
-is_city = yes
-
-
-57.1.1 = {
-   owner = BA7
-   controller = BA7
-   add_core = BA7
-}
-
-272.1.1 = {
-}
-
-535.1.1 = {
-}
-
-862.1.1 = {
-}
-
-1177.1.1 = {
-}
-
-1466.1.1 = {
-}
+##owner = BC7
+##controller = BC7
+##add_core = BC7
+#religion = altmeri_pantheon
+#culture = breton
+#hre = no
+#base_tax = 3
+#base_production = 3
+#trade_goods = unknown
+#base_manpower = 3
+#capital = "Pherrie"
+#is_city = yes
+#
+#
+##57.1.1 = {
+#   #owner = BA7
+#   #controller = BA7
+#   #add_core = BA7
+##}
+#
+#272.1.1 = {
+##}
+#
+#535.1.1 = {
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#

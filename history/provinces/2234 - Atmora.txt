@@ -1,41 +1,42 @@
-owner = DB2
-controller = DB2
-add_core = DB2
-religion = dragon_cult
-culture = glacial
-hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-capital = "Gel'qi"
-is_city = yes
-
-
-
-57.1.1 = {
-    owner = DA1
-    controller = DA1
-    add_core = DA1
-}
-
-272.1.1 = {
-    owner = DRA religion = dragon_cult
-    controller = DRA
-    add_core = DRA
-}
-
-535.1.1 = {
-    
-    
-    is_city = no
-}
-
-862.1.1 = {
-}
-
-1177.1.1 = {
-}
-
-1466.1.1 = {
-}
+##owner = DB2
+##controller = DB2
+##add_core = DB2
+#religion = dragon_cult
+#culture = glacial
+#hre = no
+#base_tax = 1
+#base_production = 1
+#trade_goods = unknown
+#base_manpower = 1
+#capital = "Gel'qi"
+#is_city = yes
+#
+#
+#
+##57.1.1 = {
+#    #owner = DA1
+#    #controller = DA1
+#    #add_core = DA1
+##}
+#
+#272.1.1 = {
+#    #owner = DRA religion = dragon_cult
+#    #controller = DRA
+#    #add_core = DRA
+##}
+#
+#535.1.1 = {
+#    
+#    
+#    is_city = no
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#

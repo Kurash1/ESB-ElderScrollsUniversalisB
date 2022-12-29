@@ -1,34 +1,35 @@
-owner = AC0
-controller = AC0
-add_core = AC0
-religion = hist
-culture = archein
-hre = no
-base_tax = 3
-base_production = 3
-trade_goods = unknown
-base_manpower = 3
-capital = "Beekaraje"
-is_city = yes
-
-
-57.1.1 = {
-   owner = AA3
-   controller = AA3
-   add_core = AA3
-}
-
-272.1.1 = {
-}
-
-535.1.1 = {
-}
-
-862.1.1 = {
-}
-
-1177.1.1 = {
-}
-
-1466.1.1 = {
-}
+##owner = AC0
+##controller = AC0
+##add_core = AC0
+#religion = hist
+#culture = archein
+#hre = no
+#base_tax = 3
+#base_production = 3
+#trade_goods = unknown
+#base_manpower = 3
+#capital = "Beekaraje"
+#is_city = yes
+#
+#
+##57.1.1 = {
+#   #owner = AA3
+#   #controller = AA3
+#   #add_core = AA3
+##}
+#
+#272.1.1 = {
+##}
+#
+#535.1.1 = {
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#

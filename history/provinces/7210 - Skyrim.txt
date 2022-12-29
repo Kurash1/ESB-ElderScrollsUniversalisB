@@ -1,24 +1,24 @@
-
-
-
-culture = reachmen
-religion = old_gods_cult
-hre = no
-base_tax = 6
-base_production = 6
-trade_goods = unknown
-base_manpower = 6
-capital = "Harmugstahl"
-is_city = no
-57.1.1 = { 
-    
-    
-    
-    is_city = no
-}
-
-272.1.1 = { } 
-535.1.1 = { } 
-862.1.1 = { } 
-1177.1.1 = { } 
-1466.1.1 = { } 
+#
+#
+#
+#culture = reachmen
+#religion = old_gods_cult
+#hre = no
+#base_tax = 6
+#base_production = 6
+#trade_goods = unknown
+#base_manpower = 6
+#capital = "Harmugstahl"
+#is_city = no
+##57.1.1 = { 
+#    
+#    
+#    
+#    is_city = no
+##}
+#
+#272.1.1 = { #} 
+#535.1.1 = { #} 
+#862.1.1 = { #} 
+#1177.1.1 = { #} 
+#1466.1.1 = { #} 

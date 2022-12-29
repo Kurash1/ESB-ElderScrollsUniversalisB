@@ -1,30 +1,31 @@
-owner = MF2
-controller = MF2
-add_core = MF2
-religion = chimer_pantheon
-culture = ashlander_chimer
-hre = no
-base_tax = 3
-base_production = 3
-trade_goods = unknown
-base_manpower = 3
-capital = "Othrensis"
-is_city = yes
-
-center_of_trade = 1
-
-57.1.1 = {
-	owner = MF2
-	controller = MF2
-	add_core = MF2
-}
-272.1.1 = {
-}
-535.1.1 = {
-}
-862.1.1 = {
-}
-1177.1.1 = {
-}
-1466.1.1 = {
-}
+##owner = MF2
+##controller = MF2
+##add_core = MF2
+#religion = chimer_pantheon
+#culture = ashlander_chimer
+#hre = no
+#base_tax = 3
+#base_production = 3
+#trade_goods = unknown
+#base_manpower = 3
+#capital = "Othrensis"
+#is_city = yes
+#
+#center_of_trade = 1
+#
+##57.1.1 = {
+#	#owner = MF2
+#	#controller = MF2
+#	#add_core = MF2
+##}
+#272.1.1 = {
+##}
+#535.1.1 = {
+##}
+#862.1.1 = {
+##}
+#1177.1.1 = {
+##}
+#1466.1.1 = {
+##}
+#

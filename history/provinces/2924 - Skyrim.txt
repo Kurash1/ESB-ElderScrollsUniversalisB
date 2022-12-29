@@ -1,33 +1,34 @@
-owner = NE2
-controller = NE2
-add_core = NE2
-religion = reason_and_logic_cult
-culture = rourkenid
-hre = no
-base_tax = 27
-base_production = 55
-trade_goods = unknown
-base_manpower = 35
-capital = "Mzulft"
-is_city = yes
-
-
-
-57.1.1 = {
-}
-
-272.1.1 = {
-    trade_goods = aetherium
-}
-
-535.1.1 = {
-}
-
-862.1.1 = {
-}
-
-1177.1.1 = {
-}
-
-1466.1.1 = {
-}
+##owner = NE2
+##controller = NE2
+##add_core = NE2
+#religion = reason_and_logic_cult
+#culture = rourkenid
+#hre = no
+#base_tax = 27
+#base_production = 55
+#trade_goods = unknown
+#base_manpower = 35
+#capital = "Mzulft"
+#is_city = yes
+#
+#
+#
+##57.1.1 = {
+##}
+#
+#272.1.1 = {
+#    trade_goods = aetherium
+##}
+#
+#535.1.1 = {
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#

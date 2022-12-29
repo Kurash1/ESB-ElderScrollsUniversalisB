@@ -1,12 +1,13 @@
-owner = SKA
-controller = SKA
-add_core = SKA
-religion = all_maker_cult
-culture = skaal
-hre = no
-base_tax = 6
-base_production = 5
-trade_goods = weapons_and_armor
-base_manpower = 7
-capital = "Rimhull"
-is_city = yes
+##owner = SKA
+##controller = SKA
+##add_core = SKA
+#religion = all_maker_cult
+#culture = skaal
+#hre = no
+#base_tax = 6
+#base_production = 5
+#trade_goods = weapons_and_armor
+#base_manpower = 7
+#capital = "Rimhull"
+#is_city = yes
+#

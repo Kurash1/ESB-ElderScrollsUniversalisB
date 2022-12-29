@@ -1,10 +1,11 @@
-religion = molag_bal_cult
-culture = harvester
-hre = no
-base_tax = 2
-base_production = 2
-trade_goods = unknown
-base_manpower = 2
-capital = "Feloyi"
-is_city = no
-
+#religion = molag_bal_cult
+#culture = harvester
+#hre = no
+#base_tax = 2
+#base_production = 2
+#trade_goods = unknown
+#base_manpower = 2
+#capital = "Feloyi"
+#is_city = no
+#
+#

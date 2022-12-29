@@ -1,31 +1,32 @@
-owner = VC7
-controller = VC7
-add_core = VC7
-religion = altmeri_pantheon
-culture = imga
-hre = no
-base_tax = 6
-base_production = 6
-trade_goods = unknown
-base_manpower = 6
-capital = "Marbruk"
-is_city = yes
-
-
-57.1.1 = {
-}
-
-272.1.1 = {
-}
-
-535.1.1 = {
-}
-
-862.1.1 = {
-}
-
-1177.1.1 = {
-}
-
-1466.1.1 = {
-}
+##owner = VC7
+##controller = VC7
+##add_core = VC7
+#religion = altmeri_pantheon
+#culture = imga
+#hre = no
+#base_tax = 6
+#base_production = 6
+#trade_goods = unknown
+#base_manpower = 6
+#capital = "Marbruk"
+#is_city = yes
+#
+#
+##57.1.1 = {
+##}
+#
+#272.1.1 = {
+##}
+#
+#535.1.1 = {
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#

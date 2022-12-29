@@ -1,35 +1,36 @@
-owner = PA5
-controller = PA5
-add_core = PA5
-religion = serpant_king
-culture = maormer
-hre = no
-base_tax = 4
-base_production = 4
-trade_goods = unknown
-base_manpower = 4
-capital = "Serenios"
-is_city = yes
-
-
-
-57.1.1 = {
-    owner = PA5
-    controller = PA5
-    add_core = PA5
-}
-
-272.1.1 = {
-}
-
-535.1.1 = {
-}
-
-862.1.1 = {
-}
-
-1177.1.1 = {
-}
-
-1466.1.1 = {
-}
+##owner = PA5
+##controller = PA5
+##add_core = PA5
+#religion = serpant_king
+#culture = maormer
+#hre = no
+#base_tax = 4
+#base_production = 4
+#trade_goods = unknown
+#base_manpower = 4
+#capital = "Serenios"
+#is_city = yes
+#
+#
+#
+##57.1.1 = {
+#    #owner = PA5
+#    #controller = PA5
+#    #add_core = PA5
+##}
+#
+#272.1.1 = {
+##}
+#
+#535.1.1 = {
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#

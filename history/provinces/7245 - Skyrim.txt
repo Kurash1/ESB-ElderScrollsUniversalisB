@@ -1,24 +1,24 @@
-
-
-
-religion = old_gods_cult
-culture = reachmen
-hre = no
-base_tax = 5
-base_production = 6
-trade_goods = unknown
-base_manpower = 4
-capital = "Arkngthamz"
-is_city = no
-57.1.1 = { 
-    
-    
-    
-    is_city = no
-}
-
-272.1.1 = { owner = NC7 controller = NC7 add_core = NC7 } 
-535.1.1 = { } 
-862.1.1 = { } 
-1177.1.1 = { } 
-1466.1.1 = { } 
+#
+#
+#
+#religion = old_gods_cult
+#culture = reachmen
+#hre = no
+#base_tax = 5
+#base_production = 6
+#trade_goods = unknown
+#base_manpower = 4
+#capital = "Arkngthamz"
+#is_city = no
+##57.1.1 = { 
+#    
+#    
+#    
+#    is_city = no
+##}
+#
+#272.1.1 = { #owner = NC7 #controller = NC7 #add_core = NC7 #} 
+#535.1.1 = { #} 
+#862.1.1 = { #} 
+#1177.1.1 = { #} 
+#1466.1.1 = { #} 

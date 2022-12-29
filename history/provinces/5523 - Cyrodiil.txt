@@ -1,34 +1,35 @@
-owner = CD7
-controller = CD7
-add_core = CD7
-religion = meridia_cult
-culture = ayleid
-hre = no
-base_tax = 4
-base_production = 4
-trade_goods = unknown
-base_manpower = 4
-capital = "Accanari"
-is_city = yes
-
-
-57.1.1 = {
-   owner = CA3
-   controller = CA3
-   add_core = CA3
-}
-
-272.1.1 = {
-}
-
-535.1.1 = {
-}
-
-862.1.1 = {
-}
-
-1177.1.1 = {
-}
-
-1466.1.1 = {
-}
+##owner = CD7
+##controller = CD7
+##add_core = CD7
+#religion = meridia_cult
+#culture = ayleid
+#hre = no
+#base_tax = 4
+#base_production = 4
+#trade_goods = unknown
+#base_manpower = 4
+#capital = "Accanari"
+#is_city = yes
+#
+#
+##57.1.1 = {
+#   #owner = CA3
+#   #controller = CA3
+#   #add_core = CA3
+##}
+#
+#272.1.1 = {
+##}
+#
+#535.1.1 = {
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#

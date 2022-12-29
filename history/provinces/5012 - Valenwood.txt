@@ -1,34 +1,35 @@
-owner = VC5
-controller = VC5
-add_core = VC5
-religion = altmeri_pantheon
-culture = imga
-hre = no
-base_tax = 2
-base_production = 2
-trade_goods = unknown
-base_manpower = 2
-capital = "Celecialfin"
-is_city = yes
-
-
-57.1.1 = {
-    owner = VC5
-    controller = VC5
-    add_core = VC5
-}
-
-272.1.1 = {
-}
-
-535.1.1 = {
-}
-
-862.1.1 = {
-}
-
-1177.1.1 = {
-}
-
-1466.1.1 = {
-}
+##owner = VC5
+##controller = VC5
+##add_core = VC5
+#religion = altmeri_pantheon
+#culture = imga
+#hre = no
+#base_tax = 2
+#base_production = 2
+#trade_goods = unknown
+#base_manpower = 2
+#capital = "Celecialfin"
+#is_city = yes
+#
+#
+##57.1.1 = {
+#    #owner = VC5
+#    #controller = VC5
+#    #add_core = VC5
+##}
+#
+#272.1.1 = {
+##}
+#
+#535.1.1 = {
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#

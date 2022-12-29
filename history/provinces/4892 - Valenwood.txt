@@ -1,34 +1,35 @@
-owner = VB1
-controller = VB1
-add_core = VB1
-religion = altmeri_pantheon
-culture = altmer
-hre = no
-base_tax = 4
-base_production = 4
-trade_goods = unknown
-base_manpower = 4
-capital = "Elmstone"
-is_city = yes
-
-
-57.1.1 = {
-    owner = VB0
-    controller = VB0
-    add_core = VB0
-}
-
-272.1.1 = {
-}
-
-535.1.1 = {
-}
-
-862.1.1 = {
-}
-
-1177.1.1 = {
-}
-
-1466.1.1 = {
-}
+##owner = VB1
+##controller = VB1
+##add_core = VB1
+#religion = altmeri_pantheon
+#culture = altmer
+#hre = no
+#base_tax = 4
+#base_production = 4
+#trade_goods = unknown
+#base_manpower = 4
+#capital = "Elmstone"
+#is_city = yes
+#
+#
+##57.1.1 = {
+#    #owner = VB0
+#    #controller = VB0
+#    #add_core = VB0
+##}
+#
+#272.1.1 = {
+##}
+#
+#535.1.1 = {
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#

@@ -1,10 +1,11 @@
-religion = serpant_king
-culture = maormer
-hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-capital = "Vermita"
-is_city = no
-
+#religion = serpant_king
+#culture = maormer
+#hre = no
+#base_tax = 1
+#base_production = 1
+#trade_goods = unknown
+#base_manpower = 1
+#capital = "Vermita"
+#is_city = no
+#
+#

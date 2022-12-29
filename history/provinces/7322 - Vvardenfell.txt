@@ -1,28 +1,29 @@
-owner = TON
-controller = TON
-add_core = TON
-religion = reason_and_logic_cult
-culture = kagrenmer
-hre = no
-base_tax = 4
-base_production = 6
-trade_goods = malachite
-base_manpower = 2
-capital = "Endusal"
-is_city = yes
-
-57.1.1 = {
-	owner = TON
-	controller = TON
-	add_core = TON
-}
-272.1.1 = {
-}
-535.1.1 = {
-}
-862.1.1 = {
-}
-1177.1.1 = {
-}
-1466.1.1 = {
-}
+##owner = TON
+##controller = TON
+##add_core = TON
+#religion = reason_and_logic_cult
+#culture = kagrenmer
+#hre = no
+#base_tax = 4
+#base_production = 6
+#trade_goods = malachite
+#base_manpower = 2
+#capital = "Endusal"
+#is_city = yes
+#
+##57.1.1 = {
+#	#owner = TON
+#	#controller = TON
+#	#add_core = TON
+##}
+#272.1.1 = {
+##}
+#535.1.1 = {
+##}
+#862.1.1 = {
+##}
+#1177.1.1 = {
+##}
+#1466.1.1 = {
+##}
+#

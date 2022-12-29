@@ -1,10 +1,11 @@
-religion = dragon_cult
-culture = atmoran
-hre = no
-base_tax = 3
-base_production = 3
-trade_goods = unknown
-base_manpower = 3
-capital = "Nevrass"
-is_city = no
-
+#religion = dragon_cult
+#culture = atmoran
+#hre = no
+#base_tax = 3
+#base_production = 3
+#trade_goods = unknown
+#base_manpower = 3
+#capital = "Nevrass"
+#is_city = no
+#
+#

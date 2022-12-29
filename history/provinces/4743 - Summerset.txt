@@ -1,10 +1,11 @@
-religion = altmeri_pantheon
-culture = altmer
-hre = no
-base_tax = 3
-base_production = 3
-trade_goods = unknown
-base_manpower = 3
-capital = "Giaana"
-is_city = no
-
+#religion = altmeri_pantheon
+#culture = altmer
+#hre = no
+#base_tax = 3
+#base_production = 3
+#trade_goods = unknown
+#base_manpower = 3
+#capital = "Giaana"
+#is_city = no
+#
+#

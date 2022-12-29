@@ -1,12 +1,13 @@
-owner = RIE
-controller = RIE
-add_core = RIE
-religion = hircine_cult
-culture = riekling
-hre = no
-base_tax = 6
-base_production = 4
-trade_goods = unknown
-base_manpower = 8
-capital = "Karstaag"
-is_city = yes
+##owner = RIE
+##controller = RIE
+##add_core = RIE
+#religion = hircine_cult
+#culture = riekling
+#hre = no
+#base_tax = 6
+#base_production = 4
+#trade_goods = unknown
+#base_manpower = 8
+#capital = "Karstaag"
+#is_city = yes
+#

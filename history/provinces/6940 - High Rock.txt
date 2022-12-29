@@ -1,18 +1,29 @@
-religion = altmeri_pantheon
-culture = altmer
-hre = no
-base_tax = 3
-base_production = 3
-trade_goods = unknown
-base_manpower = 3
-capital = "Metrton"
-is_city = no
-owner = BB7
-controller = BB7
-add_core = BB7
-57.1.1 = { } 
-272.1.1 = { } 
-535.1.1 = { } 
-862.1.1 = { } 
-1177.1.1 = { } 
-1466.1.1 = { } 
+#religion = malacath_cult
+#culture = goblin
+#hre = no
+#base_tax = 3
+#base_production = 3
+#trade_goods = unknown
+#base_manpower = 3
+#capital = "Metrton"
+#is_city = no
+#
+#
+##57.1.1 = {
+##}
+#
+#272.1.1 = {
+##}
+#
+#535.1.1 = {
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#

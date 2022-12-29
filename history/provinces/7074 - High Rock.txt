@@ -1,34 +1,35 @@
-owner = BD0
-controller = BD0
-add_core = BD0
-religion = malacath_cult
-culture = goblin
-hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-capital = "Frelette"
-is_city = yes
-
-
-57.1.1 = {
-}
-
-272.1.1 = {
-   owner = WTB
-   controller = WTB
-   add_core = WTB
-}
-
-535.1.1 = {
-}
-
-862.1.1 = {
-}
-
-1177.1.1 = {
-}
-
-1466.1.1 = {
-}
+##owner = BD0
+##controller = BD0
+##add_core = BD0
+#religion = malacath_cult
+#culture = goblin
+#hre = no
+#base_tax = 1
+#base_production = 1
+#trade_goods = unknown
+#base_manpower = 1
+#capital = "Frelette"
+#is_city = yes
+#
+#
+##57.1.1 = {
+##}
+#
+#272.1.1 = {
+#   #owner = WTB
+#   #controller = WTB
+#   #add_core = WTB
+##}
+#
+#535.1.1 = {
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#

@@ -1,32 +1,33 @@
-owner = NE3
-controller = NE3
-add_core = NE3
-religion = cult_of_ancestors
-culture = giant
-hre = no
-base_tax = 6
-base_production = 6
-trade_goods = unknown
-base_manpower = 6
-capital = "Valeski"
-is_city = yes
-
-
-
-57.1.1 = {
-}
-
-272.1.1 = {
-}
-
-535.1.1 = {
-}
-
-862.1.1 = {
-}
-
-1177.1.1 = {
-}
-
-1466.1.1 = {
-}
+##owner = NE3
+##controller = NE3
+##add_core = NE3
+#religion = cult_of_ancestors
+#culture = giant
+#hre = no
+#base_tax = 6
+#base_production = 6
+#trade_goods = unknown
+#base_manpower = 6
+#capital = "Valeski"
+#is_city = yes
+#
+#
+#
+##57.1.1 = {
+##}
+#
+#272.1.1 = {
+##}
+#
+#535.1.1 = {
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#

@@ -1,13 +1,14 @@
-owner = BLA
-controller = BLA
-add_core = BLA
-culture = al_dremoran
-religion = altmeri_pantheon
-hre = no
-base_tax = 10
-base_production = 10
-trade_goods = gold
-base_manpower = 10
-capital = "Black Mountain"
-is_city = yes
-
+##owner = BLA
+##controller = BLA
+##add_core = BLA
+#culture = al_dremoran
+#religion = altmeri_pantheon
+#hre = no
+#base_tax = 10
+#base_production = 10
+#trade_goods = gold
+#base_manpower = 10
+#capital = "Black Mountain"
+#is_city = yes
+#
+#

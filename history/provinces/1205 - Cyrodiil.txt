@@ -1,35 +1,36 @@
-owner = CB8
-controller = CB8
-add_core = CB8
-religion = meridia_cult
-culture = ayleid
-hre = no
-base_tax = 2
-base_production = 2
-trade_goods = unknown
-base_manpower = 2
-capital = "Sena"
-is_city = yes
-
-
-
-57.1.1 = {
-}
-
-272.1.1 = {
-   owner = AYL
-   controller = AYL
-   add_core = AYL
-}
-
-535.1.1 = {
-}
-
-862.1.1 = {
-}
-
-1177.1.1 = {
-}
-
-1466.1.1 = {
-}
+##owner = CB8
+##controller = CB8
+##add_core = CB8
+#religion = meridia_cult
+#culture = ayleid
+#hre = no
+#base_tax = 2
+#base_production = 2
+#trade_goods = unknown
+#base_manpower = 2
+#capital = "Sena"
+#is_city = yes
+#
+#
+#
+##57.1.1 = {
+##}
+#
+#272.1.1 = {
+#   #owner = AYL
+#   #controller = AYL
+#   #add_core = AYL
+##}
+#
+#535.1.1 = {
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#

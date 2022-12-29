@@ -1,18 +1,15 @@
-religion = nordic_pantheon
-culture = nord
-hre = yes
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
-capital = "Hillgrund's Tomb"
-is_city = no
-owner = NB2
-controller = NB2
-add_core = NB2
-57.1.1 = { } 
-272.1.1 = { religion = nordic_pantheon culture = nord } 
-535.1.1 = { } 
-862.1.1 = { } 
-1177.1.1 = { } 
-1466.1.1 = { } 
+#religion = dragon_cult
+#culture = atmoran
+#hre = yes
+#base_tax = 1
+#base_production = 1
+#trade_goods = unknown
+#base_manpower = 1
+#capital = "Hillgrund's Tomb"
+#is_city = no
+##57.1.1 = { #} 
+#272.1.1 = { religion = nordic_pantheon culture = nord #} 
+#535.1.1 = { #} 
+#862.1.1 = { #} 
+#1177.1.1 = { #} 
+#1466.1.1 = { #} 

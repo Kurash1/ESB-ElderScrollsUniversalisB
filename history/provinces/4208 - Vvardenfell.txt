@@ -1,10 +1,11 @@
-religion = reason_and_logic_cult
-culture = kagrenmer
-hre = no
-base_tax = 1
-base_production = 1
-trade_goods = ebony
-base_manpower = 1
-capital = "Uvirith"
-is_city = no
-
+#religion = reason_and_logic_cult
+#culture = kagrenmer
+#hre = no
+#base_tax = 1
+#base_production = 1
+#trade_goods = ebony
+#base_manpower = 1
+#capital = "Uvirith"
+#is_city = no
+#
+#

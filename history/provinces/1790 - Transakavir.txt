@@ -1,35 +1,36 @@
-owner = UA5
-controller = UA5
-add_core = UA5
-religion = dragon_cult
-culture = akaviri
-hre = no
-base_tax = 3
-base_production = 3
-trade_goods = unknown
-base_manpower = 3
-capital = "Eshinyi"
-is_city = yes
-
-
-
-57.1.1 = {
-    owner = UA3
-    controller = UA3
-    add_core = UA3
-}
-
-272.1.1 = {
-}
-
-535.1.1 = {
-}
-
-862.1.1 = {
-}
-
-1177.1.1 = {
-}
-
-1466.1.1 = {
-}
+##owner = UA5
+##controller = UA5
+##add_core = UA5
+#religion = dragon_cult
+#culture = akaviri
+#hre = no
+#base_tax = 3
+#base_production = 3
+#trade_goods = unknown
+#base_manpower = 3
+#capital = "Eshinyi"
+#is_city = yes
+#
+#
+#
+##57.1.1 = {
+#    #owner = UA3
+#    #controller = UA3
+#    #add_core = UA3
+##}
+#
+#272.1.1 = {
+##}
+#
+#535.1.1 = {
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#

@@ -1,18 +1,18 @@
-owner = HA2
-controller = HA2
-add_core = HA2
-religion = celestials
-culture = duraki
-hre = no
-base_tax = 3
-base_production = 3
-trade_goods = unknown
-base_manpower = 3
-capital = "Kalsinia"
-is_city = yes
-57.1.1 = { owner = HB9 controller = HB9 add_core = HB9 } 
-272.1.1 = { } 
-535.1.1 = { } 
-862.1.1 = { } 
-1177.1.1 = { } 
-1466.1.1 = { } 
+##owner = HA2
+##controller = HA2
+##add_core = HA2
+#religion = celestials
+#culture = duraki
+#hre = no
+#base_tax = 3
+#base_production = 3
+#trade_goods = unknown
+#base_manpower = 3
+#capital = "Kalsinia"
+#is_city = yes
+##57.1.1 = { #owner = HB9 #controller = HB9 #add_core = HB9 #} 
+#272.1.1 = { #} 
+#535.1.1 = { #} 
+#862.1.1 = { #} 
+#1177.1.1 = { #} 
+#1466.1.1 = { #} 

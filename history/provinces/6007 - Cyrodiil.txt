@@ -1,30 +1,31 @@
-religion = boethiah_cult
-culture = nedic
-hre = no
-base_tax = 2
-base_production = 2
-trade_goods = unknown
-base_manpower = 2
-capital = "Pedonia"
-is_city = no
-
-
-
-57.1.1 = {
-}
-
-272.1.1 = {
-   religion = nedic_pantheon
-}
-
-535.1.1 = {
-}
-
-862.1.1 = {
-}
-
-1177.1.1 = {
-}
-
-1466.1.1 = {
-}
+#religion = boethiah_cult
+#culture = nedic
+#hre = no
+#base_tax = 2
+#base_production = 2
+#trade_goods = unknown
+#base_manpower = 2
+#capital = "Pedonia"
+#is_city = no
+#
+#
+#
+##57.1.1 = {
+##}
+#
+#272.1.1 = {
+#   religion = nedic_pantheon
+##}
+#
+#535.1.1 = {
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#

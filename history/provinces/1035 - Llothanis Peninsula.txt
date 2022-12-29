@@ -1,27 +1,28 @@
-owner = SED
-controller = SED
-add_core = SED
-religion = sheogorath_cult
-culture = ashlander_chimer
-hre = no
-base_tax = 7
-base_production = 7
-trade_goods = moon_sugar
-base_manpower = 7
-capital = "Bahrammu"
-is_city = yes
-57.1.1 = {
-	owner = SED
-	controller = SED
-	add_core = SED
-}
-272.1.1 = {
-}
-535.1.1 = {
-}
-862.1.1 = {
-}
-1177.1.1 = {
-}
-1466.1.1 = {
-}
+##owner = SED
+##controller = SED
+##add_core = SED
+#religion = sheogorath_cult
+#culture = ashlander_chimer
+#hre = no
+#base_tax = 7
+#base_production = 7
+#trade_goods = moon_sugar
+#base_manpower = 7
+#capital = "Bahrammu"
+#is_city = yes
+##57.1.1 = {
+#	#owner = SED
+#	#controller = SED
+#	#add_core = SED
+##}
+#272.1.1 = {
+##}
+#535.1.1 = {
+##}
+#862.1.1 = {
+##}
+#1177.1.1 = {
+##}
+#1466.1.1 = {
+##}
+#

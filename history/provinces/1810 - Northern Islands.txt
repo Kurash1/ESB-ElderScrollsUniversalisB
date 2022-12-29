@@ -1,32 +1,33 @@
-owner = IA9
-controller = IA9
-add_core = IA9
-religion = dragon_cult
-culture = islander
-hre = no
-base_tax = 3
-base_production = 3
-trade_goods = unknown
-base_manpower = 3
-capital = "Moethenes"
-is_city = yes
-
-
-
-57.1.1 = {
-}
-
-272.1.1 = {
-}
-
-535.1.1 = {
-}
-
-862.1.1 = {
-}
-
-1177.1.1 = {
-}
-
-1466.1.1 = {
-}
+##owner = IA9
+##controller = IA9
+##add_core = IA9
+#religion = dragon_cult
+#culture = islander
+#hre = no
+#base_tax = 3
+#base_production = 3
+#trade_goods = unknown
+#base_manpower = 3
+#capital = "Moethenes"
+#is_city = yes
+#
+#
+#
+##57.1.1 = {
+##}
+#
+#272.1.1 = {
+##}
+#
+#535.1.1 = {
+##}
+#
+#862.1.1 = {
+##}
+#
+#1177.1.1 = {
+##}
+#
+#1466.1.1 = {
+##}
+#
