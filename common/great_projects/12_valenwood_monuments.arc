@@ -63,7 +63,7 @@ goldfolly = {
 			local_development_cost = -0.05
 			trade_goods_size_modifier = 0.05 
 			trade_value_modifier = 0.05
-			fort_level = 1
+			local_fort_maintenance_modifier = -0.5
 		}
 		area_modifier = {
 			local_prosperity_growth = 0.05
@@ -80,7 +80,7 @@ goldfolly = {
 			local_development_cost = -0.10
 			trade_goods_size_modifier = 0.10 
 			trade_value_modifier = 0.10
-			fort_level = 1
+			local_fort_maintenance_modifier = -0.5
 		}
 		area_modifier = {
 			local_prosperity_growth = 0.075
@@ -97,7 +97,7 @@ goldfolly = {
 			local_development_cost = -0.15
 			trade_goods_size_modifier = 0.15 
 			trade_value_modifier = 0.15
-			fort_level = 1
+			local_fort_maintenance_modifier = -0.5
 		}
 		area_modifier = {
 			local_prosperity_growth = 0.1
@@ -154,7 +154,7 @@ abamath = {
 			local_development_cost = -0.05
 			trade_goods_size_modifier = 0.05 
 			trade_value_modifier = 0.05
-			fort_level = 1
+			local_fort_maintenance_modifier = -0.5
 		}
 		area_modifier = {
 			local_prosperity_growth = 0.05
@@ -171,7 +171,7 @@ abamath = {
 			local_development_cost = -0.10
 			trade_goods_size_modifier = 0.10 
 			trade_value_modifier = 0.10
-			fort_level = 1
+			local_fort_maintenance_modifier = -0.5
 		}
 		area_modifier = {
 			local_prosperity_growth = 0.075
@@ -188,7 +188,7 @@ abamath = {
 			local_development_cost = -0.15
 			trade_goods_size_modifier = 0.15 
 			trade_value_modifier = 0.15
-			fort_level = 1
+			local_fort_maintenance_modifier = -0.5
 		}
 		area_modifier = {
 			local_prosperity_growth = 0.1
@@ -356,7 +356,7 @@ hectahame = {
 			local_development_cost = -0.05
 			trade_goods_size_modifier = 0.05 
 			trade_value_modifier = 0.05
-			fort_level = 1
+			local_fort_maintenance_modifier = -0.5
 		}
 		area_modifier = {
 			local_prosperity_growth = 0.05
@@ -376,7 +376,7 @@ hectahame = {
 			local_development_cost = -0.10
 			trade_goods_size_modifier = 0.10 
 			trade_value_modifier = 0.10
-			fort_level = 1
+			local_fort_maintenance_modifier = -0.5
 		}
 		area_modifier = {
 			local_prosperity_growth = 0.075
@@ -396,7 +396,7 @@ hectahame = {
 			local_development_cost = -0.15
 			trade_goods_size_modifier = 0.15 
 			trade_value_modifier = 0.15
-			fort_level = 1
+			local_fort_maintenance_modifier = -0.5
 		}
 		area_modifier = {
 			local_prosperity_growth = 0.1
@@ -561,7 +561,10 @@ remans_bluff = {
 			factor = defines.constants.minor_monument_price_tier1 
 		}
 		province_modifiers = { 
-			fort_level = 1
+			local_development_cost = -0.05
+			local_fort_maintenance_modifier = -0.1
+			local_garrison_size = 0.2
+			
 		}
 		area_modifier = { 
 			local_defensiveness = 0.25
@@ -577,7 +580,10 @@ remans_bluff = {
 			factor = defines.constants.minor_monument_price_tier2 
 		}
 		province_modifiers = { 
-			fort_level = 2
+			local_development_cost = -0.1
+			local_fort_maintenance_modifier = -0.2
+			local_garrison_size = 0.4
+			local_defender_dice_roll_bonus = 1
 		}
 		area_modifier = { 
 			local_defensiveness = 0.4
@@ -593,7 +599,10 @@ remans_bluff = {
 			factor = defines.constants.minor_monument_price_tier3 
 		}
 		province_modifiers = {
-			fort_level = 3
+			local_development_cost = -0.15
+			local_fort_maintenance_modifier = -0.3
+			local_garrison_size = 0.6
+			local_defender_dice_roll_bonus = 1
 		}
 		area_modifier = {
 			local_defensiveness = 0.5
@@ -660,7 +669,7 @@ elden_grove = {
 			local_development_cost = -0.05
 			trade_goods_size_modifier = 0.05 
 			trade_value_modifier = 0.05
-			fort_level = 1
+			local_fort_maintenance_modifier = -0.5
 		}
 		area_modifier = {
 			local_prosperity_growth = 0.05
@@ -681,7 +690,7 @@ elden_grove = {
 			local_development_cost = -0.10
 			trade_goods_size_modifier = 0.10 
 			trade_value_modifier = 0.10
-			fort_level = 1
+			local_fort_maintenance_modifier = -0.5
 		}
 		area_modifier = {
 			local_prosperity_growth = 0.075
@@ -702,7 +711,7 @@ elden_grove = {
 			local_development_cost = -0.15
 			trade_goods_size_modifier = 0.15 
 			trade_value_modifier = 0.15
-			fort_level = 1
+			local_fort_maintenance_modifier = -0.5
 		}
 		area_modifier = {
 			local_prosperity_growth = 0.1

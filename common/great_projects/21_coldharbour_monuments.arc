@@ -63,7 +63,7 @@ hollow_city = {
 			local_development_cost = -0.05
 			trade_goods_size_modifier = 0.05 
 			trade_value_modifier = 0.05
-			fort_level = 1
+			local_fort_maintenance_modifier = -0.5
 		}
 		area_modifier = {
 			local_prosperity_growth = 0.05
@@ -80,7 +80,7 @@ hollow_city = {
 			local_development_cost = -0.10
 			trade_goods_size_modifier = 0.10 
 			trade_value_modifier = 0.10
-			fort_level = 1
+			local_fort_maintenance_modifier = -0.5
 		}
 		area_modifier = {
 			local_prosperity_growth = 0.075
@@ -97,7 +97,7 @@ hollow_city = {
 			local_development_cost = -0.15
 			trade_goods_size_modifier = 0.15 
 			trade_value_modifier = 0.15
-			fort_level = 1
+			local_fort_maintenance_modifier = -0.5
 		}
 		area_modifier = {
 			local_prosperity_growth = 0.1
@@ -163,7 +163,7 @@ haj_uxith = {
 			local_development_cost = -0.05
 			trade_goods_size_modifier = 0.05 
 			trade_value_modifier = 0.05
-			fort_level = 1
+			local_fort_maintenance_modifier = -0.5
 		}
 		area_modifier = {
 			local_prosperity_growth = 0.05
@@ -180,7 +180,7 @@ haj_uxith = {
 			local_development_cost = -0.10
 			trade_goods_size_modifier = 0.10 
 			trade_value_modifier = 0.10
-			fort_level = 1
+			local_fort_maintenance_modifier = -0.5
 		}
 		area_modifier = {
 			local_prosperity_growth = 0.075
@@ -197,7 +197,7 @@ haj_uxith = {
 			local_development_cost = -0.15
 			trade_goods_size_modifier = 0.15 
 			trade_value_modifier = 0.15
-			fort_level = 1
+			local_fort_maintenance_modifier = -0.5
 		}
 		area_modifier = {
 			local_prosperity_growth = 0.1

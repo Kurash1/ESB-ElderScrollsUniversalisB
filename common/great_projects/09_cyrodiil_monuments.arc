@@ -833,10 +833,11 @@ pale_pass = {
 			factor = defines.constants.minor_monument_price_tier1 
 		}
 		province_modifiers = { 
-			fort_level = 1
+			local_defender_dice_roll_bonus = 1
 		}
 		area_modifier = { 
 			local_defensiveness = 0.25
+			supply_limit_modifier = 0.2
 		}
 		country_modifiers = { }
 		on_upgraded = { }
@@ -849,10 +850,11 @@ pale_pass = {
 			factor = defines.constants.minor_monument_price_tier2 
 		}
 		province_modifiers = { 
-			fort_level = 2
+			local_defender_dice_roll_bonus = 1
 		}
 		area_modifier = { 
 			local_defensiveness = 0.4
+			supply_limit_modifier = 0.4
 		}
 		country_modifiers = { }
 		on_upgraded = { }
@@ -865,10 +867,11 @@ pale_pass = {
 			factor = defines.constants.minor_monument_price_tier3 
 		}
 		province_modifiers = { 
-			fort_level = 3
+			local_defender_dice_roll_bonus = 2
 		}
 		area_modifier = { 
 			local_defensiveness = 0.5
+			supply_limit_modifier = 0.6
 		}
 		country_modifiers = { }
 		on_upgraded = { }
@@ -1191,7 +1194,7 @@ battlehorn_castle = {
 			factor = defines.constants.minor_monument_price_tier1 
 		}
 		province_modifiers = {
-			fort_level = 1
+			local_fort_maintenance_modifier = -0.25
 		}
 		area_modifier = { 
 			local_defensiveness = 0.25
@@ -1207,7 +1210,8 @@ battlehorn_castle = {
 			factor = defines.constants.minor_monument_price_tier2 
 		}
 		province_modifiers = {
-			fort_level = 2
+			local_defender_dice_roll_bonus = 1
+			local_fort_maintenance_modifier = -0.5
 		}
 		area_modifier = { 
 			local_defensiveness = 0.4
@@ -1223,7 +1227,8 @@ battlehorn_castle = {
 			factor = defines.constants.minor_monument_price_tier3 
 		}
 		province_modifiers = {
-			fort_level = 3
+			local_defender_dice_roll_bonus = 1
+			local_fort_maintenance_modifier = -0.75
 		}
 		area_modifier = { 
 			local_defensiveness = 0.5
@@ -1369,7 +1374,7 @@ anvil_castle = {
 			factor = defines.constants.minor_monument_price_tier1 
 		}
 		province_modifiers = {
-			fort_level = 1
+			local_fort_maintenance_modifier = -0.25
 		}
 		area_modifier = { 
 			local_defensiveness = 0.25
@@ -1385,7 +1390,8 @@ anvil_castle = {
 			factor = defines.constants.minor_monument_price_tier2 
 		}
 		province_modifiers = {
-			fort_level = 2
+			local_fort_maintenance_modifier = -0.5
+			local_defender_dice_roll_bonus = 1
 		}
 		area_modifier = { 
 			local_defensiveness = 0.4
@@ -1401,7 +1407,8 @@ anvil_castle = {
 			factor = defines.constants.minor_monument_price_tier3 
 		}
 		province_modifiers = {
-			fort_level = 3
+			local_fort_maintenance_modifier = -0.75
+			local_defender_dice_roll_bonus = 1
 		}
 		area_modifier = { 
 			local_defensiveness = 0.5
@@ -3155,10 +3162,10 @@ cloud_top = {
 	tier_1 = {
 		upgrade_time = { months = 120 }
 		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier1 }
-		province_modifiers = { fort_level = 1 }
+		province_modifiers = { }
 		area_modifier = { local_defensiveness = 0.15 }
 		country_modifiers = { 
-			fort_maintenance_modifier = -0.2
+			fort_maintenance_modifier = -0.1
 			defensiveness = 0.05
 			hostile_attrition = 0.05
 		}
@@ -3168,10 +3175,10 @@ cloud_top = {
 	tier_2 = {
 		upgrade_time = { months = 240 }
 		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier2 }
-		province_modifiers = { fort_level = 1 }
+		province_modifiers = { }
 		area_modifier = { local_defensiveness = 0.3 }
 		country_modifiers = {  
-			fort_maintenance_modifier = -0.4
+			fort_maintenance_modifier = -0.2
 			defensiveness = 0.1
 			hostile_attrition = 0.1
 		}
@@ -3181,10 +3188,10 @@ cloud_top = {
 	tier_3 = {
 		upgrade_time = { months = 360 }
 		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier3 }
-		province_modifiers = { fort_level = 1 }
+		province_modifiers = { }
 		area_modifier = { local_defensiveness = 0.45 }
 		country_modifiers = { 
-			fort_maintenance_modifier = -0.6
+			fort_maintenance_modifier = -0.3
 			defensiveness = 0.15
 			hostile_attrition = 0.15
 		}
@@ -3905,7 +3912,7 @@ sancre_tor = {
 	tier_1 = {
 		upgrade_time = { months = 120 }
 		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier1 }
-		province_modifiers = { fort_level = 1 }
+		province_modifiers = { }
 		area_modifier = { }
 		country_modifiers = {
 			land_morale = 0.025
@@ -3935,7 +3942,7 @@ sancre_tor = {
 	tier_3 = {
 		upgrade_time = { months = 360 }
 		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier3 }
-		province_modifiers = { fort_level = 2}
+		province_modifiers = { }
 		area_modifier = { local_defensiveness = 0.50 }
 		country_modifiers = { 
 			land_morale = 0.1

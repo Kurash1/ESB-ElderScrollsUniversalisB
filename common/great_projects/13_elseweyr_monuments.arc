@@ -48,41 +48,43 @@ fort_sphinxmoth = {
 	tier_0 = {
 		upgrade_time = { months = 0 }
 		cost_to_upgrade = { factor = 0 }
-		province_modifiers = {
-			fort_level = 1
-		}
-		area_modifier = { 
-			local_defensiveness = 0.25
-		}
+		province_modifiers = { }
+		area_modifier = { }
 		country_modifiers = { }
 		on_upgraded = { }
 	}
 
 	tier_1 = {
 		upgrade_time = {
-			months = 60 
+			months = 48
 		}
 		cost_to_upgrade = {
 			factor = defines.constants.minor_monument_price_tier1 
 		}
 		province_modifiers = { 
-			fort_level = 2
+			max_attrition = 2
 		}
 		area_modifier = { 
-			local_defensiveness = 0.4
+			local_defensiveness = 0.25
+			local_hostile_attrition = 2
 		}
 		country_modifiers = { }
 		on_upgraded = { }
 	}
 	tier_2 = {
 		upgrade_time = {
-			months = 48
+			months = 60
 		}
 		cost_to_upgrade = {
 			factor = defines.constants.minor_monument_price_tier2 
 		}
-		province_modifiers = { }
-		area_modifier = { }
+		province_modifiers = {
+			max_attrition = 4
+		}
+		area_modifier = {
+			local_defensiveness = 0.4
+			local_hostile_attrition = 4
+		}
 		country_modifiers = { }
 		on_upgraded = { }
 	}
@@ -94,10 +96,11 @@ fort_sphinxmoth = {
 			factor = defines.constants.minor_monument_price_tier3 
 		}
 		province_modifiers = { 
-			fort_level = 3
+			max_attrition = 6
 		}
 		area_modifier = { 
 			local_defensiveness = 0.5
+			local_hostile_attrition = 6
 		}
 		country_modifiers = { }
 		on_upgraded = { }

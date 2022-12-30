@@ -288,14 +288,13 @@ jarnfell_pass = {
 		upgrade_time = { months = 120 }
 		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier1 }
 		province_modifiers = { 
-			fort_level = 1
 		}
 		area_modifier = {
 			local_defensiveness = 0.25
 			local_hostile_movement_speed = -0.25
 		}
 		country_modifiers = { 
-			defensiveness = 0.25
+			hostile_attrition = 0.33
 		}
 		on_upgraded = { }
 	}
@@ -304,14 +303,13 @@ jarnfell_pass = {
 		upgrade_time = { months = 240 }
 		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier2 }
 		province_modifiers = { 
-			fort_level = 2
 		}
 		area_modifier = { 
 			local_defensiveness = 0.4
 			local_hostile_movement_speed = -0.4
 		}
 		country_modifiers = { 
-			defensiveness = 0.4
+			hostile_attrition = 0.66
 		}
 		on_upgraded = { }
 	}
@@ -320,14 +318,13 @@ jarnfell_pass = {
 		upgrade_time = { months = 360 }
 		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier3 }
 		province_modifiers = { 
-			fort_level = 3
 		}
 		area_modifier = { 
 			local_defensiveness = 0.5
 			local_hostile_movement_speed = -0.5
 		}
 		country_modifiers = { 
-			defensiveness = 0.5
+			hostile_attrition = 1
 		}
 		on_upgraded = { }
 	}
@@ -375,7 +372,6 @@ crane_shore = {
 			local_development_cost = -0.05
 			trade_goods_size_modifier = 0.05 
 			trade_value_modifier = 0.05
-			fort_level = 1
 		}
 		area_modifier = {
 			local_prosperity_growth = 0.05
@@ -395,7 +391,6 @@ crane_shore = {
 			local_development_cost = -0.10
 			trade_goods_size_modifier = 0.10 
 			trade_value_modifier = 0.10
-			fort_level = 1
 		}
 		area_modifier = {
 			local_prosperity_growth = 0.075
@@ -415,7 +410,6 @@ crane_shore = {
 			local_development_cost = -0.15
 			trade_goods_size_modifier = 0.15 
 			trade_value_modifier = 0.15
-			fort_level = 1
 		}
 		area_modifier = {
 			local_prosperity_growth = 0.1

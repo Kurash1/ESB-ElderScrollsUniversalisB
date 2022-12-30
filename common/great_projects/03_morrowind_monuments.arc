@@ -315,15 +315,15 @@ fort_virak = {
 	tier_1 = {
 		upgrade_time = { months = 120 }
 		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier1 }
-		province_modifiers = { 
-			fort_level = 1
+		province_modifiers = {
 		}
 		area_modifier = {
-			local_defensiveness = 0.25
+			local_defensiveness = 0.15
 			local_hostile_movement_speed = -0.25
 		}
 		country_modifiers = { 
-			defensiveness = 0.25
+			defensiveness = 0.1
+			fort_maintenance_modifier = -0.05
 		}
 		on_upgraded = { }
 	}
@@ -331,15 +331,16 @@ fort_virak = {
 	tier_2 = {
 		upgrade_time = { months = 240 }
 		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier2 }
-		province_modifiers = { 
-			fort_level = 2
+		province_modifiers = {
 		}
 		area_modifier = { 
-			local_defensiveness = 0.4
+			local_defensiveness = 0.3
 			local_hostile_movement_speed = -0.4
+			local_hostile_attrition = 1
 		}
 		country_modifiers = { 
-			defensiveness = 0.4
+			defensiveness = 0.2
+			fort_maintenance_modifier = -0.1
 		}
 		on_upgraded = { }
 	}
@@ -347,15 +348,16 @@ fort_virak = {
 	tier_3 = {
 		upgrade_time = { months = 360 }
 		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier3 }
-		province_modifiers = { 
-			fort_level = 3
+		province_modifiers = {
 		}
 		area_modifier = { 
 			local_defensiveness = 0.5
 			local_hostile_movement_speed = -0.5
+			local_hostile_attrition = 2
 		}
 		country_modifiers = { 
-			defensiveness = 0.5
+			defensiveness = 0.3
+			fort_maintenance_modifier = -0.15
 		}
 		on_upgraded = { }
 	}

@@ -51,7 +51,6 @@ fort_thaes = {
 		upgrade_time = { months = 120 }
 		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier1 }
 		province_modifiers = { 
-			fort_level = 1
 		}
 		area_modifier = {
 			local_defensiveness = 0.25
@@ -67,7 +66,7 @@ fort_thaes = {
 		upgrade_time = { months = 240 }
 		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier2 }
 		province_modifiers = { 
-			fort_level = 2
+			local_defender_dice_roll_bonus = 1
 		}
 		area_modifier = { 
 			local_defensiveness = 0.4
@@ -83,7 +82,7 @@ fort_thaes = {
 		upgrade_time = { months = 360 }
 		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier3 }
 		province_modifiers = { 
-			fort_level = 3
+			local_defender_dice_roll_bonus = 1
 		}
 		area_modifier = { 
 			local_defensiveness = 0.5
@@ -300,7 +299,7 @@ fort_zagysses = {
 		upgrade_time = { months = 120 }
 		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier1 }
 		province_modifiers = { 
-			fort_level = 1
+			local_garrison_size = 0.2
 		}
 		area_modifier = {
 			local_defensiveness = 0.25
@@ -316,7 +315,7 @@ fort_zagysses = {
 		upgrade_time = { months = 240 }
 		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier2 }
 		province_modifiers = { 
-			fort_level = 2
+			local_garrison_size = 0.4
 		}
 		area_modifier = { 
 			local_defensiveness = 0.4
@@ -332,7 +331,8 @@ fort_zagysses = {
 		upgrade_time = { months = 360 }
 		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier3 }
 		province_modifiers = { 
-			fort_level = 3
+			local_garrison_size = 0.4
+			local_defender_dice_roll_bonus = 1
 		}
 		area_modifier = { 
 			local_defensiveness = 0.5

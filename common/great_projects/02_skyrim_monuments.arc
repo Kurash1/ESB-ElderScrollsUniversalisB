@@ -457,7 +457,7 @@ yngol_barrow = {
 		area_modifier = { }
 		country_modifiers = {
 			shock_damage = 0.025
-			prestige = 0.5
+			prestige = 0.25
 			discipline = 0.025
 		}
 		on_upgraded = { }
@@ -473,7 +473,7 @@ yngol_barrow = {
 		area_modifier = { }
 		country_modifiers = {
 			shock_damage = 0.05
-			prestige = 1
+			prestige = 5
 			discipline = 0.05
 		}
 		on_upgraded = { }
@@ -489,7 +489,7 @@ yngol_barrow = {
 		area_modifier = { }
 		country_modifiers = {
 			shock_damage = 0.075
-			prestige = 1.5
+			prestige = 1
 			discipline = 0.075
 		}
 		on_upgraded = { }
@@ -552,12 +552,12 @@ vault_of_mhuvnak = {
 			factor = defines.constants.minor_monument_price_tier1 
 		}
 		province_modifiers = { 
-			fort_level = 1 
 		}
 		area_modifier = { 
 			local_defensiveness = 0.2
 			local_hostile_attrition = 1
 			local_production_efficiency = 0.2
+			fort_maintenance_modifier = 0.2
 		}
 		country_modifiers = { }
 		on_upgraded = { }
@@ -570,12 +570,13 @@ vault_of_mhuvnak = {
 			factor = defines.constants.minor_monument_price_tier2 
 		}
 		province_modifiers = {
-			fort_level = 2
 		}
 		area_modifier = {
 			local_defensiveness = 0.4
 			local_hostile_attrition = 2
 			local_production_efficiency = 0.4
+			max_attrition = 1
+			fort_maintenance_modifier = 0.4
 		}
 		country_modifiers = { }
 		on_upgraded = { }
@@ -588,12 +589,13 @@ vault_of_mhuvnak = {
 			factor = defines.constants.minor_monument_price_tier3 
 		}
 		province_modifiers = {
-			fort_level = 3
 		}
 		area_modifier = { 
 			local_defensiveness = 0.6
 			local_hostile_attrition = 3
 			local_production_efficiency = 0.6
+			max_attrition = 2
+			fort_maintenance_modifier = 0.6
 		}
 		country_modifiers = { }
 		on_upgraded = { }
@@ -1058,11 +1060,11 @@ bromjunaar = {
 			local_development_cost = -0.05
 			trade_goods_size_modifier = 0.05 
 			trade_value_modifier = 0.05
-			fort_level = 1
+			local_hostile_movement_speed = -0.25
 		}
 		area_modifier = {
 			local_prosperity_growth = 0.05
-			defensiveness = 0.05
+			local_defensiveness = 0.05
 		}
 		country_modifiers = { }
 		on_upgraded = { }
@@ -1075,11 +1077,12 @@ bromjunaar = {
 			local_development_cost = -0.10
 			trade_goods_size_modifier = 0.10 
 			trade_value_modifier = 0.10
-			fort_level = 1
+			local_hostile_movement_speed = -0.5
+			local_defender_dice_roll_bonus = 1
 		}
 		area_modifier = {
 			local_prosperity_growth = 0.075
-			defensiveness = 0.10
+			local_defensiveness = 0.10
 		}
 		country_modifiers = { }
 		on_upgraded = { }
@@ -1092,11 +1095,12 @@ bromjunaar = {
 			local_development_cost = -0.15
 			trade_goods_size_modifier = 0.15 
 			trade_value_modifier = 0.15
-			fort_level = 1
+			local_hostile_movement_speed = -0.75 
+			local_defender_dice_roll_bonus = 2
 		}
 		area_modifier = {
 			local_prosperity_growth = 0.1
-			defensiveness = 0.15
+			local_defensiveness = 0.15
 		}
 		country_modifiers = { }
 		on_upgraded = { }
@@ -1597,11 +1601,14 @@ arcwind_point = {
 			factor = defines.constants.minor_monument_price_tier1 
 		}
 		province_modifiers = {
-			fort_level = 1
 			development_cost = -0.1
+			local_garrison_size = 0.2
+			hostile_attrition = 1
 		}
 		area_modifier = {
-			local_defensiveness = 0.1
+			local_defensiveness = 0.1			
+			local_friendly_movement_speed = 0.6
+			local_hostile_movement_speed = -0.6
 		}
 		country_modifiers = {
 
@@ -1617,11 +1624,14 @@ arcwind_point = {
 			factor = defines.constants.minor_monument_price_tier2 
 		}
 		province_modifiers = {
-			fort_level = 2
 			development_cost = -0.2
+			local_garrison_size = 0.4
+			hostile_attrition = 1
 		}
 		area_modifier = {
 			local_defensiveness = 0.2
+			local_friendly_movement_speed = 0.6
+			local_hostile_movement_speed = -0.6
 		}
 		country_modifiers = {
 	
@@ -1637,11 +1647,16 @@ arcwind_point = {
 			factor = defines.constants.minor_monument_price_tier3 
 		}
 		province_modifiers = {
-			fort_level = 3
 			development_cost = -0.25
+			local_garrison_size = 0.6
+			local_defender_dice_roll_bonus = 1
+			hostile_attrition = 2
+			max_attrition = 1
 		}
 		area_modifier = {
 			local_defensiveness = 0.25
+			local_friendly_movement_speed = 0.6
+			local_hostile_movement_speed = -0.6
 		}
 		country_modifiers = {
 		
@@ -2209,12 +2224,12 @@ arkthzand_cavern = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			technology_cost = -0.05
 			idea_cost = -0.05
 			advisor_cost = -0.1
 			innovativeness_gain = 0.1
 		}
 		on_upgraded = {
+			change_innovativeness = 5
 		}
 	}
 	tier_2 = {
@@ -2229,12 +2244,12 @@ arkthzand_cavern = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			technology_cost = -0.10
 			idea_cost = -0.10
 			advisor_cost = -0.20
 			innovativeness_gain = 0.2
 		}
 		on_upgraded = {
+			change_innovativeness = 10
 		}
 	}
 	tier_3 = {
@@ -2249,13 +2264,13 @@ arkthzand_cavern = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			technology_cost = -0.15
 			idea_cost = -0.15
 			advisor_cost = -0.25
 			innovativeness_gain = 0.3
 			advisor_pool = 1
 		}
 		on_upgraded = {
+			change_innovativeness = 25
 		}
 	}
 }
@@ -3368,7 +3383,7 @@ castle_volkihar = {
 		province_modifiers = {
 		}
 		area_modifier = {
-			
+			defensiveness = 0.1
 		}
 		country_modifiers = {
 			global_manpower_modifier = 0.1
@@ -3388,7 +3403,7 @@ castle_volkihar = {
 		province_modifiers = {
 		}
 		area_modifier = {
-			
+			defensiveness = 0.2
 		}
 		country_modifiers = {
 			global_manpower_modifier = 0.20
@@ -3408,12 +3423,12 @@ castle_volkihar = {
 		province_modifiers = {
 		}
 		area_modifier = {
-			
+			defensiveness = 0.3
 		}
 		country_modifiers = {
 			global_manpower_modifier = 0.25
 			land_morale = 0.25
-			prestige = 1.5
+			prestige = 0.75
 		}
 		on_upgraded = {
 		}

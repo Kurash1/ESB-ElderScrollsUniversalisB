@@ -151,7 +151,7 @@ castle_rilis = {
 			factor = defines.constants.minor_monument_price_tier1 
 		}
 		province_modifiers = { 
-			fort_level = 1
+			local_fort_maintenance_modifier = -0.25
 		}
 		area_modifier = { 
 			local_defensiveness = 0.25
@@ -167,7 +167,8 @@ castle_rilis = {
 			factor = defines.constants.minor_monument_price_tier2 
 		}
 		province_modifiers = { 
-			fort_level = 2
+			local_defender_dice_roll_bonus = 1
+			local_fort_maintenance_modifier = -0.5
 		}
 		area_modifier = { 
 			local_defensiveness = 0.4
@@ -183,7 +184,8 @@ castle_rilis = {
 			factor = defines.constants.minor_monument_price_tier3 
 		}
 		province_modifiers = { 
-			fort_level = 3
+			local_defender_dice_roll_bonus = 1
+			local_fort_maintenance_modifier = -0.75
 		}
 		area_modifier = {
 			local_defensiveness = 0.5
@@ -326,10 +328,11 @@ king_haven_pass = {
 			factor = defines.constants.minor_monument_price_tier1 
 		}
 		province_modifiers = {
-			fort_level = 1
+			max_attrition = 1
 		}
 		area_modifier = { 
 			local_defensiveness = 0.25
+			local_hostile_attrition = 1
 		}
 		country_modifiers = { }
 		on_upgraded = { }
@@ -342,10 +345,12 @@ king_haven_pass = {
 			factor = defines.constants.minor_monument_price_tier2 
 		}
 		province_modifiers = { 
-			fort_level = 2
+			local_defender_dice_roll_bonus = 1
+			max_attrition = 2
 		}
 		area_modifier = { 
 			local_defensiveness = 0.4
+			local_hostile_attrition = 2
 		}
 		country_modifiers = { }
 		on_upgraded = { }
@@ -358,10 +363,12 @@ king_haven_pass = {
 			factor = defines.constants.minor_monument_price_tier3 
 		}
 		province_modifiers = {
-			fort_level = 3
+			local_defender_dice_roll_bonus = 1
+			max_attrition = 3
 		}
 		area_modifier = {
 			local_defensiveness = 0.5
+			local_hostile_attrition = 3
 		}
 		country_modifiers = { }
 		on_upgraded = { }
@@ -1095,7 +1102,6 @@ coral_tower = {
 		area_modifier = { }
 		country_modifiers = { 
 			fire_damage = 0.05
-			technology_cost = -0.1
 			idea_cost = -0.1
 			navy_tradition = 0.5
 		}
@@ -1109,7 +1115,6 @@ coral_tower = {
 		area_modifier = { }
 		country_modifiers = { 
 			fire_damage = 0.1
-			technology_cost = -0.20
 			idea_cost = -0.20
 			navy_tradition = 1.0
 		}
@@ -1123,7 +1128,6 @@ coral_tower = {
 		area_modifier = { }
 		country_modifiers = { 
 			fire_damage = 0.15
-			technology_cost = -0.25
 			idea_cost = -0.25
 			navy_tradition = 1.5
 		}
@@ -1346,7 +1350,10 @@ dusk_keep = {
 	tier_1 = {
 		upgrade_time = { months = 120 }
 		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier1 }
-		province_modifiers = { fort_level = 1}
+		province_modifiers = {
+			local_garrison_size = 0.33
+			local_defensiveness = 0.1
+		}
 		area_modifier = { local_development_cost = -0.1 }
 		country_modifiers = {
 			mages_loyalty_modifier = 0.05
@@ -1359,7 +1366,10 @@ dusk_keep = {
 	tier_2 = {
 		upgrade_time = { months = 240 }
 		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier2 }
-		province_modifiers = { fort_level = 2 }
+		province_modifiers = {
+			local_garrison_size = 0.66 
+			local_defensiveness = 0.2
+		}
 		area_modifier = { local_development_cost = -0.2 }
 		country_modifiers = { 
 			mages_loyalty_modifier = 0.1
@@ -1372,7 +1382,10 @@ dusk_keep = {
 	tier_3 = {
 		upgrade_time = { months = 360 }
 		cost_to_upgrade = { factor = defines.constants.major_monument_price_tier3 }
-		province_modifiers = { fort_level = 2 }
+		province_modifiers = { 
+			local_garrison_size = 1 
+			local_defensiveness = 0.3
+		}
 		area_modifier = { local_development_cost = -0.35 }
 		country_modifiers = {  		
 			mages_loyalty_modifier = 0.15
@@ -1423,7 +1436,7 @@ sunhold = {
 			local_development_cost = -0.05
 			trade_goods_size_modifier = 0.05 
 			trade_value_modifier = 0.05
-			fort_level = 1
+			local_garrison_size = 0.2
 		}
 		area_modifier = {
 			local_prosperity_growth = 0.05
@@ -1446,7 +1459,7 @@ sunhold = {
 			local_development_cost = -0.10
 			trade_goods_size_modifier = 0.10 
 			trade_value_modifier = 0.10
-			fort_level = 1
+			local_garrison_size = 0.2
 		}
 		area_modifier = {
 			local_prosperity_growth = 0.075
@@ -1469,7 +1482,7 @@ sunhold = {
 			local_development_cost = -0.15
 			trade_goods_size_modifier = 0.15 
 			trade_value_modifier = 0.15
-			fort_level = 1
+			local_garrison_size = 0.2
 		}
 		area_modifier = {
 			local_prosperity_growth = 0.1
