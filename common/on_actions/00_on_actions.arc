@@ -1925,33 +1925,33 @@ on_siberian_pulse = {
 
 # country random events
 on_bi_yearly_pulse = {
-	if = {
-		limit = {
-			is_human_ruler_trigger = yes
-		}
-		trigger_switch = {
-			on_trigger = ruler_age
-			for age = 12 to 0 = {
-				(age*10) = {
-					random = {
-						chance = (age*age*0.05)
-						kill_ruler = yes
-					}
-				}
-			}
-		}
-		trigger_switch = {
-			on_trigger = heir_age
-			for age = 12 to 0 = {
-				(age*10) = {
-					random = {
-						chance = (age*age*0.05)
-						kill_heir = yes
-					}
-				}
-			}
-		}
-	}
+	#if = {
+	#	limit = {
+	#		is_human_ruler_trigger = yes
+	#	}
+	#	trigger_switch = {
+	#		on_trigger = ruler_age
+	#		for age = 12 to 0 = {
+	#			(age*10) = {
+	#				random = {
+	#					chance = (age*age*0.05)
+	#					kill_ruler = yes
+	#				}
+	#			}
+	#		}
+	#	}
+	#	trigger_switch = {
+	#		on_trigger = heir_age
+	#		for age = 12 to 0 = {
+	#			(age*10) = {
+	#				random = {
+	#					chance = (age*age*0.05)
+	#					kill_heir = yes
+	#				}
+	#			}
+	#		}
+	#	}
+	#}
 
 	## Development Mechanics
 	#random_owned_province = {
