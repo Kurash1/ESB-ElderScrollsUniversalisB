@@ -7,6 +7,43 @@ flavour_missions_1_yoktal = {
 	ai = yes
 	has_country_shield = no
     potential = { tag = TAL }
+	
+	var conquest_x_trigger = "
+		OR = {
+			NOT = {
+				exists = country_x
+			}
+			AND = {
+				army_size = country_x
+				country_x = {
+					NOT = { army_size = ROOT }
+				}
+			}
+		}
+	"
+	var conquest_x_effect = "
+		country_x = {
+			every_owned_province = {
+				add_claim = ROOT
+			}
+		}
+	"
+	defineloc esb_yok_taleskan_totambu_mission_title = "Conquest Totambu"
+	defineloc esb_yok_taleskan_totambu_mission_desc = ""
+	esb_yok_taleskan_totambu_mission = {
+		icon = mission_egyptian_mamluk_soldier
+		position = 9
+		required_missions = { esb_yok_taleskan_emperor_mission }
+		
+		trigger = {
+			var country_x = TOT
+			eval conquest_x_trigger
+		}
+		
+		effect = {
+			eval conquest_x_effect
+		}
+	}
 }
 flavour_missions_2_yoktal = {
 	slot = 7
@@ -88,6 +125,22 @@ flavour_missions_2_yoktal = {
 					cede_province = ROOT
 				}
 			}
+		}
+	}
+	defineloc esb_yok_taleskan_yul_mission_title = "Conquest Yul"
+	defineloc esb_yok_taleskan_yul_mission_desc = ""
+	esb_yok_taleskan_yul_mission = {
+		icon = mission_egyptian_mamluk_soldier
+		position = 9
+		required_missions = { esb_yok_taleskan_emperor_mission }
+		
+		trigger = {
+			var country_x = YUL
+			eval conquest_x_trigger
+		}
+		
+		effect = {
+			eval conquest_x_effect
 		}
 	}
 }
@@ -263,6 +316,112 @@ flavour_missions_3_yoktal = {
 			}
 		}
 	}
+	defineloc esb_yok_taleskan_emperor_mission_title = "King or Emperor?"
+	defineloc esb_yok_taleskan_emperor_mission_desc = ""
+	esb_yok_taleskan_emperor_mission = {
+		icon = yokudan_city
+		position = 7
+		required_missions = { esb_yok_taleskan_desert_mission }
+		
+		trigger = {
+			
+		}
+		
+		effect = {
+			quick_event = {
+				alias = king_or_emperor_event_a
+				type = country
+				title = none
+				desc = none
+				picture = none
+				is_triggered_only = yes
+				fire_only_once = yes
+				hidden = yes
+				immediate = {
+					inherit = c@taleskan
+					defineloc taleskan_totambu = "Taleskan-Totambu"
+					override_country_name = taleskan_totambu
+				}
+				option = {
+					name = none
+					ai_chance = {
+						factor = 1
+					}
+				}
+			}
+			quick_event = {
+				alias = king_or_emperor_event_b
+				type = country
+				title = esb_yok_taleskan_emperor_mission_title
+				desc = esb_yok_taleskan_emperor_mission_desc
+				picture = none
+				is_triggered_only = yes
+				fire_only_once = yes
+				
+				option = {
+					defineloc king_or_emperor_event_b.a = "We shall be the Kingdom of the North"
+					name = king_or_emperor_event_b.a
+					defineloc yok_northern_kingdom = "Kingdom of the North"
+					override_country_name = yok_northern_kingdom
+				}
+				
+				option = {
+					defineloc king_or_emperor_event_b.b = "Send a letter to Totambu, There shall be two emperors"
+					name = king_or_emperor_event_b.b
+					switch_tag = c@totambu
+					hidden_effect = {
+						c@totambu = {
+							country_event = {
+								id = king_or_emperor_event_a
+								days = 1
+							}
+						}
+					}
+				}
+			}
+			country_event = {
+				id = king_or_emperor_event_b
+				days = 0
+			}
+		}
+	}
+	defineloc esb_yok_taleskan_tagon_mission_title = "Conquest Tagon"
+	defineloc esb_yok_taleskan_tagon_mission_desc = ""
+	esb_yok_taleskan_tagon_mission = {
+		icon = mission_egyptian_mamluk_soldier
+		position = 9
+		required_missions = { esb_yok_taleskan_emperor_mission }
+		
+		trigger = {
+			var country_x = TGN
+			eval conquest_x_trigger
+		}
+		
+		effect = {
+			eval conquest_x_effect
+		}
+	}
+	defineloc esb_yok_taleskan_yokuda_united_mission_title = "Yokuda United"
+	defineloc esb_yok_taleskan_yokuda_united_mission_desc = ""
+	esb_yok_taleskan_yokuda_united_mission = {
+		icon = mission_egyptian_mamluk_soldier
+		position = 10
+		required_missions = { 
+			esb_yok_taleskan_totambu_mission
+			esb_yok_taleskan_yul_mission
+			esb_yok_taleskan_tagon_mission
+			esb_yok_taleskan_samara_mission
+			esb_yok_taleskan_yath_mission
+		}
+		
+		trigger = {
+		
+		}
+		
+		effect = {
+			
+		}
+	}
 }
 flavour_missions_4_yoktal = {
 	slot = 9
@@ -368,6 +527,21 @@ flavour_missions_4_yoktal = {
 			}
 		}
 	}
+	defineloc esb_yok_taleskan_samara_mission_title = "Conquest Samara"
+	defineloc esb_yok_taleskan_samara_mission_desc = ""
+	esb_yok_taleskan_samara_mission = {
+		icon = mission_egyptian_mamluk_soldier
+		position = 9
+		required_missions = { esb_yok_taleskan_emperor_mission }
+		
+		trigger = {
+		
+		}
+		
+		effect = {
+			
+		}
+	}
 }
 flavour_missions_5_yoktal = {
 	slot = 10
@@ -375,4 +549,19 @@ flavour_missions_5_yoktal = {
 	ai = yes
 	has_country_shield = no
     potential = { tag = TAL }
+	defineloc esb_yok_taleskan_yath_mission_title = "Conquest Yath"
+	defineloc esb_yok_taleskan_yath_mission_desc = ""
+	esb_yok_taleskan_yath_mission = {
+		icon = mission_egyptian_mamluk_soldier
+		position = 9
+		required_missions = { esb_yok_taleskan_emperor_mission }
+		
+		trigger = {
+		
+		}
+		
+		effect = {
+			
+		}
+	}
 }
