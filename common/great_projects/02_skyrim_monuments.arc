@@ -1218,7 +1218,9 @@ fortress_of_ice = {
 	starting_tier = 0
 	type = monument
 	build_trigger = {
-		has_country_flag = shalidor
+		owner = {
+			has_country_flag = shalidor
+		}
 		culture_group = northern_cg
 		has_owner_accepted_culture = yes
 	}
@@ -1227,12 +1229,16 @@ fortress_of_ice = {
 	on_destroyed = {
 	}
 	can_use_modifiers_trigger = {
-		has_country_flag = shalidor
+		owner = {
+			has_country_flag = shalidor
+		}
 		culture_group = northern_cg
 		has_owner_accepted_culture = yes
 	}
 	can_upgrade_trigger = {
-		has_country_flag = shalidor
+		owner = {
+			has_country_flag = shalidor
+		}
 		culture_group = northern_cg
 		has_owner_accepted_culture = yes
 	}
@@ -2229,7 +2235,9 @@ arkthzand_cavern = {
 			innovativeness_gain = 0.1
 		}
 		on_upgraded = {
-			change_innovativeness = 5
+			owner = {
+				change_innovativeness = 5
+			}
 		}
 	}
 	tier_2 = {
@@ -2249,7 +2257,9 @@ arkthzand_cavern = {
 			innovativeness_gain = 0.2
 		}
 		on_upgraded = {
-			change_innovativeness = 10
+			owner = {
+				change_innovativeness = 10
+			}
 		}
 	}
 	tier_3 = {
@@ -2270,7 +2280,9 @@ arkthzand_cavern = {
 			advisor_pool = 1
 		}
 		on_upgraded = {
-			change_innovativeness = 25
+			owner = {
+				change_innovativeness = 25
+			}
 		}
 	}
 }
@@ -2741,7 +2753,9 @@ college_of_winterhold = {
 	starting_tier = 0
 	type = monument
 	build_trigger = {
-		has_country_flag = shalidor
+		owner = {
+			has_country_flag = shalidor
+		}
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -2752,12 +2766,18 @@ college_of_winterhold = {
 	on_destroyed = {
 	}
 	can_use_modifiers_trigger = {
+		owner = {
+			has_country_flag = shalidor
+		}
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
 		}
 	}
 	can_upgrade_trigger = {
+		owner = {
+			has_country_flag = shalidor
+		}
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes

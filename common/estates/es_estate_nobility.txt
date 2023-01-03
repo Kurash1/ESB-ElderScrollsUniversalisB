@@ -25,7 +25,6 @@ estate_nobility = {
 			culture_group = maormer_cg
 			culture_group = tsaesci_cg
 			culture_group = khajiiti_cg
-			culture_group = yokudo_redguard_cg
 			culture_group = lilmothiit_cg
 			culture_group = daedra_cg
 			culture_group = dwemer_cg

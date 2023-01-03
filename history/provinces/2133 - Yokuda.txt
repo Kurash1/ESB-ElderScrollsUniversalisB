@@ -9,5 +9,5 @@ capital = "Xandethea"
 is_city = yes
 owner = TGN
 controller = TGN
-add_core = YUL
+add_core = YOL
 1466.1.1 = { } 

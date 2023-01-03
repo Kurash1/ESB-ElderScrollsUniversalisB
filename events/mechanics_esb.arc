@@ -125,31 +125,20 @@ province_event = {
 					limit = {
 						owner = {
 							full_idea_group = transmutation_ideas
-							#adm_power = (cost*0.9)
-							dip_power = (cost*0.9)
-							#mil_power = (cost*0.9)
+							dip_power = 1
 						}
 					}
-					owner = {
-						#adm_power_cost = (cost*0.9)
-						add_scaled_local_dip_power = (cost*0.9)
-						#mil_power_cost = (cost*0.9)
-					}
+					add_scaled_local_dip_power = (cost*0.9)
+					
 					change_trade_goods = tradegoods.id
 				}
 				else_if = {
 					limit = {
 						owner = {
-							#adm_power = cost
-							dip_power = cost
-							#mil_power = cost
+							dip_power = 1
 						}
 					}
-					owner = {
-						#adm_power_cost = cost
-						add_scaled_local_dip_power = cost
-						#mil_power_cost = cost
-					}
+					add_scaled_local_dip_power = cost
 					change_trade_goods = tradegoods.id
 				}
 				else = {

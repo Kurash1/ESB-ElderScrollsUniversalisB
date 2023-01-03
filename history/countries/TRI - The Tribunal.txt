@@ -7,10 +7,6 @@ primary_culture = house_dunmer
 capital = 1002
 
 1334.1.1 = {
-    add_country_modifier = {
-		name = "keening"
-	    duration = -1
-	}
 	add_country_modifier = {
 		name = "17_the_tribunal"
 		duration = -1

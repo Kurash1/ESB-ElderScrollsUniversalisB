@@ -49,7 +49,7 @@ dependency = {
 dependency = {
     subject_type = yokuda_vassal
     first = TOT
-    second = YUL
+    second = YOL
     start_date = 57.1.1
     end_date = 9999.1.1
 }

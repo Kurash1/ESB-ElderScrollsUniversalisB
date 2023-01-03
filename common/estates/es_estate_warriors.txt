@@ -28,7 +28,6 @@ estate_warriors = {
 			culture_group = imga_cg
 			culture_group = minotaur_cg
 			culture_group = orsimer_cg
-			culture_group = yokudo_redguard_cg
 			culture_group = northern_cg
 		}
 	}

@@ -77,9 +77,9 @@ orichalic_lighthouse = {
 royal_palace_of_totambu = { 
 	start = 2139
 	trigger = {
-		owner = {
-			culture_group = yokudan
-		}
+		#owner = {
+		#	culture_group = yokudan
+		#}
 	}
 	tier_1_mod = {
 		development_cost = -0.10

@@ -9,4 +9,4 @@ capital = "Olna"
 is_city = yes
 owner = TGN
 controller = TGN
-add_core = YUL
+add_core = YOL

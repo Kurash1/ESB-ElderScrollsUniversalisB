@@ -7,18 +7,18 @@ bookmark = {
 	
 	center = 2139
 	
-	country = TOT
-	country = HDE
-	country = TAL
-	country = YAT
-	country = SEW
-	country = YUL
-	country = KAN
-	country = TGN
-	country = HOR
-	country = SIN
-	country = SIL
+	country = c@totambu
+	country = c@high_desert
+	country = c@taleskan
+	country = c@yath
+	country = c@seawind
+	country = c@yul
+	country = c@kanesh
+	country = c@tagon
+	country = c@hattu_orcs
+	country = c@sinistral_elves
+	country = c@silverhoof
 	
-	easy_country = TOT
-	easy_country = HDE
+	easy_country = c@totambu
+	easy_country = c@high_desert
 }

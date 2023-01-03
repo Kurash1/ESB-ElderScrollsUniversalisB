@@ -9,7 +9,7 @@ keep = {
 	build_trigger = {
 		NOT = { 
 			AND = {
-				has_building = caste 
+				has_building = castle 
 				has_building = fortress
 			}
 		}
@@ -123,10 +123,8 @@ esb_cathedral = {
 	time = 12
 	build_trigger = {
 		FROM = {
-			AND = {
-				full_idea_group = religious_ideas
-				full_idea_group = aristo0
-			}
+			full_idea_group = religious_ideas
+			full_idea_group = aristo0
 		}
 	}
 	modifier = {

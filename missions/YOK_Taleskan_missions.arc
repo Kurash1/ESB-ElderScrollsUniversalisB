@@ -7,27 +7,62 @@ flavour_missions_1_yoktal = {
 	ai = yes
 	has_country_shield = no
     potential = { tag = TAL }
-	
+	defineloc smaller_than_taleskan = "Is Smaller than Taleskan"
 	var conquest_x_trigger = "
 		OR = {
-			NOT = {
+			NOT = { 
 				exists = country_x
 			}
 			AND = {
 				army_size = country_x
+				NOT = {
+					alliance_with = country_x
+				}
+			}
+			AND = {
 				country_x = {
-					NOT = { army_size = ROOT }
+					alliance_with = ROOT
+					trust = {
+						who = ROOT
+						value = 100
+					}
+					custom_trigger_tooltip = {
+						tooltip = smaller_than_taleskan
+						NOT = {
+							total_development = ROOT
+						}
+					}
 				}
 			}
 		}
 	"
 	var conquest_x_effect = "
-		country_x = {
-			every_owned_province = {
-				add_claim = ROOT
+		if = {
+			limit = {
+				NOT = { 
+					exists = country_x 
+				}
+			}
+			add_prestige = 20
+		}
+		else_if = {
+			limit = {
+				country_x = {
+					alliance_with = ROOT
+				}
+			}
+			inherit = country_x
+			override_country_name = esb_yok_taleskan_ >< country_x
+		}
+		else = {
+			country_x = {
+				every_core_province = {
+					add_claim = ROOT
+				}
 			}
 		}
 	"
+	
 	defineloc esb_yok_taleskan_totambu_mission_title = "Conquest Totambu"
 	defineloc esb_yok_taleskan_totambu_mission_desc = ""
 	esb_yok_taleskan_totambu_mission = {
@@ -36,7 +71,7 @@ flavour_missions_1_yoktal = {
 		required_missions = { esb_yok_taleskan_emperor_mission }
 		
 		trigger = {
-			var country_x = TOT
+			var country_x = c@totambu
 			eval conquest_x_trigger
 		}
 		
@@ -135,7 +170,7 @@ flavour_missions_2_yoktal = {
 		required_missions = { esb_yok_taleskan_emperor_mission }
 		
 		trigger = {
-			var country_x = YUL
+			var country_x = c@yul
 			eval conquest_x_trigger
 		}
 		
@@ -300,12 +335,7 @@ flavour_missions_3_yoktal = {
 				limit = {
 					alliance_with = c@high_desert
 				}
-				c@high_desert = {
-					every_owned_province = {
-						add_core = ROOT
-						cede_province = ROOT
-					}
-				}
+				inherit = c@high_desert
 			}
 			else = {			
 				c@high_desert = {
@@ -393,7 +423,7 @@ flavour_missions_3_yoktal = {
 		required_missions = { esb_yok_taleskan_emperor_mission }
 		
 		trigger = {
-			var country_x = TGN
+			var country_x = c@tagon
 			eval conquest_x_trigger
 		}
 		
@@ -415,11 +445,33 @@ flavour_missions_3_yoktal = {
 		}
 		
 		trigger = {
-		
+			yokuda_superregion = {
+				type = all
+				owned_by = ROOT
+			}
 		}
 		
 		effect = {
-			
+			definemod esb_yok_yokuda_united_war = {
+				discipline = 0.05
+			}
+			add_country_modifier = {
+				name = esb_yok_yokuda_united_war
+				duration = -1
+			}
+			definemod ra_gada = {
+				movement_speed = 0.2
+				siege_ability = 0.2
+				land_morale = 0.1
+				may_establish_frontier = yes
+			}
+			add_country_modifier = {
+				name = ra_gada
+				duration = 25years
+			}
+			hammerfell_superregion = {
+				add_claim = ROOT
+			}
 		}
 	}
 }
@@ -527,6 +579,21 @@ flavour_missions_4_yoktal = {
 			}
 		}
 	}
+	defineloc esb_yok_taleskan_silverhoof_mission_title = "Conquest Silverhoof"
+	defineloc esb_yok_taleskan_silverhoof_mission_desc = ""
+	esb_yok_taleskan_silverhoof_mission = {
+		icon = mission_egyptian_mamluk_soldier
+		position = 8
+		required_missions = { esb_yok_taleskan_desert_mission }
+		trigger = {
+			var country_x = c@silverhoof
+			eval conquest_x_trigger
+		}
+		
+		effect = {
+			eval conquest_x_effect
+		}
+	}
 	defineloc esb_yok_taleskan_samara_mission_title = "Conquest Samara"
 	defineloc esb_yok_taleskan_samara_mission_desc = ""
 	esb_yok_taleskan_samara_mission = {
@@ -535,11 +602,12 @@ flavour_missions_4_yoktal = {
 		required_missions = { esb_yok_taleskan_emperor_mission }
 		
 		trigger = {
-		
+			var country_x = c@samara
+			eval conquest_x_trigger
 		}
 		
 		effect = {
-			
+			eval conquest_x_effect
 		}
 	}
 }
@@ -557,11 +625,12 @@ flavour_missions_5_yoktal = {
 		required_missions = { esb_yok_taleskan_emperor_mission }
 		
 		trigger = {
-		
+			var country_x = c@yath
+			eval conquest_x_trigger
 		}
 		
 		effect = {
-			
+			eval conquest_x_effect
 		}
 	}
 }

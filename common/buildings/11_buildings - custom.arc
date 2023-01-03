@@ -34,18 +34,18 @@ artifact_search = {
 	}
 	var i = 0
 	on_built = { 
-		foreach artifacts = {
-			if = {
-				limit = {
-					has_province_flag = artifacts.id
-				}
-				province_event = {
-					id = artifact_event. >< i
-					days = 0
-				}
-			} 
-			var i = (i+1)
-		} 
+		#foreach artifacts = {
+		#	if = {
+		#		limit = {
+		#			has_province_flag = artifacts.id
+		#		}
+		#		province_event = {
+		#			id = artifact_event. >< i
+		#			days = 0
+		#		}
+		#	} 
+		#	var i = (i+1)
+		#} 
 		remove_building = artifact_search
 	}
 }

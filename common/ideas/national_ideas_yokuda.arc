@@ -61,21 +61,21 @@ defineloc TAL_ideas_start = "Taleskani Traditions"
 defineloc TAL_ideas_bonus = "Taleskani Ambition"
 TAL_ideas = {
 	start = {
-		force_march_free = yes
-		global_manpower_modifier = 10%
+		monthly_favor_modifier = 50%
+		global_manpower_modifier = 25%
 	}
 	bonus = {
-		defensiveness = 10%
+		defensiveness = 25%
 	}
 	trigger = {
 		tag = TAL
 	}
 	free = yes
-	
-	defineloc TAL_ideas_1 = "Ally to the Emperor"
-	defineloc TAL_ideas_1_desc = "Since the later periods of the War against the sinistral elves the Rulers of Taleskan have been allied to the Emperors in Totambu."
+
+	defineloc TAL_ideas_1 = "Land of Warriors"
+	defineloc TAL_ideas_1_desc = "The Land of Warriors, Taleskan is known for its fierce and skilled warriors. These warriors have been honed through centuries of tradition and training, and are highly respected throughout the region."
 	TAL_ideas_1 = {
-		monthly_favor_modifier = 25%
+		force_march_free = yes
 	}
 	defineloc TAL_ideas_2 = "Highland Warriors"
 	defineloc TAL_ideas_2_desc = "Taleskan is known for its Highland spearmen."

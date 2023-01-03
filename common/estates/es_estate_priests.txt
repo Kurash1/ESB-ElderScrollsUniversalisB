@@ -14,7 +14,6 @@ estate_priests = {
 			culture_group = snow_elves_cg
 			culture_group = khajiiti_cg
 			culture_group = northern_cg
-			culture_group = yokudo_redguard_cg
 			culture_group = velothi_cg
 			culture_group = bosmer_cg
 			culture_group = maormer_cg

@@ -2144,10 +2144,10 @@ on_five_year_pulse = {
 		limit = { 
 			tag = BLA 
 		} 
-		country_event = { #Artifact Respawn
-			id = es_esb.5
-			days = 0
-		}
+		#country_event = { #Artifact Respawn
+		#	id = es_esb.5
+		#	days = 0
+		#}
 		country_event = { #Global Dev Destruction
 			id = es_economy.0
 			days = 0
