@@ -8,6 +8,7 @@ estate_mages = {
 	# If true, country will get estate
 	trigger = {
 		OR = {
+			has_country_flag = estate_mages
 			primary_culture = house_dunmer
 			primary_culture = house_chimer
 			primary_culture = snow_elven

@@ -6,6 +6,9 @@ religion = yokudan_pantheon
 primary_culture = yokudan_taleskan
 add_accepted_culture = yokudan_seawind
 capital = 341
+set_country_flag = estate_merchants
+set_country_flag = estate_warriors
+set_country_flag = estate_commoners
 
 57.1.1 = {
 	add_ruler_personality = strict_personality

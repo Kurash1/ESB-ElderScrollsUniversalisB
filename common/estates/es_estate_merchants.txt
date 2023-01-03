@@ -8,6 +8,7 @@ estate_merchants = {
 	# If true, country will get estate
 	trigger = {
 		OR = {
+			has_country_flag = estate_merchants
 			primary_culture = altmer
 			primary_culture = sinistral
 			primary_culture = barsaebic

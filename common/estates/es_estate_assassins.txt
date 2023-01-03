@@ -8,6 +8,7 @@ estate_assassins = {
 	# If true, country will get estate
 	trigger = {
 		OR = {
+			has_country_flag = estate_assassins
 			has_reform = court_of_darkness
 			has_reform = assassins_guild
 			has_country_flag = es_assassins_guild_flag

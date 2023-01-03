@@ -6,12 +6,11 @@ religion = yokudan_pantheon
 primary_culture = yokudan_highdesert
 capital = 2175
 historical_friend = SEW
-
-
-
-
-
-
+set_country_flag = hde_hunding
+set_country_flag = hde_kefa_zeth
+set_country_flag = hde_hethara
+set_country_flag = hde_kethara
+set_country_flag = hde_neth_keth
 
 54.1.1 = {
 	monarch = {

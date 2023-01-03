@@ -7,8 +7,13 @@ estate_morag_tong = {
 	}
 	# If true, country will get estate
 	trigger = {
-		culture_group = velothi_cg
-		NOT = { has_country_flag = supported_mephala_worship }
+		OR = {
+			has_country_flag = estate_morag_tong
+			AND = {
+				culture_group = velothi_cg
+				NOT = { has_country_flag = supported_mephala_worship }
+			}
+		}
 	}
 	# These scale with loyalty & power
 	country_modifier_happy = {

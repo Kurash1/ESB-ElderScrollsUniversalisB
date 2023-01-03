@@ -8,6 +8,7 @@ estate_warriors = {
 	# If true, country will get estate
 	trigger = {
 		OR = {
+			has_country_flag = estate_warriors
 			primary_culture = ashlander_dunmer
 			primary_culture = ashlander_chimer
 			primary_culture = reachmen

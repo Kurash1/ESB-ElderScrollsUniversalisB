@@ -8,6 +8,7 @@ estate_commoners = {
 	# If true, country will get estate
 	trigger = {
 		OR = {
+			has_country_flag = estate_commoners
 			primary_culture = reachmen
 			primary_culture = corelanyan
 			primary_culture = falmer

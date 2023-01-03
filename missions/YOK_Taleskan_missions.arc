@@ -116,12 +116,9 @@ flavour_missions_2_yoktal = {
 		
 		trigger = {
 			army_size_percentage = 1.0
+			manpower_percentage = 0.8
 			all_owned_province = {
-				OR = {
-					NOT = { development = 15 }
-					has_building = esbgarrison
-					has_building = newbarracks
-				}
+				base_manpower = 3
 			}
 		}
 		
@@ -263,7 +260,8 @@ flavour_missions_3_yoktal = {
 		
 		trigger = {
 			p@taleskan = {
-				has_construction = taleskan
+				#has_construction = taleskan
+				development = 30
 			}
 			NOT = { num_of_loans = 1 }
 		}
@@ -292,7 +290,7 @@ flavour_missions_3_yoktal = {
 			c@seawind = {
 				random_ally = {
 					add_treasury = 500
-					add_rival = c@seawind
+					add_historical_rival = c@seawind
 				}
 				every_owned_province = {
 					add_claim = ROOT

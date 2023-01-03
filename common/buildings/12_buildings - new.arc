@@ -31,18 +31,13 @@ keep = {
 defineloc building_castle = "Castle"
 defineloc building_castle_desc = "§OCan be built by anyone§!"
 castle = {
+	make_obsolete = keep
 	cost = 400
 	time = 12
 	modifier = {
 		fort_level = 4
 		local_fort_maintenance_modifier = 1.0
 	}
-	build_trigger = {
-		NOT = { 
-			has_building = fortress
-		}
-	}
-	on_built = { remove_building = keep }
 	
 	influencing_fort = yes
 	
@@ -57,16 +52,13 @@ castle = {
 defineloc building_fortress = "Fortress"
 defineloc building_fortress_desc = "§ORequires Defensive Ideas§!"
 fortress = {
+	make_obsolete = castle
 	cost = 600
 	time = 12
 	modifier = {
 		fort_level = 4
 		local_defensiveness = 1.0
 		local_fort_maintenance_modifier = 2.0
-	}
-	on_built = { 
-		remove_building = keep 
-		remove_building = castle 
 	}
 	influencing_fort = yes
 	
@@ -96,6 +88,7 @@ shrine = {
 }	
 
 esb_temple = {
+	make_obsolete = shrine
 	cost = 100
 	time = 12
 	modifier = {
@@ -119,6 +112,7 @@ esb_temple = {
 	}
 }	
 esb_cathedral = {
+	make_obsolete = esb_temple
 	cost = 100
 	time = 12
 	build_trigger = {
@@ -156,6 +150,7 @@ market = {
 	}
 }
 market_street = {
+	make_obsolete = market
 	cost = 100
 	time = 12
 	modifier = {
@@ -171,6 +166,7 @@ market_street = {
 	}
 }
 trade_district = {
+	make_obsolete = market_street
 	cost = 100
 	time = 12
 	modifier = {
@@ -203,10 +199,11 @@ esbgarrison = {
 }
 
 newbarracks = {
+	make_obsolete = esbgarrison
 	cost = 100
 	time = 12
 	modifier = {
-		local_manpower_modifier = 0.25
+		local_manpower_modifier = 0.50
 	}
 	
 	on_built = { }
@@ -250,10 +247,11 @@ pier = {
 	}
 }
 docks = {
+	make_obsolete = pier
 	cost = 100
 	time = 12
 	modifier = {
-		local_sailors_modifier = 0.25
+		local_sailors_modifier = 0.50
 	}
 	
 	on_built = { }
