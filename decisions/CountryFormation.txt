@@ -1117,11 +1117,12 @@ country_decisions = {
 		potential = {
 			NOT = { exists = TAM }
 			OR = {
-			primary_culture = imperial
-			primary_culture = colovian
-			primary_culture = nibenean
-			primary_culture = vampire
-			has_country_flag = new_empire_flag
+				government_rank = 10
+				primary_culture = imperial
+				primary_culture = colovian
+				primary_culture = nibenean
+				primary_culture = vampire
+				has_country_flag = new_empire_flag
 			}
 			NOT = { has_country_flag = formed_tam_flag }
 		}
