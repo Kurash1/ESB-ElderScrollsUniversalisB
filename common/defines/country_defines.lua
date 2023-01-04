@@ -240,8 +240,8 @@ NDefines.NCountry.PROVINCE_DISCOVERY_YEARS_RELIGION = 100		-- Years until discov
 NDefines.NCountry.START_YEARLY_INFLATION = 0.0 					-- _CDEF_START_YEARLY
 NDefines.NCountry.START_YEARLY_INFLATION = 0.0 					-- _CDEF_START_YEARLY_INFLATION_
 NDefines.NCountry.CLAIM_LOSE = 25								-- how many years until a claim is lost.
-NDefines.NCountry.CORE_LOSE = 150 								-- how many years until a core is lost.
-NDefines.NCountry.CORE_LOSE_CULTURE_GROUP = 350					-- how many years until a core in a country's culture group is lost.
+NDefines.NCountry.CORE_LOSE = 9999 								-- how many years until a core is lost.
+NDefines.NCountry.CORE_LOSE_CULTURE_GROUP = 9999					-- how many years until a core in a country's culture group is lost.
 NDefines.NCountry.CORE_LOSE_PRIMARY_CULTURE_TAG = -1				-- how many years until a core is lost for the primary tag of a country (-1 = never lost)
 NDefines.NCountry.CORE_LOSE_PRESTIGE = 0.0						-- Prestige change when lost core
 NDefines.NCountry.ABANDON_CORE_PRESTIGE = 0.0					-- The cost of abandoning a core that some other country owns.

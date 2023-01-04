@@ -949,7 +949,7 @@ occult_group = {
 		country = {
 			stability_cost_modifier = -0.25
 			warscore_cost_vs_other_religion = -0.25
-			has_carolean = yes
+			#has_carolean = yes
 		}
 		allowed_center_conversion = {
 			nordic_pantheon
@@ -967,7 +967,7 @@ occult_group = {
 		country_as_secondary = {
 			stability_cost_modifier = -0.25
 			warscore_cost_vs_other_religion = -0.25
-			has_carolean = yes
+			#has_carolean = yes
 		}
 		province = {
 			local_missionary_strength = -0.025
@@ -1135,7 +1135,7 @@ occult_group = {
 		country = {
 			land_morale = 0.25
 			administrative_efficiency = 0.05
-			has_carolean = yes
+			#has_carolean = yes
 		}
 		allowed_center_conversion = {
 			nordic_pantheon
@@ -1154,7 +1154,7 @@ occult_group = {
 		country_as_secondary = {
 			land_morale = 0.25
 			administrative_efficiency = 0.05
-			has_carolean = yes
+			#has_carolean = yes
 		}
 		province = {
 			

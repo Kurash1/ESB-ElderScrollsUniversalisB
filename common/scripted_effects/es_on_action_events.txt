@@ -63,38 +63,6 @@ es_perform_events_on_five_year_pulse = {
 			}
 		}
 		
-		#Trade and Prices ################################################
-		#if = {
-		#	limit = {
-		#		NOT = { has_country_modifier = trade_time }
-		#	}
-		#	country_event = { id = es_trade.1 days = 707 random = 3690 }
-		#	add_country_modifier = {
-		#		name = "trade_time"
-		#		duration = 4059
-		#	}
-		#}
-		#if = {
-		#	limit = {
-		#		NOT = { has_country_modifier = crisis_time }
-		#	}
-		#	country_event = { id = es_trade.2 days = 706 random = 18250 }
-		#	add_country_modifier = {
-		#		name = "crisis_time"
-		#		duration = 20075
-		#	}
-		#}
-		#if = {
-		#	limit = {
-		#		NOT = { has_country_modifier = rise_time }
-		#	}
-		#	country_event = { id = es_trade.3 days = 705 random = 18250 }
-		#	add_country_modifier = {
-		#		name = "rise_time"
-		#		duration = 20075
-		#	}
-		#}
-		
 		# Weather and Terrain Disasters ###################################
 		if = {
 			limit = {

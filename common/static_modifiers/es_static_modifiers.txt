@@ -566,7 +566,7 @@ base_values = {
 	vassal_income = 0.10
 	meritocracy = -2.5				 
 	governing_capacity_modifier = 0.15
-	governing_capacity = 250			 
+	governing_capacity = 250000			 
 	num_accepted_cultures = 3
 	monthly_splendor = 1
 	artillery_levels_available_vs_fort = 5
@@ -579,6 +579,7 @@ base_values = {
 	tolerance_of_heathens_capacity = 3
 	monthly_militarized_society = -0.10
 	yearly_tribal_allegiance = 1.0
+	may_establish_frontier = yes
 }
 
 ai_nation = {

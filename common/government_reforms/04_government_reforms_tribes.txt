@@ -260,8 +260,10 @@ great_mongol_state_reform = {
 			has_reform = great_mongol_state_reform
 		}
 	}
-	trigger = { OR = { has_reform = great_mongol_state_reform
-	    num_of_cities = 1
+	trigger = { 
+		OR = { 
+			has_reform = great_mongol_state_reform
+			num_of_cities = 500
 		}
 	}
 	legacy_equivalent = steppe_horde_legacy
@@ -285,7 +287,14 @@ great_mongol_state_reform = {
 	}
 	
 	conditional = {
-		allow = { has_dlc = "Mandate of Heaven" }
+		allow = { 
+			OR = {
+				culture_group = tsaesci_cg
+				culture_group = po_tun_cg
+				culture_group = transpandomaic_cg
+			}
+			has_dlc = "Mandate of Heaven" 
+		}
 		allow_banners = yes
 	}
 	
