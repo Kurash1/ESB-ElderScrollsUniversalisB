@@ -10,6 +10,12 @@ country_event = { #1E0 - 57 - Setup
 	fire_only_once = yes
 	
 	immediate = {
+		c@Sinistral_Elves = {
+			country_event = {
+				id = scenario_yokuda.11
+				days = 30
+			}
+		}
 		c@Taleskan = {
 			country_event = {
 				id = scenario_yokuda.1
@@ -125,7 +131,7 @@ country_event = { # Taleskan Assassination
 			dip = 4
 			mil = 6
 			
-			fixed = yes
+			#fixed = yes
 			claim = 20
 		}
 		
@@ -506,5 +512,30 @@ country_event = {
 		name = scenario_yokuda.10.b
 		#-opinion
 		#-integration
+	}
+}
+country_event = {
+	id = scenario_yokuda.11
+	defineloc scenario_yokuda.11.title = "Sinistral Rebellion"
+	title = scenario_yokuda.11.title
+	defineloc scenario_yokuda.11.desc = "."
+	desc = scenario_yokuda.11.desc
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = none
+	
+	option = {
+		defineloc scenario_yokuda.11.a = "Liberty or Death!"
+		name = scenario_yokuda.11.a
+		c@Totambu = {
+			create_subject = {
+				subject_type = yokuda_vassal
+				subject = c@Sinistral_Elves
+			}
+		}
+		declare_war_with_cb = {
+			who = c@Yath
+			casus_belli = cb_annex
+		}
 	}
 }

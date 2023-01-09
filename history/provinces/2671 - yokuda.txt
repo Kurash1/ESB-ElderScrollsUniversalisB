@@ -1,10 +1,10 @@
 religion = altmeri_pantheon
 culture = sinistral
 hre = no
-base_tax = 1
-base_production = 1
-trade_goods = unknown
-base_manpower = 1
+base_tax = 3
+base_production = 7
+trade_goods = weapons_and_armor
+base_manpower = 9
 capital = ""
 is_city = no
 owner = SIN
