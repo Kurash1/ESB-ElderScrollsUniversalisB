@@ -18,14 +18,6 @@ keep = {
 	
 	ai_will_do = {
 		factor = 1
-		modifier = {
-			factor = 5
-			any_neighbor_province = {
-				NOT = {
-					owned_by = FROM
-				}
-			}			
-		}
 	}
 }
 defineloc building_castle = "Castle"

@@ -3,9 +3,9 @@ country_decisions = {
 	dragon_cult_sacrifice_ruler = {
 	    major = yes
 		potential = {
-			NOT = { has_country_modifier = sacrificed_ruler_timer }
 			religion = dragon_cult
 			government = theocracy
+			NOT = { has_country_modifier = sacrificed_ruler_timer }
 		}
 		allow = {
 			stability = 0

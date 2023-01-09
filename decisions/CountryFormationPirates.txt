@@ -3,6 +3,11 @@ country_decisions = {
     abeceanea_nation = {
 		major = yes
 		potential = {
+			OR = {
+				primary_culture = nedic
+				primary_culture = colovian
+				primary_culture = ayleid
+			}
 			NOT = { exists = ABE }
 			NOT = { tag = ORD }
 			NOT = { tag = ALE }
@@ -10,18 +15,13 @@ country_decisions = {
 			NOT = { tag = AYL }
 			NOT = { tag = CYR }
 			NOT = { tag = TAM }
-			OR = {
-			primary_culture = nedic
-			primary_culture = colovian
-			primary_culture = ayleid
-			}
 			NOT = { has_country_flag = formed_abe_flag }
 			OR = {
-		    ai = no
-			AND = {
-			ai = yes
-			NOT = { num_of_cities = 10 }
-			}
+				ai = no
+				AND = {
+					ai = yes
+					NOT = { num_of_cities = 10 }
+				}
 			}
 			NOT = { is_emperor = yes }
 			NOT = { is_emperor_of_china = yes }
@@ -70,16 +70,16 @@ country_decisions = {
 	restless_league_nation = {
 		major = yes
 		potential = {
+			OR = {
+				primary_culture = ayleid
+				primary_culture = altmer
+				primary_culture = redguard
+			}
 			NOT = { exists = RES }
 			NOT = { tag = AYL }
 			NOT = { tag = HAM }
 			NOT = { tag = SMR }
 			NOT = { tag = DIR }
-			OR = {
-			primary_culture = ayleid
-			primary_culture = altmer
-			primary_culture = redguard
-			}
 			NOT = { has_country_flag = formed_res_flag }
 			OR = {
 		    ai = no
@@ -139,12 +139,12 @@ country_decisions = {
 	topalia_nation = {
 		major = yes
 		potential = {
+			OR = {
+				primary_culture = archein
+				primary_culture = argonian
+			}
 			NOT = { exists = TPL }
 			NOT = { tag = ARG }
-			OR = {
-			primary_culture = archein
-			primary_culture = argonian
-			}
 			NOT = { has_country_flag = formed_top_flag }
 			OR = {
 		    ai = no
@@ -204,12 +204,12 @@ country_decisions = {
 	starkad_nation = {
 		major = yes
 		potential = {
+			primary_culture = nord
 			NOT = { exists = STA }
 			NOT = { tag = SKY }
 			NOT = { tag = OLD }
 			NOT = { tag = WSK }
 			NOT = { tag = ESK }
-			primary_culture = nord
 			NOT = { has_country_flag = formed_sta_flag }
 			OR = {
 		    ai = no
@@ -265,9 +265,9 @@ country_decisions = {
 	sedelea_nation = {
 		major = yes
 		potential = {
+			primary_culture = ashlander_dunmer
 			NOT = { exists = SED }
 			NOT = { tag = ASH }
-			primary_culture = ashlander_dunmer
 			NOT = { has_country_flag = formed_sed_flag }
 			OR = {
 		    ai = no
@@ -316,12 +316,12 @@ country_decisions = {
 	kmeiine_nation = {
 		major = yes
 		potential = {
+			primary_culture = agaceph
 			NOT = { exists = KME }
 			NOT = { tag = ARG }
 			NOT = { tag = MUR }
 			NOT = { tag = SHA }
 			NOT = { tag = BLC }
-			primary_culture = agaceph
 			NOT = { has_country_flag = formed_kme_flag }
 			OR = {
 		    ai = no
@@ -377,10 +377,10 @@ country_decisions = {
 	elzaqess_nation = {
 		major = yes
 		potential = {
+			primary_culture = tsaesci
 			NOT = { exists = ELZ }
 			NOT = { tag = TSA }
 			NOT = { tag = POE }
-			primary_culture = tsaesci
 			NOT = { has_country_flag = formed_elz_flag }
 			OR = {
 		    ai = no
@@ -429,10 +429,10 @@ country_decisions = {
 	kherso_nation = {
 		major = yes
 		potential = {
+			primary_culture = akaviri
 			NOT = { exists = KHE }
 			NOT = { tag = UPP }
 			NOT = { tag = AKA }
-			primary_culture = akaviri
 			NOT = { has_country_flag = formed_khe_flag }
 			OR = {
 		    ai = no
@@ -488,11 +488,11 @@ country_decisions = {
 	kaalda_nation = {
 		major = yes
 		potential = {
+			primary_culture = islander
 			NOT = { exists = KAA }
 			NOT = { tag = CTN }
 			NOT = { tag = ISL }
 			NOT = { tag = ESR }
-			primary_culture = islander
 			NOT = { has_country_flag = formed_kaa_flag }
 			OR = {
 		    ai = no
@@ -541,11 +541,11 @@ country_decisions = {
 	ralris_nation = {
 		major = yes
 		potential = {
+			primary_culture = po_tun
 			NOT = { exists = RAL }
 			NOT = { tag = POT }
 			NOT = { tag = KAP }
 			NOT = { tag = TRA }
-			primary_culture = po_tun
 			NOT = { has_country_flag = formed_ral_flag }
 			OR = {
 		    ai = no

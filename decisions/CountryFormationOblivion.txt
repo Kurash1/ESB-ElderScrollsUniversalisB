@@ -3,7 +3,6 @@ country_decisions = {
 	coldharbour_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = COD }
 			capital_scope = {
 			    OR = {
 				    region = central_coldharbour_lr
@@ -13,6 +12,7 @@ country_decisions = {
 					region = northern_coldharbour_lr
 				}
 			}
+			NOT = { exists = COD }
 			NOT = { has_country_flag = formed_cod_flag }
 		}
 		provinces_to_highlight = {
@@ -60,7 +60,6 @@ country_decisions = {
 	deadlands_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = DEA }
 			capital_scope = {
 			    OR = {
 				    region = eastern_deadlands_lr
@@ -69,6 +68,7 @@ country_decisions = {
 					region = southern_deadlands_lr
 				}
 			}
+			NOT = { exists = DEA }
 			NOT = { has_country_flag = formed_dea_flag }
 		}
 		provinces_to_highlight = {
@@ -116,11 +116,11 @@ country_decisions = {
 	united_vampire_duchies_nation = {
 		major = yes
 		potential = {
+			primary_culture = vampire
 			NOT = { exists = VAM }
 			NOT = { tag = TAM }
 			NOT = { tag = COD }
 			NOT = { tag = DEA }
-			primary_culture = vampire
 			NOT = { has_country_flag = formed_vam_flag }
 		}
 		provinces_to_highlight = {
@@ -168,10 +168,10 @@ country_decisions = {
     arahnid_state_nation = {
 		major = yes
 		potential = {
+			primary_culture = arachnid
 			NOT = { exists = SPI }
 			NOT = { tag = COD }
 			NOT = { tag = DEA }
-			primary_culture = arachnid
 			NOT = { has_country_flag = formed_spi_flag }
 		}
 		provinces_to_highlight = {
@@ -219,10 +219,10 @@ country_decisions = {
 	daedroth_state_nation = {
 		major = yes
 		potential = {
+			primary_culture = daedroth
 			NOT = { exists = DAE }
 			NOT = { tag = COD }
 			NOT = { tag = DEA }
-			primary_culture = daedroth
 			NOT = { has_country_flag = formed_dae_flag }
 		}
 		provinces_to_highlight = {
@@ -270,10 +270,10 @@ country_decisions = {
 	xivilai_state_nation = {
 		major = yes
 		potential = {
+			primary_culture = xivilai
 			NOT = { exists = XIV }
 			NOT = { tag = COD }
 			NOT = { tag = DEA }
-			primary_culture = xivilai
 			NOT = { has_country_flag = formed_xiv_flag }
 		}
 		provinces_to_highlight = {
@@ -321,10 +321,10 @@ country_decisions = {
 	clanfear_state_nation = {
 		major = yes
 		potential = {
+			primary_culture = clanfear
 			NOT = { exists = CLA }
 			NOT = { tag = COD }
 			NOT = { tag = DEA }
-			primary_culture = clanfear
 			NOT = { has_country_flag = formed_cla_flag }
 		}
 		provinces_to_highlight = {
@@ -372,10 +372,10 @@ country_decisions = {
 	harvester_state_nation = {
 		major = yes
 		potential = {
+			primary_culture = harvester
 			NOT = { exists = HAR }
 			NOT = { tag = COD }
 			NOT = { tag = DEA }
-			primary_culture = harvester
 			NOT = { has_country_flag = formed_har_flag }
 		}
 		provinces_to_highlight = {
@@ -423,10 +423,10 @@ country_decisions = {
 	dremoran_state_nation = {
 		major = yes
 		potential = {
+			primary_culture = dremoran
 			NOT = { exists = DRM }
 			NOT = { tag = COD }
 			NOT = { tag = DEA }
-			primary_culture = dremoran
 			NOT = { has_country_flag = formed_drm_flag }
 		}
 		provinces_to_highlight = {
@@ -474,10 +474,10 @@ country_decisions = {
 	soul_shriven_state_nation = {
 		major = yes
 		potential = {
+			primary_culture = soul_shriven
 			NOT = { exists = SOU }
 			NOT = { tag = COD }
 			NOT = { tag = DEA }
-			primary_culture = soul_shriven
 			NOT = { has_country_flag = formed_sou_flag }
 		}
 		provinces_to_highlight = {
@@ -525,10 +525,10 @@ country_decisions = {
 	scamp_state_nation = {
 		major = yes
 		potential = {
+			primary_culture = scamp
 			NOT = { exists = SCA }
 			NOT = { tag = COD }
 			NOT = { tag = DEA }
-			primary_culture = scamp
 			NOT = { has_country_flag = formed_sca_flag }
 		}
 		provinces_to_highlight = {

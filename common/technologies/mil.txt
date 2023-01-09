@@ -195,7 +195,7 @@ technology = {
 	enable = minotaur_A00
 	enable = kothringi_A00
 	may_drill = yes
-	fort_15th = yes
+	#fort_15th = yes
 }
 technology = {
 	# Tech 1 

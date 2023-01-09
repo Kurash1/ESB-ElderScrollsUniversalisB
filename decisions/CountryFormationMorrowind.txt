@@ -5,16 +5,16 @@ country_decisions = {
 	resdayn_nation = {
 		major = yes
 		potential = {
+			OR = {
+				culture_group = velothi_cg
+				culture_group = dwemer_cg
+			}
 			has_country_flag = first_council_flag
 			NOT = { exists = UNI }
 			NOT = { tag = DWE }
 			NOT = { tag = TRI }
 			NOT = { primary_culture = ashlander_dunmer }
 			NOT = { primary_culture = house_dunmer }
-			OR = {
-				culture_group = velothi_cg
-				culture_group = dwemer_cg
-			}
 			NOT = { has_country_flag = formed_uni_flag }
 		}
 		provinces_to_highlight = {
@@ -78,8 +78,8 @@ country_decisions = {
 	second_empire_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = SEC }
 			culture_group = dwemer_cg
+			NOT = { exists = SEC }
 			NOT = { has_country_flag = formed_sec_flag }
 		}
 		provinces_to_highlight = {
@@ -134,11 +134,11 @@ country_decisions = {
 	chimer_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = CHI }
 			OR = {
 				primary_culture = house_chimer
 				primary_culture = house_dunmer
 			}
+			NOT = { exists = CHI }
 			NOT = { has_country_flag = formed_chi_flag }
 		}
 		provinces_to_highlight = {
@@ -297,6 +297,7 @@ country_decisions = {
 	rourken_clan_nation = {
 		major = yes
 		potential = {
+			primary_culture = rourkenid
 			NOT = { tag = DWE }
 			NOT = { tag = UNI }
 			NOT = { tag = DUM }
@@ -304,7 +305,6 @@ country_decisions = {
 			NOT = { tag = SEC }
 			NOT = { tag = TON }
 			NOT = { exists = ROU }
-			primary_culture = rourkenid
 			NOT = { has_country_flag = formed_rou_flag }
 		}
 		provinces_to_highlight = {
@@ -352,6 +352,7 @@ country_decisions = {
 	dumac_nation = {
 		major = yes
 		potential = {
+			primary_culture = dumalacathi
 			NOT = { exists = DUM }
 			NOT = { tag = ROU }
 			NOT = { tag = DWE }
@@ -359,7 +360,6 @@ country_decisions = {
 			NOT = { tag = SEC }
 			NOT = { tag = TON }			
 			NOT = { tag = UNI }
-			primary_culture = dumalacathi
 			NOT = { has_country_flag = formed_dum_flag }
 		}
 		provinces_to_highlight = {
@@ -409,13 +409,13 @@ country_decisions = {
 	kagrenac_nation = {
 		major = yes
 		potential = {
+			primary_culture = kagrenmer
 			NOT = { exists = KAG }
 			NOT = { tag = ROU }
 			NOT = { tag = DWE }
 			NOT = { tag = DUM }
 			NOT = { tag = SEC }
 			NOT = { tag = UNI }
-			primary_culture = kagrenmer
 			NOT = { has_country_flag = formed_kag_flag }
 		}
 		provinces_to_highlight = {
@@ -463,6 +463,7 @@ country_decisions = {
 	tonal_architects_nation = {
 		major = yes
 		potential = {
+			primary_culture = kagrenmer
 			NOT = { exists = TON }
 			NOT = { tag = ROU }
 			NOT = { tag = DWE }
@@ -470,7 +471,6 @@ country_decisions = {
 			NOT = { tag = SEC }	
 			NOT = { tag = UNI }
 		
-			primary_culture = kagrenmer
 			NOT = { has_country_flag = formed_ton_flag }
 		}
 		provinces_to_highlight = {
@@ -523,8 +523,8 @@ country_decisions = {
 	dwemer_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = DWE }
 			culture_group = dwemer_cg
+			NOT = { exists = DWE }
 			NOT = { has_country_flag = formed_dwe_flag }
 		}
 		provinces_to_highlight = {
@@ -635,12 +635,12 @@ country_decisions = {
 		major = yes
 		potential = {
 			ai = no
+			culture_group = velothi_cg
 			NOT = { exists = IND }
 			NOT = { tag = TRI }
 			NOT = { tag = UNI }
 			NOT = { tag = CHI }
 			NOT = { has_country_flag = formed_great_house_flag }
-			culture_group = velothi_cg
 			NOT = { has_country_flag = formed_ind_flag }
 			OR = {
 				owns_core_province = 1017	
@@ -697,6 +697,7 @@ country_decisions = {
 	dres_nation = {
 		major = yes
 		potential = {
+			culture_group = velothi_cg
 			NOT = { exists = DRS }
 			NOT = { tag = MOR }
 			NOT = { tag = TRI }
@@ -704,7 +705,6 @@ country_decisions = {
 			NOT = { tag = CHI }
 			NOT = { tag = VEO }
 			NOT = { has_country_flag = formed_great_house_flag }
-			culture_group = velothi_cg
 			NOT = { has_country_flag = formed_drs_flag }
 			OR = {
 				owns_core_province = 3904	
@@ -761,6 +761,7 @@ country_decisions = {
 	dagoth_nation = {
 		major = yes
 		potential = {
+			culture_group = velothi_cg
 			NOT = { exists = DAG }
 			NOT = { tag = MOR }
 			NOT = { tag = TRI }
@@ -768,7 +769,6 @@ country_decisions = {
 			NOT = { tag = CHI }
 			NOT = { tag = VEO }
 			NOT = { has_country_flag = formed_great_house_flag }
-			culture_group = velothi_cg
 			NOT = { has_country_flag = formed_dag_flag }
 			OR = {
 				owns_core_province = 4305	
@@ -825,6 +825,7 @@ country_decisions = {
 	redoran_nation = {
 		major = yes
 		potential = {
+			culture_group = velothi_cg
 			NOT = { exists = REO }
 			NOT = { tag = MOR }
 			NOT = { tag = TRI }
@@ -832,7 +833,6 @@ country_decisions = {
 			NOT = { tag = CHI }
 			NOT = { tag = VEO }
 			NOT = { has_country_flag = formed_great_house_flag }
-			culture_group = velothi_cg
 			NOT = { has_country_flag = formed_reo_flag }
 			OR = {
 				owns_core_province = 4263	
@@ -889,6 +889,7 @@ country_decisions = {
 	telvanni_nation = {
 		major = yes
 		potential = {
+			culture_group = velothi_cg
 			NOT = { exists = TEL }
 			NOT = { tag = MOR }
 			NOT = { tag = TRI }
@@ -896,7 +897,6 @@ country_decisions = {
 			NOT = { tag = CHI }
 			NOT = { tag = VEO }
 			NOT = { has_country_flag = formed_great_house_flag }
-			culture_group = velothi_cg
 			NOT = { has_country_flag = formed_tel_flag }
 			OR = {
 				owns_core_province = 1028	
@@ -953,6 +953,7 @@ country_decisions = {
 	hlaalu_nation = {
 		major = yes
 		potential = {
+			culture_group = velothi_cg
 			NOT = { exists = HLA }
 			NOT = { tag = MOR }
 			NOT = { tag = TRI }
@@ -960,7 +961,6 @@ country_decisions = {
 			NOT = { tag = CHI }
 			NOT = { tag = VEO }
 			NOT = { has_country_flag = formed_great_house_flag }
-			culture_group = velothi_cg
 			NOT = { has_country_flag = formed_hla_flag }
 			OR = {
 				owns_core_province = 990	
@@ -1339,8 +1339,8 @@ country_decisions = {
 	morrowind_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = MOR }
 			culture_group = velothi_cg
+			NOT = { exists = MOR }
 			NOT = { has_country_flag = formed_mor_flag }
 			capital_scope = {
 				region = morrowind_lr
@@ -1391,8 +1391,8 @@ country_decisions = {
 	deshaan_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = DES }
 			culture_group = velothi_cg
+			NOT = { exists = DES }
 			NOT = { has_country_flag = formed_des_flag }
 			capital_scope = {
 				region = deshaan_lr
@@ -1443,8 +1443,8 @@ country_decisions = {
 	velothi_mountains_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = VEL }
 			culture_group = velothi_cg
+			NOT = { exists = VEL }
 			NOT = { has_country_flag = formed_vel_flag }
 			capital_scope = {
 				region = velothi_mountains_lr
@@ -1495,8 +1495,8 @@ country_decisions = {
 	llothanis_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = LLO }
 			culture_group = velothi_cg
+			NOT = { exists = LLO }
 			NOT = { has_country_flag = formed_llo_flag }
 			capital_scope = {
 				region = llothanis_peninsula_lr
@@ -1547,8 +1547,8 @@ country_decisions = {
 	ashland_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = ASH }
 			culture_group = velothi_cg
+			NOT = { exists = ASH }
 			NOT = { has_country_flag = formed_ash_flag }
 			capital_scope = {
 				region = vvardenfell_lr
@@ -1639,8 +1639,8 @@ country_decisions = {
 falmer_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = FAL }
 			primary_culture = falmer
+			NOT = { exists = FAL }
 			NOT = { has_country_flag = formed_fal_flag }
 		}
 		provinces_to_highlight = {

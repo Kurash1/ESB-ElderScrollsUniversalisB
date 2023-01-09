@@ -3,17 +3,17 @@ country_decisions = {
     pyandonea_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = PYA }
 			primary_culture = maormer
+			NOT = { exists = PYA }
 			NOT = { has_country_flag = formed_pya_flag }
 		}
 		provinces_to_highlight = {
 		    OR = {
-			province_id = 224		
-			province_id = 240
-			province_id = 2050
-			province_id = 2089
-			province_id = 209
+				province_id = 224		
+				province_id = 240
+				province_id = 2050
+				province_id = 2089
+				province_id = 209
 			}
 			NOT = { owned_by = ROOT }
 		}
@@ -53,9 +53,9 @@ country_decisions = {
 	summerset_nation = {
 		major = yes
 		potential = {
+			primary_culture = altmer
 			NOT = { exists = SMR }
 			NOT = { tag = DIR }
-			primary_culture = altmer
 			NOT = { has_country_flag = formed_sum_flag }
 		}
 		provinces_to_highlight = {
@@ -104,11 +104,11 @@ country_decisions = {
 	great_alinor_nation = {
 		major = yes
 		potential = {
+			primary_culture = altmer
 			NOT = { exists = GAL }
 			NOT = { tag = SMR }
 			NOT = { tag = AUR }
 			NOT = { tag = DIR }
-			primary_culture = altmer
 			NOT = { has_country_flag = formed_gal_flag }
 		}
 		provinces_to_highlight = {
@@ -157,11 +157,11 @@ country_decisions = {
 	auridon_nation = {
 		major = yes
 		potential = {
+			primary_culture = altmer
 			NOT = { exists = AUR }
 			NOT = { tag = SMR }
 			NOT = { tag = GAL }
 			NOT = { tag = DIR }
-			primary_culture = altmer
 			NOT = { has_country_flag = formed_aur_flag }
 		}
 		provinces_to_highlight = {
@@ -210,8 +210,8 @@ country_decisions = {
 	yokuda_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = YOK }
 			primary_culture = yokudan
+			NOT = { exists = YOK }
 			NOT = { has_country_flag = formed_yok_flag }
 		}
 		provinces_to_highlight = {
@@ -260,9 +260,9 @@ country_decisions = {
 	thrass_nation = {
 		major = yes
 		potential = {
+			primary_culture = sload
 			NOT = { exists = THR }
 			NOT = { tag = COR }
-			primary_culture = sload
 			NOT = { has_country_flag = formed_thr_flag }
 		}
 		provinces_to_highlight = {
@@ -310,15 +310,13 @@ country_decisions = {
 	skyrim_nation = {
 		major = yes
 		potential = {
+			primary_culture = nord
 			NOT = { exists = SKY }
 			NOT = { tag = OLD }
-			primary_culture = nord
 			OR = { 
-			NOT = { has_country_flag = formed_sky_flag }
-			OR = {
-			tag = ESK
-			tag = WSK
-			}
+				NOT = { has_country_flag = formed_sky_flag }
+				tag = ESK
+				tag = WSK
 			}
 		}
 		provinces_to_highlight = {
@@ -369,11 +367,11 @@ country_decisions = {
 	western_skyrim_nation = {
 		major = yes
 		potential = {
+			primary_culture = nord
 			NOT = { exists = WSK }
 			NOT = { exists = SKY }
 			NOT = { exists = OLD }
 			NOT = { tag = ESK }
-			primary_culture = nord
 			NOT = { has_country_flag = formed_wsk_flag }
 		}
 		provinces_to_highlight = {
@@ -421,11 +419,11 @@ country_decisions = {
 	eastern_skyrim_nation = {
 		major = yes
 		potential = {
+			primary_culture = nord
 			NOT = { exists = ESK }
 			NOT = { exists = SKY }
 			NOT = { exists = OLD }
 			NOT = { tag = WSK }
-			primary_culture = nord
 			NOT = { has_country_flag = formed_esk_flag }
 		}
 		provinces_to_highlight = {
@@ -473,8 +471,8 @@ country_decisions = {
 	old_kingdom_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = OLD }
 			primary_culture = nord
+			NOT = { exists = OLD }
 			OR = {
 			NOT = { has_country_flag = formed_old_flag }
 			tag = SKY
@@ -528,8 +526,8 @@ country_decisions = {
 	volkkihar_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = VOL }
 			primary_culture = vampire
+			NOT = { exists = VOL }
 			NOT = { has_country_flag = formed_vol_flag }
 		}
 		provinces_to_highlight = {
@@ -577,8 +575,8 @@ country_decisions = {
 	winter_elves_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = SNW }
 			primary_culture = snow_elven
+			NOT = { exists = SNW }
 			NOT = { has_country_flag = formed_win_flag }
 		}
 		provinces_to_highlight = {
@@ -626,8 +624,8 @@ country_decisions = {
 	reach_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = REA }
 			primary_culture = reachmen
+			NOT = { exists = REA }
 			NOT = { has_country_flag = formed_rea_flag }
 		}
 		provinces_to_highlight = {
@@ -675,6 +673,7 @@ country_decisions = {
 	great_plains_nation = {
 		major = yes
 		potential = {
+			primary_culture = nord
 			NOT = { exists = GRA }
 			NOT = { tag = SKY }
 			NOT = { tag = OLD }
@@ -682,7 +681,6 @@ country_decisions = {
 			NOT = { tag = ESK }
 			NOT = { tag = RIF }
 			NOT = { tag = NOR }
-			primary_culture = nord
 			NOT = { has_country_flag = formed_gra_flag }
 		}
 		provinces_to_highlight = {
@@ -730,6 +728,7 @@ country_decisions = {
 	nordic_coast_nation = {
 		major = yes
 		potential = {
+			primary_culture = nord
 			NOT = { exists = NOR }
 			NOT = { tag = SKY }
 			NOT = { tag = OLD }
@@ -737,7 +736,6 @@ country_decisions = {
 			NOT = { tag = ESK }
 			NOT = { tag = RIF }
 			NOT = { tag = GRA }
-			primary_culture = nord
 	
 			NOT = { has_country_flag = formed_nor_flag }
 		}
@@ -786,6 +784,10 @@ country_decisions = {
 	rift_nation = {
 		major = yes
 		potential = {
+			OR = {
+				primary_culture = nord
+				primary_culture = snow_elven
+			}
 			NOT = { exists = RIF }
 			NOT = { tag = SKY }
 			NOT = { tag = OLD }
@@ -795,10 +797,6 @@ country_decisions = {
 			NOT = { tag = NOR }
 			NOT = { tag = JER }
 			NOT = { tag = SNW }
-			OR = {
-			primary_culture = nord
-			primary_culture = snow_elven
-			}
 			NOT = { has_country_flag = formed_rif_flag }
 		}
 		provinces_to_highlight = {
@@ -849,12 +847,12 @@ country_decisions = {
 	colovia_nation = {
 		major = yes
 		potential = {
+			primary_culture = colovian
 			NOT = { exists = COL }
 			NOT = { tag = CYR }
 			NOT = { tag = NIB }
 			NOT = { tag = HEA }
 			NOT = { tag = TAM }
-			primary_culture = colovian
 			NOT = { has_country_flag = formed_col_flag }
 		}
 		provinces_to_highlight = {
@@ -902,12 +900,12 @@ country_decisions = {
 	heartlands_nation = {
 		major = yes
 		potential = {
+			primary_culture = imperial
 			NOT = { exists = HEA }
 			NOT = { tag = CYR }
 			NOT = { tag = NIB }
 			NOT = { tag = COL }
 			NOT = { tag = TAM }
-			primary_culture = imperial
 			NOT = { has_country_flag = formed_hea_flag }
 		}
 		provinces_to_highlight = {
@@ -955,12 +953,12 @@ country_decisions = {
 	nibenean_nation = {
 		major = yes
 		potential = {
+			primary_culture = nibenean
 			NOT = { exists = NIB }
 			NOT = { tag = CYR }
 			NOT = { tag = COL }
 			NOT = { tag = HEA }
 			NOT = { tag = TAM }
-			primary_culture = nibenean
 			NOT = { has_country_flag = formed_nib_flag }
 		}
 		provinces_to_highlight = {
@@ -1008,8 +1006,8 @@ country_decisions = {
 	ayleid_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = AYL }
 			primary_culture = ayleid
+			NOT = { exists = AYL }
 			NOT = { has_country_flag = formed_ayl_flag }
 		}
 		provinces_to_highlight = {
@@ -1056,9 +1054,6 @@ country_decisions = {
 	cyrodiil_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = CYR }
-			NOT = { tag = TAM }
-			NOT = { has_country_flag = formed_cyr_flag }
 			OR = {
 				primary_culture = imperial
 				AND = {
@@ -1066,6 +1061,9 @@ country_decisions = {
 					NOT = { religion = marukhism }
 				}
 			}
+			NOT = { exists = CYR }
+			NOT = { tag = TAM }
+			NOT = { has_country_flag = formed_cyr_flag }
 		}
 		provinces_to_highlight = {
 		    OR = {
@@ -1115,14 +1113,14 @@ country_decisions = {
 	tamriel_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = TAM }
 			OR = {
-			primary_culture = imperial
-			primary_culture = colovian
-			primary_culture = nibenean
-			primary_culture = vampire
-			has_country_flag = new_empire_flag
+				primary_culture = imperial
+				primary_culture = colovian
+				primary_culture = nibenean
+				primary_culture = vampire
+				has_country_flag = new_empire_flag
 			}
+			NOT = { exists = TAM }
 			NOT = { has_country_flag = formed_tam_flag }
 		}
 		provinces_to_highlight = {
@@ -1270,12 +1268,12 @@ country_decisions = {
 	alessian_nation = {
 		major = yes
 		potential = {
+			primary_culture = nedic
 			NOT = { exists = ALE }
 			NOT = { government = theocracy }
 			NOT = { tag = ORD }
 			NOT = { tag = CYR }
 			NOT = { tag = TAM }
-			primary_culture = nedic
 			NOT = { has_country_flag = formed_ale_flag }
 		}
 		provinces_to_highlight = {
@@ -1324,9 +1322,9 @@ country_decisions = {
 	order_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = ORD }
-		    religion = marukhism
 			primary_culture = nedic
+		    religion = marukhism
+			NOT = { exists = ORD }
 			NOT = { has_country_flag = formed_ord_flag }
 		}
 		provinces_to_highlight = {
@@ -1375,6 +1373,11 @@ country_decisions = {
 	golden_coast_nation = {
 		major = yes
 		potential = {
+			OR = {
+				primary_culture = minotaur
+				primary_culture = colovian
+				primary_culture = ayleid
+			}
 			NOT = { exists = GOL }
 			NOT = { tag = CYR }
 			NOT = { tag = COL }
@@ -1382,11 +1385,6 @@ country_decisions = {
 			NOT = { tag = MNT }
 			NOT = { tag = ORD }
 			NOT = { tag = AYL }
-			OR = {
-			primary_culture = minotaur
-			primary_culture = colovian
-			primary_culture = ayleid
-			}
 			NOT = { has_country_flag = formed_gol_flag }
 		}
 		provinces_to_highlight = {
@@ -1434,6 +1432,11 @@ country_decisions = {
 	jeral_mountains_nation = {
 		major = yes
 		potential = {
+			OR = {
+				primary_culture = imperial
+				primary_culture = snow_elven
+				primary_culture = minotaur
+			}
 			NOT = { exists = JER }
 			NOT = { tag = CYR }
 			NOT = { tag = HEA }
@@ -1442,11 +1445,6 @@ country_decisions = {
 			NOT = { tag = ORD }
 			NOT = { tag = AYL }
 			NOT = { tag = SNW }
-			OR = {
-			primary_culture = imperial
-			primary_culture = snow_elven
-			primary_culture = minotaur
-			}
 			NOT = { has_country_flag = formed_jer_flag }
 		}
 		provinces_to_highlight = {
@@ -1494,13 +1492,13 @@ country_decisions = {
 	valus_nation = {
 		major = yes
 		potential = {
+			primary_culture = nibenean
 			NOT = { exists = VAU }
 			NOT = { tag = CYR }
 			NOT = { tag = NIB }
 			NOT = { tag = TAM }
 			NOT = { tag = ORD }
 			NOT = { tag = AYL }
-			primary_culture = nibenean
 			NOT = { has_country_flag = formed_vau_flag }
 		}
 		provinces_to_highlight = {
@@ -1548,9 +1546,9 @@ country_decisions = {
 	minotaur_nation = {
 		major = yes
 		potential = {
+			primary_culture = minotaur
 			NOT = { exists = MNT }
 			NOT = { tag = MIT }
-			primary_culture = minotaur
 			NOT = { has_country_flag = formed_min_flag }
 		}
 		provinces_to_highlight = {
@@ -1598,9 +1596,9 @@ country_decisions = {
 	minotaur_tribe = {
 		major = yes
 		potential = {
+			primary_culture = minotaur
 			NOT = { exists = MIT }
 			NOT = { tag = MNT }
-			primary_culture = minotaur
 			NOT = { has_country_flag = formed_mit_flag }
 		}
 		provinces_to_highlight = {
@@ -1648,8 +1646,8 @@ country_decisions = {
 	hammerfell_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = HAM }
 			primary_culture = redguard
+			NOT = { exists = HAM }
 			NOT = { has_country_flag = formed_ham_flag }
 		}
 		provinces_to_highlight = {
@@ -1697,8 +1695,8 @@ country_decisions = {
 	corelanyan_clan_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = COE }
 			primary_culture = corelanyan
+			NOT = { exists = COE }
 			NOT = { has_country_flag = formed_coe_flag }
 		}
 		provinces_to_highlight = {
@@ -1746,15 +1744,15 @@ country_decisions = {
 	alikr_nation = {
 		major = yes
 		potential = {
+			OR = {
+			primary_culture = ayleid
+			primary_culture = redguard
+			}
 			NOT = { exists = ALI }
 			NOT = { tag = HAM }
 			NOT = { tag = AYL }
 			NOT = { tag = COR }
 			NOT = { tag = DRG }
-			OR = {
-			primary_culture = ayleid
-			primary_culture = redguard
-			}
 			NOT = { has_country_flag = formed_ali_flag }
 		}
 		provinces_to_highlight = {
@@ -1802,15 +1800,15 @@ country_decisions = {
 	corten_heights_nation = {
 		major = yes
 		potential = {
+			OR = {
+			primary_culture = ayleid
+			primary_culture = redguard
+			}
 			NOT = { exists = COR }
 			NOT = { tag = HAM }
 			NOT = { tag = AYL }
 			NOT = { tag = ALI }
 			NOT = { tag = DRG }
-			OR = {
-			primary_culture = ayleid
-			primary_culture = redguard
-			}
 			NOT = { has_country_flag = formed_cor_flag }
 		}
 		provinces_to_highlight = {
@@ -1858,11 +1856,11 @@ country_decisions = {
 	dragontail_nation = {
 		major = yes
 		potential = {
+			primary_culture = redguard
 			NOT = { exists = DRG }
 			NOT = { tag = HAM }
 			NOT = { tag = ALI }
 			NOT = { tag = COR }
-			primary_culture = redguard
 			NOT = { has_country_flag = formed_drg_flag }
 		}
 		provinces_to_highlight = {
@@ -1910,8 +1908,8 @@ country_decisions = {
 	keptu_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = KEP }
 			primary_culture = keptu
+			NOT = { exists = KEP }
 			NOT = { has_country_flag = formed_kep_flag }
 		}
 		provinces_to_highlight = {
@@ -1959,8 +1957,8 @@ country_decisions = {
 	high_rock_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = HIG }
 			primary_culture = breton
+			NOT = { exists = HIG }
 			NOT = { has_country_flag = formed_hig_flag }
 		}
 		provinces_to_highlight = {
@@ -2008,9 +2006,9 @@ country_decisions = {
 	direnii_nation = {
 		major = yes
 		potential = {
+			primary_culture = altmer
 			NOT = { exists = DIR }
 			NOT = { tag = SMR }
-			primary_culture = altmer
 			NOT = { has_country_flag = formed_dir_flag }
 		}
 		provinces_to_highlight = {
@@ -2058,9 +2056,9 @@ country_decisions = {
 	orsimer_nation = {
 		major = yes
 		potential = {
+			primary_culture = orsimer
 			NOT = { exists = ORS }
 			NOT = { tag = WRO }
-			primary_culture = orsimer
 			NOT = { has_country_flag = formed_ors_flag }
 		}
 		provinces_to_highlight = {
@@ -2108,8 +2106,8 @@ country_decisions = {
 	wrothgar_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = WRO }
 			primary_culture = orsimer
+			NOT = { exists = WRO }
 			NOT = { has_country_flag = formed_wro_flag }
 		}
 		provinces_to_highlight = {
@@ -2157,9 +2155,9 @@ country_decisions = {
 	winterborn_clan_nation = {
 		major = yes
 		potential = {
+			primary_culture = reachmen
 			NOT = { exists = WTB }
 			NOT = { tag = REA }
-			primary_culture = reachmen
 			NOT = { has_country_flag = formed_wtb_flag }
 		}
 		provinces_to_highlight = {
@@ -2207,8 +2205,8 @@ country_decisions = {
 	elsweyr_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = ELS }
 			primary_culture = khajiiti
+			NOT = { exists = ELS }
 			NOT = { has_country_flag = formed_els_flag }
 		}
 		provinces_to_highlight = {
@@ -2256,8 +2254,8 @@ country_decisions = {
 	anequinan_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = ANE }
 			primary_culture = anequinan
+			NOT = { exists = ANE }
 			NOT = { has_country_flag = formed_ane_flag }
 			NOT = { tag = ELS }
 		}
@@ -2314,8 +2312,8 @@ country_decisions = {
 	pellitinian_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = PEL }
 			primary_culture = pellitinian
+			NOT = { exists = PEL }
 			NOT = { has_country_flag = formed_pel_flag }
 			NOT = { tag = ELS }
 		}
@@ -2372,8 +2370,8 @@ country_decisions = {
 	vallenwood_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = VLW }
 			primary_culture = bosmer
+			NOT = { exists = VLW }
 			NOT = { has_country_flag = formed_val_flag }
 		}
 		provinces_to_highlight = {
@@ -2421,8 +2419,8 @@ country_decisions = {
 	southern_orsinium_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = SOR }
 			primary_culture = wood_orsimer
+			NOT = { exists = SOR }
 			NOT = { has_country_flag = formed_sor_flag }
 		}
 		provinces_to_highlight = {
@@ -2470,8 +2468,8 @@ country_decisions = {
 	imga_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = IMG }
 			primary_culture = imga
+			NOT = { exists = IMG }
 			NOT = { has_country_flag = formed_img_flag }
 		}
 		provinces_to_highlight = {
@@ -2519,8 +2517,8 @@ country_decisions = {
 	hollow_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = HOL }
 			primary_culture = hollow
+			NOT = { exists = HOL }
 			NOT = { has_country_flag = formed_hol_flag }
 		}
 		provinces_to_highlight = {
@@ -2568,10 +2566,10 @@ country_decisions = {
 	greenshade_nation = {
 		major = yes
 		potential = {
+			primary_culture = bosmer
 			NOT = { exists = GRE }
 			NOT = { tag = MAL }
 			NOT = { tag = VLW }
-			primary_culture = bosmer
 			NOT = { has_country_flag = formed_gre_flag }
 		}
 		provinces_to_highlight = {
@@ -2619,10 +2617,10 @@ country_decisions = {
 	molag_mar_nation = {
 		major = yes
 		potential = {
+			primary_culture = bosmer
 			NOT = { exists = MAL }
 			NOT = { tag = GRE }
 			NOT = { tag = VLW }
-			primary_culture = bosmer
 			NOT = { has_country_flag = formed_mal_flag }
 		}
 		provinces_to_highlight = {
@@ -2670,13 +2668,13 @@ country_decisions = {
 	argonia_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = ARG }
 			OR = {
-			primary_culture = argonian
-			primary_culture = archein
-			primary_culture = agaceph
-			primary_culture = naga
+				primary_culture = argonian
+				primary_culture = archein
+				primary_culture = agaceph
+				primary_culture = naga
 			}
+			NOT = { exists = ARG }
 			NOT = { has_country_flag = formed_arg_flag }
 		}
 		provinces_to_highlight = {
@@ -2724,16 +2722,16 @@ country_decisions = {
 	black_marsh_nation = {
 		major = yes
 		potential = {
+			OR = {
+				primary_culture = argonian
+				primary_culture = archein
+				primary_culture = agaceph
+				primary_culture = naga
+			}
 			NOT = { exists = BLC }
 			NOT = { tag = ARG }
 			NOT = { tag = MUR }
 			NOT = { tag = SHA }
-			OR = {
-			primary_culture = argonian
-			primary_culture = archein
-			primary_culture = agaceph
-			primary_culture = naga
-			}
 			NOT = { has_country_flag = formed_blc_flag }
 		}
 		provinces_to_highlight = {
@@ -2781,16 +2779,16 @@ country_decisions = {
 	murkmire_nation = {
 		major = yes
 		potential = {
+			OR = {
+				primary_culture = argonian
+				primary_culture = archein
+				primary_culture = agaceph
+				primary_culture = naga
+			}
 			NOT = { exists = MUR }
 			NOT = { tag = ARG }
 			NOT = { tag = BLC }
 			NOT = { tag = SHA }
-			OR = {
-			primary_culture = argonian
-			primary_culture = archein
-			primary_culture = agaceph
-			primary_culture = naga
-			}
 			NOT = { has_country_flag = formed_mur_flag }
 		}
 		provinces_to_highlight = {
@@ -2838,8 +2836,8 @@ country_decisions = {
 	silyanorn_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = SIY }
 			primary_culture = barsaebic
+			NOT = { exists = SIY }
 			NOT = { has_country_flag = formed_siy_flag }
 		}
 		provinces_to_highlight = {
@@ -2877,12 +2875,12 @@ country_decisions = {
 	stormhold_nation = {
 		major = yes
 		potential = {
+			primary_culture = archein
 			NOT = { exists = AA2 }
 			NOT = { tag = MUR }
 			NOT = { tag = ARG }
 			NOT = { tag = BLC }
 			NOT = { tag = SHA }
-			primary_culture = archein
 			NOT = { has_country_flag = formed_aa2_flag }
 		}
 		provinces_to_highlight = {
@@ -2920,8 +2918,8 @@ country_decisions = {
 	gordhauren_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = GOR }
 			primary_culture = barsaebic
+			NOT = { exists = GOR }
 			NOT = { has_country_flag = formed_gor_flag }
 		}
 		provinces_to_highlight = {
@@ -2959,8 +2957,8 @@ country_decisions = {
 	gideon_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = AA4 }
 			primary_culture = naga
+			NOT = { exists = AA4 }
 			NOT = { has_country_flag = formed_aa4_flag }
 		}
 		provinces_to_highlight = {
@@ -2998,8 +2996,8 @@ country_decisions = {
 	lilmoith_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = LIL }
 			primary_culture = lilmothiit
+			NOT = { exists = LIL }
 			NOT = { has_country_flag = formed_lil_flag }
 		}
 		provinces_to_highlight = {
@@ -3047,16 +3045,16 @@ country_decisions = {
 	shadowfen_nation = {
 		major = yes
 		potential = {
+			OR = {
+				primary_culture = argonian
+				primary_culture = archein
+				primary_culture = agaceph
+				primary_culture = naga
+			}
 			NOT = { exists = SHA }
 			NOT = { tag = ARG }
 			NOT = { tag = BLC }
 			NOT = { tag = MUR }
-			OR = {
-			primary_culture = argonian
-			primary_culture = archein
-			primary_culture = agaceph
-			primary_culture = naga
-			}
 			NOT = { has_country_flag = formed_sha_flag }
 		}
 		provinces_to_highlight = {
@@ -3104,11 +3102,11 @@ country_decisions = {
 	atmora_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = ATM }
 			OR = {
-			primary_culture = atmoran
-			primary_culture = glacial
+				primary_culture = atmoran
+				primary_culture = glacial
 			}
+			NOT = { exists = ATM }
 			NOT = { religion = dragon_cult }
 			NOT = { has_country_flag = formed_atm_flag }
 		}
@@ -3157,7 +3155,6 @@ country_decisions = {
 	dragon_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = DRA }
 			OR = {
 				AND = {
 					OR = {
@@ -3168,6 +3165,7 @@ country_decisions = {
 				}
 				primary_culture = dragon
 			}
+			NOT = { exists = DRA }
 			NOT = { has_country_flag = formed_dra_flag }
 		}
 		provinces_to_highlight = {
@@ -3223,11 +3221,11 @@ country_decisions = {
 	roscrea_nation = {
 		major = yes
 		potential = {
+			primary_culture = atmoran
 			NOT = { exists = ROS }
 			NOT = { tag = ATM }
 			NOT = { tag = FOR }
 			NOT = { tag = DRA }
-			primary_culture = atmoran
 			NOT = { has_country_flag = formed_ros_flag }
 		}
 		provinces_to_highlight = {
@@ -3274,8 +3272,8 @@ country_decisions = {
 	tsaesci_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = TSA }
 			primary_culture = tsaesci
+			NOT = { exists = TSA }
 			NOT = { has_country_flag = formed_tsa_flag }
 			NOT = { tag = POE }
 		}
@@ -3323,9 +3321,9 @@ country_decisions = {
 	po_tun_nation = {
 		major = yes
 		potential = {
+			primary_culture = po_tun
 		    NOT = { tag = KAP }
 			NOT = { exists = POT }
-			primary_culture = po_tun
 			NOT = { has_country_flag = formed_pot_flag }
 		}
 		provinces_to_highlight = {
@@ -3373,10 +3371,10 @@ country_decisions = {
 	cathnoquey_nation = {
 		major = yes
 		potential = {
+			primary_culture = islander
 			NOT = { exists = CTN }
 			NOT = { tag = ISL }
 			NOT = { tag = ESR }
-			primary_culture = islander
 			NOT = { has_country_flag = formed_cat_flag }
 		}
 		provinces_to_highlight = {
@@ -3424,8 +3422,8 @@ country_decisions = {
 	tangmo_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = TAN }
 			primary_culture = tangmo
+			NOT = { exists = TAN }
 			NOT = { has_country_flag = formed_tan_flag }
 		}
 		provinces_to_highlight = {
@@ -3473,8 +3471,8 @@ country_decisions = {
 	akaviri_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = AKA }
 			primary_culture = akaviri
+			NOT = { exists = AKA }
 			NOT = { has_country_flag = formed_aka_flag }
 		}
 		provinces_to_highlight = {
@@ -3522,9 +3520,9 @@ country_decisions = {
 	upper_nation = {
 		major = yes
 		potential = {
+			primary_culture = akaviri
 			NOT = { exists = UPP }
 			NOT = { tag = AKA }
-			primary_culture = akaviri
 			NOT = { has_country_flag = formed_upp_flag }
 		}
 		provinces_to_highlight = {
@@ -3572,9 +3570,9 @@ country_decisions = {
 	island_nation = {
 		major = yes
 		potential = {
+			primary_culture = islander
 			NOT = { exists = ISL }
 			NOT = { tag = CTN }
-			primary_culture = islander
 			NOT = { has_country_flag = formed_isl_flag }
 		}
 		provinces_to_highlight = {
@@ -3622,9 +3620,9 @@ country_decisions = {
 	esroniet_nation = {
 		major = yes
 		potential = {
+			primary_culture = islander
 			NOT = { exists = ESR }
 			NOT = { tag = ISL }
-			primary_culture = islander
 			NOT = { has_country_flag = formed_esr_flag }
 		}
 		provinces_to_highlight = {
@@ -3672,8 +3670,8 @@ country_decisions = {
 	kamal_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = KAM }
 			primary_culture = kamal
+			NOT = { exists = KAM }
 			NOT = { has_country_flag = formed_kam_flag }
 		}
 		provinces_to_highlight = {
@@ -3721,8 +3719,8 @@ country_decisions = {
 	dremora_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = DRE }
 			primary_culture = al_dremoran
+			NOT = { exists = DRE }
 			NOT = { has_country_flag = formed_dre_flag }
 		}
 		provinces_to_highlight = {
@@ -3770,8 +3768,8 @@ country_decisions = {
 	kothringi_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = KOT }
 			primary_culture = kothringi
+			NOT = { exists = KOT }
 			NOT = { has_country_flag = formed_kot_flag }
 		}
 		provinces_to_highlight = {
@@ -3819,11 +3817,11 @@ country_decisions = {
 	forelhost_nation = {
 		major = yes
 		potential = {
+			primary_culture = atmoran
 			NOT = { exists = FOR }
 			NOT = { tag = ATM }
 			NOT = { tag = ROS }
 			NOT = { tag = DRA }
-			primary_culture = atmoran
 			NOT = { has_country_flag = formed_for_flag }
 		}
 		provinces_to_highlight = {
@@ -3871,8 +3869,8 @@ country_decisions = {
 	skaal_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = SKA }
 			primary_culture = skaal
+			NOT = { exists = SKA }
 			NOT = { has_country_flag = formed_ska_flag }
 		}
 		provinces_to_highlight = {
@@ -3914,8 +3912,8 @@ country_decisions = {
 	ka_po_tun_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = KAP }
 			primary_culture = po_tun
+			NOT = { exists = KAP }
 			NOT = { has_country_flag = formed_kap_flag }
 		}
 		provinces_to_highlight = {
@@ -3963,10 +3961,10 @@ country_decisions = {
 	transakavir_nation = {
 		major = yes
 		potential = {
+			primary_culture = po_tun
 		    NOT = { tag = POT }
 			NOT = { tag = KAP }
 			NOT = { exists = TRA }
-			primary_culture = po_tun
 			NOT = { has_country_flag = formed_tra_flag }
 		}
 		provinces_to_highlight = {
@@ -4014,6 +4012,10 @@ country_decisions = {
 	ca7_nation = {
 		major = yes
 		potential = {
+			OR = {
+				primary_culture = imperial
+				primary_culture = nedic
+			}
 			NOT = { tag = CA7 }
 			NOT = { tag = COL }
 			NOT = { tag = NIB }
@@ -4023,10 +4025,6 @@ country_decisions = {
 			NOT = { tag = ORD }
 			NOT = { tag = ALE }
 			NOT = { exists = CA7 }
-			OR = {
-			primary_culture = imperial
-			primary_culture = nedic
-			}
 			NOT = { has_country_flag = formed_ca7_flag }
 		}
 		provinces_to_highlight = {
@@ -4075,6 +4073,10 @@ country_decisions = {
 	ca6_nation = {
 		major = yes
 		potential = {
+			OR = {
+				primary_culture = imperial
+				primary_culture = nedic
+			}
 			NOT = { tag = CA7 }
 			NOT = { tag = COL }
 			NOT = { tag = NIB }
@@ -4084,10 +4086,6 @@ country_decisions = {
 			NOT = { tag = ORD }
 			NOT = { tag = ALE }
 			NOT = { exists = CA6 }
-			OR = {
-			primary_culture = imperial
-			primary_culture = nedic
-			}
 			NOT = { has_country_flag = formed_ca6_flag }
 		}
 		provinces_to_highlight = {
@@ -4136,8 +4134,8 @@ country_decisions = {
 	coral_kingdom_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = COR }
 			primary_culture = sload
+			NOT = { exists = COR }
 			NOT = { has_country_flag = formed_cor_flag }
 		}
 		provinces_to_highlight = {
@@ -4193,8 +4191,8 @@ country_decisions = {
 	sinistral_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = SIN }
 			primary_culture = sinistral
+			NOT = { exists = SIN }
 			NOT = { has_country_flag = formed_sin_flag }
 		}
 		provinces_to_highlight = {
@@ -4242,10 +4240,10 @@ country_decisions = {
 	wayrest_nation = {
 		major = yes
 		potential = {
+			primary_culture = breton
 			NOT = { exists = WAY }
 			NOT = { tag = HIG }
 			NOT = { tag = BA1 }
-			primary_culture = breton
 			NOT = { has_country_flag = formed_way_flag }
 			has_global_flag = foundation_of_wayres_flag
 		}
@@ -4283,10 +4281,10 @@ country_decisions = {
 	akaviri_potentate_nation = {
 		major = yes
 		potential = {
+			primary_culture = tsaesci
 			NOT = { exists = POE }
 			NOT = { tag = TSA }
 			NOT = { has_country_flag = formed_poe_flag }
-			primary_culture = tsaesci
 		}
 		provinces_to_highlight = {
 		    OR = {
@@ -4383,8 +4381,8 @@ country_decisions = {
 	frosen_giants_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = FRO }
 			primary_culture = frost_giant
+			NOT = { exists = FRO }
 			NOT = { has_country_flag = formed_fro_flag }
 		}
 		provinces_to_highlight = {
@@ -4432,8 +4430,8 @@ country_decisions = {
 	sea_giants_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = SEA }
 			primary_culture = sea_giant
+			NOT = { exists = SEA }
 			NOT = { has_country_flag = formed_sea_flag }
 		}
 		provinces_to_highlight = {
@@ -4481,8 +4479,8 @@ country_decisions = {
 	giants_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = GEA }
 			primary_culture = giant
+			NOT = { exists = GEA }
 			NOT = { has_country_flag = formed_gea_flag }
 		}
 		provinces_to_highlight = {
@@ -4530,8 +4528,8 @@ country_decisions = {
 	riekling_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = RIE }
 			primary_culture = riekling
+			NOT = { exists = RIE }
 			NOT = { has_country_flag = formed_rie_flag }
 		}
 		provinces_to_highlight = {
@@ -4579,8 +4577,8 @@ country_decisions = {
 	goblin_nation = {
 		major = yes
 		potential = {
-			NOT = { exists = GOB }
 			primary_culture = goblin
+			NOT = { exists = GOB }
 			NOT = { has_country_flag = formed_rie_flag }
 		}
 		provinces_to_highlight = {

@@ -7,15 +7,6 @@
 esu_psychopathic_artist = { 
 	monarch_power = ADM
 	governing_capacity_modifier = 0.25
-	skill_scaled_modifier = {  
-		trigger = {
-			always = yes
-		}
-		modifier = {
-			inflation_reduction = -0.05
-			tolerance_heathen = 0.5
-		}
-	}
 	chance = {
 		factor = 1.0
 		modifier = {
@@ -40,15 +31,6 @@ esu_psychopathic_artist = {
 esu_occultist = { 
 	monarch_power = ADM
 	tolerance_own = 2.5
-	skill_scaled_modifier = { 
-		trigger = {
-			always = yes
-		}
-		modifier = {
-			religious_unity = -0.05
-			prestige_per_development_from_conversion = 0.05
-		}
-	}
 	chance = {
 		factor = 1.0
 		modifier = {
@@ -73,15 +55,6 @@ esu_occultist = {
 esu_mad_scholar = { 
 	monarch_power = ADM
 	development_cost = -0.25
-	skill_scaled_modifier = { 
-		trigger = {
-			always = yes
-		}
-		modifier = {
-			interest = 0.5
-			tolerance_heretic = 0.5
-		}
-	}
 	chance = {
 		factor = 1.0
 		modifier = {
@@ -106,15 +79,6 @@ esu_mad_scholar = {
 esu_torturer = { 
 	monarch_power = ADM
 	state_maintenance_modifier = -0.25
-	skill_scaled_modifier = { 
-		trigger = {
-			always = yes
-		}
-		modifier = {
-			years_of_nationalism = 5
-			native_uprising_chance = -0.05
-		}
-	}
 	chance = {
 		factor = 1.0
 		modifier = {
@@ -142,15 +106,6 @@ esu_torturer = {
 esu_hedonist = { 
 	monarch_power = DIP
 	liberty_desire_from_subject_development = -0.25
-	skill_scaled_modifier = { 
-		trigger = {
-			always = yes
-		}
-		modifier = {
-			war_exhaustion_cost = -0.05
-			rival_change_cost = 0.05
-		}
-	}
 	chance = {
 		factor = 1.0
 		modifier = {
@@ -175,15 +130,6 @@ esu_hedonist = {
 esu_bandit = { 
 	monarch_power = DIP
 	province_warscore_cost = -0.25
-	skill_scaled_modifier = { 
-		trigger = {
-			always = yes
-		}
-		modifier = {
-			ae_impact = 0.05
-			embargo_efficiency = 0.05
-		}
-	}
 	chance = {
 		factor = 1.0
 		modifier = {
@@ -208,15 +154,6 @@ esu_bandit = {
 esu_corsair = { 
 	monarch_power = DIP
 	capture_ship_chance = 0.25
-	skill_scaled_modifier = { 
-		trigger = {
-			always = yes
-		}
-		modifier = {
-			blockade_efficiency = -0.05
-			naval_tradition_from_battle = 0.05
-		}
-	}
 	chance = {
 		factor = 1.0
 		modifier = {
@@ -241,15 +178,6 @@ esu_corsair = {
 esu_conquistador = { 
 	monarch_power = DIP
 	range = 0.25
-	skill_scaled_modifier = { 
-		trigger = {
-			always = yes
-		}
-		modifier = {
-			global_ship_recruit_speed = -0.05
-			privateer_efficiency = -0.05
-		}
-	}
 	chance = {
 		factor = 1.0
 		modifier = {
@@ -277,15 +205,6 @@ esu_conquistador = {
 esu_lich = { 
 	monarch_power = MIL
 	global_manpower_modifier = 0.25
-	skill_scaled_modifier = { 
-		trigger = {
-			always = yes
-		}
-		modifier = {
-			possible_condottieri = 0.05
-			leader_cost = 0.50
-		}
-	}
 	chance = {
 		factor = 1.0
 		modifier = {
@@ -310,15 +229,6 @@ esu_lich = {
 esu_pillager = { 
 	monarch_power = MIL
 	loot_amount = 0.25
-	skill_scaled_modifier = { 
-		trigger = {
-			always = yes
-		}
-		modifier = {
-			army_tradition_from_battle = 0.05
-			rival_border_fort_maintenance = 0.05
-		}
-	}
 	chance = {
 		factor = 1.0
 		modifier = {
@@ -343,15 +253,6 @@ esu_pillager = {
 esu_tyrant = { 
 	monarch_power = MIL
 	reserves_organisation = 0.25
-	skill_scaled_modifier = { 
-		trigger = {
-			always = yes
-		}
-		modifier = {
-			yearly_army_professionalism = -0.005
-			movement_speed = 0.05
-		}
-	}
 	chance = {
 		factor = 1.0
 		modifier = {
@@ -376,15 +277,6 @@ esu_tyrant = {
 esu_executioner = { 
 	monarch_power = MIL
 	harsh_treatment_cost = -0.25
-	skill_scaled_modifier = { 
-		trigger = {
-			always = yes
-		}
-		modifier = {
-			vassal_income = 0.05
-			vassal_forcelimit_bonus = -0.05
-		}
-	}
 	chance = {
 		factor = 1.0
 		modifier = {

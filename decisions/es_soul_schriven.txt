@@ -1,111 +1,111 @@
 country_decisions = {
-	es_make_soul_shriven = {
-		potential = {
-			OR = {
-				primary_culture = soul_shriven
-				accepted_culture = soul_shriven
-			}
-			religion = molag_bal_cult
-			any_owned_province = {
-				has_owner_accepted_culture = no
-				NOT = { 
-					culture_group = dead_cg
-					culture_group = daedra_cg
-					culture_group = void_cg 
-				}
-			}
-		}
-		allow = {
-        }
-		effect = {
-			random_owned_province = {
-				limit = {
-					has_owner_accepted_culture = no
-					NOT = { 
-						culture_group = dead_cg
-						culture_group = daedra_cg
-						culture_group = void_cg 
-					}
-				}
-				custom_tooltip = es_convert_random_province_to_soul_shriven
-				hidden_effect = {
-					set_province_flag = es_souls_enslaved
-					province_event = { id = es_soul_shriven_events.1 } # Haha! We have to use an event for this because PDX is fucking stupid!
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		ai_importance = 300
-	}
-	
-	es_free_soul_shriven = {
-		potential = {
-			NOT = { culture_group = dead_cg }
-			NOT = { culture_group = daedra_cg }
-			NOT = { culture_group = void_cg }
-			NOT  = { religion = molag_bal_cult }
-			any_owned_province = {
-				culture = soul_shriven
-			}
-		}
-		allow = {
-			any_owned_province = {
-				culture = soul_shriven
-			}
-			controls = 3188
-        }
-		effect = {
-			random_owned_province = {
-				limit = {
-					culture = soul_shriven
-				}
-				if = {
-					limit = {
-						has_province_flag = es_souls_enslaved
-					}
-					change_culture = variable:original_culture
-					change_religion = meridia_cult
-					clr_province_flag = es_souls_enslaved
-				}
-				else = {
-					change_culture = owner
-					change_religion = meridia_cult
-					owner = {
-						add_prestige = 5
-					}
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-		ai_importance = 300
-	}
-	
-	es_acquire_liberation = { # TODO: Add event to let country choose which culture it would like to become?
-		major = yes
-		potential = {
-			primary_culture = soul_shriven
-			NOT = { religion = molag_bal_cult }
-			NOT = { has_country_flag = es_liberated_salves }
-		}
-		allow = {
-			stability = 3
-			is_free_or_tributary_trigger = yes
-			is_at_war = no
-        }
-		effect = {
-			add_prestige = 100
-			set_country_flag = es_liberated_salves
-			capital_scope = {
-				change_religion = meridia_cult
-			}
-			add_country_modifier = {
-				name = "es_liberated_slaves"
-				duration = -1
-			}
-		}
-	}
+	#es_make_soul_shriven = {
+	#	potential = {
+	#		OR = {
+	#			primary_culture = soul_shriven
+	#			accepted_culture = soul_shriven
+	#		}
+	#		religion = molag_bal_cult
+	#		any_owned_province = {
+	#			has_owner_accepted_culture = no
+	#			NOT = { 
+	#				culture_group = dead_cg
+	#				culture_group = daedra_cg
+	#				culture_group = void_cg 
+	#			}
+	#		}
+	#	}
+	#	allow = {
+    #    }
+	#	effect = {
+	#		random_owned_province = {
+	#			limit = {
+	#				has_owner_accepted_culture = no
+	#				NOT = { 
+	#					culture_group = dead_cg
+	#					culture_group = daedra_cg
+	#					culture_group = void_cg 
+	#				}
+	#			}
+	#			custom_tooltip = es_convert_random_province_to_soul_shriven
+	#			hidden_effect = {
+	#				set_province_flag = es_souls_enslaved
+	#				province_event = { id = es_soul_shriven_events.1 } # Haha! We have to use an event for this because PDX is fucking stupid!
+	#			}
+	#		}
+	#	}
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#	ai_importance = 300
+	#}
+	#
+	#es_free_soul_shriven = {
+	#	potential = {
+	#		NOT = { culture_group = dead_cg }
+	#		NOT = { culture_group = daedra_cg }
+	#		NOT = { culture_group = void_cg }
+	#		NOT  = { religion = molag_bal_cult }
+	#		any_owned_province = {
+	#			culture = soul_shriven
+	#		}
+	#	}
+	#	allow = {
+	#		any_owned_province = {
+	#			culture = soul_shriven
+	#		}
+	#		controls = 3188
+    #    }
+	#	effect = {
+	#		random_owned_province = {
+	#			limit = {
+	#				culture = soul_shriven
+	#			}
+	#			if = {
+	#				limit = {
+	#					has_province_flag = es_souls_enslaved
+	#				}
+	#				change_culture = variable:original_culture
+	#				change_religion = meridia_cult
+	#				clr_province_flag = es_souls_enslaved
+	#			}
+	#			else = {
+	#				change_culture = owner
+	#				change_religion = meridia_cult
+	#				owner = {
+	#					add_prestige = 5
+	#				}
+	#			}
+	#		}
+	#	}
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#	ai_importance = 300
+	#}
+	#
+	#es_acquire_liberation = { # TODO: Add event to let country choose which culture it would like to become?
+	#	major = yes
+	#	potential = {
+	#		primary_culture = soul_shriven
+	#		NOT = { religion = molag_bal_cult }
+	#		NOT = { has_country_flag = es_liberated_salves }
+	#	}
+	#	allow = {
+	#		stability = 3
+	#		is_free_or_tributary_trigger = yes
+	#		is_at_war = no
+    #    }
+	#	effect = {
+	#		add_prestige = 100
+	#		set_country_flag = es_liberated_salves
+	#		capital_scope = {
+	#			change_religion = meridia_cult
+	#		}
+	#		add_country_modifier = {
+	#			name = "es_liberated_slaves"
+	#			duration = -1
+	#		}
+	#	}
+	#}
 }

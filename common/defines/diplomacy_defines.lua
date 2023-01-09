@@ -144,12 +144,6 @@ NDefines.NDiplomacy.AE_DISTANCE_BASE = 0.75
 NDefines.NDiplomacy.AE_SAME_OVERLORD = 0.5
 NDefines.NDiplomacy.AE_PROVINCE_CAP = 50				-- Province development above this will not count for AE (also used for warscore cost cap)
 NDefines.NDiplomacy.AE_THREATEN_WAR = 1.0 -- Peace Option Effects base values for the winner. The loser gets the inverse.
-NDefines.NDiplomacy.PO_DEMAND_PROVINCES_AE = 0.75 				-- _DDEF_PO_DEMAND_PROVINCES_AE = 10 (Per development)
-NDefines.NDiplomacy.PO_RETURN_CORES_AE = 0.5 					-- (Per core only applied if returning cores to vassals of winner)
-NDefines.NDiplomacy.PO_FORM_PU_AE = 0.15 							-- _DDEF_PO_FORM_PU_AE = 15 (Per development)
-NDefines.NDiplomacy.PO_CONCEDE_COLONIAL_AE = 0.25
-NDefines.NDiplomacy.PO_BECOME_VASSAL_AE = 0.5 					-- _DDEF_PO_BECOME_VASSAL_AE = 10 (Per development)
-NDefines.NDiplomacy.PO_TRANSFER_VASSAL_AE = 0.33
 NDefines.NDiplomacy.PO_ANNEX_PRESTIGE = 0.25 						-- _DDEF_PO_ANNEX_PRESTIGE = 10 (No effect on loser :)
 NDefines.NDiplomacy.PO_DEMAND_PROVINCES_PRESTIGE = 0.25 				-- _DDEF_PO_DEMAND_PROVINCES_PRESTIGE = 10 (Per development)
 NDefines.NDiplomacy.PO_REVOKE_CORES_PRESTIGE = 0.1 					-- _DDEF_PO_REVOKE_CORES_PRESTIGE = 10 (Per development)
